@@ -111,7 +111,7 @@ if (!function_exists('elessi_get_content_widget_variation')) :
             $current_filter = array_map('sanitize_title', $current_filter);
             $vari_type = 'default';
             $taxonomyObj = null;
-            $color_size = true;
+            $color_size = false;
 
             $color_switch = 'color';
             $label_switch = 'label';
@@ -129,6 +129,8 @@ if (!function_exists('elessi_get_content_widget_variation')) :
             $brand_items = false;
             
             if ($taxonomyObj && isset($taxonomyObj->attribute_type)) {
+                $color_size = true;
+                
                 switch ($taxonomyObj->attribute_type) {
                     case $color_switch:
                         $vari_type = 'color';
@@ -507,6 +509,18 @@ if (!function_exists('elessi_get_page_base_url')) :
                     $link = add_query_arg($status, '1', $link);
                 }
             }
+        }
+
+        /**
+         * Filter Alphabet
+         */
+        if (class_exists('Elessi_WC_Widget_Alphabet_Filter')) {
+            $alpha_rq = Elessi_WC_Widget_Alphabet_Filter::$_request_name;
+            if (isset($_GET[$alpha_rq]) && in_array($_GET[$alpha_rq],Elessi_WC_Widget_Alphabet_Filter::$_alphabet)) {
+                $link = add_query_arg($alpha_rq, wc_clean(wp_unslash($_GET[$alpha_rq])), $link);
+            }
+
+
         }
         
         /**

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Elessi Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-15 04:54+0000\n"
-"PO-Revision-Date: 2024-04-24 07:25+0000\n"
+"PO-Revision-Date: 2024-09-13 14:49+0000\n"
 "Last-Translator: NasaTheme\n"
 "Language-Team: Greek\n"
 "Language: el\n"
@@ -12,19 +12,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
 "X-Domain: elessi-theme"
 
-#: includes/nasa-sidebar-wishlist_content.php:163
+#: includes/nasa-sidebar-wishlist_content.php:166
 msgid " &mdash; In Stock"
 msgstr " &mdash; Σε απόθεμα"
 
-#: includes/nasa-sidebar-wishlist_content.php:161
+#: includes/nasa-sidebar-wishlist_content.php:164
 msgid " - Out of Stock"
 msgstr "- Εκτός αποθέματος"
 
 #. 1: reviews count 2: product name
-#: woocommerce/single-product-reviews.php:152
+#: woocommerce/single-product-reviews.php:178
 #, php-format
 msgid "%1$s review for %2$s"
 msgid_plural "%1$s reviews for %2$s"
@@ -48,7 +48,7 @@ msgstr "Το %s εγκαταστάθηκε και ενεργοποιήθηκε �
 msgid "%s installed successfully."
 msgstr "Το %s εγκαταστάθηκε με επιτυχία."
 
-#: cores/nasa-custom-wc-ajax.php:592
+#: cores/nasa-custom-wc-ajax.php:593
 #, php-format
 msgid "%s is a required field"
 msgid_plural "%s are required fields"
@@ -80,6 +80,11 @@ msgstr "%s αποτέλεσμα"
 msgid "%s results"
 msgstr "%s αποτελέσματα"
 
+#: woocommerce/single-product-reviews.php:60
+#, php-format
+msgid "%s reviews"
+msgstr "%s κριτικές"
+
 #: includes/nasa-mini-cart-add-coupon.php:22
 #: includes/nasa-mini-cart-add-coupon.php:26
 #, php-format
@@ -91,8 +96,8 @@ msgstr "Έκπτωση&nbsp;%s"
 msgid "%s&nbsp;Product Discount"
 msgstr "Έκπτωση προϊόντος&nbsp;%s"
 
-#: woocommerce/loop/sale-flash.php:56
-#: woocommerce/single-product/sale-flash.php:57
+#: woocommerce/loop/sale-flash.php:65
+#: woocommerce/single-product/sale-flash.php:66
 #, php-format
 msgid "&#45;%s&#37;"
 msgstr "&#45;%s&#37;"
@@ -109,7 +114,7 @@ msgstr "&larr; Παλαιότερα σχόλια"
 msgid "&larr; Previous"
 msgstr "&larr; Προηγούμενο"
 
-#: woocommerce/archive-product.php:197 woocommerce/archive-product.php:310
+#: woocommerce/archive-product.php:188 woocommerce/archive-product.php:300
 msgid "&nbsp;Filters"
 msgstr "&nbsp;Φίλτρα"
 
@@ -123,7 +128,7 @@ msgstr "(εκτιμάται για %s)"
 msgid "+"
 msgstr "+"
 
-#: cores/nasa-widget-functions.php:341 cores/nasa-woo-actions.php:1451
+#: cores/nasa-widget-functions.php:343 cores/nasa-woo-actions.php:1459
 #: widgets/wg-nasa-product-brands.php:260
 #: widgets/wg-nasa-product-categories.php:468
 #: widgets/wg-nasa-product-categories.php:489 widgets/wg-nasa-tag-cloud.php:74
@@ -131,7 +136,7 @@ msgid "+ Show more"
 msgstr "+ Εμφάνιση περισσότερων"
 
 #: includes/nasa-blog-grid.php:93 includes/nasa-blog-list.php:91
-#: includes/nasa-blog-masonry-isotope.php:99 includes/nasa-blog-standard.php:85
+#: includes/nasa-blog-masonry-isotope.php:98 includes/nasa-blog-standard.php:85
 msgid ", "
 msgstr ","
 
@@ -139,7 +144,7 @@ msgstr ","
 msgid "- Select -"
 msgstr "- Επιλογή -"
 
-#: cores/nasa-widget-functions.php:340 cores/nasa-woo-actions.php:1451
+#: cores/nasa-widget-functions.php:342 cores/nasa-woo-actions.php:1459
 #: widgets/wg-nasa-product-brands.php:260
 #: widgets/wg-nasa-product-categories.php:468
 #: widgets/wg-nasa-product-categories.php:489 widgets/wg-nasa-tag-cloud.php:73
@@ -151,14 +156,14 @@ msgid "..."
 msgstr "..."
 
 #: widgets/wg-nasa-product-filter-variations.php:186
-#: admin/settings/nasa_07_3_product_detail_heading.php:80
-#: admin/settings/nasa_07_3_product_detail_heading.php:130
+#: admin/settings/nasa_07_3_product_detail_heading.php:81
+#: admin/settings/nasa_07_3_product_detail_heading.php:131
 msgid "1 Column"
 msgstr "1 Στήλη"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:602
-#: admin/settings/nasa_07_2_product_page_heading.php:218
-#: admin/settings/nasa_07_3_product_detail_heading.php:490
+#: admin/settings/nasa_07_2_product_page_heading.php:226
+#: admin/settings/nasa_07_3_product_detail_heading.php:522
 #: admin/settings/nasa_08_blog_heading.php:101
 #: admin/settings/nasa_08_blog_heading.php:112
 #: admin/settings/nasa_08_blog_heading.php:252
@@ -170,14 +175,14 @@ msgstr "1 στήλη"
 msgid "1 Level"
 msgstr "1 Επίπεδο"
 
-#: cores/nasa-woo-actions.php:1276 cores/nasa-woo-actions.php:1285
+#: cores/nasa-woo-actions.php:1284 cores/nasa-woo-actions.php:1293
 msgid "1 result"
 msgid_plural "%d results"
 msgstr[0] "1 αποτέλεσμα"
 msgstr[1] "%d αποτελέσματα"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:601
-#: admin/settings/nasa_07_3_product_detail_heading.php:489
+#: admin/settings/nasa_07_3_product_detail_heading.php:521
 msgid "1.5 column"
 msgstr "1,5 στήλη"
 
@@ -187,26 +192,26 @@ msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr " %1$s σε %2$s"
 
-#: includes/nasa-change-view.php:231
+#: includes/nasa-change-view.php:236
 msgid "2"
 msgstr "2"
 
-#: includes/nasa-change-view.php:228
+#: includes/nasa-change-view.php:233
 #: widgets/wg-nasa-product-filter-variations.php:185
-#: admin/settings/nasa_07_2_product_page_heading.php:179
-#: admin/settings/nasa_07_3_product_detail_heading.php:79
-#: admin/settings/nasa_07_3_product_detail_heading.php:131
+#: admin/settings/nasa_07_2_product_page_heading.php:187
+#: admin/settings/nasa_07_3_product_detail_heading.php:80
+#: admin/settings/nasa_07_3_product_detail_heading.php:132
 msgid "2 Columns"
 msgstr "2 Στήλες"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:590
 #: admin/settings/nasa_07_1_product_global_heading.php:600
-#: admin/settings/nasa_07_2_product_page_heading.php:204
-#: admin/settings/nasa_07_2_product_page_heading.php:219
-#: admin/settings/nasa_07_2_product_page_heading.php:229
-#: admin/settings/nasa_07_3_product_detail_heading.php:466
-#: admin/settings/nasa_07_3_product_detail_heading.php:478
-#: admin/settings/nasa_07_3_product_detail_heading.php:488
+#: admin/settings/nasa_07_2_product_page_heading.php:212
+#: admin/settings/nasa_07_2_product_page_heading.php:227
+#: admin/settings/nasa_07_2_product_page_heading.php:237
+#: admin/settings/nasa_07_3_product_detail_heading.php:498
+#: admin/settings/nasa_07_3_product_detail_heading.php:510
+#: admin/settings/nasa_07_3_product_detail_heading.php:520
 #: admin/settings/nasa_08_blog_heading.php:88
 #: admin/settings/nasa_08_blog_heading.php:102
 #: admin/settings/nasa_08_blog_heading.php:113
@@ -220,21 +225,21 @@ msgstr "2 στήλες"
 msgid "2 Levels"
 msgstr "2 Επίπεδα"
 
-#: includes/nasa-change-view.php:246
+#: includes/nasa-change-view.php:251
 msgid "3"
 msgstr "3"
 
-#: includes/nasa-change-view.php:243
-#: admin/settings/nasa_07_2_product_page_heading.php:180
+#: includes/nasa-change-view.php:248
+#: admin/settings/nasa_07_2_product_page_heading.php:188
 msgid "3 Columns"
 msgstr "3 Στήλες"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:578
 #: admin/settings/nasa_07_1_product_global_heading.php:589
-#: admin/settings/nasa_07_2_product_page_heading.php:205
-#: admin/settings/nasa_07_2_product_page_heading.php:230
-#: admin/settings/nasa_07_3_product_detail_heading.php:465
-#: admin/settings/nasa_07_3_product_detail_heading.php:477
+#: admin/settings/nasa_07_2_product_page_heading.php:213
+#: admin/settings/nasa_07_2_product_page_heading.php:238
+#: admin/settings/nasa_07_3_product_detail_heading.php:497
+#: admin/settings/nasa_07_3_product_detail_heading.php:509
 #: admin/settings/nasa_08_blog_heading.php:89
 #: admin/settings/nasa_08_blog_heading.php:114
 #: admin/settings/nasa_08_blog_heading.php:240
@@ -251,21 +256,21 @@ msgstr "3 Επίπεδα"
 msgid "360&#176; Badge Color"
 msgstr "Χρώμα σήματος 360&#176;"
 
-#: includes/nasa-change-view.php:262
+#: includes/nasa-change-view.php:267
 msgid "4"
 msgstr "4"
 
-#: includes/nasa-change-view.php:259
-#: admin/settings/nasa_07_2_product_page_heading.php:181
+#: includes/nasa-change-view.php:264
+#: admin/settings/nasa_07_2_product_page_heading.php:189
 msgid "4 Columns"
 msgstr "4 Στήλες"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:577
 #: admin/settings/nasa_07_1_product_global_heading.php:588
-#: admin/settings/nasa_07_2_product_page_heading.php:206
-#: admin/settings/nasa_07_2_product_page_heading.php:231
-#: admin/settings/nasa_07_3_product_detail_heading.php:464
-#: admin/settings/nasa_07_3_product_detail_heading.php:476
+#: admin/settings/nasa_07_2_product_page_heading.php:214
+#: admin/settings/nasa_07_2_product_page_heading.php:239
+#: admin/settings/nasa_07_3_product_detail_heading.php:496
+#: admin/settings/nasa_07_3_product_detail_heading.php:508
 #: admin/settings/nasa_08_blog_heading.php:90
 #: admin/settings/nasa_08_blog_heading.php:241
 #: admin/settings/nasa_10_portfolio_heading.php:88
@@ -276,18 +281,18 @@ msgstr "4 στήλες"
 msgid "404"
 msgstr "404"
 
-#: includes/nasa-change-view.php:277
+#: includes/nasa-change-view.php:282
 msgid "5"
 msgstr "5"
 
-#: includes/nasa-change-view.php:274
-#: admin/settings/nasa_07_2_product_page_heading.php:182
+#: includes/nasa-change-view.php:279
+#: admin/settings/nasa_07_2_product_page_heading.php:190
 msgid "5 Columns"
 msgstr "5 στήλες"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:576
-#: admin/settings/nasa_07_2_product_page_heading.php:207
-#: admin/settings/nasa_07_3_product_detail_heading.php:463
+#: admin/settings/nasa_07_2_product_page_heading.php:215
+#: admin/settings/nasa_07_3_product_detail_heading.php:495
 #: admin/settings/nasa_08_blog_heading.php:91
 #: admin/settings/nasa_08_blog_heading.php:242
 #: admin/settings/nasa_10_portfolio_heading.php:87
@@ -298,17 +303,17 @@ msgstr "5 στήλες"
 msgid "50%"
 msgstr "50%"
 
-#: includes/nasa-change-view.php:293
+#: includes/nasa-change-view.php:298
 msgid "6"
 msgstr "6"
 
-#: includes/nasa-change-view.php:290
-#: admin/settings/nasa_07_2_product_page_heading.php:183
+#: includes/nasa-change-view.php:295
+#: admin/settings/nasa_07_2_product_page_heading.php:191
 msgid "6 Columns"
 msgstr "6 Στήλες"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:208
-#: admin/settings/nasa_07_3_product_detail_heading.php:462
+#: admin/settings/nasa_07_2_product_page_heading.php:216
+#: admin/settings/nasa_07_3_product_detail_heading.php:494
 msgid "6 columns"
 msgstr "6 στήλες"
 
@@ -375,7 +380,7 @@ msgstr ""
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Προηγούμενο"
 
-#: cores/nasa-woo-functions.php:1193
+#: cores/nasa-woo-functions.php:1349
 msgid "<span>Availability:</span> "
 msgstr "<span>Διαθεσιμότητα:</span>"
 
@@ -450,6 +455,10 @@ msgstr "Λογαριασμός στην κύρια οθόνη - Διάταξη �
 msgid "Account Options"
 msgstr "Επιλογές λογαριασμού"
 
+#: includes/nasa-acc-nav.php:15
+msgid "Account pages"
+msgstr "Σελίδες λογαριασμού"
+
 #: admin/classes/class-tgm-plugin-activation.php:2778
 msgid "Activate"
 msgstr "Δραστηριοποιώ"
@@ -470,9 +479,10 @@ msgid "Add"
 msgstr "Προσθήκη"
 
 #. %s is product title
-#: woocommerce/single-product-reviews.php:89
-msgid "Add a review"
-msgstr "Προσθέστε μια κριτική"
+#: woocommerce/single-product-reviews.php:105
+#, php-format
+msgid "Add a review &ldquo;%s&rdquo;"
+msgstr "Προσθήκη κριτικής &ldquo;%s&rdquo;"
 
 #: cores/nasa-theme-options.php:164
 msgid "Add Icon Image (Using for Section of Tabs)"
@@ -498,10 +508,6 @@ msgstr "Προσθήκη νέας διαφάνειας"
 msgid "Add note"
 msgstr "Προσθήκη σημείωσης"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "Add photos"
-msgstr "Πρόσθεσε φωτογραφίες"
-
 #: cores/nasa-yith-wcwl-ext.php:318
 msgid "Add to cart"
 msgstr "Προσθήκη στο καλάθι"
@@ -510,7 +516,7 @@ msgstr "Προσθήκη στο καλάθι"
 msgid "Add To Cart in Grid"
 msgstr "Προσθήκη στο καλάθι στο Grid"
 
-#: cores/nasa-woo-actions.php:1987
+#: cores/nasa-woo-actions.php:2000
 msgid "Add to Compare"
 msgstr "Προσθήκη στη Σύγκριση"
 
@@ -518,7 +524,7 @@ msgstr "Προσθήκη στη Σύγκριση"
 msgid "Add to Wishlist"
 msgstr "Πρόσθεσε στην λίστα επιθυμιών"
 
-#: cores/nasa-wishlist.php:187 cores/nasa-woo-functions.php:1163
+#: cores/nasa-wishlist.php:184 cores/nasa-woo-functions.php:1315
 msgid "Add to wishlist"
 msgstr "Πρόσθεσε στην λίστα επιθυμιών"
 
@@ -530,7 +536,7 @@ msgstr ""
 "Προσθέστε την προσαρμοσμένη εικόνα Favicon σας. Απαιτείται 16x16 - 32x32 *."
 "ico ή *.png. (Συνιστάται 16x16 *.ico)"
 
-#: cores/nasa-woo-actions.php:1943 cores/nasa-woo-actions.php:1988
+#: cores/nasa-woo-actions.php:1956 cores/nasa-woo-actions.php:2001
 msgid "Added to Compare"
 msgstr "Προστέθηκε στη Σύγκριση"
 
@@ -538,33 +544,33 @@ msgstr "Προστέθηκε στη Σύγκριση"
 msgid "Added to Wishlist"
 msgstr "Προστέθηκε στη λίστα επιθυμιών"
 
-#: cores/nasa-wishlist.php:188
+#: cores/nasa-wishlist.php:185
 msgid "Added to wishlist"
 msgstr "Προστέθηκε στη λίστα επιθυμιών"
 
-#: cores/nasa-theme-footers.php:310
+#: cores/nasa-theme-footers.php:341
 msgid "Adding"
 msgstr "Προσθέτωντας"
 
-#: cores/nasa-theme-footers.php:358
+#: cores/nasa-theme-footers.php:391
 msgid "Adding cart"
 msgstr "Προσθήκη καλαθιού"
 
-#: admin/importer/nasa-importer.php:1479
+#: admin/importer/nasa-importer.php:1492
 msgid "Addition Homepage Success!"
 msgstr "Προσθήκη Αρχική σελίδα Επιτυχία!"
 
-#: admin/settings/nasa_03_1_header_heading.php:313
-#: admin/settings/nasa_03_1_header_heading.php:314
+#: admin/settings/nasa_03_1_header_heading.php:315
+#: admin/settings/nasa_03_1_header_heading.php:316
 #: admin/settings/nasa_07_1_product_global_heading.php:288
 #: admin/settings/nasa_07_1_product_global_heading.php:289
-#: admin/settings/nasa_07_3_product_detail_heading.php:362
 #: admin/settings/nasa_07_3_product_detail_heading.php:363
+#: admin/settings/nasa_07_3_product_detail_heading.php:364
 msgid "Addon Options"
 msgstr "Επιλογές πρόσθετου"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:299
-#: admin/settings/nasa_07_2_product_page_heading.php:300
+#: admin/settings/nasa_07_2_product_page_heading.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:308
 msgid "Advance Content Options"
 msgstr "Προηγμένες επιλογές περιεχομένου"
 
@@ -573,7 +579,7 @@ msgstr "Προηγμένες επιλογές περιεχομένου"
 msgid "Advanced options"
 msgstr "Προχωρημένες επιλογές"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:327
+#: admin/settings/nasa_07_2_product_page_heading.php:335
 msgid "After Breadcrumb - Only for Shop Page"
 msgstr "After Breadcrumb - Μόνο για τη σελίδα Shop"
 
@@ -581,19 +587,19 @@ msgstr "After Breadcrumb - Μόνο για τη σελίδα Shop"
 msgid "After Tabs Title (Using for Section of Tabs)"
 msgstr "Τίτλος μετά από καρτέλες (Χρήση για ενότητα καρτελών)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:402
+#: admin/settings/nasa_07_3_product_detail_heading.php:403
 msgid "After WooCommerce Tabs"
 msgstr "Μετά τις καρτέλες WooCommerce"
 
-#: admin/settings/nasa_01_general_heading.php:135
+#: admin/settings/nasa_01_general_heading.php:204
 msgid "Age Verification"
 msgstr "Επαλήθευση ηλικίας"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:270
+#: admin/settings/nasa_07_3_product_detail_heading.php:271
 msgid "AJAX add to cart button on Single And Quickview"
 msgstr "Κουμπί προσθήκης AJAX στο καλάθι στο Single And Quickview"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:429
+#: admin/settings/nasa_07_3_product_detail_heading.php:461
 msgid "Ajax Load"
 msgstr "Φορτίο Ajax"
 
@@ -626,13 +632,17 @@ msgstr "Όλα τα πρόσθετα εγκαταστάθηκαν και ενε�
 msgid "ALL PRODUCTS LOADED !"
 msgstr "ΟΛΑ ΤΑ ΠΡΟΪΟΝΤΑ ΦΟΡΤΩΘΗΚΑΝ !"
 
-#: cores/nasa-woo-actions.php:1599
+#: cores/nasa-woo-actions.php:1607
 msgid "All transactions are secure and encrypted."
 msgstr "Όλες οι συναλλαγές είναι ασφαλείς και κρυπτογραφημένες."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:408
+#: admin/settings/nasa_07_3_product_detail_heading.php:411
 msgid "Allow Comments Images upload"
 msgstr "Να επιτρέπεται η μεταφόρτωση εικόνων σχολίων"
+
+#: admin/settings/nasa_07_3_product_detail_heading.php:436
+msgid "Allow Comments Video upload"
+msgstr "Να επιτρέπεται η μεταφόρτωση βίντεο σχολίων"
 
 #: includes/nasa-login-register-form.php:177
 msgid "Already got an account? "
@@ -649,7 +659,7 @@ msgstr ""
 msgid "AND"
 msgstr "ΚΑΙ"
 
-#: admin/settings/nasa_01_general_heading.php:96
+#: admin/settings/nasa_01_general_heading.php:165
 msgid "Animation Effect"
 msgstr "Εφέ κινουμένων σχεδίων"
 
@@ -692,7 +702,7 @@ msgstr "Αρχείο Σελίδα Προϊόντων"
 msgid "Are you over 18?"
 msgstr "Εισαι ΑΝΩ των 18?"
 
-#: cores/nasa-theme-footers.php:841
+#: cores/nasa-theme-footers.php:886
 msgid "Are you sure you want to remove it?"
 msgstr "Είστε βέβαιοι ότι θέλετε να το καταργήσετε;"
 
@@ -704,7 +714,7 @@ msgstr "Arial"
 msgid "Arrow"
 msgstr "Βέλος"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:171
+#: admin/settings/nasa_07_3_product_detail_heading.php:172
 msgid "Arrows for Main Slide"
 msgstr "Βέλη για την κύρια διαφάνεια"
 
@@ -729,7 +739,7 @@ msgstr "Αναθέστε Συγγραφείς"
 msgid "assign posts to an existing user:"
 msgstr "εκχώρηση αναρτήσεων σε έναν υπάρχοντα χρήστη:"
 
-#: admin/settings/nasa_01_general_heading.php:213
+#: admin/settings/nasa_01_general_heading.php:300
 msgid "Async"
 msgstr "Ασύγ"
 
@@ -751,11 +761,11 @@ msgid "Author info"
 msgstr "Πληροφορίες συγγραφέα"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:607
-#: admin/settings/nasa_07_3_product_detail_heading.php:140
+#: admin/settings/nasa_07_3_product_detail_heading.php:141
 msgid "Auto Slide"
 msgstr "Αυτόματη διαφάνεια"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:495
+#: admin/settings/nasa_07_3_product_detail_heading.php:527
 msgid "Auto Slide - Related | You may also like&hellip;"
 msgstr "Auto Slide - Σχετικά | Μπορεί να σου αρέσει επίσης…"
 
@@ -775,15 +785,15 @@ msgstr "Διατίθεται κατόπιν παραγγελίας"
 msgid "Available version:"
 msgstr "Διαθέσιμη έκδοση:"
 
-#: woocommerce/single-product-reviews.php:129
+#: woocommerce/single-product-reviews.php:148
 msgid "Average"
 msgstr "Μέση τιμή"
 
-#: cores/nasa-woo-functions.php:1724
+#: cores/nasa-woo-functions.php:1880
 msgid "Average rating"
 msgstr "Μέση βαθμολογία"
 
-#: woocommerce/single-product/product-image.php:170
+#: woocommerce/single-product/product-image.php:174
 msgid "Awaiting product image"
 msgstr "Αναμονή εικόνας προϊόντος"
 
@@ -808,22 +818,22 @@ msgstr "Επιστροφή στον Πίνακα ελέγχου"
 msgid "BACK TO STEP 1"
 msgstr "ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΒΗΜΑ 1"
 
-#: cores/nasa-theme-footers.php:189
+#: cores/nasa-theme-footers.php:199
 #: admin/settings/nasa_01_general_heading.php:84
 msgid "Back to Top"
 msgstr "Επιστροφή στην κορυφή"
 
-#: admin/settings/nasa_03_1_header_heading.php:702
+#: admin/settings/nasa_03_1_header_heading.php:715
 #: admin/settings/nasa_06_breadcrumb_heading.php:79
-#: admin/settings/nasa_07_3_product_detail_heading.php:64
+#: admin/settings/nasa_07_3_product_detail_heading.php:65
 msgid "Background Color"
 msgstr "Χρώμα του φόντου"
 
-#: admin/settings/nasa_03_1_header_heading.php:376
+#: admin/settings/nasa_03_1_header_heading.php:378
 msgid "Background Color Header"
 msgstr "Κεφαλίδα χρώματος φόντου"
 
-#: admin/settings/nasa_03_1_header_heading.php:386
+#: admin/settings/nasa_03_1_header_heading.php:388
 msgid "Background Color Header - Sticky"
 msgstr "Κεφαλίδα χρώματος φόντου - Κολλώδης"
 
@@ -831,7 +841,7 @@ msgstr "Κεφαλίδα χρώματος φόντου - Κολλώδης"
 msgid "Background Color Of Product Items In The Shop"
 msgstr "Χρώμα φόντου των αντικειμένων προϊόντων στο κατάστημα"
 
-#: admin/settings/nasa_03_1_header_heading.php:709
+#: admin/settings/nasa_03_1_header_heading.php:722
 #: admin/settings/nasa_06_breadcrumb_heading.php:58
 msgid "Background Image"
 msgstr "Εικόνα φόντου"
@@ -852,8 +862,8 @@ msgstr "Παράλλαξη φόντου"
 msgid "Backorder Allowed Badge"
 msgstr "Σήμα Επιτρεπόμενης Παραγγελίας"
 
-#: woocommerce/loop/sale-flash.php:82
-#: woocommerce/single-product/sale-flash.php:83
+#: woocommerce/loop/sale-flash.php:91
+#: woocommerce/single-product/sale-flash.php:92
 msgid "Backorders"
 msgstr "Παραγγελίες παραγγελιών"
 
@@ -882,17 +892,13 @@ msgstr "Σήμα - Επιλογές"
 msgid "Banner font"
 msgstr "Γραμματοσειρά banner"
 
-#: woocommerce/single-product-reviews.php:43
-#, php-format
-msgid "Based on %s reviews"
-msgstr "Με βάση τις κριτικές %s"
-
-#: woocommerce/single-product-reviews.php:89
+#: woocommerce/single-product-reviews.php:105
+#: woocommerce/single-product-reviews.php:164
 #, php-format
 msgid "Be the first to review &ldquo;%s&rdquo;"
 msgstr "Γίνετε ο πρώτος που θα αξιολογήσει το &ldquo;%s&rdquo;"
 
-#: admin/theme-admin.php:343
+#: admin/theme-admin.php:365
 msgid "Before Footer"
 msgstr "Πριν από το υποσέλιδο"
 
@@ -934,7 +940,7 @@ msgstr "Ιστολόγιο"
 msgid "Blog Options"
 msgstr "Επιλογές ιστολογίου"
 
-#: options/nasa-options.php:1251
+#: options/nasa-options.php:1286
 msgid "Blog Sidebar"
 msgstr "Πλαϊνή γραμμή ιστολογίου"
 
@@ -982,7 +988,7 @@ msgstr "Κουτιά"
 msgid "Breadcrumb"
 msgstr "Φρυγανιά"
 
-#: cores/nasa-woo-functions.php:776
+#: cores/nasa-woo-functions.php:924
 msgid "BROWSE"
 msgstr "ΞΕΦΥΛΛΙΖΩ"
 
@@ -1068,16 +1074,16 @@ msgstr "Χρώμα κειμένου κουμπιών"
 msgid "Buttons Text Color Hover"
 msgstr "Χρώμα κειμένου κουμπιών Τοποθετήστε το δείκτη του ποντικιού"
 
-#: cores/nasa-woo-actions.php:1125
-#: admin/settings/nasa_07_3_product_detail_heading.php:210
+#: cores/nasa-woo-actions.php:1132
+#: admin/settings/nasa_07_3_product_detail_heading.php:211
 msgid "Buy Now"
 msgstr "Αγορασε τωρα"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:217
+#: admin/settings/nasa_07_3_product_detail_heading.php:218
 msgid "Buy Now Background Color"
 msgstr "Αγορά τώρα Χρώμα φόντου"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:226
+#: admin/settings/nasa_07_3_product_detail_heading.php:227
 msgid "Buy Now Background Color Hover"
 msgstr "Αγορά τώρα Χρώμα φόντου Hover"
 
@@ -1098,15 +1104,15 @@ msgstr "Με"
 msgid "Cancel"
 msgstr "Ματαίωση"
 
-#: includes/nasa-tmpl-captcha-field-register.php:14
+#: includes/nasa-tmpl-captcha-field-register.php:16
 msgid "Captcha Code"
 msgstr "Κωδικό επαλήθευσης"
 
-#: cores/nasa-theme-options.php:516
+#: cores/nasa-theme-options.php:537
 msgid "Captcha Error!"
 msgstr "Σφάλμα Captcha!"
 
-#: admin/settings/nasa_03_1_header_heading.php:306
+#: admin/settings/nasa_03_1_header_heading.php:307
 msgid "Captcha For Register Form"
 msgstr "Captcha Για Φόρμα Εγγραφής"
 
@@ -1114,7 +1120,7 @@ msgstr "Captcha Για Φόρμα Εγγραφής"
 msgid "CART"
 msgstr "ΚΑΡΟΤΣΑΚΙ"
 
-#: cores/nasa-woo-functions.php:236 cores/nasa-woo-functions.php:242
+#: cores/nasa-woo-functions.php:218 cores/nasa-woo-functions.php:224
 #: includes/nasa-mobile-bottom-bar-app.php:102
 #: includes/nasa-mobile-bottom-bar-app.php:104
 #: includes/nasa-mobile-bottom-bar.php:102
@@ -1131,11 +1137,11 @@ msgid "Catalog Mode - Disable Add To Cart Feature"
 msgstr ""
 "Λειτουργία καταλόγου - Απενεργοποιήστε τη δυνατότητα προσθήκης στο καλάθι"
 
-#: cores/nasa-woo-functions.php:761
+#: cores/nasa-woo-functions.php:909
 msgid "CATEGORIES"
 msgstr "ΚΑΤΗΓΟΡΙΕΣ"
 
-#: cores/nasa-theme-footers.php:743 cores/nasa-theme-headers.php:392
+#: cores/nasa-theme-footers.php:780 cores/nasa-theme-headers.php:392
 #: includes/nasa-mobile-bottom-bar-app.php:59
 #: includes/nasa-mobile-bottom-bar-app.php:61
 #: includes/nasa-mobile-bottom-bar.php:59
@@ -1156,12 +1162,16 @@ msgstr ""
 msgid "Categories info"
 msgstr "Πληροφορίες για τις κατηγορίες"
 
+#: cores/nasa-custom-wc-ajax.php:873
+msgid "Categories Map"
+msgstr "Χάρτης Κατηγοριών"
+
 #: archive.php:65
 #, php-format
 msgid "Category Archives: %s"
 msgstr "Αρχεία Κατηγορίας: %s"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:317
+#: admin/settings/nasa_07_2_product_page_heading.php:325
 msgid "Category bottom content"
 msgstr "Περιεχόμενο στο κάτω μέρος της κατηγορίας"
 
@@ -1170,21 +1180,21 @@ msgstr "Περιεχόμενο στο κάτω μέρος της κατηγορ�
 msgid "Category Order"
 msgstr "Παραγγελία κατηγορίας"
 
-#: admin/settings/nasa_03_1_header_heading.php:656
+#: admin/settings/nasa_03_1_header_heading.php:660
 msgid "Category Post"
 msgstr "Κατηγορία Post"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:315
 msgid "Category top content"
 msgstr "Κορυφαίο περιεχόμενο κατηγορίας"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:98
-#: admin/settings/nasa_07_3_product_detail_heading.php:311
+#: admin/settings/nasa_07_3_product_detail_heading.php:312
 msgid "Center"
 msgstr "Κέντρο"
 
-#: cores/nasa-woo-actions.php:1527 cores/nasa-woo-actions.php:1537
-#: cores/nasa-woo-actions.php:1546 admin/classes/class.options_machine.php:802
+#: cores/nasa-woo-actions.php:1535 cores/nasa-woo-actions.php:1545
+#: cores/nasa-woo-actions.php:1554 admin/classes/class.options_machine.php:802
 msgid "Change"
 msgstr "Αλλαγή"
 
@@ -1207,10 +1217,12 @@ msgstr "Αλλάξτε τη λειτουργία διάταξης καταστή
 msgid "Change View Mode (Only Desktop Mode)"
 msgstr "Αλλαγή λειτουργίας προβολής (μόνο λειτουργία επιφάνειας εργασίας)"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:192
-msgid "Change View Mode (Only Mobile Layout Mode)"
+#: admin/settings/nasa_07_2_product_page_heading.php:200
+#| msgid "Change View Mode (Only Mobile Layout Mode)"
+msgid "Change View Mode Mobile (Only Mobile App Layout Mode)"
 msgstr ""
-"Αλλαγή λειτουργίας προβολής (μόνο λειτουργία διάταξης για φορητές συσκευές)"
+"Αλλαγή λειτουργίας προβολής για κινητά (μόνο λειτουργία διάταξης εφαρμογής "
+"για κινητά)"
 
 #: admin/settings/nasa_05_type_heading.php:191
 msgid "Character Sub-sets"
@@ -1241,7 +1253,7 @@ msgstr ""
 "Επιλέξτε ένα αρχείο WXR (.xml) για μεταφόρτωση και, στη συνέχεια, κάντε κλικ "
 "στην επιλογή Μεταφόρτωση αρχείου και εισαγωγή."
 
-#: admin/settings/nasa_03_1_header_heading.php:516
+#: admin/settings/nasa_03_1_header_heading.php:502
 msgid "Classic"
 msgstr "Κλασσικός"
 
@@ -1279,19 +1291,19 @@ msgstr "Κάντε κλικ εδώ για να εφαρμόσετε αυτό τ�
 
 #: admin/settings/nasa_03_1_header_heading.php:72
 #: admin/settings/nasa_03_1_header_heading.php:93
-#: admin/settings/nasa_03_1_header_heading.php:336
-#: admin/settings/nasa_03_1_header_heading.php:348
-#: admin/settings/nasa_03_1_header_heading.php:360
-#: admin/settings/nasa_03_1_header_heading.php:592
+#: admin/settings/nasa_03_1_header_heading.php:338
+#: admin/settings/nasa_03_1_header_heading.php:350
+#: admin/settings/nasa_03_1_header_heading.php:362
+#: admin/settings/nasa_03_1_header_heading.php:596
 #: admin/settings/nasa_03_2_footer_heading.php:120
 #: admin/settings/nasa_03_2_footer_heading.php:137
 #: admin/settings/nasa_03_2_footer_heading.php:163
 #: admin/settings/nasa_03_2_footer_heading.php:180
 #: admin/settings/nasa_03_3_mobile_heading.php:82
-#: admin/settings/nasa_07_2_product_page_heading.php:313
-#: admin/settings/nasa_07_2_product_page_heading.php:323
-#: admin/settings/nasa_07_2_product_page_heading.php:333
-#: admin/settings/nasa_07_3_product_detail_heading.php:358
+#: admin/settings/nasa_07_2_product_page_heading.php:321
+#: admin/settings/nasa_07_2_product_page_heading.php:331
+#: admin/settings/nasa_07_2_product_page_heading.php:341
+#: admin/settings/nasa_07_3_product_detail_heading.php:359
 #: admin/settings/nasa_09_promo_popup_heading.php:88
 #: admin/settings/nasa_09_promo_popup_heading.php:164
 msgid "Click here to Edit"
@@ -1301,7 +1313,7 @@ msgstr "Κάντε κλικ εδώ για Επεξεργασία"
 msgid "Click here to enter your code"
 msgstr "Κάντε κλικ εδώ για να εισαγάγετε τον κωδικό σας"
 
-#: woocommerce/checkout/form-login.php:18
+#: woocommerce/checkout/form-login.php:19
 msgid "Click here to login"
 msgstr "Κάντε κλικ εδώ για να συνδεθείτε"
 
@@ -1316,33 +1328,33 @@ msgstr "Κάντε κλικ στο εικονίδιο επιλογής για"
 
 #: archive.php:132 index.php:77 page-left-sidebar.php:34
 #: page-right-sidebar.php:34 search.php:76 single.php:64
-#: cores/nasa-theme-footers.php:306 cores/nasa-theme-footers.php:481
-#: cores/nasa-theme-footers.php:516 cores/nasa-theme-footers.php:531
-#: cores/nasa-theme-footers.php:605 cores/nasa-theme-footers.php:717
-#: cores/nasa-theme-footers.php:748 headers/header-structure-1.php:48
+#: cores/nasa-theme-footers.php:337 cores/nasa-theme-footers.php:514
+#: cores/nasa-theme-footers.php:569 cores/nasa-theme-footers.php:642
+#: cores/nasa-theme-footers.php:785 headers/header-structure-1.php:48
 #: headers/header-structure-2.php:73 headers/header-structure-3.php:63
 #: headers/header-structure-5.php:48 headers/header-structure-7.php:43
-#: headers/header-structure-7.php:53 includes/nasa-blog-promotion.php:16
+#: headers/header-structure-7.php:53 includes/nasa-blog-promotion.php:18
 #: includes/nasa-checkout-coupon-modern.php:22
 #: includes/nasa-sidebar-shop-side.php:64 includes/nasa-sidebar-shop-top.php:55
-#: includes/nasa-single-product-classic.php:83
-#: includes/nasa-single-product-full.php:71
-#: includes/nasa-single-product-modern-1.php:58
-#: includes/nasa-single-product-modern-2.php:59
-#: includes/nasa-single-product-modern-3.php:59
+#: includes/nasa-single-product-classic.php:84
+#: includes/nasa-single-product-full.php:73
+#: includes/nasa-single-product-modern-1.php:60
+#: includes/nasa-single-product-modern-2.php:61
+#: includes/nasa-single-product-modern-3.php:61
+#: includes/nasa-single-product-modern-4.php:76
 #: includes/nasa-single-product-new-2.php:42
 #: includes/nasa-single-product-new.php:71
 msgid "Close"
 msgstr "Κλείσε"
 
-#: cores/nasa-theme-footers.php:346 cores/nasa-theme-footers.php:352
-#: cores/nasa-theme-footers.php:353 cores/nasa-theme-footers.php:832
-#: cores/nasa-theme-footers.php:1037 includes/nasa-after-add-to-cart.php:20
-#: includes/nasa-promo-popup.php:41
+#: cores/nasa-theme-footers.php:380 cores/nasa-theme-footers.php:385
+#: cores/nasa-theme-footers.php:386 cores/nasa-theme-footers.php:866
+#: cores/nasa-theme-footers.php:877 cores/nasa-theme-footers.php:1089
+#: includes/nasa-after-add-to-cart.php:20 includes/nasa-promo-popup.php:42
 msgid "Close (Esc)"
 msgstr "Κλείσιμο (Esc)"
 
-#: searchform.php:115 searchform.php:194
+#: searchform.php:116 searchform.php:195
 msgid "Close search"
 msgstr "Κλείσιμο αναζήτησης"
 
@@ -1361,7 +1373,7 @@ msgid "Colors Options"
 msgstr "Επιλογές χρωμάτων"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:571
-#: admin/settings/nasa_07_2_product_page_heading.php:199
+#: admin/settings/nasa_07_2_product_page_heading.php:207
 msgid "Columns"
 msgstr "Στήλες"
 
@@ -1393,15 +1405,15 @@ msgstr "Στήλες Σχετικές στο κινητό"
 msgid "Columns Related in Tablet"
 msgstr "Στήλες Σχετικές στο Tablet"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:457
+#: admin/settings/nasa_07_3_product_detail_heading.php:489
 msgid "Columns Related | You may also like&hellip;"
 msgstr "Σχετικές Στήλες | Μπορεί να σου αρέσει επίσης…"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:483
+#: admin/settings/nasa_07_3_product_detail_heading.php:515
 msgid "Columns Related | You may also like&hellip; for Mobile"
 msgstr "Σχετικές Στήλες | Μπορεί επίσης να σας αρέσει… για Κινητό"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:471
+#: admin/settings/nasa_07_3_product_detail_heading.php:503
 msgid "Columns Related | You may also like&hellip; for Tablet"
 msgstr "Σχετικές Στήλες | Μπορεί επίσης να σας αρέσει… για Tablet"
 
@@ -1414,7 +1426,7 @@ msgid "Comment navigation"
 msgstr "Πλοήγηση στα σχόλια"
 
 #: comments.php:19 includes/nasa-blog-grid.php:68
-#: includes/nasa-blog-list.php:67 includes/nasa-blog-masonry-isotope.php:71
+#: includes/nasa-blog-list.php:67 includes/nasa-blog-masonry-isotope.php:70
 #: includes/nasa-blog-standard.php:60
 msgid "Comments"
 msgstr "Σχόλια"
@@ -1438,9 +1450,9 @@ msgstr "Τα σχόλια είναι κλειδωμένα."
 msgid "Compact Number - Cart, Wishlist, Compare (9+)"
 msgstr "Συμπαγής αριθμός - Καλάθι, Λίστα επιθυμιών, Σύγκριση (9+)"
 
-#: cores/nasa-woo-actions.php:1943 cores/nasa-woo-actions.php:1984
-#: cores/nasa-woo-actions.php:1984 cores/nasa-woo-functions.php:687
-#: cores/nasa-woo-functions.php:692
+#: cores/nasa-woo-actions.php:1956 cores/nasa-woo-actions.php:1997
+#: cores/nasa-woo-actions.php:1997 cores/nasa-woo-functions.php:835
+#: cores/nasa-woo-functions.php:840
 msgid "Compare"
 msgstr "Συγκρίνω"
 
@@ -1461,7 +1473,7 @@ msgstr "Συγκρίνετε το προϊόν"
 msgid "Compare Products"
 msgstr "Συγκρίνετε προϊόντα"
 
-#: cores/nasa-custom-wc-ajax.php:781
+#: cores/nasa-custom-wc-ajax.php:782
 msgid "Compare products were empty !"
 msgstr "Συγκρίνετε τα προϊόντα ήταν άδεια!"
 
@@ -1469,7 +1481,7 @@ msgstr "Συγκρίνετε τα προϊόντα ήταν άδεια!"
 msgid "Congratulations! You've got free shipping."
 msgstr "Συγχαρητήρια! Έχετε δωρεάν αποστολή."
 
-#: cores/nasa-woo-actions.php:1525
+#: cores/nasa-woo-actions.php:1533
 msgid "Contact"
 msgstr "Επικοινωνία"
 
@@ -1491,17 +1503,17 @@ msgstr "ΝΑ ΣΥΝΕΧΙΣΕΙ"
 
 #: includes/nasa-blog-grid.php:85 includes/nasa-blog-grid.php:86
 #: includes/nasa-blog-list.php:84 includes/nasa-blog-list.php:85
-#: includes/nasa-blog-masonry-isotope.php:89
-#: includes/nasa-blog-masonry-isotope.php:90 includes/nasa-blog-standard.php:77
+#: includes/nasa-blog-masonry-isotope.php:88
+#: includes/nasa-blog-masonry-isotope.php:89 includes/nasa-blog-standard.php:77
 #: includes/nasa-blog-standard.php:78
 msgid "CONTINUE READING  &#10142;"
 msgstr "ΣΥΝΕΧΙΣΤΕ ΤΗΝ ΑΝΑΓΝΩΣΗ &#10142;"
 
-#: cores/nasa-woo-actions.php:1499 cores/nasa-woo-actions.php:1572
+#: cores/nasa-woo-actions.php:1507 cores/nasa-woo-actions.php:1580
 msgid "Continue To Payment"
 msgstr "Συνέχεια στην πληρωμή"
 
-#: cores/nasa-woo-actions.php:1498
+#: cores/nasa-woo-actions.php:1506
 msgid "Continue To Shipping"
 msgstr "Συνέχεια στην αποστολή"
 
@@ -1509,7 +1521,7 @@ msgstr "Συνέχεια στην αποστολή"
 msgid "cookie policy"
 msgstr "πολιτική cookie"
 
-#: cores/nasa-woo-actions.php:2534 cores/nasa-woo-functions.php:2005
+#: cores/nasa-woo-actions.php:2542 cores/nasa-woo-functions.php:2161
 msgid "Coupon"
 msgstr "Κουπόνι"
 
@@ -1518,7 +1530,7 @@ msgstr "Κουπόνι"
 msgid "Coupon code"
 msgstr "Κωδικός κουπονιού"
 
-#: cores/nasa-custom-wc-ajax.php:1331
+#: cores/nasa-custom-wc-ajax.php:1372
 msgid "Coupon has been removed."
 msgstr "Το κουπόνι έχει αφαιρεθεί."
 
@@ -1534,7 +1546,7 @@ msgstr "Δημιουργία λογαριασμού"
 msgid "Cross-Sells Products"
 msgstr "Προϊόντα διασταυρούμενων πωλήσεων"
 
-#: admin/settings/nasa_03_1_header_heading.php:569
+#: admin/settings/nasa_03_1_header_heading.php:573
 msgid "Currencies Switcher"
 msgstr "Εναλλάκτης νομισμάτων"
 
@@ -1546,12 +1558,12 @@ msgstr "Τρέχουσα τιμή:"
 msgid "Custom Badge Color"
 msgstr "Χρώμα προσαρμοσμένου σήματος"
 
-#: admin/theme-admin.php:347
+#: admin/theme-admin.php:369
 msgid "Custom Block"
 msgstr "Προσαρμοσμένο μπλοκ"
 
-#: admin/settings/nasa_03_1_header_heading.php:638
-#: admin/settings/nasa_03_1_header_heading.php:645
+#: admin/settings/nasa_03_1_header_heading.php:642
+#: admin/settings/nasa_03_1_header_heading.php:649
 msgid "Custom Content"
 msgstr "Προσαρμοσμένο περιεχόμενο"
 
@@ -1602,17 +1614,17 @@ msgstr "Πληροφορίες ημερομηνίας"
 msgid "Deal Badge Color"
 msgstr "Χρώμα σήματος προσφοράς"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:368
+#: admin/settings/nasa_07_3_product_detail_heading.php:369
 msgid "Deal Time in Single or Quickview"
 msgstr "Χρόνος συμφωνίας σε Single ή Quickview"
 
 #: admin/settings/nasa_05_type_heading.php:247
 #: admin/settings/nasa_07_1_product_global_heading.php:477
-#: admin/settings/nasa_07_3_product_detail_heading.php:403
+#: admin/settings/nasa_07_3_product_detail_heading.php:404
 msgid "Default"
 msgstr "Προκαθορισμένο"
 
-#: admin/settings/nasa_03_1_header_heading.php:579
+#: admin/settings/nasa_03_1_header_heading.php:583
 msgid ""
 "Default (%symbol%) %code%. You can custom for this. Ex (%name% (%symbol%) - "
 "%code%)"
@@ -1632,7 +1644,7 @@ msgstr "Προεπιλογή - Yith WooCommerce Σύγκριση"
 msgid "Default font"
 msgstr "Προεπιλεγμένη γραμματοσειρά"
 
-#: cores/nasa-woo-functions.php:1722
+#: cores/nasa-woo-functions.php:1878
 msgid "Default sorting"
 msgstr "Προεπιλεγμένη ταξινόμηση"
 
@@ -1644,7 +1656,7 @@ msgstr "Προεπιλεγμένη χρήση κύριου χρώματος"
 msgid "Default View"
 msgstr "Προεπιλεγμένη προβολή"
 
-#: admin/settings/nasa_01_general_heading.php:104
+#: admin/settings/nasa_01_general_heading.php:173
 msgid "Delay Overlay (ms)"
 msgstr "Επικάλυψη καθυστέρησης (ms)"
 
@@ -1684,7 +1696,7 @@ msgstr ""
 msgid "Disable - Progress Bar loading ajax"
 msgstr "Απενεργοποίηση - Γραμμή προόδου φόρτωση ajax"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:289
+#: admin/settings/nasa_07_2_product_page_heading.php:297
 msgid "Disable Ajax Shop"
 msgstr "Απενεργοποιήστε το Ajax Shop"
 
@@ -1696,7 +1708,7 @@ msgstr "Απενεργοποίηση σύνδεσης/εγγραφής"
 msgid "Disable Quick View"
 msgstr "Απενεργοποιήστε τη γρήγορη προβολή"
 
-#: admin/settings/nasa_01_general_heading.php:119
+#: admin/settings/nasa_01_general_heading.php:188
 msgid "Disable Refill - Contact Form 7"
 msgstr "Disable Refill - Contact Form 7"
 
@@ -1711,6 +1723,10 @@ msgstr ""
 #: admin/classes/class-tgm-plugin-activation.php:384
 msgid "Dismiss this notice"
 msgstr "Παράβλεψη αυτής της ειδοποίησης"
+
+#: widgets/wg-nasa-product-filter-alphabet.php:25
+msgid "Display a list of alphabet to filter products."
+msgstr "Εμφάνιση λίστας αλφαβήτου για φιλτράρισμα προϊόντων."
 
 #: widgets/wg-nasa-product-filter-multi-categories.php:31
 msgid "Display a list of categories to filter products."
@@ -1752,7 +1768,7 @@ msgstr "Εμφάνιση επωνυμιών προϊόντων yith με Ακο�
 msgid "Dokan"
 msgstr "Dokan"
 
-#: includes/nasa-promo-popup.php:70
+#: includes/nasa-promo-popup.php:71
 msgid "Don't show this popup again"
 msgstr "Να μην εμφανιστεί ξανά αυτό το αναδυόμενο παράθυρο"
 
@@ -1760,7 +1776,7 @@ msgstr "Να μην εμφανιστεί ξανά αυτό το αναδυόμε
 msgid "Done. Please wait for continuing to import data"
 msgstr "Εγινε. Περιμένετε να συνεχιστεί η εισαγωγή δεδομένων"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:161
+#: admin/settings/nasa_07_3_product_detail_heading.php:162
 msgid "Dots for Main Slide"
 msgstr "Κουκκίδες για την κύρια διαφάνεια"
 
@@ -1786,7 +1802,7 @@ msgstr "Λήψη και εισαγωγή συνημμένων αρχείων"
 msgid "Edit"
 msgstr "Επεξεργασία"
 
-#: admin/settings/nasa_01_general_heading.php:112
+#: admin/settings/nasa_01_general_heading.php:181
 msgid "Effect Before Load Site"
 msgstr "Εφέ πριν από τη φόρτωση τοποθεσίας"
 
@@ -1798,8 +1814,8 @@ msgstr "Εφέ για εμφάνιση περισσότερο και εμφάν�
 msgid "Elementor - Homepage List"
 msgstr "Elementor - Λίστα αρχικής σελίδας"
 
+#: admin/functions/functions.interface.php:101
 #: admin/functions/functions.interface.php:102
-#: admin/functions/functions.interface.php:103
 msgid "Elementor Header & Footer Builder"
 msgstr "Elementor Header & Footer Builder"
 
@@ -1807,16 +1823,21 @@ msgstr "Elementor Header & Footer Builder"
 msgid "Elessi Theme"
 msgstr "Θέμα Έλεση"
 
-#: woocommerce/single-product-reviews.php:98
+#: woocommerce/single-product-reviews.php:115
+#: woocommerce/single-product-reviews.php:116
 msgid "Email"
 msgstr "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ"
+
+#: woocommerce/single-product-reviews.php:116
+msgid "Email *"
+msgstr "email *"
 
 #: includes/nasa-checkout-modern.php:116
 #: includes/nasa-login-register-form.php:136
 msgid "Email address"
 msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
 
-#: cores/nasa-woo-actions.php:1503
+#: cores/nasa-woo-actions.php:1511
 msgid "Email incorrect format."
 msgstr "Λανθασμένη μορφή email."
 
@@ -1849,8 +1870,8 @@ msgstr "Εισαγάγετε τη διεύθυνσή σας για να δείτ
 msgid "Error"
 msgstr "Λάθος"
 
-#: cores/nasa-custom-wc-ajax.php:669 cores/nasa-custom-wc-ajax.php:721
-#: cores/nasa-custom-wc-ajax.php:765 admin/front-end/options.php:15
+#: cores/nasa-custom-wc-ajax.php:670 cores/nasa-custom-wc-ajax.php:722
+#: cores/nasa-custom-wc-ajax.php:766 admin/front-end/options.php:15
 msgid "Error!"
 msgstr "Λάθος!"
 
@@ -1858,8 +1879,13 @@ msgstr "Λάθος!"
 msgid "Error."
 msgstr "Λάθος."
 
-#: cores/nasa-custom-wc-ajax.php:1156 cores/nasa-custom-wc-ajax.php:1215
-#: cores/nasa-woo-actions.php:2519
+#: cores/nasa-woo-functions.php:2329 cores/nasa-woo-functions.php:2355
+#: cores/nasa-woo-functions.php:2384 cores/nasa-woo-functions.php:2410
+msgid "Error: "
+msgstr "Σφάλμα:"
+
+#: cores/nasa-custom-wc-ajax.php:1197 cores/nasa-custom-wc-ajax.php:1256
+#: cores/nasa-woo-actions.php:2527
 msgid "Estimate shipping rates"
 msgstr "Υπολογίστε τις τιμές αποστολής"
 
@@ -1867,17 +1893,7 @@ msgstr "Υπολογίστε τις τιμές αποστολής"
 msgid "Event After Add to Cart"
 msgstr "Συμβάν μετά από Προσθήκη στο καλάθι"
 
-#: admin/classes/class.options_machine.php:870
-#: admin/classes/class.options_machine.php:904
-msgid "Ex: 3 days ago, 5 hours ago, ..."
-msgstr "Π.χ.: πριν από 3 ημέρες, πριν από 5 ώρες, ..."
-
-#: admin/classes/class.options_machine.php:869
-#: admin/classes/class.options_machine.php:893
-msgid "Ex: Jonh in US purchased a"
-msgstr "Π.χ.: Ο Jonh στις ΗΠΑ αγόρασε ένα"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:252
+#: admin/settings/nasa_07_3_product_detail_heading.php:253
 msgid "Extends Desktop"
 msgstr "Επεκτείνει την επιφάνεια εργασίας"
 
@@ -1899,15 +1915,15 @@ msgstr "Όνομα επιπλέον τάξης"
 msgid "Fade"
 msgstr "Ξεθωριάζει"
 
-#: admin/settings/nasa_03_1_header_heading.php:452
+#: admin/settings/nasa_03_1_header_heading.php:454
 msgid "Fade In"
 msgstr "Ξεθωριάζω"
 
-#: admin/settings/nasa_03_1_header_heading.php:449
+#: admin/settings/nasa_03_1_header_heading.php:451
 msgid "Fade In Down"
 msgstr "Fade In Down"
 
-#: admin/settings/nasa_03_1_header_heading.php:450
+#: admin/settings/nasa_03_1_header_heading.php:452
 msgid "Fade In Up"
 msgstr "Fade In Up"
 
@@ -1973,8 +1989,8 @@ msgstr "Επιλογές Favicon"
 #: widgets/wg-nasa-product-filter-status.php:44
 #: widgets/wg-nasa-product-filter-status.php:276
 #: widgets/wg-nasa-product-filter-status.php:276
-#: woocommerce/loop/sale-flash.php:22
-#: woocommerce/single-product/sale-flash.php:22
+#: woocommerce/loop/sale-flash.php:26
+#: woocommerce/single-product/sale-flash.php:26
 msgid "Featured"
 msgstr "Προτεινόμενα"
 
@@ -1998,9 +2014,9 @@ msgstr "Φίλτρο"
 msgid "Filter by"
 msgstr "Φιλτράρισμα κατά"
 
-#: widgets/wg-nasa-product-filter-multi-categories.php:37
-msgid "Filter by Multi Category"
-msgstr "Φιλτράρισμα κατά πολλαπλή κατηγορία"
+#: widgets/wg-nasa-product-filter-alphabet.php:31
+msgid "Filter by Alphabet"
+msgstr "Φιλτράρισμα κατά αλφάβητο"
 
 #: widgets/wg-nasa-product-filter-price-list.php:25
 #: widgets/wg-nasa-product-filter-price.php:35
@@ -2015,7 +2031,7 @@ msgstr "Φιλτράρισμα κατά κατάσταση"
 msgid "Filter by Tags"
 msgstr "Φιλτράρισμα ανά ετικέτες"
 
-#: woocommerce/archive-product.php:189
+#: woocommerce/archive-product.php:180
 msgid "Filter by:"
 msgstr "Φιλτράρισμα κατά:"
 
@@ -2024,12 +2040,12 @@ msgstr "Φιλτράρισμα κατά:"
 #: includes/nasa-mobile-bottom-bar.php:51
 #: includes/nasa-mobile-bottom-bar.php:53
 #: includes/nasa-sidebar-shop-side.php:61 includes/nasa-sidebar-shop-top.php:52
-#: woocommerce/archive-product.php:267 woocommerce/archive-product.php:354
-#: woocommerce/archive-product.php:398
+#: woocommerce/archive-product.php:257 woocommerce/archive-product.php:343
+#: woocommerce/archive-product.php:389
 msgid "Filters"
 msgstr "Φίλτρα"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:269
+#: admin/settings/nasa_07_2_product_page_heading.php:277
 msgid "Fit Rows"
 msgstr "Προσαρμογή σειρών"
 
@@ -2041,11 +2057,11 @@ msgstr "Ευέλικτο - Αλλαγή μεγέθους μενού (επιτρ�
 msgid "Flip Horizontal"
 msgstr "Αναποδογυρίστε οριζόντια"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:196
+#: admin/settings/nasa_07_3_product_detail_heading.php:197
 msgid "Focus Main Image"
 msgstr "Εστίαση στην κύρια εικόνα"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:198
+#: admin/settings/nasa_07_3_product_detail_heading.php:199
 msgid "Focus main image after active variation product"
 msgstr "Εστίαση της κύριας εικόνας μετά το προϊόν ενεργής παραλλαγής"
 
@@ -2092,7 +2108,7 @@ msgstr "Βάρος γραμματοσειράς"
 msgid "Fontawesome icons"
 msgstr "Υπέροχα εικονίδια"
 
-#: admin/theme-admin.php:339
+#: admin/theme-admin.php:361
 msgid "Footer"
 msgstr "Υποσέλιδο"
 
@@ -2101,11 +2117,11 @@ msgid "Footer Built-In Support (Widgets Builder)"
 msgstr ""
 "Ενσωματωμένη υποστήριξη υποσέλιδου (Εργαλείο δημιουργίας γραφικών στοιχείων)"
 
-#: options/nasa-options.php:1423
+#: options/nasa-options.php:1458
 msgid "Footer Dark ( No.1 )"
 msgstr "Footer Dark (Νο. 1)"
 
-#: options/nasa-options.php:1432
+#: options/nasa-options.php:1467
 msgid "Footer Dark ( No.2 )"
 msgstr "Footer Dark (Νο. 2)"
 
@@ -2119,67 +2135,67 @@ msgstr "Footer Global"
 msgid "Footer Layout"
 msgstr "Διάταξη υποσέλιδου"
 
-#: options/nasa-options.php:1285
+#: options/nasa-options.php:1320
 msgid "Footer Light 1 ( No.1 )"
 msgstr "Φως υποσέλιδου 1 ( Νο. 1 )"
 
-#: options/nasa-options.php:1294
+#: options/nasa-options.php:1329
 msgid "Footer Light 1 ( No.2 )"
 msgstr "Φως υποσέλιδου 1 ( Νο. 2 )"
 
-#: options/nasa-options.php:1303
+#: options/nasa-options.php:1338
 msgid "Footer Light 1 ( No.3 )"
 msgstr "Φως υποσέλιδου 1 ( Νο. 3 )"
 
-#: options/nasa-options.php:1312
+#: options/nasa-options.php:1347
 msgid "Footer Light 1 ( No.4 )"
 msgstr "Φως υποσέλιδου 1 ( Νο. 4 )"
 
-#: options/nasa-options.php:1321
+#: options/nasa-options.php:1356
 msgid "Footer Light 1 ( No.5 )"
 msgstr "Φως υποσέλιδου 1 ( Νο. 5 )"
 
-#: options/nasa-options.php:1330
+#: options/nasa-options.php:1365
 msgid "Footer Light 1 ( No.6 )"
 msgstr "Φως υποσέλιδου 1 ( Νο. 6 )"
 
-#: options/nasa-options.php:1340
+#: options/nasa-options.php:1375
 msgid "Footer Light 2 ( No.1 )"
 msgstr "Φως υποσέλιδου 2 ( Νο. 1 )"
 
-#: options/nasa-options.php:1349
+#: options/nasa-options.php:1384
 msgid "Footer Light 2 ( No.2 )"
 msgstr "Φως υποσέλιδου 2 ( Νο. 2 )"
 
-#: options/nasa-options.php:1358
+#: options/nasa-options.php:1393
 msgid "Footer Light 2 ( No.3 )"
 msgstr "Φως υποσέλιδου 2 ( Νο. 3 )"
 
-#: options/nasa-options.php:1367
+#: options/nasa-options.php:1402
 msgid "Footer Light 2 ( No.4 )"
 msgstr "Φως υποσέλιδου 2 ( Νο. 4 )"
 
-#: options/nasa-options.php:1376
+#: options/nasa-options.php:1411
 msgid "Footer Light 2 ( No.5 )"
 msgstr "Φως υποσέλιδου 2 ( Νο. 5 )"
 
-#: options/nasa-options.php:1385
+#: options/nasa-options.php:1420
 msgid "Footer Light 2 ( No.6 )"
 msgstr "Φως υποσέλιδου 2 ( Νο. 6 )"
 
-#: options/nasa-options.php:1394
+#: options/nasa-options.php:1429
 msgid "Footer Light 2 ( No.7 )"
 msgstr "Φως υποσέλιδου 2 ( Νο. 7 )"
 
-#: options/nasa-options.php:1404
+#: options/nasa-options.php:1439
 msgid "Footer Light 3 ( No.1 )"
 msgstr "Φως υποσέλιδου 3 ( Νο. 1 )"
 
-#: options/nasa-options.php:1413
+#: options/nasa-options.php:1448
 msgid "Footer Light 3 ( No.2 )"
 msgstr "Φως υποσέλιδου 3 ( Νο. 2 )"
 
-#: options/nasa-options.php:1442
+#: options/nasa-options.php:1477
 msgid "Footer Mobile"
 msgstr "Footer Mobile"
 
@@ -2194,12 +2210,12 @@ msgstr "Διάταξη κινητού υποσέλιδου"
 msgid "Footer Options"
 msgstr "Επιλογές υποσέλιδου"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:204
 #: admin/settings/nasa_07_3_product_detail_heading.php:205
+#: admin/settings/nasa_07_3_product_detail_heading.php:206
 msgid "Form Options"
 msgstr "Επιλογές φόρμας"
 
-#: admin/settings/nasa_03_1_header_heading.php:578
+#: admin/settings/nasa_03_1_header_heading.php:582
 msgid "Format Currency - Only Apply for WPML"
 msgstr "Μορφοποίηση νομίσματος - Αίτηση μόνο για WPML"
 
@@ -2207,11 +2223,11 @@ msgstr "Μορφοποίηση νομίσματος - Αίτηση μόνο γι
 msgid "Free Shipping Bar - WooCommerce Advanced Free Shipping"
 msgstr "Δωρεάν αποστολή Bar - WooCommerce Advanced Δωρεάν αποστολή"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:282
+#: admin/settings/nasa_07_2_product_page_heading.php:290
 msgid "Full"
 msgstr "Γεμάτος"
 
-#: admin/settings/nasa_03_1_header_heading.php:688
+#: admin/settings/nasa_03_1_header_heading.php:701
 #: admin/settings/nasa_09_promo_popup_heading.php:100
 msgid "Full Width"
 msgstr "Πλήρες πλάτος"
@@ -2236,20 +2252,20 @@ msgstr "Κύριο μενού πλήρους πλάτους"
 msgid "Gallery - Carousel"
 msgstr "Γκαλερί - Καρουζέλ"
 
-#: admin/settings/nasa_01_general_heading.php:186
+#: admin/settings/nasa_01_general_heading.php:273
 msgid "GDPR Notice"
 msgstr "Ανακοίνωση GDPR"
 
-#: admin/settings/nasa_01_general_heading.php:180
-#: admin/settings/nasa_01_general_heading.php:181
+#: admin/settings/nasa_01_general_heading.php:267
+#: admin/settings/nasa_01_general_heading.php:268
 msgid "GDPR Options"
 msgstr "Επιλογές GDPR"
 
-#: admin/settings/nasa_01_general_heading.php:193
+#: admin/settings/nasa_01_general_heading.php:280
 msgid "GDPR Policies Link"
 msgstr "Σύνδεσμος πολιτικών GDPR"
 
-#: cores/nasa-theme-footers.php:817
+#: cores/nasa-theme-footers.php:855
 #: admin/settings/nasa_01_general_heading.php:12
 msgid "General"
 msgstr "Γενικός"
@@ -2286,7 +2302,7 @@ msgstr "ΠΗΓΑΙΝΕ ΣΤΟ ΣΠΙΤΙ"
 msgid "Go to Theme Options"
 msgstr "Μεταβείτε στις Επιλογές θέματος"
 
-#: woocommerce/single-product-reviews.php:128
+#: woocommerce/single-product-reviews.php:147
 msgid "Good"
 msgstr "Καλός"
 
@@ -2294,7 +2310,7 @@ msgstr "Καλός"
 msgid "Google font"
 msgstr "γραμματοσειρά Google"
 
-#: admin/settings/nasa_01_general_heading.php:97
+#: admin/settings/nasa_01_general_heading.php:166
 msgid "Gray Effect"
 msgstr "Γκρίζο εφέ"
 
@@ -2328,7 +2344,7 @@ msgstr "Πλέγμα"
 msgid "Grid Products - Options"
 msgstr "Προϊόντα Πλέγματος - Επιλογές"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:256
+#: admin/settings/nasa_07_2_product_page_heading.php:264
 msgid "Grid Rows"
 msgstr "Γραμμές πλέγματος"
 
@@ -2341,7 +2357,7 @@ msgstr "Έχετε κωδικό κουπονιού;"
 msgid "Have a coupon?"
 msgstr "Έχετε ένα κουπόνι;"
 
-#: admin/theme-admin.php:335
+#: admin/theme-admin.php:357
 msgid "Header"
 msgstr "Επί κεφαλής"
 
@@ -2358,11 +2374,11 @@ msgid "Header Global"
 msgstr "Header Global"
 
 #: cores/nasa-theme-options.php:220
-#: admin/settings/nasa_03_1_header_heading.php:396
+#: admin/settings/nasa_03_1_header_heading.php:398
 msgid "Header Icons"
 msgstr "Εικονίδια κεφαλίδας"
 
-#: admin/settings/nasa_03_1_header_heading.php:406
+#: admin/settings/nasa_03_1_header_heading.php:408
 msgid "Header Icons - Sticky"
 msgstr "Εικονίδια κεφαλίδας - κολλώδη"
 
@@ -2370,11 +2386,11 @@ msgstr "Εικονίδια κεφαλίδας - κολλώδη"
 msgid "Header icons Cart | Wishlist | Compare"
 msgstr "Εικονίδια κεφαλίδας Καλάθι | Λίστα επιθυμιών | Συγκρίνω"
 
-#: admin/settings/nasa_03_1_header_heading.php:416
+#: admin/settings/nasa_03_1_header_heading.php:418
 msgid "Header Icons Hover"
 msgstr "Τα εικονίδια κεφαλίδας μετακινούνται"
 
-#: admin/settings/nasa_03_1_header_heading.php:426
+#: admin/settings/nasa_03_1_header_heading.php:428
 msgid "Header Icons Hover - Sticky"
 msgstr "Τα εικονίδια κεφαλίδας αιωρούνται - κολλώδη"
 
@@ -2431,7 +2447,7 @@ msgstr "Ύψος - Κολλώδες λογότυπο"
 msgid "Height For Mobile"
 msgstr "Ύψος για κινητό"
 
-#: cores/nasa-woo-functions.php:141
+#: cores/nasa-woo-functions.php:123
 #, php-format
 msgid "Hello, %s!"
 msgstr "Γεια σας, %s!"
@@ -2444,7 +2460,7 @@ msgstr "Helvetica"
 msgid "Hide \"View Cart\" Button in Mini Cart"
 msgstr "Απόκρυψη του κουμπιού \"Προβολή καλαθιού\" στο μίνι καλάθι"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:342
+#: admin/settings/nasa_07_3_product_detail_heading.php:343
 msgid "Hide Additional Information Tab"
 msgstr "Απόκρυψη καρτέλας πρόσθετων πληροφοριών"
 
@@ -2485,7 +2501,7 @@ msgstr ""
 msgid "Home"
 msgstr "Σπίτι"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:108
+#: admin/settings/nasa_07_3_product_detail_heading.php:109
 msgid "Horizontal"
 msgstr "Οριζόντιος"
 
@@ -2493,7 +2509,7 @@ msgstr "Οριζόντιος"
 msgid "Hover - Product Card Styles - Effect"
 msgstr "Hover - Στυλ καρτών προϊόντων - Εφέ"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:181
+#: admin/settings/nasa_07_3_product_detail_heading.php:182
 msgid "Hover Zoom Image"
 msgstr "Τοποθετήστε το δείκτη ζουμ εικόνας"
 
@@ -2515,7 +2531,7 @@ msgstr "https://elessi.nasatheme.com"
 msgid "https://nasatheme.com"
 msgstr "https://nasatheme.com"
 
-#: cores/nasa-woo-actions.php:1178 cores/nasa-woo-actions.php:1200
+#: cores/nasa-woo-actions.php:1185 cores/nasa-woo-actions.php:1208
 msgid "Hurry up! Sale end in:"
 msgstr "Βιάσου! Η πώληση λήγει σε:"
 
@@ -2527,7 +2543,7 @@ msgstr "Είμαι 18 ετών και άνω"
 msgid "I am under 18"
 msgstr "Είμαι κάτω των 18"
 
-#: searchform.php:40 searchform.php:131
+#: searchform.php:41 searchform.php:132
 msgid "I'm shopping for ..."
 msgstr "Ψωνίζω για..."
 
@@ -2550,7 +2566,7 @@ msgstr ""
 "πρόσβασης θα δημιουργηθεί τυχαία και ο ρόλος του νέου χρήστη θα οριστεί ως "
 "%s. Θα είναι απαραίτητη η μη αυτόματη αλλαγή των στοιχείων του νέου χρήστη."
 
-#: admin/settings/nasa_03_1_header_heading.php:467
+#: admin/settings/nasa_03_1_header_heading.php:469
 msgid "If Turn on, the live search Ajax feature will be lost"
 msgstr "Εάν ενεργοποιηθεί, η δυνατότητα ζωντανής αναζήτησης Ajax θα χαθεί"
 
@@ -2558,13 +2574,24 @@ msgstr "Εάν ενεργοποιηθεί, η δυνατότητα ζωνταν�
 msgid "If you have a coupon code, please apply it below."
 msgstr "Εάν έχετε κωδικό κουπονιού, εφαρμόστε τον παρακάτω."
 
-#: woocommerce/checkout/form-login.php:24
+#: woocommerce/checkout/form-login.php:25
 msgid ""
 "If you have shopped with us before, please enter your details below. If you "
 "are a new customer, please proceed to the Billing section."
 msgstr ""
 "Εάν έχετε ψωνίσει μαζί μας στο παρελθόν, εισαγάγετε τα στοιχεία σας παρακάτω."
 " Εάν είστε νέος πελάτης, προχωρήστε στην ενότητα Χρέωση."
+
+#: admin/settings/nasa_01_general_heading.php:221
+msgid ""
+"If you skip this field notification will be default \"😁😁 Come back! | "
+"❤️‍🔥❤️‍🔥 Don't forget this ...\". If you want to add more notifications, you "
+"just need to add \"|\" between notifications."
+msgstr ""
+"Εάν παραλείψετε αυτό το πεδίο, η ειδοποίηση θα είναι προεπιλεγμένη \"😁😁 Come "
+"back! | ❤️‍🔥❤️‍🔥 Don't forget this ...\". Εάν θέλετε να προσθέσετε "
+"περισσότερες ειδοποιήσεις, πρέπει απλώς να προσθέσετε \"|\" μεταξύ των "
+"ειδοποιήσεων."
 
 #: cores/nasa-theme-options.php:279 cores/nasa-theme-options.php:299
 msgid ""
@@ -2591,11 +2618,11 @@ msgstr "Διεύθυνση URL εικόνας"
 msgid "Images"
 msgstr "εικόνες"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:74
+#: admin/settings/nasa_07_3_product_detail_heading.php:75
 msgid "Images Columns"
 msgstr "Στήλες εικόνων"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:88
+#: admin/settings/nasa_07_3_product_detail_heading.php:89
 msgid "Images Style"
 msgstr "Στυλ εικόνων"
 
@@ -2666,27 +2693,29 @@ msgstr "Σε απόθεμα"
 msgid "In Topbar - Header"
 msgstr "Στο Topbar - Header"
 
-#: admin/settings/nasa_05_type_heading.php:341
-msgid "Include FontAwesome 5 (Note: You only can use Free icons)"
-msgstr ""
-"Συμπεριλάβετε το FontAwesome 5 (Σημείωση: Μπορείτε να χρησιμοποιήσετε μόνο "
-"δωρεάν εικονίδια)"
+#: admin/settings/nasa_01_general_heading.php:211
+msgid "Inactive Tab"
+msgstr "Ανενεργή καρτέλα"
 
-#: admin/settings/nasa_01_general_heading.php:243
+#: admin/settings/nasa_01_general_heading.php:219
+msgid "Inactive Tab Notification Content"
+msgstr "Περιεχόμενο ειδοποίησης ανενεργής καρτέλας"
+
+#: admin/settings/nasa_01_general_heading.php:330
 msgid "Include Theme Version when call css files"
 msgstr "Συμπεριλάβετε την έκδοση θέματος κατά την κλήση αρχείων css"
 
-#: admin/settings/nasa_01_general_heading.php:250
+#: admin/settings/nasa_01_general_heading.php:337
 msgid "Include Theme Version when call js files"
 msgstr "Συμπεριλάβετε την έκδοση θέματος κατά την κλήση αρχείων js"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:283
+#: admin/settings/nasa_07_2_product_page_heading.php:291
 msgid "Infinite - Only using for Ajax"
 msgstr "Άπειρο - Χρησιμοποιείται μόνο για Ajax"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:614
-#: admin/settings/nasa_07_3_product_detail_heading.php:150
-#: admin/settings/nasa_07_3_product_detail_heading.php:502
+#: admin/settings/nasa_07_3_product_detail_heading.php:151
+#: admin/settings/nasa_07_3_product_detail_heading.php:534
 msgid "Infinite Slide"
 msgstr "Άπειρη διαφάνεια"
 
@@ -2694,7 +2723,7 @@ msgstr "Άπειρη διαφάνεια"
 msgid "Infinite Slide In Quickview"
 msgstr "Infinite Slide In Quickview"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:125
+#: admin/settings/nasa_07_3_product_detail_heading.php:126
 msgid "Infomations Columns"
 msgstr "Στήλες Πληροφοριών"
 
@@ -2770,7 +2799,7 @@ msgstr "Εγκατάσταση προσθήκης: %s"
 msgid "Invalid file type"
 msgstr "Μη έγκυρος τύπος αρχείου"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:263
+#: admin/settings/nasa_07_2_product_page_heading.php:271
 msgid "Isotope Layout Mode"
 msgstr "Λειτουργία διάταξης ισοτόπων"
 
@@ -2794,7 +2823,7 @@ msgstr "Είδη"
 msgid "items"
 msgstr "είδη"
 
-#: admin/settings/nasa_03_1_header_heading.php:561
+#: admin/settings/nasa_03_1_header_heading.php:565
 msgid "Languages Switcher"
 msgstr "Εναλλαγή γλωσσών"
 
@@ -2810,7 +2839,7 @@ msgstr "Μεγάλη απόσταση"
 msgid "Last Backup : "
 msgstr "Τελευταίο αντίγραφο ασφαλείας:"
 
-#: cores/nasa-woo-functions.php:1725
+#: cores/nasa-woo-functions.php:1881
 msgid "Latest"
 msgstr "Αργότερο"
 
@@ -2840,18 +2869,18 @@ msgstr "Επιλογές διάταξης"
 msgid "Layout Single or Double rows."
 msgstr "Διάταξη Μονές ή Διπλές σειρές."
 
-#: admin/settings/nasa_07_2_product_page_heading.php:251
+#: admin/settings/nasa_07_2_product_page_heading.php:259
 msgid "Layout Style"
 msgstr "Στυλ Διάταξης"
 
 #. %s is product title
-#: woocommerce/single-product-reviews.php:91
+#: woocommerce/single-product-reviews.php:107
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Αφήστε μια απάντηση στο %s"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:99
-#: admin/settings/nasa_07_3_product_detail_heading.php:312
+#: admin/settings/nasa_07_3_product_detail_heading.php:313
 msgid "Left"
 msgstr "Αριστερά"
 
@@ -2870,12 +2899,12 @@ msgstr "Left Sidebar - Classic"
 msgid "Left Sidebar - Off-canvas"
 msgstr "Αριστερή πλευρική γραμμή - Εκτός καμβά"
 
-#: admin/settings/nasa_03_1_header_heading.php:451
+#: admin/settings/nasa_03_1_header_heading.php:453
 #: admin/settings/nasa_07_1_product_global_heading.php:57
 msgid "Left To Right"
 msgstr "Από αριστερά προς τα δεξιά"
 
-#: woocommerce/archive-product.php:191
+#: woocommerce/archive-product.php:182
 msgid "Less -"
 msgstr "Πιο λιγο -"
 
@@ -2907,15 +2936,15 @@ msgstr "Φως"
 msgid "Light Mode"
 msgstr "Λειτουργία φωτός"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:189
+#: admin/settings/nasa_07_3_product_detail_heading.php:190
 msgid "Lightbox Image"
 msgstr "Εικόνα Lightbox"
 
-#: admin/settings/nasa_03_1_header_heading.php:668
+#: admin/settings/nasa_03_1_header_heading.php:672
 msgid "Limit Posts"
 msgstr "Περιορισμός αναρτήσεων"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:236
+#: admin/settings/nasa_07_2_product_page_heading.php:244
 msgid "Limit Products Per Page"
 msgstr "Περιορισμός προϊόντων ανά σελίδα"
 
@@ -2925,8 +2954,8 @@ msgstr ""
 "Περιορίστε τα γραφικά στοιχεία για να εμφανίζονται περισσότερα. (Η είσοδος "
 "\"Όλα\" θα εμφανίσει όλα τα γραφικά στοιχεία)"
 
-#: woocommerce/loop/sale-flash.php:68
-#: woocommerce/single-product/sale-flash.php:69
+#: woocommerce/loop/sale-flash.php:77
+#: woocommerce/single-product/sale-flash.php:78
 msgid "Limited"
 msgstr "Περιορισμένος"
 
@@ -2938,9 +2967,9 @@ msgstr "URL συνδέσμου (προαιρετικό)"
 msgid "Links"
 msgstr "Συνδέσεις"
 
-#: includes/nasa-change-view.php:317 includes/nasa-change-view.php:320
+#: includes/nasa-change-view.php:322 includes/nasa-change-view.php:325
 #: admin/settings/nasa_07_2_product_page_heading.php:118
-#: admin/settings/nasa_07_2_product_page_heading.php:184
+#: admin/settings/nasa_07_2_product_page_heading.php:192
 #: admin/settings/nasa_08_blog_heading.php:54
 msgid "List"
 msgstr "Λίστα"
@@ -2949,32 +2978,32 @@ msgstr "Λίστα"
 msgid "List - 2 Columns"
 msgstr "Λίστα - 2 στήλες"
 
-#: includes/nasa-change-view.php:305
+#: includes/nasa-change-view.php:310
 msgid "List 2"
 msgstr "Λίστα 2"
 
-#: includes/nasa-change-view.php:302
-#: admin/settings/nasa_07_2_product_page_heading.php:185
+#: includes/nasa-change-view.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:193
 msgid "List 2 Columns"
 msgstr "Λίστα 2 στηλών"
 
-#: admin/settings/nasa_01_general_heading.php:233
+#: admin/settings/nasa_01_general_heading.php:320
 msgid "List Files JS Delay - Delay JavaScript Execution"
 msgstr "Λίστα αρχείων JS Delay - Καθυστέρηση εκτέλεσης JavaScript"
 
-#: admin/settings/nasa_03_1_header_heading.php:472
+#: admin/settings/nasa_03_1_header_heading.php:474
 msgid "Live Search Ajax Products"
 msgstr "Ζωντανή αναζήτηση προϊόντων Ajax"
 
-#: admin/settings/nasa_03_1_header_heading.php:511
+#: admin/settings/nasa_03_1_header_heading.php:497
 msgid "Live Search Layout - (Header type 1, 2, 5, 7)"
 msgstr "Διάταξη Ζωντανής Αναζήτησης - (Τύπος κεφαλίδας 1, 2, 5, 7)"
 
-#: admin/settings/nasa_01_general_heading.php:208
+#: admin/settings/nasa_01_general_heading.php:295
 msgid "Load Css Canvas"
 msgstr "Φόρτωση καμβά Css"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:284
+#: admin/settings/nasa_07_2_product_page_heading.php:292
 msgid "Load More - Only using for Ajax"
 msgstr "Φόρτωση περισσότερων - Χρησιμοποιείται μόνο για Ajax"
 
@@ -2982,12 +3011,12 @@ msgstr "Φόρτωση περισσότερων - Χρησιμοποιείται
 msgid "LOAD MORE ..."
 msgstr "ΦΟΡΤΩΣΕ ΠΕΡΙΣΣΟΤΕΡΑ ..."
 
-#: woocommerce/global/form-login.php:50
+#: woocommerce/global/form-login.php:52
 msgid "Login"
 msgstr "Σύνδεση"
 
 #: cores/nasa-theme-headers.php:334 cores/nasa-theme-headers.php:477
-#: cores/nasa-woo-functions.php:103 cores/nasa-woo-functions.php:103
+#: cores/nasa-woo-functions.php:85 cores/nasa-woo-functions.php:85
 msgid "Login / Register"
 msgstr "Είσοδος / Εγγραφή"
 
@@ -3012,7 +3041,7 @@ msgstr "Λογότυπο και Favicon"
 msgid "Logo Options"
 msgstr "Επιλογές λογότυπου"
 
-#: woocommerce/global/form-login.php:43
+#: woocommerce/global/form-login.php:45
 msgid "Lost your password?"
 msgstr "Έχασες τον κωδικό σου?"
 
@@ -3024,7 +3053,7 @@ msgstr "Χαμένος?"
 msgid "Main Image"
 msgstr "Κύρια Εικόνα"
 
-#: functions.php:100
+#: functions.php:101
 msgid "Main Menu"
 msgstr "Κυρίως μενού"
 
@@ -3057,11 +3086,11 @@ msgstr "Κύρια πλοήγηση"
 msgid "Manage Your Items List"
 msgstr "Διαχείριση της λίστας αντικειμένων σας"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:268
+#: admin/settings/nasa_07_2_product_page_heading.php:276
 msgid "Masonry"
 msgstr "Τοιχοποιία"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:257
+#: admin/settings/nasa_07_2_product_page_heading.php:265
 #: admin/settings/nasa_08_blog_heading.php:56
 msgid "Masonry Isotope"
 msgstr "Ισότοπο Τοιχοποιίας"
@@ -3075,13 +3104,13 @@ msgstr "Τοιχοποιία Ισότοπο - Πλέγμα - Στυλ ιστολ
 msgid "Max Depth Level - Top Filter Categories"
 msgstr "Μέγιστο επίπεδο βάθους - Κορυφαίες κατηγορίες φίλτρων"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:415
+#: admin/settings/nasa_07_3_product_detail_heading.php:418
 msgid "Max files Comments Images upload"
 msgstr "Μέγιστος αριθμός αρχείων Σχόλια Μεταφόρτωση εικόνων"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "max files:"
-msgstr "μέγιστο αρχείο:"
+#: admin/settings/nasa_07_3_product_detail_heading.php:443
+msgid "Max files Comments Video upload"
+msgstr "Μέγιστος αριθμός αρχείων Σχόλια Μεταφόρτωση βίντεο"
 
 #: admin/settings/nasa_02_logo_icon_heading.php:56
 msgid "Max Height - Logo"
@@ -3095,6 +3124,12 @@ msgstr "Μέγιστο ύψος - Κολλώδες λογότυπο"
 msgid "Max Height Logo - Mobile"
 msgstr "Λογότυπο Max Height - Κινητό"
 
+#: cores/nasa-woo-functions.php:2355
+#, php-format
+#| msgid "Max size allowed: %s kB"
+msgid "Max image size allowed: %s kB"
+msgstr "Μέγιστο επιτρεπόμενο μέγεθος: %s kB"
+
 #: woocommerce/content-widget-price-filter.php:28
 msgid "Max price"
 msgstr "Μέγιστη τιμή"
@@ -3107,23 +3142,41 @@ msgstr "Μέγιστα εύρη τιμών"
 msgid "Max products compare"
 msgstr "Μέγιστη σύγκριση προϊόντων"
 
-#: cores/nasa-woo-functions.php:2141
-#, php-format
-msgid "Max size allowed: %s kB"
-msgstr "Μέγιστο επιτρεπόμενο μέγεθος: %s kB"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:422
+#: admin/settings/nasa_07_3_product_detail_heading.php:427
 msgid "Max Size Comments Images upload (kb)"
 msgstr "Μέγιστο μέγεθος Σχόλια Μεταφόρτωση εικόνων (kb)"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "max size:"
-msgstr "μέγιστο μέγεθος:"
+#: admin/settings/nasa_07_3_product_detail_heading.php:452
+msgid "Max Size Comments Video upload (kb)"
+msgstr "Μέγιστο μέγεθος Σχόλια Μεταφόρτωση βίντεο (kb)"
 
-#: cores/nasa-woo-functions.php:2115
+#: cores/nasa-woo-functions.php:2410
 #, php-format
-msgid "Maximum number of files allowed is: %s file(s)"
+msgid "Max video size allowed: %s kB"
+msgstr "Μέγιστο επιτρεπόμενο μέγεθος βίντεο: %s kB"
+
+#: cores/nasa-woo-functions.php:2283
+#, php-format
+msgid "Maximum file size is %s kB, max %s file"
+msgid_plural "Maximum file size is %s kB, max %s files"
+msgstr[0] "Το μέγιστο μέγεθος αρχείου είναι %s kB, το μέγιστο αρχείο %s"
+msgstr[1] "Το μέγιστο μέγεθος αρχείου είναι %s kB, το μέγιστο αρχείο %s"
+
+#: cores/nasa-woo-functions.php:2237
+#, php-format
+msgid "Maximum file size is %s kB, max %s files"
+msgstr "Το μέγιστο μέγεθος αρχείου είναι %s kB, το μέγιστο %s αρχεία"
+
+#: cores/nasa-woo-functions.php:2329
+#, php-format
+#| msgid "Maximum number of files allowed is: %s file(s)"
+msgid "Maximum number of image files allowed is: %s file(s)"
 msgstr "Ο μέγιστος επιτρεπόμενος αριθμός αρχείων είναι: %s αρχείο(α)"
+
+#: cores/nasa-woo-functions.php:2384
+#, php-format
+msgid "Maximum number of video files allowed is: %s file(s)"
+msgstr "Ο μέγιστος επιτρεπόμενος αριθμός αρχείων βίντεο είναι: %s αρχείο(α)"
 
 #: cores/nasa-theme-options.php:55
 msgid "Medium"
@@ -3147,6 +3200,10 @@ msgstr ""
 msgid "Menu item skipped due to missing menu slug"
 msgstr "Το στοιχείο μενού παραλείφθηκε λόγω έλλειψης γυμνοσάλιαγκτου μενού"
 
+#: cores/nasa-custom-wc-ajax.php:868
+msgid "Menu Map"
+msgstr "Χάρτης μενού"
+
 #: admin/settings/nasa_03_1_header_heading.php:100
 #: admin/settings/nasa_03_1_header_heading.php:101
 msgid "Menu Options"
@@ -3157,15 +3214,15 @@ msgstr "Επιλογές μενού"
 msgid "Meta Info - Blog Style"
 msgstr "Meta Info - Στυλ Blog"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:390
+#: admin/settings/nasa_07_3_product_detail_heading.php:391
 msgid "Meta Infomations (SKU, Categories, Tags, etc...)"
 msgstr "Μετα-Πληροφορίες (SKU, Κατηγορίες, Ετικέτες, κ.λπ...)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:397
+#: admin/settings/nasa_07_3_product_detail_heading.php:398
 msgid "Meta Infomations Position"
 msgstr "Θέση Meta Infomations"
 
-#: cores/nasa-woo-actions.php:1544
+#: cores/nasa-woo-actions.php:1552
 msgid "Method"
 msgstr "Μέθοδος"
 
@@ -3224,7 +3281,7 @@ msgid "Mobile Bottom Bar Options"
 msgstr "Επιλογές κάτω γραμμής για κινητά"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:595
-#: admin/settings/nasa_07_2_product_page_heading.php:213
+#: admin/settings/nasa_07_2_product_page_heading.php:221
 msgid "Mobile Columns"
 msgstr "Κινητά Στήλες"
 
@@ -3263,7 +3320,7 @@ msgstr "Επιλογές μεμονωμένου προϊόντος για κιν
 msgid "Mode"
 msgstr "Τρόπος"
 
-#: admin/settings/nasa_03_1_header_heading.php:517
+#: admin/settings/nasa_03_1_header_heading.php:503
 msgid "Modern"
 msgstr "Μοντέρνο"
 
@@ -3280,11 +3337,11 @@ msgstr "Μοντέρνο - Χωρίς κεφαλίδα, χωρίς υποσέλ�
 msgid "Monthly Archives: %s"
 msgstr "Μηνιαία αρχεία: %s"
 
-#: woocommerce/archive-product.php:190
+#: woocommerce/archive-product.php:181
 msgid "More +"
 msgstr "Περισσότερα +"
 
-#: options/nasa-options.php:758
+#: options/nasa-options.php:779
 msgid "More Results"
 msgstr "Περισσότερα αποτελέσματα"
 
@@ -3293,24 +3350,29 @@ msgid "Move To Top"
 msgstr "Μετακίνηση στην κορυφή"
 
 #: cores/nasa-theme-headers.php:334 cores/nasa-theme-headers.php:477
-#: cores/nasa-woo-functions.php:115 cores/nasa-woo-functions.php:115
+#: cores/nasa-woo-functions.php:97 cores/nasa-woo-functions.php:97
 #: woocommerce/checkout/thankyou.php:35
 msgid "My Account"
 msgstr "Ο λογαριασμός μου"
 
-#: cores/nasa-theme-footers.php:311
+#: cores/nasa-theme-footers.php:342
 msgid "My Cart"
 msgstr "Καλάθι μου"
 
-#: cores/nasa-custom-wc-ajax.php:1056 woocommerce/single-product/meta.php:25
+#: cores/nasa-custom-wc-ajax.php:1097 woocommerce/single-product/meta.php:25
 msgid "N/A"
 msgstr "N/A"
 
 #: widgets/wg-nasa-product-categories.php:72
-#: woocommerce/single-product-reviews.php:96
+#: woocommerce/single-product-reviews.php:112
+#: woocommerce/single-product-reviews.php:113
 #: admin/settings/nasa_07_1_product_global_heading.php:352
 msgid "Name"
 msgstr "Ονομα"
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Name *"
+msgstr "Όνομα *"
 
 #: widgets/wg-nasa-product-filter-price.php:31
 msgid "Nasa - Filter Product by Price (slide)"
@@ -3338,8 +3400,8 @@ msgstr "Λειτουργία λίστας επιθυμιών NasaTheme"
 msgid "Never expire"
 msgstr "Να μην λήξει ποτέ"
 
-#: woocommerce/loop/sale-flash.php:33
-#: woocommerce/single-product/sale-flash.php:33
+#: woocommerce/loop/sale-flash.php:42
+#: woocommerce/single-product/sale-flash.php:42
 msgid "New"
 msgstr "Νέος"
 
@@ -3378,7 +3440,11 @@ msgstr "ΕΠΟΜΕΝΟ"
 msgid "Next &rarr;"
 msgstr "Επόμενο &rarr;"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:376
+#: cores/nasa-theme-footers.php:866
+msgid "Next (arrow right)"
+msgstr "Επόμενο (βέλος δεξιά)"
+
+#: admin/settings/nasa_07_3_product_detail_heading.php:377
 msgid "Next - Previous Product"
 msgstr "Επόμενο - Προηγούμενο προϊόν"
 
@@ -3395,7 +3461,7 @@ msgstr "Επόμενο <span class=\"meta-nav\">&rarr;</span>"
 #: admin/settings/nasa_03_1_header_heading.php:275
 #: admin/settings/nasa_07_1_product_global_heading.php:384
 #: admin/settings/nasa_07_1_product_global_heading.php:518
-#: admin/settings/nasa_07_2_product_page_heading.php:293
+#: admin/settings/nasa_07_2_product_page_heading.php:301
 msgid "No"
 msgstr "Οχι"
 
@@ -3409,7 +3475,7 @@ msgstr "Δεν έγινε καμία ενέργεια. Η προσθήκη %1$s 
 msgid "No backups yet."
 msgstr "Δεν υπάρχουν ακόμα αντίγραφα ασφαλείας."
 
-#: admin/settings/nasa_03_1_header_heading.php:453
+#: admin/settings/nasa_03_1_header_heading.php:455
 #: admin/settings/nasa_07_1_product_global_heading.php:60
 msgid "No Effect"
 msgstr "Χωρίς αποτέλεσμα"
@@ -3446,22 +3512,22 @@ msgstr "Δεν επιλέχθηκαν πρόσθετα για ενημέρωση
 msgid "No product added to compare !"
 msgstr "Δεν προστέθηκε προϊόν για σύγκριση!"
 
-#: cores/nasa-woo-functions.php:1399 widgets/wg-nasa-product-brands.php:251
+#: cores/nasa-woo-functions.php:1555 widgets/wg-nasa-product-brands.php:251
 #: widgets/wg-nasa-product-categories.php:451
 msgid "No product categories exist."
 msgstr "Δεν υπάρχουν κατηγορίες προϊόντων."
 
-#: woocommerce/cart/mini-cart.php:205
+#: woocommerce/cart/mini-cart.php:211
 msgid "No products in the cart."
 msgstr "Δεν υπάρχουν προϊόντα στο καλάθι."
 
-#: includes/nasa-sidebar-wishlist_content.php:89
-#: includes/nasa-sidebar-wishlist_content.php:210
-#: includes/nasa-sidebar-wishlist_html.php:94
+#: includes/nasa-sidebar-wishlist_content.php:92
+#: includes/nasa-sidebar-wishlist_content.php:213
+#: includes/nasa-sidebar-wishlist_html.php:96
 msgid "No products in the wishlist."
 msgstr "Δεν υπάρχουν προϊόντα στη λίστα επιθυμιών."
 
-#: woocommerce/loop/no-products-found.php:21
+#: woocommerce/loop/no-products-found.php:19
 msgid "No products were found matching your selection."
 msgstr "Δεν βρέθηκαν προϊόντα που να ταιριάζουν με την επιλογή σας."
 
@@ -3503,7 +3569,7 @@ msgid "No vendor found!"
 msgstr "Δεν βρέθηκε πωλητής!"
 
 #: cores/nasa-theme-options.php:36 admin/classes/class.options_machine.php:434
-#: admin/settings/nasa_01_general_heading.php:98
+#: admin/settings/nasa_01_general_heading.php:167
 msgid "None"
 msgstr "Κανένας"
 
@@ -3516,7 +3582,6 @@ msgid "Not a member? "
 msgstr "Οχι μέλος?"
 
 #: woocommerce/loop/no-products-found.php:17
-#: woocommerce/loop/no-products-found.php:19
 msgid "Not Found Products"
 msgstr "Δεν βρέθηκαν προϊόντα"
 
@@ -3537,23 +3602,23 @@ msgstr ""
 msgid "Not Set"
 msgstr "Δεν ρυθμίστηκε"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:251
+#: admin/settings/nasa_07_3_product_detail_heading.php:252
 msgid "Not Show"
 msgstr "Όχι Εμφάνιση"
 
-#: woocommerce/single-product-reviews.php:130
+#: woocommerce/single-product-reviews.php:149
 msgid "Not that bad"
 msgstr "Οχι τόσο κακό"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:265
+#: admin/settings/nasa_07_3_product_detail_heading.php:266
 msgid "Not use Mobile App - Simulator"
 msgstr "Να μην χρησιμοποιείται Mobile App - Simulator"
 
-#: cores/nasa-woo-actions.php:2486 includes/nasa-mini-cart-note.php:20
+#: cores/nasa-woo-actions.php:2494 includes/nasa-mini-cart-note.php:20
 msgid "Note"
 msgstr "Σημείωση"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:274
+#: admin/settings/nasa_07_3_product_detail_heading.php:275
 msgid ""
 "Note: Consider disabling this feature if you are using a third-party plugin "
 "developed for the Add to Cart feature in the Single Product Page!"
@@ -3562,7 +3627,7 @@ msgstr ""
 "χρησιμοποιείτε μια προσθήκη τρίτου κατασκευαστή που έχει αναπτυχθεί για τη "
 "λειτουργία Προσθήκη στο καλάθι στη Σελίδα μεμονωμένου προϊόντος!"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:245
+#: admin/settings/nasa_07_2_product_page_heading.php:253
 msgid "Note: don't using for Sidebar Off-canvas and Toggle Sidebar Classic"
 msgstr ""
 "Σημείωση: μην χρησιμοποιείτε για Sidebar Off-canvas και Toggle Sidebar "
@@ -3594,7 +3659,7 @@ msgstr "Κατηγορίες Αριθμών"
 msgid "Number for related blog"
 msgstr "Αριθμός για σχετικό ιστολόγιο"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:450
+#: admin/settings/nasa_07_3_product_detail_heading.php:482
 msgid "Number for related products"
 msgstr "Αριθμός για σχετικά προϊόντα"
 
@@ -3643,7 +3708,7 @@ msgstr "Στις παραγγελίες"
 msgid "On Sale"
 msgstr "Σε έκπτωση"
 
-#: cores/nasa-woo-actions.php:1093
+#: cores/nasa-woo-actions.php:1100
 #, php-format
 msgid "Only %s item(s) left in stock."
 msgstr "Μόνο %s στοιχείο(α) έχει απομείνει στο απόθεμα."
@@ -3652,7 +3717,7 @@ msgstr "Μόνο %s στοιχείο(α) έχει απομείνει στο απ
 msgid "Only Display 1 Time"
 msgstr "Εμφάνιση μόνο 1 φορά"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:152
+#: admin/settings/nasa_07_3_product_detail_heading.php:153
 msgid ""
 "Only effective for style 1, style 2(Images style : slide images), style 6 "
 "and style 7"
@@ -3660,18 +3725,23 @@ msgstr ""
 "Ισχύει μόνο για το στυλ 1, το στυλ 2 (Στυλ εικόνων: εικόνες διαφανειών), το "
 "στυλ 6 και το στυλ 7"
 
-#: cores/nasa-woo-functions.php:2155
-msgid "Only format accepted: JPG, JPEG, BMP, PNG or GIF"
+#: cores/nasa-woo-functions.php:2369
+#| msgid "Only format accepted: JPG, JPEG, BMP, PNG or GIF"
+msgid "Only format image accepted: JPG, JPEG, BMP, PNG, GIF"
 msgstr "Αποδεκτή μόνο μορφή: JPG, JPEG, BMP, PNG ή GIF"
 
-#: woocommerce/single-product-reviews.php:142
+#: cores/nasa-woo-functions.php:2424
+msgid "Only format video accepted: MP4, AVI, MPEG, MOV"
+msgstr "Αποδεκτή μόνο μορφή βίντεο: MP4, AVI, MPEG, MOV"
+
+#: woocommerce/single-product-reviews.php:168
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
 "Μόνο οι συνδεδεμένοι πελάτες που έχουν αγοράσει αυτό το προϊόν μπορούν να "
 "αφήσουν κριτική."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:256
+#: admin/settings/nasa_07_3_product_detail_heading.php:257
 msgid "Only Show Buttons"
 msgstr "Μόνο Εμφάνιση κουμπιών"
 
@@ -3708,10 +3778,11 @@ msgstr "Ανοιξε"
 msgid "Open Cart Sidebar"
 msgstr "Ανοίξτε την πλευρική γραμμή καλαθιού"
 
-#: includes/nasa-single-product-full.php:44
-#: includes/nasa-single-product-modern-1.php:31
-#: includes/nasa-single-product-modern-2.php:31
-#: includes/nasa-single-product-modern-3.php:31
+#: includes/nasa-single-product-full.php:46
+#: includes/nasa-single-product-modern-1.php:33
+#: includes/nasa-single-product-modern-2.php:33
+#: includes/nasa-single-product-modern-3.php:33
+#: includes/nasa-single-product-modern-4.php:36
 #: includes/nasa-single-product-new-2.php:15
 #: includes/nasa-single-product-new.php:42
 msgid "Open Sidebar"
@@ -3778,11 +3849,7 @@ msgstr "Μενού Παραγγελίας κινητού"
 msgid "Out of stock"
 msgstr "Εκτός αποθέματος"
 
-#: woocommerce/single-product-reviews.php:49
-msgid "Overall"
-msgstr "Συνολικά"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:116
+#: admin/settings/nasa_07_3_product_detail_heading.php:117
 msgid "Overflows: + 0.5 items"
 msgstr "Υπερχειλίσεις: + 0,5 είδη"
 
@@ -3794,7 +3861,7 @@ msgstr "Προβολή σελίδας σύγκριση προϊόντων"
 msgid "Pages:"
 msgstr "Σελίδες:"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:276
+#: admin/settings/nasa_07_2_product_page_heading.php:284
 msgid "Pagination Layout"
 msgstr "Διάταξη σελιδοποίησης"
 
@@ -3804,7 +3871,7 @@ msgstr "Παλατίνο"
 
 #: includes/nasa-login-register-form.php:78
 #: includes/nasa-login-register-form.php:146
-#: woocommerce/global/form-login.php:29
+#: woocommerce/global/form-login.php:31
 msgid "Password"
 msgstr "Κωδικός πρόσβασης"
 
@@ -3824,7 +3891,7 @@ msgstr "ΠΛΗΡΩΜΗ"
 msgid "Payment Method"
 msgstr "Μέθοδος πληρωμής"
 
-#: cores/nasa-woo-actions.php:1597
+#: cores/nasa-woo-actions.php:1605
 msgid "Payment Methods"
 msgstr "μέθοδοι πληρωμής"
 
@@ -3832,36 +3899,27 @@ msgstr "μέθοδοι πληρωμής"
 msgid "Pe7s icons"
 msgstr "εικονίδια Pe7s"
 
-#: woocommerce/single-product-reviews.php:127
+#: woocommerce/single-product-reviews.php:146
 msgid "Perfect"
 msgstr "Τέλειος"
 
-#: admin/settings/nasa_01_general_heading.php:203
+#: admin/settings/nasa_01_general_heading.php:290
 msgid "Performance - Assets"
 msgstr "Απόδοση - Περιουσιακά στοιχεία"
 
-#: cores/nasa-woo-actions.php:1711
+#: cores/nasa-woo-actions.php:1719
 msgid "Phone"
 msgstr "Τηλέφωνο"
 
-#: cores/nasa-woo-actions.php:1504
+#: cores/nasa-woo-actions.php:1512
 msgid "Phone incorrect format."
 msgstr "Εσφαλμένη μορφή τηλεφώνου."
-
-#: cores/nasa-woo-functions.php:2076
-msgid "Pictures"
-msgstr "Εικόνες"
-
-#: cores/nasa-woo-functions.php:2075
-#, php-format
-msgid "Pictures (max size: %s kB, max files: %s)"
-msgstr "Εικόνες (μέγιστο μέγεθος: %s kB, μέγιστο αρχείο: %s)"
 
 #: cores/nasa-theme-functions.php:916
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: cores/nasa-woo-functions.php:1094
+#: cores/nasa-woo-functions.php:1246
 msgid "Play Video"
 msgstr "Παίξε το βίντεο"
 
@@ -3885,15 +3943,15 @@ msgstr ""
 "Επικοινωνήστε με τον πάροχο των προσθηκών και ζητήστε του να συσκευάσει την "
 "προσθήκη σύμφωνα με τις οδηγίες του WordPress."
 
-#: admin/settings/nasa_03_1_header_heading.php:336
-#: admin/settings/nasa_03_1_header_heading.php:348
-#: admin/settings/nasa_03_1_header_heading.php:360
-#: admin/settings/nasa_03_1_header_heading.php:592
+#: admin/settings/nasa_03_1_header_heading.php:338
+#: admin/settings/nasa_03_1_header_heading.php:350
+#: admin/settings/nasa_03_1_header_heading.php:362
+#: admin/settings/nasa_03_1_header_heading.php:596
 #: admin/settings/nasa_03_3_mobile_heading.php:82
-#: admin/settings/nasa_07_2_product_page_heading.php:313
-#: admin/settings/nasa_07_2_product_page_heading.php:323
-#: admin/settings/nasa_07_2_product_page_heading.php:333
-#: admin/settings/nasa_07_3_product_detail_heading.php:358
+#: admin/settings/nasa_07_2_product_page_heading.php:321
+#: admin/settings/nasa_07_2_product_page_heading.php:331
+#: admin/settings/nasa_07_2_product_page_heading.php:341
+#: admin/settings/nasa_07_3_product_detail_heading.php:359
 #: admin/settings/nasa_09_promo_popup_heading.php:164
 msgid ""
 "Please create Static Blocks (or Custom Block of Elementor Header & Footer "
@@ -3902,15 +3960,25 @@ msgstr ""
 "Δημιουργήστε Static Blocks (ή Custom Block of Elementor Header & Footer "
 "Builder) και επιλέξτε εδώ."
 
+#: woocommerce/single-product-reviews.php:38
+msgid "Please enter a valid email address."
+msgstr "Εισαγάγετε μια έγκυρη διεύθυνση email."
+
 #: cores/nasa-wc-checkout-ext.php:92
 msgid "Please enter an address to continue."
 msgstr "Εισαγάγετε μια διεύθυνση για να συνεχίσετε."
+
+#: woocommerce/checkout/payment.php:26
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Συμπληρώστε τα στοιχεία σας παραπάνω για να δείτε τους διαθέσιμους τρόπους "
+"πληρωμής."
 
 #: admin/settings/nasa_07_4_product_compare_heading.php:61
 msgid "Please Install Yith WooCommerce Compare Plugin"
 msgstr "Εγκαταστήστε το Yith WooCommerce Compare Plugin"
 
-#: options/nasa-options.php:703
+#: options/nasa-options.php:705
 msgid ""
 "Please select some product options before adding this product to your cart."
 msgstr ""
@@ -3918,7 +3986,8 @@ msgstr ""
 "καλάθι σας."
 
 #: includes/nasa-age-verification.php:17
-msgid "Please verifi your age to enter."
+#| msgid "Please verifi your age to enter."
+msgid "Please verify your age to enter."
 msgstr "Επαληθεύστε την ηλικία σας για να εισέλθετε."
 
 #: admin/importer/tpl-import-demo-data.php:127
@@ -3971,15 +4040,15 @@ msgstr[1] " Όλα <span class=\"count\">(%s)</span>"
 msgid "Plus"
 msgstr "Συν"
 
-#: admin/settings/nasa_03_1_header_heading.php:503
-msgid "Popular Keywords"
-msgstr "Δημοφιλείς λέξεις-κλειδιά"
+#: admin/settings/nasa_03_1_header_heading.php:518
+msgid "Popular Keywords - (Header type 1, 2, 5, 7)"
+msgstr "Δημοφιλείς λέξεις-κλειδιά - (Τύπος κεφαλίδας 1, 2, 5, 7)"
 
-#: searchform.php:88 searchform.php:174
+#: searchform.php:89 searchform.php:175
 msgid "Popular Searches:"
 msgstr "Δημοφιλείς αναζητήσεις:"
 
-#: cores/nasa-woo-functions.php:1723
+#: cores/nasa-woo-functions.php:1879
 msgid "Popularity"
 msgstr "Δημοτικότητα"
 
@@ -4072,7 +4141,7 @@ msgstr "Κατηγορίες φίλτρων θέσης"
 msgid "Position Filter Categories - Type 3"
 msgstr "Κατηγορίες φίλτρων θέσης - Τύπος 3"
 
-#: admin/settings/nasa_03_1_header_heading.php:639
+#: admin/settings/nasa_03_1_header_heading.php:643
 msgid "Posts"
 msgstr "Αναρτήσεις"
 
@@ -4087,6 +4156,10 @@ msgstr "Προφόρτωση εικονιδίων γραμματοσειρών"
 #: cores/nasa-theme-functions.php:1364
 msgid "PREVIOUS"
 msgstr "ΠΡΟΗΓΟΥΜΕΝΟΣ"
+
+#: cores/nasa-theme-footers.php:866
+msgid "Previous (arrow left)"
+msgstr "Προηγούμενο (βέλος αριστερά)"
 
 #: includes/nasa-after-add-to-cart.php:33
 #: includes/nasa-after-add-to-cart.php:99
@@ -4112,11 +4185,11 @@ msgstr "Μέγεθος εύρους τιμών"
 msgid "Price:"
 msgstr "Τιμή:"
 
-#: cores/nasa-woo-functions.php:1726
+#: cores/nasa-woo-functions.php:1882
 msgid "Price: Ascending"
 msgstr "Τιμή: Αύξουσα"
 
-#: cores/nasa-woo-functions.php:1727
+#: cores/nasa-woo-functions.php:1883
 msgid "Price: Descending"
 msgstr "Τιμή: Φθίνουσα"
 
@@ -4136,20 +4209,20 @@ msgstr "Προχωρήστε στο ταμείο"
 msgid "Product"
 msgstr "Προϊόν"
 
-#: cores/nasa-custom-wc-ajax.php:416 cores/nasa-woo-functions.php:265
+#: cores/nasa-custom-wc-ajax.php:417 cores/nasa-woo-functions.php:250
 #: cores/nasa-yith-wcwl-ext.php:36
 msgid "Product added to cart successfully!"
 msgstr "Το προϊόν προστέθηκε στο καλάθι με επιτυχία!"
 
-#: cores/nasa-custom-wc-ajax.php:696
+#: cores/nasa-custom-wc-ajax.php:697
 msgid "Product added to compare !"
 msgstr "Το προϊόν προστέθηκε για σύγκριση!"
 
-#: cores/nasa-custom-wc-ajax.php:910
+#: cores/nasa-custom-wc-ajax.php:951
 msgid "Product added to wishlist successfully!"
 msgstr "Το προϊόν προστέθηκε με επιτυχία στη λίστα επιθυμιών!"
 
-#: cores/nasa-custom-wc-ajax.php:698
+#: cores/nasa-custom-wc-ajax.php:699
 msgid "Product already exists in Compare list !"
 msgstr "Το προϊόν υπάρχει ήδη στη λίστα σύγκρισης!"
 
@@ -4169,7 +4242,7 @@ msgstr "κατηγορίες προϊόντων"
 msgid "Product Column Icon Style"
 msgstr "Στυλ εικονιδίου στήλης προϊόντος"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:335
+#: admin/settings/nasa_07_3_product_detail_heading.php:336
 msgid "Product Description Wrapper - Apply with Tabs Classic"
 msgstr "Περιγραφή προϊόντος Περιτύλιγμα - Εφαρμογή με Tabs Classic"
 
@@ -4177,23 +4250,27 @@ msgstr "Περιγραφή προϊόντος Περιτύλιγμα - Εφαρ�
 msgid "Product Global Options"
 msgstr "Παγκόσμια Επιλογές Προϊόντος"
 
-#: cores/nasa-custom-wc-ajax.php:742
+#: cores/nasa-custom-wc-ajax.php:743
 msgid "Product not already exists in Compare list !"
 msgstr "Το προϊόν δεν υπάρχει ήδη στη λίστα σύγκρισης!"
+
+#: woocommerce/loop/pagination.php:73 woocommerce/loop/pagination.php:86
+msgid "Product Pagination"
+msgstr "Σελιδοποίηση προϊόντος"
 
 #: woocommerce/global/quantity-input.php:60
 msgid "Product quantity"
 msgstr "Ποσότητα προϊόντος"
 
-#: cores/nasa-custom-wc-ajax.php:1101
+#: cores/nasa-custom-wc-ajax.php:1142
 msgid "Product quantity updated successfully!"
 msgstr "Η ποσότητα προϊόντος ενημερώθηκε με επιτυχία!"
 
-#: cores/nasa-custom-wc-ajax.php:938 cores/nasa-custom-wc-ajax.php:967
+#: cores/nasa-custom-wc-ajax.php:979 cores/nasa-custom-wc-ajax.php:1008
 msgid "Product removed from wishlist successfully!"
 msgstr "Το προϊόν αφαιρέθηκε από τη λίστα επιθυμιών με επιτυχία!"
 
-#: options/nasa-options.php:1271
+#: options/nasa-options.php:1306
 msgid "Product Sidebar"
 msgstr "Πλαϊνή γραμμή προϊόντος"
 
@@ -4225,12 +4302,12 @@ msgstr "Κατηγορία Έργου"
 msgid "Project Name"
 msgstr "Όνομα έργου"
 
-#: cores/nasa-woo-actions.php:1874 cores/nasa-woo-actions.php:1905
+#: cores/nasa-woo-actions.php:1887 cores/nasa-woo-actions.php:1918
 msgid "Promotion Gifts"
 msgstr "Δώρα προώθησης"
 
-#: admin/settings/nasa_03_1_header_heading.php:619
-#: admin/settings/nasa_03_1_header_heading.php:620
+#: admin/settings/nasa_03_1_header_heading.php:623
+#: admin/settings/nasa_03_1_header_heading.php:624
 msgid "Promotion News"
 msgstr "Ειδήσεις προώθησης"
 
@@ -4269,8 +4346,8 @@ msgstr "Εισαγωγή Ποσότητας - Μίνι Καλάθι"
 msgid "Query type"
 msgstr "Τύπος ερωτήματος"
 
-#: cores/nasa-theme-footers.php:685 cores/nasa-woo-actions.php:1852
-#: cores/nasa-woo-actions.php:1853 cores/nasa-woo-functions.php:394
+#: cores/nasa-theme-footers.php:722 cores/nasa-woo-actions.php:1864
+#: cores/nasa-woo-actions.php:1865 cores/nasa-woo-functions.php:545
 #: woocommerce/content-widget-product.php:77
 msgid "Quick View"
 msgstr "Γρήγορη ματιά"
@@ -4288,7 +4365,7 @@ msgstr "Επιλογές γρήγορης προβολής"
 msgid "Quotes"
 msgstr "Εισαγωγικά"
 
-#: woocommerce/single-product-reviews.php:126
+#: woocommerce/single-product-reviews.php:145
 msgid "Rate&hellip;"
 msgstr "Τιμή&hellip;"
 
@@ -4335,7 +4412,7 @@ msgstr "πρόσφατες εργασίες"
 msgid "Recommend Turn Off to use Builder Mode"
 msgstr "Προτείνετε Απενεργοποίηση για να χρησιμοποιήσετε τη λειτουργία δόμησης"
 
-#: cores/nasa-theme-footers.php:818
+#: cores/nasa-theme-footers.php:856
 msgid "Recommendation"
 msgstr "Σύσταση"
 
@@ -4348,13 +4425,13 @@ msgstr "Συνιστάται"
 msgid "Related"
 msgstr "Σχετίζεται με"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:443
+#: admin/settings/nasa_07_3_product_detail_heading.php:475
 #: woocommerce/single-product/related.php:64
 msgid "Related Products"
 msgstr "Σχετικά προϊόντα"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:437
-#: admin/settings/nasa_07_3_product_detail_heading.php:438
+#: admin/settings/nasa_07_3_product_detail_heading.php:469
+#: admin/settings/nasa_07_3_product_detail_heading.php:470
 msgid "Related | You may also like&hellip;"
 msgstr "Σχετικά | Μπορεί να σου αρέσει επίσης&hellip;"
 
@@ -4366,7 +4443,7 @@ msgstr "Γεμίζω πάλι"
 msgid "Remember"
 msgstr "Θυμάμαι"
 
-#: woocommerce/global/form-login.php:39
+#: woocommerce/global/form-login.php:41
 msgid "Remember me"
 msgstr "Θυμήσου με"
 
@@ -4388,13 +4465,13 @@ msgstr "Ο απομακρυσμένος διακομιστής δεν απάντ
 msgid "Remote server returned error response %1$d %2$s"
 msgstr "Ο απομακρυσμένος διακομιστής επέστρεψε απόκριση σφάλματος %1$d %2$s"
 
-#: cores/nasa-woo-functions.php:2019 includes/nasa-after-add-to-cart.php:63
+#: cores/nasa-woo-functions.php:2175 includes/nasa-after-add-to-cart.php:63
 #: includes/nasa-after-add-to-cart.php:66
-#: includes/nasa-sidebar-wishlist_content.php:78
-#: includes/nasa-sidebar-wishlist_content.php:186
-#: includes/nasa-sidebar-wishlist_html.php:25
-#: includes/nasa-sidebar-wishlist_html.php:80
-#: includes/nasa-sidebar-wishlist_html.php:81
+#: includes/nasa-sidebar-wishlist_content.php:81
+#: includes/nasa-sidebar-wishlist_content.php:189
+#: includes/nasa-sidebar-wishlist_html.php:27
+#: includes/nasa-sidebar-wishlist_html.php:82
+#: includes/nasa-sidebar-wishlist_html.php:83
 #: includes/nasa-view-compare.php:114
 #: admin/classes/class.options_machine.php:1040
 #: admin/classes/class.options_machine.php:1114
@@ -4402,22 +4479,22 @@ msgid "Remove"
 msgstr "Αφαιρώ"
 
 #. %s is the product name
-#: woocommerce/cart/cart.php:69 woocommerce/cart/mini-cart.php:88
+#: woocommerce/cart/cart.php:69 woocommerce/cart/mini-cart.php:94
 #, php-format
 msgid "Remove %s from cart"
 msgstr "Κατάργηση %s από το καλάθι"
 
-#: includes/nasa-sidebar-wishlist_content.php:77
-#: includes/nasa-sidebar-wishlist_content.php:185
-#: includes/nasa-sidebar-wishlist_html.php:24
+#: includes/nasa-sidebar-wishlist_content.php:80
+#: includes/nasa-sidebar-wishlist_content.php:188
+#: includes/nasa-sidebar-wishlist_html.php:26
 msgid "Remove this product"
 msgstr "Αφαιρέστε αυτό το προϊόν"
 
-#: cores/nasa-custom-wc-ajax.php:779
+#: cores/nasa-custom-wc-ajax.php:780
 msgid "Removed all products from compare !"
 msgstr "Καταργήθηκαν όλα τα προϊόντα από τη σύγκριση!"
 
-#: cores/nasa-custom-wc-ajax.php:740
+#: cores/nasa-custom-wc-ajax.php:741
 msgid "Removed product from compare !"
 msgstr "Το προϊόν αφαιρέθηκε από τη σύγκριση!"
 
@@ -4438,11 +4515,11 @@ msgstr "Η απαιτούμενη ενημέρωση δεν είναι διαθ�
 msgid "Requires Update"
 msgstr "Απαιτείται ενημέρωση"
 
-#: admin/settings/nasa_03_1_header_heading.php:565
+#: admin/settings/nasa_03_1_header_heading.php:569
 msgid "Requires WPML"
 msgstr "Απαιτεί WPML"
 
-#: admin/settings/nasa_03_1_header_heading.php:573
+#: admin/settings/nasa_03_1_header_heading.php:577
 msgid ""
 "Requires WPML | FOX - Currency Switcher Professional for WooCommerce | CURCY "
 "- Multi Currency for WooCommerce"
@@ -4450,7 +4527,7 @@ msgstr ""
 "Απαιτεί WPML | FOX - Επαγγελματίας εναλλαγής νομισμάτων για WooCommerce | "
 "CURCY - Multi Currency για WooCommerce"
 
-#: widgets/wg-nasa-reset-filter.php:90
+#: widgets/wg-nasa-reset-filter.php:97
 #: woocommerce/content-widget-price-filter.php:41
 msgid "Reset"
 msgstr "Επαναφορά"
@@ -4459,11 +4536,11 @@ msgstr "Επαναφορά"
 msgid "Reset WordPress plugin"
 msgstr "Επαναφορά της προσθήκης WordPress"
 
-#: admin/settings/nasa_03_1_header_heading.php:488
+#: admin/settings/nasa_03_1_header_heading.php:490
 msgid "Results Ajax Search (Limit Products)"
 msgstr "Αποτελέσματα αναζήτησης Ajax (Περιορισμός προϊόντων)"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:243
+#: admin/settings/nasa_07_2_product_page_heading.php:251
 msgid "Results info in top"
 msgstr "Πληροφορίες για τα αποτελέσματα στην κορυφή"
 
@@ -4471,15 +4548,15 @@ msgstr "Πληροφορίες για τα αποτελέσματα στην κ�
 msgid "Retina Logo"
 msgstr "Λογότυπο Retina"
 
-#: cores/nasa-woo-actions.php:1495
+#: cores/nasa-woo-actions.php:1503
 msgid "RETURN TO CART"
 msgstr "ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΚΑΛΑΘΙ"
 
-#: cores/nasa-woo-actions.php:1495
+#: cores/nasa-woo-actions.php:1503
 msgid "Return to Cart"
 msgstr "Επιστροφή στο Καλάθι"
 
-#: cores/nasa-woo-actions.php:1571
+#: cores/nasa-woo-actions.php:1579
 msgid "RETURN TO INFORMATION"
 msgstr "ΕΠΙΣΤΡΟΦΗ ΣΤΙΣ ΠΛΗΡΟΦΟΡΙΕΣ"
 
@@ -4491,11 +4568,11 @@ msgstr "Επιστροφή στην προηγούμενη σελίδα"
 msgid "Return to Required Plugins Installer"
 msgstr "Επιστροφή στο Πρόγραμμα εγκατάστασης απαιτούμενων προσθηκών"
 
-#: includes/nasa-sidebar-wishlist_content.php:89
-#: includes/nasa-sidebar-wishlist_content.php:211
-#: includes/nasa-sidebar-wishlist_html.php:96
+#: includes/nasa-sidebar-wishlist_content.php:92
+#: includes/nasa-sidebar-wishlist_content.php:214
+#: includes/nasa-sidebar-wishlist_html.php:98
 #: includes/nasa-view-compare.php:126 includes/nasa-view-compare.php:126
-#: woocommerce/cart/mini-cart.php:207
+#: woocommerce/cart/mini-cart.php:213
 msgid "RETURN TO SHOP"
 msgstr "ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΚΑΤΑΣΤΗΜΑ"
 
@@ -4510,15 +4587,15 @@ msgstr "Επιστροφή στο κατάστημα"
 msgid "Return to the Dashboard"
 msgstr "Επιστρέψτε στον Πίνακα ελέγχου"
 
-#: woocommerce/checkout/form-login.php:18
+#: woocommerce/checkout/form-login.php:19
 msgid "Returning customer?"
 msgstr "Επιστρέφων πελάτης?"
 
-#: admin/theme-admin.php:257
+#: admin/theme-admin.php:252
 msgid "Review Product By Images"
 msgstr "Αξιολογήστε το προϊόν ανά εικόνες"
 
-#: includes/nasa-review-images.php:14
+#: includes/nasa-review-images.php:57
 msgid "Review Product by Images"
 msgstr "Αξιολογήστε το προϊόν ανά εικόνες"
 
@@ -4527,12 +4604,12 @@ msgstr "Αξιολογήστε το προϊόν ανά εικόνες"
 msgid "Review Your Order"
 msgstr "Ελέγξτε την παραγγελία σας"
 
-#: cores/nasa-theme-footers.php:819 woocommerce/single-product-reviews.php:155
+#: cores/nasa-theme-footers.php:857 woocommerce/single-product-reviews.php:181
 msgid "Reviews"
 msgstr "Κριτικές"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:100
-#: admin/settings/nasa_07_3_product_detail_heading.php:313
+#: admin/settings/nasa_07_3_product_detail_heading.php:314
 msgid "Right"
 msgstr "σωστά"
 
@@ -4551,7 +4628,7 @@ msgstr "Δεξιά πλαϊνή μπάρα - Κλασική"
 msgid "Right Sidebar - Off-canvas"
 msgstr "Δεξιά πλευρική γραμμή - Εκτός καμβά"
 
-#: admin/settings/nasa_03_1_header_heading.php:448
+#: admin/settings/nasa_03_1_header_heading.php:450
 #: admin/settings/nasa_07_1_product_global_heading.php:58
 msgid "Right To Left"
 msgstr "Δεξιά προς τα αριστερά"
@@ -4580,8 +4657,8 @@ msgstr "RTL - Επιλέξτε Προσαρμοσμένη γραμματοσει
 msgid "RTL - Text fonts (paragraphs, etc..)"
 msgstr "RTL - Γραμματοσειρές κειμένου (παράγραφοι κ.λπ..)"
 
-#: woocommerce/loop/sale-flash.php:43
-#: woocommerce/single-product/sale-flash.php:44
+#: woocommerce/loop/sale-flash.php:52
+#: woocommerce/single-product/sale-flash.php:53
 msgid "Sale"
 msgstr "Πώληση"
 
@@ -4601,29 +4678,29 @@ msgstr "Αποθηκεύσετε"
 msgid "Save All Changes"
 msgstr "Αποθήκευση όλων των αλλαγών"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:94
+#: admin/settings/nasa_07_3_product_detail_heading.php:95
 msgid "Scroll Images"
 msgstr "Κύλιση εικόνων"
 
-#: searchform.php:104 searchform.php:166 cores/nasa-theme-headers.php:438
+#: searchform.php:105 searchform.php:167 cores/nasa-theme-headers.php:438
 #: includes/nasa-mobile-bottom-bar.php:67
 #: includes/nasa-mobile-bottom-bar.php:69
 msgid "Search"
 msgstr "Αναζήτηση"
 
-#: searchform.php:189
+#: searchform.php:190
 msgid "search"
 msgstr "Αναζήτηση"
 
-#: admin/settings/nasa_03_1_header_heading.php:463
+#: admin/settings/nasa_03_1_header_heading.php:465
 msgid "Search Anything After Submit"
 msgstr "Αναζήτηση για οτιδήποτε μετά την υποβολή"
 
-#: admin/settings/nasa_03_1_header_heading.php:443
+#: admin/settings/nasa_03_1_header_heading.php:445
 msgid "Search Bar Effect"
 msgstr "Εφέ γραμμής αναζήτησης"
 
-#: searchform.php:79
+#: searchform.php:80
 msgid "Search here"
 msgstr "Ψάξε εδώ"
 
@@ -4636,8 +4713,8 @@ msgid "Search icon"
 msgstr "Εικονίδιο αναζήτησης"
 
 #: admin/front-end/options.php:60
-#: admin/settings/nasa_03_1_header_heading.php:436
-#: admin/settings/nasa_03_1_header_heading.php:437
+#: admin/settings/nasa_03_1_header_heading.php:438
+#: admin/settings/nasa_03_1_header_heading.php:439
 msgid "Search Options"
 msgstr "Επιλογές αναζήτησης"
 
@@ -4650,7 +4727,7 @@ msgstr "Αποτελέσματα αναζήτησης για: %s"
 msgid "Search.."
 msgstr "Αναζήτηση.."
 
-#: includes/nasa-change-view.php:223
+#: includes/nasa-change-view.php:228
 msgid "See"
 msgstr "Βλέπω"
 
@@ -4688,7 +4765,7 @@ msgstr "Επιλέξτε Φόρμα Επικοινωνίας"
 msgid "Select Custom Font"
 msgstr "Επιλέξτε Προσαρμοσμένη γραμματοσειρά"
 
-#: cores/nasa-theme-footers.php:835
+#: cores/nasa-theme-footers.php:880
 msgid "Select Options"
 msgstr "Επιλέξτε Επιλογές"
 
@@ -4741,11 +4818,15 @@ msgstr "Ρύθμιση επιλογών θέματος"
 msgid "SETUP YOUR ACCOUNT"
 msgstr "ΡΥΘΜΙΣΤΕ ΤΟΝ ΛΟΓΑΡΙΑΣΜΟ ΣΑΣ"
 
+#: cores/nasa-theme-footers.php:866
+msgid "Share"
+msgstr "Μερίδιο"
+
 #: admin/settings/nasa_08_blog_heading.php:212
 msgid "Share icons"
 msgstr "Κοινή χρήση εικονιδίων"
 
-#: cores/nasa-woo-actions.php:1535
+#: cores/nasa-woo-actions.php:1543
 msgid "Ship to"
 msgstr "Αποστολή προς"
 
@@ -4753,7 +4834,7 @@ msgstr "Αποστολή προς"
 msgid "SHIPPING"
 msgstr "ΑΠΟΣΤΟΛΗ"
 
-#: cores/nasa-woo-actions.php:2512 includes/nasa-mini-cart-shipping.php:26
+#: cores/nasa-woo-actions.php:2520 includes/nasa-mini-cart-shipping.php:26
 msgid "Shipping"
 msgstr "Αποστολή"
 
@@ -4765,7 +4846,7 @@ msgstr "Διεύθυνση αποστολής"
 msgid "Shipping costs are calculated during checkout."
 msgstr "Τα έξοδα αποστολής υπολογίζονται κατά το ταμείο."
 
-#: cores/nasa-woo-actions.php:1560
+#: cores/nasa-woo-actions.php:1568
 msgid "Shipping Methods"
 msgstr "Μέθοδοι Αποστολής"
 
@@ -4794,7 +4875,7 @@ msgstr "Χρώμα φόντου καταστήματος"
 msgid "Shop order"
 msgstr "Παραγγελία καταστήματος"
 
-#: options/nasa-options.php:1261
+#: options/nasa-options.php:1296
 msgid "Shop Sidebar"
 msgstr "Πλαϊνή γραμμή καταστημάτων"
 
@@ -4824,7 +4905,7 @@ msgstr "Καλάθι αγορών - Επιλογές"
 msgid "Short description (Only use for Blog Grid layout)"
 msgstr "Σύντομη περιγραφή (Χρήση μόνο για διάταξη πλέγματος ιστολογίου)"
 
-#: includes/nasa-blog-promotion.php:38
+#: includes/nasa-blog-promotion.php:40
 msgid "Show"
 msgstr "προβολή"
 
@@ -4931,9 +5012,22 @@ msgstr "Συνδεθείτε εδώ"
 msgid "SIGN IN TO YOUR ACCOUNT"
 msgstr "ΣΥΝΔΕΘΕΙΤΕ ΣΤΟ ΛΟΓΑΡΙΑΣΜΟ ΣΑΣ"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:281
+#: admin/settings/nasa_07_2_product_page_heading.php:289
 msgid "Simple"
 msgstr "Απλός"
+
+#. $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:43
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Εφόσον το πρόγραμμα περιήγησής σας δεν υποστηρίζει JavaScript ή είναι "
+"απενεργοποιημένο, βεβαιωθείτε ότι έχετε κάνει κλικ στο κουμπί %1$sΕνημέρωση "
+"συνόλων%2$s προτού υποβάλετε την παραγγελία σας. Εάν δεν το κάνετε, "
+"ενδέχεται να χρεωθείτε περισσότερο από το ποσό που αναφέρεται παραπάνω."
 
 #: admin/settings/nasa_08_blog_heading.php:179
 msgid "Single Blog page"
@@ -4984,13 +5078,13 @@ msgstr "Εικόνα φόντου τοποθεσίας - Διάταξη σε π�
 msgid "Site Layout"
 msgstr "Διάταξη τοποθεσίας"
 
-#: admin/settings/nasa_01_general_heading.php:221
+#: admin/settings/nasa_01_general_heading.php:308
 msgid "Skip Load - Files CSS - Checkin it if you don't want your site call"
 msgstr ""
 "Παράλειψη φόρτωσης - Αρχεία CSS - Ελέγξτε εάν δεν θέλετε την κλήση του "
 "ιστότοπού σας"
 
-#: cores/nasa-woo-actions.php:2114 options/nasa-options.php:752
+#: cores/nasa-woo-actions.php:2135 options/nasa-options.php:773
 #: woocommerce/single-product/meta.php:25
 msgid "SKU:"
 msgstr "SKU:"
@@ -4999,11 +5093,11 @@ msgstr "SKU:"
 msgid "Slide"
 msgstr "Ολίσθηση"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:93
+#: admin/settings/nasa_07_3_product_detail_heading.php:94
 msgid "Slide Images"
 msgstr "Εικόνες διαφανειών"
 
-#: admin/settings/nasa_03_1_header_heading.php:678
+#: admin/settings/nasa_03_1_header_heading.php:682
 msgid "Slide Show"
 msgstr "Παρουσίαση"
 
@@ -5023,7 +5117,7 @@ msgstr "Μικρή απόσταση"
 msgid "Sold By: "
 msgstr "Πουλήθηκε από:"
 
-#: cores/nasa-woo-actions.php:2181 includes/nasa-content-product-gift.php:62
+#: cores/nasa-woo-actions.php:2202 includes/nasa-content-product-gift.php:62
 msgid "Sold Out"
 msgstr "Εξαντλημένα"
 
@@ -5048,7 +5142,7 @@ msgstr ""
 "άλλο χρονικό όριο λήξης διακομιστή ιστού σε τουλάχιστον 300 δευτερόλεπτα) "
 "και το memory_limit (σε τουλάχιστον 196M)."
 
-#: cores/nasa-custom-wc-ajax.php:1324
+#: cores/nasa-custom-wc-ajax.php:1365
 msgid "Sorry there was a problem removing this coupon."
 msgstr ""
 "Λυπούμαστε, παρουσιάστηκε πρόβλημα κατά την αφαίρεση αυτού του κουπονιού."
@@ -5069,11 +5163,20 @@ msgstr ""
 "Λυπούμαστε, αλλά η σελίδα που ψάχνετε δεν βρέθηκε. Βεβαιωθείτε ότι έχετε "
 "πληκτρολογήσει την τρέχουσα διεύθυνση URL."
 
-#: cores/nasa-custom-wc-ajax.php:594
+#: woocommerce/checkout/payment.php:26
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+"Λυπούμαστε, φαίνεται ότι δεν υπάρχουν διαθέσιμοι τρόποι πληρωμής. "
+"Επικοινωνήστε μαζί μας εάν χρειάζεστε βοήθεια ή θέλετε να κάνετε "
+"εναλλακτικές ρυθμίσεις."
+
+#: cores/nasa-custom-wc-ajax.php:595
 msgid "Sorry, Maybe product empty in stock."
 msgstr "Λυπούμαστε, ίσως το προϊόν είναι κενό σε απόθεμα."
 
-#: options/nasa-options.php:702
+#: options/nasa-options.php:704
 msgid ""
 "Sorry, no products matched your selection. Please choose a different "
 "combination."
@@ -5081,7 +5184,7 @@ msgstr ""
 "Λυπούμαστε, κανένα προϊόν δεν ταιριάζει με την επιλογή σας. Επιλέξτε "
 "διαφορετικό συνδυασμό."
 
-#: cores/nasa-custom-wc-ajax.php:446 cores/nasa-custom-wc-ajax.php:468
+#: cores/nasa-custom-wc-ajax.php:447 cores/nasa-custom-wc-ajax.php:469
 msgid "Sorry, Product is not existing."
 msgstr "Λυπούμαστε, το προϊόν δεν υπάρχει."
 
@@ -5093,14 +5196,14 @@ msgstr "Λυπούμαστε, το προϊόν δεν υπάρχει."
 msgid "Sorry, there has been an error."
 msgstr "Λυπούμαστε, υπήρξε σφάλμα."
 
-#: options/nasa-options.php:704
+#: options/nasa-options.php:706
 msgid ""
 "Sorry, this product is unavailable. Please choose a different combination."
 msgstr ""
 "Λυπούμαστε, αυτό το προϊόν δεν είναι διαθέσιμο. Επιλέξτε διαφορετικό "
 "συνδυασμό."
 
-#: options/nasa-options.php:760
+#: options/nasa-options.php:781
 msgid "Sorry. No results match your search."
 msgstr ""
 "Συγνώμη. Δεν υπάρχουν αποτελέσματα που να αντιστοιχούν στην αναζήτησή σας."
@@ -5133,7 +5236,7 @@ msgstr "Πρότυπο"
 msgid "START IMPORT SAMPLE DATA"
 msgstr "ΕΝΑΡΞΗ ΕΙΣΑΓΩΓΗΣ ΔΕΙΓΜΑΤΩΝ ΔΕΔΟΜΕΝΩΝ"
 
-#: searchform.php:28 searchform.php:124
+#: searchform.php:29 searchform.php:125
 msgid "Start typing ..."
 msgstr "Ξεκινήστε να πληκτρολογείτε..."
 
@@ -5157,19 +5260,19 @@ msgstr "Βήμα 3: Εισαγωγή περιεχομένου"
 msgid "Step Change"
 msgstr "Βήμα Αλλαγή"
 
-#: admin/settings/nasa_03_1_header_heading.php:366
+#: admin/settings/nasa_03_1_header_heading.php:368
 msgid "Sticky"
 msgstr "Κολλώδης"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:235
+#: admin/settings/nasa_07_3_product_detail_heading.php:236
 msgid "Sticky Add To Cart"
 msgstr "Sticky Προσθήκη στο καλάθι"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:260
+#: admin/settings/nasa_07_3_product_detail_heading.php:261
 msgid "Sticky Add To Cart In Mobile"
 msgstr "Sticky Προσθήκη στο καλάθι στο κινητό"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:242
+#: admin/settings/nasa_07_3_product_detail_heading.php:243
 msgid "Sticky Buy Now - Desktop"
 msgstr "Sticky Buy Now - Desktop"
 
@@ -5186,7 +5289,7 @@ msgstr "Επιλογές κολλώδους λογότυπου"
 msgid "Sticky Sidebar"
 msgstr "Κολλώδης πλευρική γραμμή"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:383
+#: admin/settings/nasa_07_3_product_detail_heading.php:384
 msgid "Stock Progress Bar"
 msgstr "Γραμμή προόδου μετοχών"
 
@@ -5224,16 +5327,16 @@ msgstr "Στυλ"
 msgid "Style and Colors"
 msgstr "Στυλ και Χρώματα"
 
-#: cores/nasa-woo-functions.php:1441
+#: cores/nasa-woo-functions.php:1597
 msgid "Subcategories: "
 msgstr "Υποκατηγορίες:"
 
-#: woocommerce/single-product-reviews.php:101
+#: woocommerce/single-product-reviews.php:118
 #: admin/importer/wordpress-importer.php:318
 msgid "Submit"
 msgstr "υποβάλλουν"
 
-#: cores/nasa-woo-actions.php:2409 woocommerce/cart/cart.php:31
+#: cores/nasa-woo-actions.php:2417 woocommerce/cart/cart.php:31
 #: woocommerce/checkout/review-order.php:20
 #: woocommerce/checkout/review-order.php:107
 msgid "Subtotal"
@@ -5251,19 +5354,19 @@ msgstr "ΜΕΡΙΚΟ ΣΥΝΟΛΟ&nbsp;&nbsp;&nbsp;"
 msgid "Success Color"
 msgstr "Χρώμα επιτυχίας"
 
-#: cores/nasa-theme-footers.php:358
+#: cores/nasa-theme-footers.php:391
 msgid "Successfully added to your cart."
 msgstr "Προστέθηκε με επιτυχία στο καλάθι σας."
 
-#: admin/settings/nasa_03_1_header_heading.php:495
-msgid "Suggested Keywords"
-msgstr "Προτεινόμενες λέξεις-κλειδιά"
+#: admin/settings/nasa_03_1_header_heading.php:508
+msgid "Suggested Keywords - (Header type 1, 2, 5, 7)"
+msgstr "Προτεινόμενες λέξεις-κλειδιά - (Τύπος κεφαλίδας 1, 2, 5, 7)"
 
 #: admin/settings/nasa_05_type_heading.php:313
 msgid "Support Font Icons"
 msgstr "Υποστήριξη εικονιδίων γραμματοσειράς"
 
-#: admin/settings/nasa_03_1_header_heading.php:480
+#: admin/settings/nasa_03_1_header_heading.php:482
 msgid "Support Search By SKU"
 msgstr "Υποστήριξη αναζήτησης κατά SKU"
 
@@ -5271,24 +5374,24 @@ msgstr "Υποστήριξη αναζήτησης κατά SKU"
 msgid "Support Upload ICO medias"
 msgstr "Υποστήριξη Μεταφόρτωση μέσων ICO"
 
-#: admin/settings/nasa_01_general_heading.php:127
+#: admin/settings/nasa_01_general_heading.php:196
 msgid "Support Upload SVG medias"
 msgstr "Υποστήριξη Μεταφόρτωση μέσων SVG"
 
-#: admin/settings/nasa_01_general_heading.php:214
+#: admin/settings/nasa_01_general_heading.php:301
 msgid "Sync"
 msgstr "Συγχρονισμός"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:352
+#: admin/settings/nasa_07_3_product_detail_heading.php:353
 msgid "Tab Global"
 msgstr "Καρτέλα Παγκόσμια"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:583
-#: admin/settings/nasa_07_2_product_page_heading.php:224
+#: admin/settings/nasa_07_2_product_page_heading.php:232
 msgid "Tablet Columns"
 msgstr "Στήλες tablet"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:306
+#: admin/settings/nasa_07_3_product_detail_heading.php:307
 msgid "Tabs Align"
 msgstr "Ευθυγράμμιση καρτελών"
 
@@ -5296,7 +5399,7 @@ msgstr "Ευθυγράμμιση καρτελών"
 msgid "Tabs Background color"
 msgstr "Καρτέλες Χρώμα φόντου"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:284
+#: admin/settings/nasa_07_3_product_detail_heading.php:285
 msgid "Tabs Layouts"
 msgstr "Διατάξεις καρτελών"
 
@@ -5310,7 +5413,7 @@ msgid "Tag Archives: %s"
 msgstr "Αρχεία ετικετών: %s"
 
 #: includes/nasa-blog-grid.php:98 includes/nasa-blog-list.php:96
-#: includes/nasa-blog-masonry-isotope.php:104
+#: includes/nasa-blog-masonry-isotope.php:103
 #: includes/nasa-blog-standard.php:90
 #, php-format
 msgid "Tagged %1$s"
@@ -5345,7 +5448,7 @@ msgstr "Χρώμα κειμένου"
 msgid "Text fonts (paragraphs, etc..)"
 msgstr "Γραμματοσειρές κειμένου (παράγραφοι, κ.λπ..)"
 
-#: admin/settings/nasa_03_1_header_heading.php:695
+#: admin/settings/nasa_03_1_header_heading.php:708
 msgid "Text Promotion Color"
 msgstr "Χρώμα προώθησης κειμένου"
 
@@ -5355,19 +5458,23 @@ msgstr "Χρώμα προώθησης κειμένου"
 msgid "TGMPA v%s"
 msgstr "TGMPA v%s"
 
-#: admin/settings/nasa_03_1_header_heading.php:342
+#: woocommerce/single-product-reviews.php:95
+msgid "Thank you!"
+msgstr "Σας ευχαριστώ!"
+
+#: admin/settings/nasa_03_1_header_heading.php:344
 msgid "The Block beside Logo in Header Type 2"
 msgstr "Το μπλοκ δίπλα στο λογότυπο στον τύπο κεφαλίδας 2"
 
-#: admin/settings/nasa_03_1_header_heading.php:354
+#: admin/settings/nasa_03_1_header_heading.php:356
 msgid "The Block beside Main menu in Header Type 4, 6"
 msgstr "Το Μπλοκ δίπλα στο Κύριο μενού στον Τύπο κεφαλίδας 4, 6"
 
-#: admin/settings/nasa_01_general_heading.php:172
+#: admin/settings/nasa_01_general_heading.php:259
 msgid "The block editor from managing widgets"
 msgstr "Ο επεξεργαστής μπλοκ από τη διαχείριση γραφικών στοιχείων"
 
-#: admin/settings/nasa_03_1_header_heading.php:330
+#: admin/settings/nasa_03_1_header_heading.php:332
 msgid "The Block Under Header"
 msgstr "Το μπλοκ κάτω από την κεφαλίδα"
 
@@ -5478,6 +5585,10 @@ msgstr ""
 "Η πλοήγηση στο επάνω μέρος για κινητά θα εμφανίζεται μόνο όταν ο ιστότοπος "
 "βρίσκεται σε λειτουργία εφαρμογής για κινητά"
 
+#: cores/nasa-custom-wc-ajax.php:861
+msgid "The page location you are viewing is marked with"
+msgstr "Η τοποθεσία της σελίδας με την οποία προβάλλετε επισημαίνεται"
+
 #: admin/classes/class-tgm-plugin-activation.php:1026
 msgid ""
 "The remote plugin package consists of more than one file, but the files are "
@@ -5515,7 +5626,7 @@ msgid "Theme has not been installed or enabled Wishlist Feature."
 msgstr "Το θέμα δεν έχει εγκατασταθεί ή ενεργοποιηθεί η λειτουργία Wishlist."
 
 #: admin/front-end/options.php:23 admin/front-end/options.php:41
-#: admin/functions/functions.interface.php:74
+#: admin/functions/functions.interface.php:73
 msgid "Theme Options"
 msgstr "επιλογές θέματος"
 
@@ -5523,7 +5634,7 @@ msgstr "επιλογές θέματος"
 msgid "Theme Setup"
 msgstr "Ρύθμιση θέματος"
 
-#: woocommerce/single-product-reviews.php:181
+#: woocommerce/single-product-reviews.php:207
 msgid "There are no reviews yet."
 msgstr "Δεν υπάρχουν σχόλια ακόμη."
 
@@ -5543,7 +5654,7 @@ msgstr ""
 "Υπάρχουν ένα ή περισσότερα απαιτούμενα ή προτεινόμενα πρόσθετα για "
 "εγκατάσταση, ενημέρωση ή ενεργοποίηση."
 
-#: cores/nasa-theme-footers.php:442
+#: cores/nasa-theme-footers.php:475
 #, php-format
 #| msgid ""
 #| "There are <span class=\"primary-color\"> %s item</span> in your cart."
@@ -5574,7 +5685,7 @@ msgid ""
 msgstr ""
 "Αυτό δεν φαίνεται να είναι αρχείο WXR, λείπει/μη έγκυρος αριθμός έκδοσης WXR"
 
-#: cores/nasa-woo-actions.php:1502
+#: cores/nasa-woo-actions.php:1510 woocommerce/single-product-reviews.php:37
 msgid "This field is required."
 msgstr "Αυτό το πεδίο είναι υποχρεωτικό."
 
@@ -5626,7 +5737,7 @@ msgstr ""
 "Αυτό το αρχείο WXR (έκδοση %s) ενδέχεται να μην υποστηρίζεται από αυτήν την "
 "έκδοση του εισαγωγέα. Εξετάστε το ενδεχόμενο ενημέρωσης."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:102
+#: admin/settings/nasa_07_3_product_detail_heading.php:103
 msgid "Thumbnail Layout"
 msgstr "Διάταξη μικρογραφιών"
 
@@ -5644,6 +5755,7 @@ msgstr "Μικροσκοπικός"
 
 #: widgets/wg-nasa-product-brands.php:42
 #: widgets/wg-nasa-product-categories.php:64
+#: widgets/wg-nasa-product-filter-alphabet.php:32
 #: widgets/wg-nasa-product-filter-multi-categories.php:38
 #: widgets/wg-nasa-product-filter-multi-tags.php:38
 #: widgets/wg-nasa-product-filter-price-list.php:26
@@ -5688,6 +5800,10 @@ msgstr ""
 "παράδειγμα, μπορεί να θέλετε να εισαγάγετε όλες τις καταχωρήσεις ως "
 "καταχωρήσεις <code>admin</code>."
 
+#: cores/nasa-theme-footers.php:866
+msgid "Toggle fullscreen"
+msgstr "Λειτουργεία πλήρους οθόνης"
+
 #: cores/nasa-theme-options.php:119
 msgid "Toggle Icon"
 msgstr "Εναλλαγή εικονιδίου"
@@ -5696,19 +5812,19 @@ msgstr "Εναλλαγή εικονιδίου"
 msgid "Toggle Sidebar"
 msgstr "Εναλλαγή πλευρικής γραμμής"
 
-#: admin/settings/nasa_03_1_header_heading.php:543
+#: admin/settings/nasa_03_1_header_heading.php:547
 msgid "Toggle Top Bar"
 msgstr "Εναλλαγή επάνω γραμμής"
 
-#: admin/settings/nasa_03_1_header_heading.php:553
+#: admin/settings/nasa_03_1_header_heading.php:557
 msgid "Toggle Top Bar - Initialize"
 msgstr "Εναλλαγή επάνω γραμμής - Εκκίνηση"
 
-#: admin/settings/nasa_01_general_heading.php:148
+#: admin/settings/nasa_01_general_heading.php:235
 msgid "Toggle Widget Content"
 msgstr "Εναλλαγή περιεχομένου γραφικών στοιχείων"
 
-#: admin/settings/nasa_01_general_heading.php:155
+#: admin/settings/nasa_01_general_heading.php:242
 msgid "Toggle Widget Content - Always Close"
 msgstr "Εναλλαγή Περιεχομένου Widget - Πάντα Κλείσιμο"
 
@@ -5716,12 +5832,12 @@ msgstr "Εναλλαγή Περιεχομένου Widget - Πάντα Κλείσ
 msgid "Top"
 msgstr "Μπλουζα"
 
-#: admin/settings/nasa_03_1_header_heading.php:533
+#: admin/settings/nasa_03_1_header_heading.php:537
 #: admin/settings/nasa_07_2_product_page_heading.php:30
 msgid "Top Bar"
 msgstr "Top Bar"
 
-#: admin/settings/nasa_03_1_header_heading.php:586
+#: admin/settings/nasa_03_1_header_heading.php:590
 msgid "Top Bar Content"
 msgstr "Κορυφαίο περιεχόμενο μπαρ"
 
@@ -5730,14 +5846,18 @@ msgid "Top Bar Limit widgets to Show More"
 msgstr ""
 "Κορυφαία γραμμή Περιορίστε τα γραφικά στοιχεία για εμφάνιση περισσότερων"
 
-#: admin/settings/nasa_03_1_header_heading.php:526
-#: admin/settings/nasa_03_1_header_heading.php:527
+#: admin/settings/nasa_03_1_header_heading.php:530
+#: admin/settings/nasa_03_1_header_heading.php:531
 msgid "Top Bar Options"
 msgstr "Επιλογές επάνω γραμμής"
 
-#: admin/settings/nasa_03_1_header_heading.php:626
+#: admin/settings/nasa_03_1_header_heading.php:630
 msgid "Top Bar Promotion News"
 msgstr "Κορυφαία Νέα Προώθηση Μπαρ"
+
+#: admin/settings/nasa_03_1_header_heading.php:692
+msgid "Top Bar Promotion News Auto Scroll"
+msgstr "Αυτόματη κύλιση ειδήσεων προώθησης κορυφαίας γραμμής"
 
 #: admin/settings/nasa_07_2_product_page_heading.php:31
 msgid "Top Bar Type 2"
@@ -5751,7 +5871,7 @@ msgstr "Top Bar Type 3"
 msgid "Top Filter Categories"
 msgstr "Κορυφαίες κατηγορίες φίλτρων"
 
-#: functions.php:102
+#: functions.php:103
 msgid "Top Menu - Only show level 1"
 msgstr "Κορυφαίο μενού - Εμφάνιση μόνο επιπέδου 1"
 
@@ -5759,15 +5879,15 @@ msgstr "Κορυφαίο μενού - Εμφάνιση μόνο επιπέδου
 msgid "Top To Bottom"
 msgstr "Από πάνω προς τα κάτω"
 
-#: admin/settings/nasa_03_1_header_heading.php:598
+#: admin/settings/nasa_03_1_header_heading.php:602
 msgid "Topbar Background"
 msgstr "Φόντο Topbar"
 
-#: admin/settings/nasa_03_1_header_heading.php:605
+#: admin/settings/nasa_03_1_header_heading.php:609
 msgid "Topbar Text color"
 msgstr "Χρώμα κειμένου επάνω γραμμής"
 
-#: admin/settings/nasa_03_1_header_heading.php:612
+#: admin/settings/nasa_03_1_header_heading.php:616
 msgid "Topbar Text color hover"
 msgstr "Τοποθετήστε το δείκτη του ποντικιού χρώματος κειμένου επάνω γραμμής"
 
@@ -5790,7 +5910,7 @@ msgstr ""
 msgid "Transfer Theme Options Data"
 msgstr "Μεταφορά δεδομένων επιλογών θέματος"
 
-#: admin/settings/nasa_01_general_heading.php:91
+#: admin/settings/nasa_01_general_heading.php:160
 msgid "Transition Loading"
 msgstr "Φόρτωση μετάβασης"
 
@@ -5811,11 +5931,11 @@ msgstr "Τύπος"
 msgid "Type Font"
 msgstr "Πληκτρολογήστε Γραμματοσειρά"
 
-#: admin/theme-admin.php:311
+#: admin/theme-admin.php:333
 msgid "Type of Template"
 msgstr "Τύπος προτύπου"
 
-#: admin/settings/nasa_03_1_header_heading.php:633
+#: admin/settings/nasa_03_1_header_heading.php:637
 msgid "Type Show"
 msgstr "Πληκτρολογήστε Εμφάνιση"
 
@@ -5846,7 +5966,7 @@ msgstr ""
 "Δυστυχώς, η παραγγελία σας δεν μπορεί να διεκπεραιωθεί, καθώς η αρχική "
 "τράπεζα/έμπορος απέρριψε τη συναλλαγή σας. Δοκιμάστε ξανά την αγορά σας."
 
-#: admin/theme-admin.php:351
+#: admin/theme-admin.php:373
 msgid "Unknown"
 msgstr "Αγνωστος"
 
@@ -5874,7 +5994,7 @@ msgstr[1] "Διαθέσιμη ενημέρωση <span class=\"count\">(%s)</spa
 
 #: includes/nasa-after-add-to-cart.php:161
 #: includes/nasa-after-add-to-cart.php:162 woocommerce/cart/cart.php:181
-#: woocommerce/cart/cart.php:182 woocommerce/cart/mini-cart.php:27
+#: woocommerce/cart/cart.php:182 woocommerce/cart/mini-cart.php:30
 msgid "Update Cart"
 msgstr "Ενημέρωση καλαθιού"
 
@@ -5885,6 +6005,10 @@ msgstr "Συνιστάται ενημέρωση"
 #: admin/classes/class-tgm-plugin-activation.php:590
 msgid "Update Required"
 msgstr "Απαιτείται αναβάθμιση"
+
+#: woocommerce/checkout/payment.php:45
+msgid "Update totals"
+msgstr "Ενημέρωση συνόλων"
 
 #. 1: plugin name, 2: action number 3: total number of actions.
 #: admin/classes/class-tgm-plugin-activation.php:3564
@@ -5920,6 +6044,16 @@ msgstr "Μεταφόρτωση προσαρμοσμένης γραμματοσε
 msgid "Upload new custom font success!"
 msgstr "Επιτυχία μεταφόρτωσης νέας προσαρμοσμένης γραμματοσειράς!"
 
+#: cores/nasa-woo-functions.php:2239
+msgid "Upload photos"
+msgstr "Ανεβάστε φωτογραφίες"
+
+#: cores/nasa-woo-functions.php:2285
+msgid "Upload video"
+msgid_plural "Upload videos"
+msgstr[0] "Ανεβάστε βίντεο"
+msgstr[1] "Ανεβάστε βίντεο"
+
 #: includes/nasa-checkout-modern-billing-detail.php:33
 msgid "Use a different billing address"
 msgstr "Χρησιμοποιήστε διαφορετική διεύθυνση χρέωσης"
@@ -5933,7 +6067,7 @@ msgid "Username is required."
 msgstr "Απαιτείται όνομα χρήστη."
 
 #: includes/nasa-login-register-form.php:62
-#: woocommerce/global/form-login.php:25
+#: woocommerce/global/form-login.php:26
 msgid "Username or email"
 msgstr "Ονομα χρήστη ή διεύθυνση ηλεκτρονικού ταχυδρομίου"
 
@@ -5945,7 +6079,7 @@ msgstr "Χρώμα σήματος παραλλαγών"
 msgid "Verdana, Geneva"
 msgstr "Verdana, Γενεύη"
 
-#: cores/nasa-theme-footers.php:675 admin/classes/class.options_machine.php:856
+#: cores/nasa-theme-footers.php:712 admin/classes/class.options_machine.php:856
 #: admin/classes/class.options_machine.php:901
 msgid "Verified"
 msgstr "Επαληθεύτηκε"
@@ -5955,11 +6089,11 @@ msgid "Version"
 msgstr "Εκδοχή"
 
 #: cores/nasa-theme-options.php:74
-#: admin/settings/nasa_07_3_product_detail_heading.php:107
+#: admin/settings/nasa_07_3_product_detail_heading.php:108
 msgid "Vertical"
 msgstr "Κατακόρυφος"
 
-#: functions.php:101 admin/settings/nasa_03_1_header_heading.php:129
+#: functions.php:102 admin/settings/nasa_03_1_header_heading.php:129
 msgid "Vertical Menu"
 msgstr "Κάθετο Μενού"
 
@@ -5991,7 +6125,7 @@ msgstr "Κάθετο επίπεδο ρίζας - Όριο"
 msgid "Vertical Root Level - Parent - 0"
 msgstr "Κάθετο επίπεδο ρίζας - γονικό - 0"
 
-#: woocommerce/single-product-reviews.php:131
+#: woocommerce/single-product-reviews.php:150
 msgid "Very poor"
 msgstr "Πολύ φτωχό"
 
@@ -6007,7 +6141,7 @@ msgstr "Βίντεο"
 msgid "Vietnamese"
 msgstr "Βιετναμέζικο"
 
-#: cores/nasa-woo-actions.php:1852 cores/nasa-woo-actions.php:1853
+#: cores/nasa-woo-actions.php:1864 cores/nasa-woo-actions.php:1865
 #: woocommerce/content-widget-product.php:77
 msgid "View"
 msgstr "Θέα"
@@ -6034,7 +6168,7 @@ msgstr "Δείτε περισσότερα"
 msgid "View Product Information"
 msgstr "Προβολή πληροφοριών προϊόντος"
 
-#: cores/nasa-woo-actions.php:1902
+#: cores/nasa-woo-actions.php:1915
 msgid "View the promotion gifts"
 msgstr "Δείτε τα δώρα προσφοράς"
 
@@ -6062,7 +6196,7 @@ msgstr "Web Mobile"
 msgid "Weekly Store Timing"
 msgstr "Εβδομαδιαίος χρόνος καταστήματος"
 
-#: cores/nasa-woo-functions.php:1642
+#: cores/nasa-woo-functions.php:1798
 msgid "Welcome"
 msgstr "καλως ΗΡΘΑΤΕ"
 
@@ -6082,12 +6216,16 @@ msgstr ""
 " θα εμφανιστεί ένα αναδυόμενο παράθυρο που θα περιέχει τις πληροφορίες που "
 "επιλέξατε στην ενότητα (Περιεχόμενο πρόθεσης εξόδου αναδυόμενου παραθύρου)."
 
+#: cores/nasa-theme-footers.php:218
+msgid "Where You Are"
+msgstr "Εκεί που είσαι"
+
 #: admin/settings/nasa_01_general_heading.php:38
 msgid "Wide"
 msgstr "Πλατύς"
 
-#: admin/settings/nasa_01_general_heading.php:142
-#: admin/settings/nasa_01_general_heading.php:143
+#: admin/settings/nasa_01_general_heading.php:229
+#: admin/settings/nasa_01_general_heading.php:230
 msgid "Widget Options"
 msgstr "Επιλογές widget"
 
@@ -6107,12 +6245,12 @@ msgstr "Πλάτος - Κολλώδες λογότυπο"
 msgid "Width full side"
 msgstr "Πλάτος πλήρης πλευρά"
 
-#: cores/nasa-theme-footers.php:486 cores/nasa-wishlist.php:177
-#: cores/nasa-wishlist.php:224 cores/nasa-woo-functions.php:537
-#: cores/nasa-woo-functions.php:537 cores/nasa-woo-functions.php:578
-#: cores/nasa-woo-functions.php:583 cores/nasa-woo-functions.php:602
-#: cores/nasa-woo-functions.php:607 cores/nasa-woo-functions.php:1158
-#: cores/nasa-woo-functions.php:1158 includes/nasa-mobile-bottom-bar-app.php:84
+#: cores/nasa-theme-footers.php:519 cores/nasa-wishlist.php:174
+#: cores/nasa-wishlist.php:224 cores/nasa-woo-functions.php:685
+#: cores/nasa-woo-functions.php:685 cores/nasa-woo-functions.php:726
+#: cores/nasa-woo-functions.php:731 cores/nasa-woo-functions.php:750
+#: cores/nasa-woo-functions.php:755 cores/nasa-woo-functions.php:1310
+#: cores/nasa-woo-functions.php:1310 includes/nasa-mobile-bottom-bar-app.php:84
 #: includes/nasa-mobile-bottom-bar-app.php:86
 #: includes/nasa-mobile-bottom-bar.php:84
 #: includes/nasa-mobile-bottom-bar.php:86
@@ -6124,7 +6262,7 @@ msgstr "Λίστα επιθυμιών"
 msgid "Wishlist Options"
 msgstr "Επιλογές λίστας επιθυμιών"
 
-#: includes/nasa-sidebar-wishlist_content.php:199
+#: includes/nasa-sidebar-wishlist_content.php:202
 msgid "Wishlist Page"
 msgstr "Σελίδα λίστας επιθυμιών"
 
@@ -6148,18 +6286,18 @@ msgstr "Χωρίς φόντο - Προεπιλεγμένη χρήση Χρώμα
 msgid "Without Border Wrapper"
 msgstr "Χωρίς περιτύλιγμα"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:278
 #: admin/settings/nasa_07_3_product_detail_heading.php:279
+#: admin/settings/nasa_07_3_product_detail_heading.php:280
 msgid "WooCommerce Tabs - Options"
 msgstr "Καρτέλες WooCommerce - Επιλογές"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:328
+#: admin/settings/nasa_07_3_product_detail_heading.php:329
 msgid "WooCommerce Tabs - Read more / Show less (Mobile App - Simulator)"
 msgstr ""
 "Καρτέλες WooCommerce - Διαβάστε περισσότερα / Εμφάνιση λιγότερων (Εφαρμογή "
 "για κινητά - Προσομοιωτής)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:321
+#: admin/settings/nasa_07_3_product_detail_heading.php:322
 msgid ""
 "WooCommerce Tabs Off - Canvas in Mobile (Not use Mobile App - Simulator)"
 msgstr ""
@@ -6183,11 +6321,11 @@ msgstr "Εργαζόμενος..."
 msgid "WPBakery - Homepage List"
 msgstr "WPBakery - Λίστα αρχικής σελίδας"
 
-#: admin/settings/nasa_01_general_heading.php:162
+#: admin/settings/nasa_01_general_heading.php:249
 msgid "Wrapper Widget - Sidebar Classic"
 msgstr "Wrapper Widget - Sidebar Classic"
 
-#: cores/nasa-theme-footers.php:821
+#: cores/nasa-theme-footers.php:859 woocommerce/single-product-reviews.php:164
 msgid "Write a review"
 msgstr "Γράψτε μια κριτική"
 
@@ -6205,18 +6343,18 @@ msgstr "Ετήσια αρχεία: %s"
 #: admin/settings/nasa_03_1_header_heading.php:274
 #: admin/settings/nasa_07_1_product_global_heading.php:383
 #: admin/settings/nasa_07_1_product_global_heading.php:517
-#: admin/settings/nasa_07_2_product_page_heading.php:292
+#: admin/settings/nasa_07_2_product_page_heading.php:300
 msgid "Yes"
 msgstr "Ναί"
 
 #: cores/nasa-theme-options.php:24 cores/nasa-theme-options.php:134
 #: cores/nasa-theme-options.php:143 cores/nasa-theme-options.php:199
 #: cores/nasa-theme-options.php:211
-#: admin/settings/nasa_01_general_heading.php:120
-#: admin/settings/nasa_01_general_heading.php:128
+#: admin/settings/nasa_01_general_heading.php:189
+#: admin/settings/nasa_01_general_heading.php:197
 #: admin/settings/nasa_03_3_mobile_heading.php:116
 #: admin/settings/nasa_07_1_product_global_heading.php:366
-#: admin/settings/nasa_07_3_product_detail_heading.php:343
+#: admin/settings/nasa_07_3_product_detail_heading.php:344
 #: admin/settings/nasa_09_promo_popup_heading.php:36
 msgid "Yes, Please!"
 msgstr "Ναι παρακαλώ!"
@@ -6256,7 +6394,7 @@ msgid "You may be interested in&hellip;"
 msgstr "Μπορεί να σας ενδιαφέρει&hellip;"
 
 #. %s opening and closing link tags respectively
-#: woocommerce/single-product-reviews.php:112
+#: woocommerce/single-product-reviews.php:130
 #, php-format
 msgid "You must be %1$slogged in%2$s to post a review."
 msgstr "Πρέπει να έχετε %1$s συνδεδεμένο %2$s για να δημοσιεύσετε μια κριτική."
@@ -6273,12 +6411,12 @@ msgstr "Πρέπει να είστε συνδεδεμένοι για την ολ
 msgid "Your access is restricted because of your age."
 msgstr "Η πρόσβασή σας είναι περιορισμένη λόγω της ηλικίας σας."
 
-#: cores/nasa-woo-actions.php:683 cores/nasa-woo-actions.php:694
-#: cores/nasa-woo-actions.php:699
+#: cores/nasa-woo-actions.php:686 cores/nasa-woo-actions.php:697
+#: cores/nasa-woo-actions.php:702
 msgid "Your cart is currently empty."
 msgstr "Το καλάθι σας είναι άδειο."
 
-#: cores/nasa-woo-functions.php:48
+#: cores/nasa-woo-functions.php:30
 #| msgid ""
 #| "<span class=\"nasa-extra-empty\">Before proceed to checkout you must add "
 #| "some products to shopping cart.<br />You will find a lot of interesting "
@@ -6292,7 +6430,7 @@ msgstr ""
 "στο ταμείο, πρέπει να προσθέσετε ορισμένα προϊόντα στο καλάθι αγορών.<br />"
 "Θα βρείτε πολλά ενδιαφέροντα προϊόντα στη σελίδα \"Κατάστημα\". </span>"
 
-#: cores/nasa-custom-wc-ajax.php:861
+#: cores/nasa-custom-wc-ajax.php:902
 msgid "Your checkout time has expired."
 msgstr "Ο χρόνος αγοράς σας έχει λήξει."
 
@@ -6305,17 +6443,25 @@ msgstr "Το σχόλιό σας αναμένει εποπτεία."
 msgid "Your Order"
 msgstr "Παραγγελία σας"
 
-#: cores/nasa-custom-wc-ajax.php:1369
+#: cores/nasa-custom-wc-ajax.php:1410
 msgid "Your order notes saved."
 msgstr "Οι σημειώσεις της παραγγελίας σας αποθηκεύτηκαν."
 
-#: woocommerce/single-product-reviews.php:125
+#: woocommerce/single-product-reviews.php:143
 msgid "Your rating"
 msgstr "Η βαθμολογία σας"
 
-#: woocommerce/single-product-reviews.php:135
+#: woocommerce/single-product-reviews.php:154
 msgid "Your review"
 msgstr "Η δικιά σου κριτική"
+
+#: woocommerce/single-product-reviews.php:154
+msgid "Your review *"
+msgstr "Η κριτική σας *"
+
+#: cores/nasa-woo-functions.php:2654 woocommerce/single-product-reviews.php:96
+msgid "Your review has been submitted"
+msgstr "Η κριτική σας έχει υποβληθεί"
 
 #: admin/importer/tpl-import-demo-data.php:161
 #: admin/importer/tpl-import-demo-data.php:183
@@ -6333,3 +6479,7 @@ msgstr "Λήψη αρχείου μηδενικού μεγέθους"
 #: admin/settings/nasa_07_1_product_global_heading.php:52
 msgid "Zoom"
 msgstr "Ανίπταμαι διαγωνίως"
+
+#: cores/nasa-theme-footers.php:866
+msgid "Zoom in/out"
+msgstr "Μεγέθυνση/σμίκρυνση"

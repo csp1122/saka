@@ -1,4 +1,7 @@
 <?php
+
+use function WPML\FP\apply;
+
 defined('ABSPATH') or die(); // Exit if accessed directly
 
 /**
@@ -25,24 +28,6 @@ if (!function_exists('elessi_empty_cart_message')) :
                 'class' => array()
             ),
             'br' => array()
-        );
-        
-        $allowed_html = array(
-            'span' => array(
-                'class' => array()
-            ),
-            'br' => array(),
-            'svg' => array(
-                'class' => array(),
-                'viewBox' => array(),
-                'fill' => array(),
-            ),
-            'path' => array(
-                'fill-rule' => array(),
-                'clip-rule' => array(),
-                'd' => array(),
-                'fill' => array()
-            )
         );
         
         $mess = wp_kses(__('Your cart is currently empty.<span class="nasa-extra-empty">Before proceed to checkout you must add some products to shopping cart.<br />You will find a lot of interesting products on our "Shop" page.</span>', 'elessi-theme'), $allowed_html);
@@ -173,11 +158,11 @@ if (!function_exists('elessi_mini_cart_icon')) :
         
         switch ($icon_number) {
             case '2':
-                $icon = '<svg class="nasa-rotate-svg nasa-icon cart-icon nasa-icon-' . $icon_number . '" viewBox="0 0 512 512" fill="currentColor" width="22" height="22"><path fill-rule="evenodd" clip-rule="evenodd" d="M511 41l-41 252c-4 32-34 59-67 59l-35 0 0 42c0 66-46 118-112 118-65 0-112-52-112-118l0-42-38 0c-33 0-63-27-67-59l-38-252c-2-13 1-24 7-31 7-7 16-10 27-10l437 0c17 0 26 6 31 12 5 5 10 14 8 29z m-335 353c0 48 33 86 80 86 48 0 80-38 80-86l0-42-160 0z m298-362l-437 0c-2 0-5 1-5 5l39 252c2 17 18 31 35 31l38 0 0-37c-10-5-16-15-16-27 0-18 14-32 32-32 18 0 32 14 32 32 0 12-6 22-16 27l0 37 160 0 0-37c-10-5-16-15-16-27 0-18 14-32 32-32 18 0 32 14 32 32 0 12-6 22-16 27l0 37 35 0c17 0 33-14 35-32l42-252c0-2-2-4-6-4z" fill="currentColor"></path></svg>';
+                $icon = '<svg class="nasa-rotate-svg nasa-icon cart-icon nasa-icon-' . $icon_number . '" viewBox="0 0 512 512" fill="currentColor" width="22" height="22"><path fill-rule="evenodd" clip-rule="evenodd" d="M511 41l-41 252c-4 32-34 59-67 59l-35 0 0 42c0 66-46 118-112 118-65 0-112-52-112-118l0-42-38 0c-33 0-63-27-67-59l-38-252c-2-13 1-24 7-31 7-7 16-10 27-10l437 0c17 0 26 6 31 12 5 5 10 14 8 29z m-335 353c0 48 33 86 80 86 48 0 80-38 80-86l0-42-160 0z m298-362l-437 0c-2 0-5 1-5 5l39 252c2 17 18 31 35 31l38 0 0-37c-10-5-16-15-16-27 0-18 14-32 32-32 18 0 32 14 32 32 0 12-6 22-16 27l0 37 160 0 0-37c-10-5-16-15-16-27 0-18 14-32 32-32 18 0 32 14 32 32 0 12-6 22-16 27l0 37 35 0c17 0 33-14 35-32l42-252c0-2-2-4-6-4z" fill="currentColor"/></svg>';
                 break;
             
             case '3':
-                $icon = '<svg class="nasa-rotate-svg nasa-icon cart-icon nasa-icon-' . $icon_number . '" width="24" height="24" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" fill="currentColor"><path fill="currentColor" d="M487 0c-153 0-308 0-462 0 15 125 29 252 45 375 27 0 53 0 81 0-5 66 31 110 81 120 74 17 138-42 129-120 28 0 55 0 82 0 15-125 30-249 44-375z m-235 476c-49-3-84-42-78-101 55 0 110 0 165 0 5 62-31 103-87 101z m-164-123c-13-111-26-222-39-332 138 0 276 0 413 0-12 112-26 222-38 334-22 0-43 0-63 0 0-7 0-14 0-21 6-6 10-10 10-21-2-23-43-25-43 3 0 9 8 12 11 20 1 5-1 10 0 20-56 0-111 0-166 0-6-26 10-23 10-41 0-27-43-27-42 1 0 10 7 12 10 20 1 5 0 10 0 20-20 0-41 0-63 0 0-2 0-3 0-3z"></path></svg>';
+                $icon = '<svg class="nasa-rotate-svg nasa-icon cart-icon nasa-icon-' . $icon_number . '" width="24" height="24" viewBox="0 -30 512 512" fill="currentColor"><path fill="currentColor" d="M487 0c-153 0-308 0-462 0 15 125 29 252 45 375 27 0 53 0 81 0-5 66 31 110 81 120 74 17 138-42 129-120 28 0 55 0 82 0 15-125 30-249 44-375z m-235 476c-49-3-84-42-78-101 55 0 110 0 165 0 5 62-31 103-87 101z m-164-123c-13-111-26-222-39-332 138 0 276 0 413 0-12 112-26 222-38 334-22 0-43 0-63 0 0-7 0-14 0-21 6-6 10-10 10-21-2-23-43-25-43 3 0 9 8 12 11 20 1 5-1 10 0 20-56 0-111 0-166 0-6-26 10-23 10-41 0-27-43-27-42 1 0 10 7 12 10 20 1 5 0 10 0 20-20 0-41 0-63 0 0-2 0-3 0-3z"/></svg>';
                 break;
             
             case '4':
@@ -185,15 +170,15 @@ if (!function_exists('elessi_mini_cart_icon')) :
                 break;
             
             case '5':
-                $icon = '<svg class="nasa-flip-vertical nasa-icon cart-icon nasa-icon-' . $icon_number . '" width="28" height="28" viewBox="0 0 1700 1200"><path d="M640 0q0 -52 -38 -90t-90 -38t-90 38t-38 90t38 90t90 38t90 -38t38 -90zM1536 0q0 -52 -38 -90t-90 -38t-90 38t-38 90t38 90t90 38t90 -38t38 -90zM1664 1088v-512q0 -24 -16.5 -42.5t-40.5 -21.5l-1044 -122q13 -60 13 -70q0 -16 -24 -64h920q26 0 45 -19t19 -45 t-19 -45t-45 -19h-1024q-26 0 -45 19t-19 45q0 11 8 31.5t16 36t21.5 40t15.5 29.5l-177 823h-204q-26 0 -45 19t-19 45t19 45t45 19h256q16 0 28.5 -6.5t19.5 -15.5t13 -24.5t8 -26t5.5 -29.5t4.5 -26h1201q26 0 45 -19t19 -45z" fill="currentColor"></path></svg>';
+                $icon = '<svg class="nasa-flip-vertical nasa-icon cart-icon nasa-icon-' . $icon_number . '" width="28" height="28" viewBox="0 0 1700 1200"><path d="M640 0q0 -52 -38 -90t-90 -38t-90 38t-38 90t38 90t90 38t90 -38t38 -90zM1536 0q0 -52 -38 -90t-90 -38t-90 38t-38 90t38 90t90 38t90 -38t38 -90zM1664 1088v-512q0 -24 -16.5 -42.5t-40.5 -21.5l-1044 -122q13 -60 13 -70q0 -16 -24 -64h920q26 0 45 -19t19 -45 t-19 -45t-45 -19h-1024q-26 0 -45 19t-19 45q0 11 8 31.5t16 36t21.5 40t15.5 29.5l-177 823h-204q-26 0 -45 19t-19 45t19 45t45 19h256q16 0 28.5 -6.5t19.5 -15.5t13 -24.5t8 -26t5.5 -29.5t4.5 -26h1201q26 0 45 -19t19 -45z" fill="currentColor"/></svg>';
                 break;
             
             case '6':
-                $icon = '<svg class="nasa-rotate-svg nasa-icon cart-icon nasa-icon-' . $icon_number . '" width="28" height="28" viewBox="0 0 2000 1200"><path d="M1757 128l35 -313q3 -28 -16 -50q-19 -21 -48 -21h-1664q-29 0 -48 21q-19 22 -16 50l35 313h1722zM1664 967l86 -775h-1708l86 775q3 24 21 40.5t43 16.5h256v-128q0 -53 37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5v128h384v-128q0 -53 37.5 -90.5t90.5 -37.5 t90.5 37.5t37.5 90.5v128h256q25 0 43 -16.5t21 -40.5zM1280 1152v-256q0 -26 -19 -45t-45 -19t-45 19t-19 45v256q0 106 -75 181t-181 75t-181 -75t-75 -181v-256q0 -26 -19 -45t-45 -19t-45 19t-19 45v256q0 159 112.5 271.5t271.5 112.5t271.5 -112.5t112.5 -271.5z" fill="currentColor"></path></svg>';
+                $icon = '<svg class="nasa-rotate-svg nasa-icon cart-icon nasa-icon-' . $icon_number . '" width="28" height="28" viewBox="0 0 2000 1200"><path d="M1757 128l35 -313q3 -28 -16 -50q-19 -21 -48 -21h-1664q-29 0 -48 21q-19 22 -16 50l35 313h1722zM1664 967l86 -775h-1708l86 775q3 24 21 40.5t43 16.5h256v-128q0 -53 37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5v128h384v-128q0 -53 37.5 -90.5t90.5 -37.5 t90.5 37.5t37.5 90.5v128h256q25 0 43 -16.5t21 -40.5zM1280 1152v-256q0 -26 -19 -45t-45 -19t-45 19t-19 45v256q0 106 -75 181t-181 75t-181 -75t-75 -181v-256q0 -26 -19 -45t-45 -19t-45 19t-19 45v256q0 159 112.5 271.5t271.5 112.5t271.5 -112.5t112.5 -271.5z" fill="currentColor"/></svg>';
                 break;
             
             case '7':
-                $icon = '<svg class="nasa-rotate-svg nasa-icon cart-icon nasa-icon-' . $icon_number . '" width="28" height="28" viewBox="0 0 2000 1200"><path d="M1920 768q53 0 90.5 -37.5t37.5 -90.5t-37.5 -90.5t-90.5 -37.5h-15l-115 -662q-8 -46 -44 -76t-82 -30h-1280q-46 0 -82 30t-44 76l-115 662h-15q-53 0 -90.5 37.5t-37.5 90.5t37.5 90.5t90.5 37.5h1792zM485 -32q26 2 43.5 22.5t15.5 46.5l-32 416q-2 26 -22.5 43.5 t-46.5 15.5t-43.5 -22.5t-15.5 -46.5l32 -416q2 -25 20.5 -42t43.5 -17h5zM896 32v416q0 26 -19 45t-45 19t-45 -19t-19 -45v-416q0 -26 19 -45t45 -19t45 19t19 45zM1280 32v416q0 26 -19 45t-45 19t-45 -19t-19 -45v-416q0 -26 19 -45t45 -19t45 19t19 45zM1632 27l32 416 q2 26 -15.5 46.5t-43.5 22.5t-46.5 -15.5t-22.5 -43.5l-32 -416q-2 -26 15.5 -46.5t43.5 -22.5h5q25 0 43.5 17t20.5 42zM476 1244l-93 -412h-132l101 441q19 88 89 143.5t160 55.5h167q0 26 19 45t45 19h384q26 0 45 -19t19 -45h167q90 0 160 -55.5t89 -143.5l101 -441 h-132l-93 412q-11 44 -45.5 72t-79.5 28h-167q0 -26 -19 -45t-45 -19h-384q-26 0 -45 19t-19 45h-167q-45 0 -79.5 -28t-45.5 -72z" fill="currentColor"></path></svg>';
+                $icon = '<svg class="nasa-rotate-svg nasa-icon cart-icon nasa-icon-' . $icon_number . '" width="28" height="28" viewBox="0 0 2000 1200"><path d="M1920 768q53 0 90.5 -37.5t37.5 -90.5t-37.5 -90.5t-90.5 -37.5h-15l-115 -662q-8 -46 -44 -76t-82 -30h-1280q-46 0 -82 30t-44 76l-115 662h-15q-53 0 -90.5 37.5t-37.5 90.5t37.5 90.5t90.5 37.5h1792zM485 -32q26 2 43.5 22.5t15.5 46.5l-32 416q-2 26 -22.5 43.5 t-46.5 15.5t-43.5 -22.5t-15.5 -46.5l32 -416q2 -25 20.5 -42t43.5 -17h5zM896 32v416q0 26 -19 45t-45 19t-45 -19t-19 -45v-416q0 -26 19 -45t45 -19t45 19t19 45zM1280 32v416q0 26 -19 45t-45 19t-45 -19t-19 -45v-416q0 -26 19 -45t45 -19t45 19t19 45zM1632 27l32 416 q2 26 -15.5 46.5t-43.5 22.5t-46.5 -15.5t-22.5 -43.5l-32 -416q-2 -26 15.5 -46.5t43.5 -22.5h5q25 0 43.5 17t20.5 42zM476 1244l-93 -412h-132l101 441q19 88 89 143.5t160 55.5h167q0 26 19 45t45 19h384q26 0 45 -19t19 -45h167q90 0 160 -55.5t89 -143.5l101 -441 h-132l-93 412q-11 44 -45.5 72t-79.5 28h-167q0 -26 -19 -45t-45 -19h-384q-26 0 -45 19t-19 45h-167q-45 0 -79.5 -28t-45.5 -72z" fill="currentColor"/></svg>';
                 break;
             
             case '1':
@@ -260,9 +245,12 @@ if (!function_exists('elessi_add_to_cart_refresh')) :
         $fragments['.cart-inner'] = elessi_mini_cart(true);
         
         if (isset($_REQUEST['product_id'])) {
+
+            $svg = '<svg class="ns-check-svg" width="32" height="32" viewBox="0 0 32 32"><path d="M16 2.672c-7.361 0-13.328 5.967-13.328 13.328s5.968 13.328 13.328 13.328c7.361 0 13.328-5.967 13.328-13.328s-5.967-13.328-13.328-13.328zM16 28.262c-6.761 0-12.262-5.501-12.262-12.262s5.5-12.262 12.262-12.262c6.761 0 12.262 5.501 12.262 12.262s-5.5 12.262-12.262 12.262z" fill="currentColor"/><path d="M22.667 11.241l-8.559 8.299-2.998-2.998c-0.312-0.312-0.818-0.312-1.131 0s-0.312 0.818 0 1.131l3.555 3.555c0.156 0.156 0.361 0.234 0.565 0.234 0.2 0 0.401-0.075 0.556-0.225l9.124-8.848c0.317-0.308 0.325-0.814 0.018-1.131-0.309-0.318-0.814-0.325-1.131-0.018z" fill="currentColor"/></svg>';
+
             $fragments['.woocommerce-message'] = sprintf(
                 '<div class="woocommerce-message text-center" role="alert">%s</div>',
-                esc_html__('Product added to cart successfully!', 'elessi-theme')
+                $svg . esc_html__('Product added to cart successfully!', 'elessi-theme')
             );
         }
 
@@ -318,6 +306,172 @@ if (!function_exists('elessi_mini_wishlist_sidebar')) {
             $content = ob_get_clean();
             return $content;
         endif;
+    }
+}
+
+if (!function_exists('nasa_gen_categories_map_child')) {
+    function nasa_gen_categories_map_child($cats) {
+        if (!NASA_WOO_ACTIVED){
+            return '';
+        }
+        
+        $content_child = '';
+        $args = array(
+            'taxonomy' => 'product_cat',
+            'hierarchical' => true,
+            'parent' => $cats->term_taxonomy_id
+        );
+    
+        $childrens = get_terms(apply_filters('woocommerce_product_attribute_terms', $args));
+    
+        if (count($childrens) > 0) {
+            $content_child = '<ul class="ns-cat-child">';
+    
+            foreach ($childrens as $children) {
+
+                $count = '<span class="count">' . $children->count .'</span>';
+    
+                $link = get_term_link($children, 'product_cat');
+                $content_child .= '<li>';  
+                $content_child .= '<a class="ns-cat-tree-link" href="' . esc_url($link) . '" title="' . esc_attr($children->name) . '">' . $children->name . $count . '</a>'; 
+                $content_child .= nasa_gen_categories_map_child($children);
+                $content_child .= '</li>';
+            }
+    
+            $content_child .= '</ul>';
+        }
+    
+        return $content_child;
+    }
+}
+
+if (!function_exists('nasa_get_categories_map')) {
+    function nasa_get_categories_map() {
+        global $nasa_opt;
+        
+        if (!NASA_WOO_ACTIVED){
+            return '';
+        }
+        
+        $args = array(
+            'taxonomy' => 'product_cat',
+            'hierarchical' => true,
+            'hide_empty' => false,
+            'parent' => 0
+        );
+    
+        $cats = get_terms(apply_filters('woocommerce_product_attribute_terms', $args));
+
+        $columns_number = isset($nasa_opt['where_you_are_cls']) && $nasa_opt['where_you_are_cls'] ? $nasa_opt['where_you_are_cls'] : '4';
+        $columns_number_small = isset($nasa_opt['where_you_are_cls_s']) && $nasa_opt['where_you_are_cls_s'] ? $nasa_opt['where_you_are_cls_s'] : '1';
+        $columns_number_tablet = isset($nasa_opt['where_you_are_cls_m']) && $nasa_opt['where_you_are_cls_m'] ? $nasa_opt['where_you_are_cls_m'] : '3';
+    
+        $column_class = 'large-block-grid-' .  $columns_number . ' small-block-grid-' .  $columns_number_small . ' medium-block-grid-' .  $columns_number_tablet ;
+    
+        $content = '<ul class="ns-categories-tree-warp ' . $column_class . '" data-columns="' . $columns_number . '" data-columns-small="' . $columns_number_small . '" data-columns-tablet="' . $columns_number_tablet . '">';
+    
+        $number_cat_each = floor(count($cats) / $columns_number);
+        $leftover_cat = count($cats) % $columns_number;
+    
+        for ($i = 0; $i < $columns_number; $i++) {
+    
+            $number_cat = ($i < $leftover_cat) ? ($number_cat_each + 1) : $number_cat_each;
+            $cats_splices = array_splice($cats, 0, $number_cat);
+    
+            $content .= '<li class="ns-categories-tree-column">';
+    
+            foreach ($cats_splices as $cats_splice) {
+                $count = '<span class="count">' . $cats_splice->count .'</span>';
+    
+                $link = get_term_link($cats_splice, 'product_cat');
+                $content .= '<div class="ns-cat-root">';  
+                $content .= '<a class="ns-cat-tree-link nasa-bold" title="' . esc_attr($cats_splice->name) . '" href="' . esc_url($link) . '">' . $cats_splice->name . $count . '</a>'; 
+                $content .= nasa_gen_categories_map_child($cats_splice);
+                $content .= '</div>';
+            }
+    
+            $content .= '</li>';
+        }
+    
+        $content .= '</ul>';
+    
+        return $content;
+    }
+}
+
+if (!function_exists('nasa_get_menu_map')) {
+    function nasa_get_menu_map() {
+        global $nasa_opt;
+
+        $arr_menu = array_filter(get_nav_menu_locations());
+        $menu = wp_get_nav_menu_object($arr_menu['primary']);
+        $menu_items = wp_get_nav_menu_items($menu->term_id, array('update_post_term_cache' => false));
+        $menu_pa = array();
+
+        foreach ($menu_items as $menu_item) {
+            if ($menu_item->menu_item_parent === '0') {
+                $menu_pa[] = $menu_item;
+            }
+        }
+
+        $columns_number = isset($nasa_opt['where_you_are_cls']) && $nasa_opt['where_you_are_cls'] ? $nasa_opt['where_you_are_cls'] : '4';
+        $columns_number_small = isset($nasa_opt['where_you_are_cls_s']) && $nasa_opt['where_you_are_cls_s'] ? $nasa_opt['where_you_are_cls_s'] : '1';
+        $columns_number_tablet = isset($nasa_opt['where_you_are_cls_m']) && $nasa_opt['where_you_are_cls_m'] ? $nasa_opt['where_you_are_cls_m'] : '3';
+    
+        $column_class = 'large-block-grid-' .  $columns_number . ' small-block-grid-' .  $columns_number_small . ' medium-block-grid-' .  $columns_number_tablet ;
+    
+        $content = '<ul class="ns-categories-tree-warp ' . $column_class . '" data-columns="' . $columns_number . '" data-columns-small="' . $columns_number_small . '" data-columns-tablet="' . $columns_number_tablet . '">';
+    
+        $number_menu_each = floor(count($menu_pa) / $columns_number);
+        $leftover_menu = count($menu_pa) % $columns_number;
+    
+        for ($i = 0; $i < $columns_number; $i++) {
+            $number_menu = ($i < $leftover_menu) ? ($number_menu_each + 1) : $number_menu_each;
+            $menu_splices = array_splice($menu_pa, 0, $number_menu);
+    
+            $content .= '<li class="ns-categories-tree-column">';
+    
+            foreach ($menu_splices as $menu_splice) {
+                $content .= '<div class="ns-cat-root">';  
+                $content .= '<a class="ns-cat-tree-link ns-menu-link nasa-bold" title="' . esc_attr($menu_splice->title) . '" href="' . esc_url($menu_splice->url) . '">' . $menu_splice->title . '</a>'; 
+                $content .= nasa_gen_menu_map_child($menu_splice,$menu_items);
+                $content .= '</div>';
+            }
+    
+            $content .= '</li>';
+        }
+    
+        $content .= '</ul>';
+    
+        return  $content;
+    }
+}
+
+if (!function_exists('nasa_gen_menu_map_child')) {
+    function nasa_gen_menu_map_child($menu_splice,$menu_items) {
+        $content_child ='';
+        $menu_children = array();
+
+        foreach ($menu_items as $menu_item) {
+            if ($menu_item->menu_item_parent == $menu_splice->ID) {
+                $menu_children[] = $menu_item;
+            }
+        }
+    
+        if (count($menu_children) > 0) {
+            $content_child = '<ul class="ns-cat-child">';
+    
+            foreach ($menu_children as $menu_child) {
+                $content_child .= '<li>';  
+                $content_child .= '<a class="ns-cat-tree-link ns-menu-link" href="' . esc_url($menu_child->url) . '" title="' . esc_attr($menu_child->title) . '">' . $menu_child->title . '</a>'; 
+                $content_child .= nasa_gen_menu_map_child($menu_child,$menu_items);
+                $content_child .= '</li>';
+            }
+    
+            $content_child .= '</ul>';
+        }
+    
+        return $content_child;
     }
 }
 
@@ -460,35 +614,32 @@ if (!function_exists('elessi_loop_add_to_cart_args')):
                 break;
             
             case '3':
-                $icon_cart .= '<svg class="nasa-rotate-svg" viewBox="0 0 512 512" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" clip-rule="evenodd" d="M511 41l-41 252c-4 32-34 59-67 59l-35 0 0 42c0 66-46 118-112 118-65 0-112-52-112-118l0-42-38 0c-33 0-63-27-67-59l-38-252c-2-13 1-24 7-31 7-7 16-10 27-10l437 0c17 0 26 6 31 12 5 5 10 14 8 29z m-335 353c0 48 33 86 80 86 48 0 80-38 80-86l0-42-160 0z m298-362l-437 0c-2 0-5 1-5 5l39 252c2 17 18 31 35 31l38 0 0-37c-10-5-16-15-16-27 0-18 14-32 32-32 18 0 32 14 32 32 0 12-6 22-16 27l0 37 160 0 0-37c-10-5-16-15-16-27 0-18 14-32 32-32 18 0 32 14 32 32 0 12-6 22-16 27l0 37 35 0c17 0 33-14 35-32l42-252c0-2-2-4-6-4z" fill="currentColor"></path></svg>';
+                $icon_cart .= '<svg class="nasa-rotate-svg" viewBox="0 0 512 512" fill="currentColor" width="18" height="18"><path fill-rule="evenodd" clip-rule="evenodd" d="M511 41l-41 252c-4 32-34 59-67 59l-35 0 0 42c0 66-46 118-112 118-65 0-112-52-112-118l0-42-38 0c-33 0-63-27-67-59l-38-252c-2-13 1-24 7-31 7-7 16-10 27-10l437 0c17 0 26 6 31 12 5 5 10 14 8 29z m-335 353c0 48 33 86 80 86 48 0 80-38 80-86l0-42-160 0z m298-362l-437 0c-2 0-5 1-5 5l39 252c2 17 18 31 35 31l38 0 0-37c-10-5-16-15-16-27 0-18 14-32 32-32 18 0 32 14 32 32 0 12-6 22-16 27l0 37 160 0 0-37c-10-5-16-15-16-27 0-18 14-32 32-32 18 0 32 14 32 32 0 12-6 22-16 27l0 37 35 0c17 0 33-14 35-32l42-252c0-2-2-4-6-4z" fill="currentColor" /></svg>';
                 break;
             
             case '4':
-                $icon_cart .= '<svg class="nasa-rotate-svg" width="18" height="18" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" fill="currentColor"><path fill="currentColor" d="M487 0c-153 0-308 0-462 0 15 125 29 252 45 375 27 0 53 0 81 0-5 66 31 110 81 120 74 17 138-42 129-120 28 0 55 0 82 0 15-125 30-249 44-375z m-235 476c-49-3-84-42-78-101 55 0 110 0 165 0 5 62-31 103-87 101z m-164-123c-13-111-26-222-39-332 138 0 276 0 413 0-12 112-26 222-38 334-22 0-43 0-63 0 0-7 0-14 0-21 6-6 10-10 10-21-2-23-43-25-43 3 0 9 8 12 11 20 1 5-1 10 0 20-56 0-111 0-166 0-6-26 10-23 10-41 0-27-43-27-42 1 0 10 7 12 10 20 1 5 0 10 0 20-20 0-41 0-63 0 0-2 0-3 0-3z"></path></svg>';
+                $icon_cart .= '<svg class="nasa-rotate-svg" width="18" height="18" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" fill="currentColor"><path fill="currentColor" d="M487 0c-153 0-308 0-462 0 15 125 29 252 45 375 27 0 53 0 81 0-5 66 31 110 81 120 74 17 138-42 129-120 28 0 55 0 82 0 15-125 30-249 44-375z m-235 476c-49-3-84-42-78-101 55 0 110 0 165 0 5 62-31 103-87 101z m-164-123c-13-111-26-222-39-332 138 0 276 0 413 0-12 112-26 222-38 334-22 0-43 0-63 0 0-7 0-14 0-21 6-6 10-10 10-21-2-23-43-25-43 3 0 9 8 12 11 20 1 5-1 10 0 20-56 0-111 0-166 0-6-26 10-23 10-41 0-27-43-27-42 1 0 10 7 12 10 20 1 5 0 10 0 20-20 0-41 0-63 0 0-2 0-3 0-3z" /></svg>';
                 break;
             
             case '5':
-                $icon_cart .= '<svg width="18" height="18" viewBox="0 0 32 32"><path d="M30.622 9.602h-22.407l-1.809-7.464h-5.027v1.066h4.188l5.198 21.443c-1.108 0.323-1.923 1.334-1.923 2.547 0 1.472 1.193 2.666 2.666 2.666s2.666-1.194 2.666-2.666c0-0.603-0.208-1.153-0.545-1.599h7.487c-0.337 0.446-0.545 0.997-0.545 1.599 0 1.472 1.193 2.666 2.665 2.666s2.666-1.194 2.666-2.666c0-1.473-1.193-2.665-2.666-2.666v0h-11.403l-0.517-2.133h14.968l4.337-12.795zM13.107 27.196c0 0.882-0.717 1.599-1.599 1.599s-1.599-0.717-1.599-1.599c0-0.882 0.717-1.599 1.599-1.599s1.599 0.718 1.599 1.599zM24.836 27.196c0 0.882-0.718 1.599-1.6 1.599s-1.599-0.717-1.599-1.599c0-0.882 0.717-1.599 1.599-1.599 0.882 0 1.6 0.718 1.6 1.599zM11.058 21.331l-2.585-10.662h20.662l-3.615 10.662h-14.462z" fill="currentColor"/></svg>';
+                $icon_cart .= '<svg width="18" height="18" viewBox="0 0 32 32"><path d="M30.622 9.602h-22.407l-1.809-7.464h-5.027v1.066h4.188l5.198 21.443c-1.108 0.323-1.923 1.334-1.923 2.547 0 1.472 1.193 2.666 2.666 2.666s2.666-1.194 2.666-2.666c0-0.603-0.208-1.153-0.545-1.599h7.487c-0.337 0.446-0.545 0.997-0.545 1.599 0 1.472 1.193 2.666 2.665 2.666s2.666-1.194 2.666-2.666c0-1.473-1.193-2.665-2.666-2.666v0h-11.403l-0.517-2.133h14.968l4.337-12.795zM13.107 27.196c0 0.882-0.717 1.599-1.599 1.599s-1.599-0.717-1.599-1.599c0-0.882 0.717-1.599 1.599-1.599s1.599 0.718 1.599 1.599zM24.836 27.196c0 0.882-0.718 1.599-1.6 1.599s-1.599-0.717-1.599-1.599c0-0.882 0.717-1.599 1.599-1.599 0.882 0 1.6 0.718 1.6 1.599zM11.058 21.331l-2.585-10.662h20.662l-3.615 10.662h-14.462z" fill="currentColor" /></svg>';
                 break;
             
             case '6':
-                $icon_cart .= '<svg class="nasa-flip-vertical" width="18" height="18" viewBox="0 0 1700 1200"><path d="M640 0q0 -52 -38 -90t-90 -38t-90 38t-38 90t38 90t90 38t90 -38t38 -90zM1536 0q0 -52 -38 -90t-90 -38t-90 38t-38 90t38 90t90 38t90 -38t38 -90zM1664 1088v-512q0 -24 -16.5 -42.5t-40.5 -21.5l-1044 -122q13 -60 13 -70q0 -16 -24 -64h920q26 0 45 -19t19 -45 t-19 -45t-45 -19h-1024q-26 0 -45 19t-19 45q0 11 8 31.5t16 36t21.5 40t15.5 29.5l-177 823h-204q-26 0 -45 19t-19 45t19 45t45 19h256q16 0 28.5 -6.5t19.5 -15.5t13 -24.5t8 -26t5.5 -29.5t4.5 -26h1201q26 0 45 -19t19 -45z" fill="currentColor"></path></svg>';
+                $icon_cart .= '<svg class="nasa-flip-vertical" width="18" height="18" viewBox="0 0 1700 1200"><path d="M640 0q0 -52 -38 -90t-90 -38t-90 38t-38 90t38 90t90 38t90 -38t38 -90zM1536 0q0 -52 -38 -90t-90 -38t-90 38t-38 90t38 90t90 38t90 -38t38 -90zM1664 1088v-512q0 -24 -16.5 -42.5t-40.5 -21.5l-1044 -122q13 -60 13 -70q0 -16 -24 -64h920q26 0 45 -19t19 -45 t-19 -45t-45 -19h-1024q-26 0 -45 19t-19 45q0 11 8 31.5t16 36t21.5 40t15.5 29.5l-177 823h-204q-26 0 -45 19t-19 45t19 45t45 19h256q16 0 28.5 -6.5t19.5 -15.5t13 -24.5t8 -26t5.5 -29.5t4.5 -26h1201q26 0 45 -19t19 -45z" fill="currentColor" /></svg>';
                 break;
             
             case '7':
-                $icon_cart .= '<svg class="nasa-rotate-svg" width="18" height="18" viewBox="0 0 2000 1200"><path d="M1757 128l35 -313q3 -28 -16 -50q-19 -21 -48 -21h-1664q-29 0 -48 21q-19 22 -16 50l35 313h1722zM1664 967l86 -775h-1708l86 775q3 24 21 40.5t43 16.5h256v-128q0 -53 37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5v128h384v-128q0 -53 37.5 -90.5t90.5 -37.5 t90.5 37.5t37.5 90.5v128h256q25 0 43 -16.5t21 -40.5zM1280 1152v-256q0 -26 -19 -45t-45 -19t-45 19t-19 45v256q0 106 -75 181t-181 75t-181 -75t-75 -181v-256q0 -26 -19 -45t-45 -19t-45 19t-19 45v256q0 159 112.5 271.5t271.5 112.5t271.5 -112.5t112.5 -271.5z" fill="currentColor"></path></svg>';
+                $icon_cart .= '<svg class="nasa-rotate-svg" width="18" height="18" viewBox="0 0 2000 1200"><path d="M1757 128l35 -313q3 -28 -16 -50q-19 -21 -48 -21h-1664q-29 0 -48 21q-19 22 -16 50l35 313h1722zM1664 967l86 -775h-1708l86 775q3 24 21 40.5t43 16.5h256v-128q0 -53 37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5v128h384v-128q0 -53 37.5 -90.5t90.5 -37.5 t90.5 37.5t37.5 90.5v128h256q25 0 43 -16.5t21 -40.5zM1280 1152v-256q0 -26 -19 -45t-45 -19t-45 19t-19 45v256q0 106 -75 181t-181 75t-181 -75t-75 -181v-256q0 -26 -19 -45t-45 -19t-45 19t-19 45v256q0 159 112.5 271.5t271.5 112.5t271.5 -112.5t112.5 -271.5z" fill="currentColor" /></svg>';
                 break;
             
             case '8':
-                $icon_cart .= '<svg class="nasa-rotate-svg" width="18" height="18" viewBox="0 0 2000 1200"><path d="M1920 768q53 0 90.5 -37.5t37.5 -90.5t-37.5 -90.5t-90.5 -37.5h-15l-115 -662q-8 -46 -44 -76t-82 -30h-1280q-46 0 -82 30t-44 76l-115 662h-15q-53 0 -90.5 37.5t-37.5 90.5t37.5 90.5t90.5 37.5h1792zM485 -32q26 2 43.5 22.5t15.5 46.5l-32 416q-2 26 -22.5 43.5 t-46.5 15.5t-43.5 -22.5t-15.5 -46.5l32 -416q2 -25 20.5 -42t43.5 -17h5zM896 32v416q0 26 -19 45t-45 19t-45 -19t-19 -45v-416q0 -26 19 -45t45 -19t45 19t19 45zM1280 32v416q0 26 -19 45t-45 19t-45 -19t-19 -45v-416q0 -26 19 -45t45 -19t45 19t19 45zM1632 27l32 416 q2 26 -15.5 46.5t-43.5 22.5t-46.5 -15.5t-22.5 -43.5l-32 -416q-2 -26 15.5 -46.5t43.5 -22.5h5q25 0 43.5 17t20.5 42zM476 1244l-93 -412h-132l101 441q19 88 89 143.5t160 55.5h167q0 26 19 45t45 19h384q26 0 45 -19t19 -45h167q90 0 160 -55.5t89 -143.5l101 -441 h-132l-93 412q-11 44 -45.5 72t-79.5 28h-167q0 -26 -19 -45t-45 -19h-384q-26 0 -45 19t-19 45h-167q-45 0 -79.5 -28t-45.5 -72z" fill="currentColor"></path></svg>';
+                $icon_cart .= '<svg class="nasa-rotate-svg" width="18" height="18" viewBox="0 0 2000 1200"><path d="M1920 768q53 0 90.5 -37.5t37.5 -90.5t-37.5 -90.5t-90.5 -37.5h-15l-115 -662q-8 -46 -44 -76t-82 -30h-1280q-46 0 -82 30t-44 76l-115 662h-15q-53 0 -90.5 37.5t-37.5 90.5t37.5 90.5t90.5 37.5h1792zM485 -32q26 2 43.5 22.5t15.5 46.5l-32 416q-2 26 -22.5 43.5 t-46.5 15.5t-43.5 -22.5t-15.5 -46.5l32 -416q2 -25 20.5 -42t43.5 -17h5zM896 32v416q0 26 -19 45t-45 19t-45 -19t-19 -45v-416q0 -26 19 -45t45 -19t45 19t19 45zM1280 32v416q0 26 -19 45t-45 19t-45 -19t-19 -45v-416q0 -26 19 -45t45 -19t45 19t19 45zM1632 27l32 416 q2 26 -15.5 46.5t-43.5 22.5t-46.5 -15.5t-22.5 -43.5l-32 -416q-2 -26 15.5 -46.5t43.5 -22.5h5q25 0 43.5 17t20.5 42zM476 1244l-93 -412h-132l101 441q19 88 89 143.5t160 55.5h167q0 26 19 45t45 19h384q26 0 45 -19t19 -45h167q90 0 160 -55.5t89 -143.5l101 -441 h-132l-93 412q-11 44 -45.5 72t-79.5 28h-167q0 -26 -19 -45t-45 -19h-384q-26 0 -45 19t-19 45h-167q-45 0 -79.5 -28t-45.5 -72z" fill="currentColor" /></svg>';
                 break;
             
             case '1':
             default:
-                $icon_cart .= '<svg class="ns-df-cart-svg" width="18" height="18" stroke-width="2" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 6V18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6 12H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>';
+                $icon_cart .= '<svg class="ns-df-cart-svg" width="18" height="18" stroke-width="2" viewBox="0 0 24 24" fill="currentColor"><path d="M12 6V18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M6 12H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>';
                 break;
         }
     
@@ -1049,7 +1200,7 @@ if (!function_exists('elessi_prev_product')) :
             ?>
             <div class="prev-product next-prev-buttons">
                 <a href="<?php echo esc_url($link); ?>" rel="prev" class="icon-next-prev prev<?php echo $class_ajax; ?>" title="<?php echo esc_attr($title); ?>">
-                    <svg width="25" height="25" viewBox="0 0 32 32" fill="currentColor"><path d="M12.792 15.233l-0.754 0.754 6.035 6.035 0.754-0.754-5.281-5.281 5.256-5.256-0.754-0.754-3.013 3.013z"/></svg>
+                    <svg width="25" height="25" viewBox="0 0 32 32" fill="currentColor"><path d="M12.792 15.233l-0.754 0.754 6.035 6.035 0.754-0.754-5.281-5.281 5.256-5.256-0.754-0.754-3.013 3.013z" /></svg>
                 </a>
                 
                 <?php if (!$in_mobile) { ?>
@@ -1084,6 +1235,10 @@ add_action('nasa_single_buttons', 'elessi_product_video_btn', 9);
 if (!function_exists('elessi_product_video_btn')) {
     function elessi_product_video_btn() {
         global $product;
+        
+        if (!$product) {
+            return;
+        }
         
         $id = $product->get_id();
         $video_link = elessi_get_product_meta_value($id, '_product_video_link');
@@ -1186,11 +1341,15 @@ if (!function_exists('elessi_single_availability')) :
     function elessi_single_availability() {
         global $product;
         
+        if (!$product) {
+            return;
+        }
+        
         // Availability
         $availability = $product->get_availability();
 
         if ($availability['availability']) {
-            echo apply_filters('woocommerce_stock_html', '<p class="stock ' . esc_attr($availability['class']) . '">' . wp_kses(__('<span>Availability:</span> ', 'elessi-theme'), array('span' => array())) . esc_html($availability['availability']) . '</p>', $availability['availability']);
+            echo apply_filters('woocommerce_get_stock_html', '<p class="stock ' . esc_attr($availability['class']) . '">' . wp_kses(__('<span>Availability:</span> ', 'elessi-theme'), array('span' => array())) . esc_html($availability['availability']) . '</p>', $availability['availability']);
         }
     }
 endif;
@@ -1466,6 +1625,112 @@ if (!function_exists('elessi_paginate_links')) :
     }
 endif;
 
+add_filter('paginate_links_output', 'elessi_modify_paginate_links_output', 10, 2);
+if (!function_exists('elessi_modify_paginate_links_output')) :
+function elessi_modify_paginate_links_output($r, $args) {
+    global $nasa_opt;
+
+    if (isset($nasa_opt['single_review_ajax']) && $nasa_opt['single_review_ajax'] && NASA_WOO_ACTIVED && is_product()) {
+        // $comment_order = get_option('comment_order');
+        $current  = (int) $args['current'];
+        $total  = (int) $args['total'];
+
+        $link = str_replace('%_%', $args['format'], $args['base']);
+        $link = str_replace('%#%', $current + 1, $link);
+        $elclass = $current + 1 > $total ? 'hidden-tag' : '';
+
+        $r = '<div class="nasa-relative text-center review-lm-btn-wrap">' .
+            '<a href="' . $link . '" class="button load-more-review-btn btn-border ' . $elclass . '" data-current="' . $current . '" data-max="' . $total . '" rel="nofollow">' .
+                '<span class="load-more-review-text">' . esc_html__('Load more', 'elessi-theme') . '</span>' .
+            '</a>' .
+        '</div>';
+    }
+
+    return $r;
+}
+endif;
+
+add_filter('get_comment_date', 'elessi_custom_comment_date_format', 10, 3);
+if (!function_exists('elessi_custom_comment_date_format')) :
+function elessi_custom_comment_date_format($date, $format, $comment) {
+    global $nasa_opt;
+
+    $reviews_layout = isset($nasa_opt['single_review_layout']) && $nasa_opt['single_review_layout'] != '' ? $nasa_opt['single_review_layout'] : 'list';
+    $reviews_layout =  isset($_GET['reviews_layout']) && $_GET['reviews_layout'] != '' ? $_GET['reviews_layout'] : $reviews_layout;
+
+    if ($reviews_layout != 'list' && NASA_WOO_ACTIVED && is_product()) {
+        return date('F Y', strtotime($comment->comment_date));
+    }
+
+    return $date;
+}
+endif;
+
+add_filter('comment_text', 'elessi_custom_comment_text', 30, 3);
+if (!function_exists('elessi_custom_comment_text')) :
+function elessi_custom_comment_text($comment_text, $comment, $args) {
+    if (NASA_WOO_ACTIVED && is_product()) {
+        $comment_text .= '<a href="javascript:void(0);" class="read-more">' . apply_filters('ns_comment_text_read_more', '[...]') . '</a>';
+    }
+    
+    return $comment_text;
+}
+endif;
+
+add_action('pre_get_comments', 'elessi_filter_reviews_product');
+if (!function_exists('elessi_filter_reviews_product')) :
+function elessi_filter_reviews_product($query) {
+    if (!NASA_WOO_ACTIVED) {
+        return;
+    }
+    
+    $sort_type =  isset($_GET['review_sort']) && $_GET['review_sort'] != '' ? $_GET['review_sort'] : 'date_DESC';
+
+    update_option('default_comments_page', 'oldest');
+    update_option('comment_order', 'asc');
+
+    if (is_product()) {
+        switch ($sort_type) {
+            case 'rating_ASC':
+                $query->query_vars['orderby'] = 'meta_value_num';
+                $query->query_vars['meta_key'] = 'rating';
+                $query->query_vars['order'] = 'ASC';
+                break;
+        
+            case 'rating_DESC':
+                $query->query_vars['orderby'] = 'meta_value_num';
+                $query->query_vars['meta_key'] = 'rating';
+                $query->query_vars['order'] = 'DESC';
+                break;
+            case 'media_DESC':
+                $meta_query = array(
+                    array(
+                        'key'     => 'nasa_review_images',
+                        'compare' => 'EXISTS',
+                    ),
+                );
+                $query->query_vars['meta_query'] = $meta_query;
+                $query->query_vars['orderby'] = 'comment_date';
+                $query->query_vars['order'] = 'DESC';
+                break;
+        
+            case 'date_ASC':
+                $query->query_vars['orderby'] = 'comment_date';
+                $query->query_vars['order'] = 'ASC';
+                break;
+        
+            case 'date_DESC':
+                $query->query_vars['orderby'] = 'comment_date';
+                $query->query_vars['order'] = 'DESC';
+                break;
+        
+            default:
+                break;
+        }
+    }
+}
+endif;
+
 /**
  * Filter Pagination args
  * 
@@ -1478,8 +1743,8 @@ if (!function_exists('elessi_pagination_args')) :
             $args = array();
         }
         
-        $args['prev_text'] = '<svg width="35" height="35" viewBox="0 0 32 32" fill="currentColor"><path d="M12.792 15.233l-0.754 0.754 6.035 6.035 0.754-0.754-5.281-5.281 5.256-5.256-0.754-0.754-3.013 3.013z"/></svg>';
-        $args['next_text'] = '<svg width="35" height="35" viewBox="0 0 32 32" fill="currentColor"><path d="M19.159 16.767l0.754-0.754-6.035-6.035-0.754 0.754 5.281 5.281-5.256 5.256 0.754 0.754 3.013-3.013z"/></svg>';
+        $args['prev_text'] = '<svg width="35" height="35" viewBox="0 0 32 32" fill="currentColor"><path d="M12.792 15.233l-0.754 0.754 6.035 6.035 0.754-0.754-5.281-5.281 5.256-5.256-0.754-0.754-3.013 3.013z" /></svg>';
+        $args['next_text'] = '<svg width="35" height="35" viewBox="0 0 32 32" fill="currentColor"><path d="M19.159 16.767l0.754-0.754-6.035-6.035-0.754 0.754 5.281 5.281-5.256 5.256 0.754 0.754 3.013-3.013z" /></svg>';
         $args['type'] = 'list';
         $args['end_size'] = 1;
         $args['mid_size'] = 1;
@@ -2056,7 +2321,7 @@ if (!function_exists('elessi_wc_publish_coupons')) :
 endif;
 
 /**
- * Comment media Template
+ * Comment media img Template
  */
 add_filter('woocommerce_product_review_comment_form_args', 'elessi_comment_media_upload', 9999);
 if (!function_exists('elessi_comment_media_upload')) :
@@ -2066,16 +2331,75 @@ if (!function_exists('elessi_comment_media_upload')) :
         if (!isset($nasa_opt['comment_media']) || !$nasa_opt['comment_media'] || !isset($comment_form['comment_field'])) {
             return $comment_form;
         }
+
+        $svg_alert = '<svg width="12" height="12" viewBox="0 0 12 13" fill="none">
+                        <path d="M6 0C2.67188 0 0 2.69531 0 6C0 9.32812 2.67188 12 6 12C9.30469 12 12 9.32812 12 6C12 2.69531 9.30469 0 6 0ZM6 10.875C3.30469 10.875 1.125 8.69531 1.125 6C1.125 3.32812 3.30469 1.125 6 1.125C8.67188 1.125 10.875 3.32812 10.875 6C10.875 8.69531 8.67188 10.875 6 10.875ZM6 7.125C6.30469 7.125 6.5625 6.89062 6.5625 6.5625V3.5625C6.5625 3.25781 6.30469 3 6 3C5.67188 3 5.4375 3.25781 5.4375 3.5625V6.5625C5.4375 6.89062 5.67188 7.125 6 7.125ZM6 7.92188C5.57812 7.92188 5.25 8.25 5.25 8.64844C5.25 9.04688 5.57812 9.375 6 9.375C6.39844 9.375 6.72656 9.04688 6.72656 8.64844C6.72656 8.25 6.39844 7.92188 6 7.92188Z" fill="currentColor"></path>
+                    </svg>';
         
-        $cam_img = '<svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor"><g stroke-width="0" /><g stroke-linecap="round" stroke-linejoin="round" /><g><path class="st0" d="M23,9l-1.4-2.9c-0.3-0.7-1-1.1-1.8-1.1h-7.5c-0.8,0-1.5,0.4-1.8,1.1L9,9H5c-1.1,0-2,0.9-2,2v14c0,1.1,0.9,2,2,2 h22c1.1,0,2-0.9,2-2V11c0-1.1-0.9-2-2-2H23z"/><circle class="st0" cx="16" cy="17" r="6" /></g></svg>';
+        $cam_img = '<svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor"><g><path class="st0" d="M23,9l-1.4-2.9c-0.3-0.7-1-1.1-1.8-1.1h-7.5c-0.8,0-1.5,0.4-1.8,1.1L9,9H5c-1.1,0-2,0.9-2,2v14c0,1.1,0.9,2,2,2 h22c1.1,0,2-0.9,2-2V11c0-1.1-0.9-2-2-2H23z"/><circle class="st0" cx="16" cy="17" r="6" /></g></svg>';
+
+        $plus_svg = '<svg viewBox="0 0 24 24" fill="currentColor"><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M12 4V20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>';
         
         $max_size = isset($nasa_opt['maxsize_comment_media']) && (int) $nasa_opt['maxsize_comment_media'] ? (int) $nasa_opt['maxsize_comment_media'] : 1024;
         $max_files = isset($nasa_opt['maxfiles_comment_media']) && (int) $nasa_opt['maxfiles_comment_media'] ? (int) $nasa_opt['maxfiles_comment_media'] : 3;
         
-        $label = sprintf(esc_html__('Pictures (max size: %s kB, max files: %s)', 'elessi-theme'), $max_size, $max_files);
-        $label2 = '<div class="nasa-form-media-wrap"><p class="svg_image_upload"><span class="upload-img" >' . $cam_img . '</span>' . esc_html__('Add photos', 'elessi-theme').'</p><p class="nasa-comment-media"><span class="nasa-flex">' . esc_html__('Pictures', 'elessi-theme').'</span><span class="nasa-flex">' . esc_html__('max size:', 'elessi-theme') . $max_size . ' KB</span><span class="nasa-flex">' . esc_html__('max files:', 'elessi-theme') . $max_files . '</span></p></div>';
+        $label = sprintf(esc_html__('Maximum file size is %s kB, max %s files', 'elessi-theme'), $max_size, $max_files);
+        $label2 =   '<span class="upload-media-svg" >' . $cam_img . '</span>'.
+                    '<span class="nasa-bold-800" > <span>' . esc_html__('Upload photos', 'elessi-theme') . ' (<span class="ns-media-count">0</span>/' . $max_files .')</span>'.
+                    '<span class="nasa-flie-policy">' . $svg_alert . $label.'</span>';
         
-        $media_html = '<p class="nasa-form-media clear-both"><label for="nasa-comment-media">' . $label . '&nbsp;</label><input type="file" name="ns_image_upload[]" id="nasa-comment-media" class="ns_image_upload" multiple="" accept=".jpg, .jpeg, .png, .bmp, .gif" /></p>' . $label2;
+        $media_html =   '<p class="nasa-form-media clear-both" data-max-file="' . esc_attr($max_files) . '" data-max-size="' . esc_attr($max_size) . '">
+                            <label class="svg_media_upload" for="nasa-comment-media">' . $label2 . '</label>
+                            <input type="file" name="ns_image_upload[]" id="nasa-comment-media" class="ns_image_upload" multiple="" accept=".jpg, .jpeg, .png, .bmp, .gif" />
+                            <span class="nasa-form-media-show"> <label class="svg_media_upload" for="nasa-comment-media">' . $plus_svg . '</label></span>
+                        </p>';
+
+        if (!NASA_CORE_USER_LOGGED) {
+            $comment_form['fields']['nasa-comment-media-video'] = $media_html;
+        } else {
+            $comment_form['comment_field'] .= $media_html;
+        }
+    
+        return $comment_form;
+    }
+endif;
+
+
+/**
+ * Comment media video Template
+ */
+add_filter('woocommerce_product_review_comment_form_args', 'elessi_comment_media_upload_video', 9999);
+if (!function_exists('elessi_comment_media_upload_video')) :
+    function elessi_comment_media_upload_video($comment_form) {
+        global $nasa_opt;
+        
+        if (!isset($nasa_opt['comment_media_video']) || !$nasa_opt['comment_media_video'] || !isset($comment_form['comment_field'])) {
+            return $comment_form;
+        }
+
+        $svg_alert = '<svg width="12" height="12" viewBox="0 0 12 13" fill="none">
+                        <path d="M6 0C2.67188 0 0 2.69531 0 6C0 9.32812 2.67188 12 6 12C9.30469 12 12 9.32812 12 6C12 2.69531 9.30469 0 6 0ZM6 10.875C3.30469 10.875 1.125 8.69531 1.125 6C1.125 3.32812 3.30469 1.125 6 1.125C8.67188 1.125 10.875 3.32812 10.875 6C10.875 8.69531 8.67188 10.875 6 10.875ZM6 7.125C6.30469 7.125 6.5625 6.89062 6.5625 6.5625V3.5625C6.5625 3.25781 6.30469 3 6 3C5.67188 3 5.4375 3.25781 5.4375 3.5625V6.5625C5.4375 6.89062 5.67188 7.125 6 7.125ZM6 7.92188C5.57812 7.92188 5.25 8.25 5.25 8.64844C5.25 9.04688 5.57812 9.375 6 9.375C6.39844 9.375 6.72656 9.04688 6.72656 8.64844C6.72656 8.25 6.39844 7.92188 6 7.92188Z" fill="currentColor"></path>
+                    </svg>';
+
+        $cam_img = '<svg viewBox="3 2 18 18" width="32" height="32" fill="none"><g id="SVGRepo_iconCarrier"> <g stroke="currentColor" stroke-width="1.2"> <path d="M16 16V8a1 1 0 00-1-1H5a1 1 0 00-1 1v8a1 1 0 001 1h10a1 1 0 001-1z"></path> <path stroke-linejoin="round" d="M20 7l-4 3v4l4 3V7z"></path> </g> </g></svg>';
+        
+        $plus_svg = '<svg viewBox="0 0 24 24" fill="currentColor"><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M12 4V20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>';
+        
+        $max_size = isset($nasa_opt['maxsize_comment_media_video']) && (int) $nasa_opt['maxsize_comment_media_video'] ? (int) $nasa_opt['maxsize_comment_media_video'] : 1024;
+        $max_files = isset($nasa_opt['maxfiles_comment_media_video']) && (int) $nasa_opt['maxfiles_comment_media_video'] ? (int) $nasa_opt['maxfiles_comment_media_video'] : 1;
+
+        
+        $label = sprintf(_n('Maximum file size is %s kB, max %s file', 'Maximum file size is %s kB, max %s files', $max_files, 'elessi-theme'), $max_size,$max_files);
+        $label2 =   '<span class="upload-media-svg" >' . $cam_img . '</span>'.
+                    '<span class="nasa-bold-800" > <span>' . sprintf(_n('Upload video', 'Upload videos', $max_files, 'elessi-theme')) . ' (<span class="ns-media-count">0</span>/' .  $max_files . ')</span>'.
+                    '<span class="nasa-flie-policy">' . $svg_alert . $label.'</span>';
+
+        // video input
+        $media_html =   '<p class="nasa-form-media clear-both" data-max-file="' . esc_attr($max_files) . '" data-max-size="' . esc_attr($max_size) . '">
+                            <label class="svg_media_upload" for="nasa-comment-media-video">' . $label2 . '</label>
+                            <input type="file" name="ns_video_upload[]" id="nasa-comment-media-video" class="ns_image_upload" multiple="" accept=".mp4, .avi, .mpeg, .mov" />
+                            <span class="nasa-form-media-show"><label class="svg_media_upload" for="nasa-comment-media-video">' . $plus_svg . '</label></span>
+                        </p>';
 
         if (!NASA_CORE_USER_LOGGED) {
             $comment_form['fields']['nasa-comment-media'] = $media_html;
@@ -2090,69 +2414,124 @@ endif;
 /**
  * Process comment media
  */
-add_filter('preprocess_comment', 'elessi_preprocess_review_images', 10);
-if (!function_exists('elessi_preprocess_review_images')) :
-    function elessi_preprocess_review_images($commentdata) {
+add_filter('preprocess_comment', 'elessi_preprocess_review_media', 10);
+if (!function_exists('elessi_preprocess_review_media')) :
+    function elessi_preprocess_review_media($commentdata) {
         global $nasa_opt;
+
+        $files_img = isset($_FILES['ns_image_upload']) && !empty($_FILES['ns_image_upload']) ? $_FILES['ns_image_upload'] : array();
+        $files_video = isset($_FILES['ns_video_upload']) && !empty($_FILES['ns_video_upload']) ? $_FILES['ns_video_upload'] : array();
         
-        if (!isset($nasa_opt['comment_media']) || !$nasa_opt['comment_media']) {
+        if (empty($files_img) && empty($files_video)) {
             return $commentdata;
         }
         
-        $files = isset($_FILES['ns_image_upload']) && !empty($_FILES['ns_image_upload']) ? $_FILES['ns_image_upload'] : array();
-        
-        if (empty($files)) {
-            return $commentdata;
-        }
-        
-        $max_size = isset($nasa_opt['maxsize_comment_media']) && (int) $nasa_opt['maxsize_comment_media'] ? (int) $nasa_opt['maxsize_comment_media'] : 1024;
-        $max_files = isset($nasa_opt['maxfiles_comment_media']) && (int) $nasa_opt['maxfiles_comment_media'] ? (int) $nasa_opt['maxfiles_comment_media'] : 3;
-        
-        /**
-         * Allow maxfiles upload
-         */
-        if (isset($files['name']) && count($files['name']) > $max_files) {
-            $mess = sprintf(esc_html__('Maximum number of files allowed is: %s file(s)', 'elessi-theme'), $max_files);
-            wp_die($mess);
-        }
-        
-        /**
-         * Allow maxsize upload
-         */
-        if (isset($files['size']) && !empty($files['size'])) {
-            foreach ($files['size'] as $k => $size) {
-                if (!$size) {
-                    if (isset($files['name'][$k])) {
-                        unset($files['name'][$k]);
+        if (isset($nasa_opt['comment_media']) && $nasa_opt['comment_media'] && !empty($files_img)) {
+            
+            $max_size = isset($nasa_opt['maxsize_comment_media']) && (int) $nasa_opt['maxsize_comment_media'] ? (int) $nasa_opt['maxsize_comment_media'] : 1024;
+            $max_files = isset($nasa_opt['maxfiles_comment_media']) && (int) $nasa_opt['maxfiles_comment_media'] ? (int) $nasa_opt['maxfiles_comment_media'] : 3;
+            
+            /**
+             * Allow maxfiles upload
+             */
+            if (isset($files_img['name']) && count($files_img['name']) > $max_files) {
+                $mess = '<strong>' . esc_html__('Error: ', 'elessi-theme') . '</strong>' . sprintf(esc_html__('Maximum number of image files allowed is: %s file(s)', 'elessi-theme'), $max_files);
+                wp_die($mess);
+            }
+            
+            /**
+             * Allow maxsize upload
+             */
+            if (isset($files_img['size']) && !empty($files_img['size'])) {
+                foreach ($files_img['size'] as $k => $size) {
+                    if (!$size) {
+                        if (isset($files_img['name'][$k])) {
+                            unset($files_img['name'][$k]);
+                        }
+                        
+                        if (isset($files_img['type'][$k])) {
+                            unset($files_img['type'][$k]);
+                        }
+                        
+                        if (isset($files_img['size'][$k])) {
+                            unset($files_img['size'][$k]);
+                        }
+                        
+                        continue;
                     }
                     
-                    if (isset($files['type'][$k])) {
-                        unset($files['type'][$k]);
+                    if ($size > ($max_size * 1024)) {
+                        $mess = '<strong>' . esc_html__('Error: ', 'elessi-theme') . '</strong>' . sprintf(esc_html__('Max image size allowed: %s kB', 'elessi-theme'), $max_size);
+                        wp_die($mess);
                     }
-                    
-                    if (isset($files['size'][$k])) {
-                        unset($files['size'][$k]);
-                    }
-                    
-                    continue;
                 }
-                
-                if ($size > ($max_size * 1024)) {
-                    $mess = sprintf(esc_html__('Max size allowed: %s kB', 'elessi-theme'), $max_size);
-                    wp_die($mess);
+            }
+            
+            /**
+             * Allow Types upload
+             */
+            if (isset($files_img['type']) && !empty($files_img['type'])) {
+                foreach ($files_img['type'] as $type) {
+                    $type_file = strtolower($type);
+                    
+                    if (!in_array($type_file, array("image/jpg", "image/jpeg", "image/bmp", "image/png", "image/gif" ))) {
+                        wp_die(esc_html__('Only format image accepted: JPG, JPEG, BMP, PNG, GIF', 'elessi-theme'));
+                    }
                 }
             }
         }
-        
-        /**
-         * Allow Types upload
-         */
-        if (isset($files['type']) && !empty($files['type'])) {
-            foreach ($files['type'] as $type) {
-                $type_file = strtolower($type);
-                
-                if (!in_array($type_file, array("image/jpg", "image/jpeg", "image/bmp", "image/png", "image/gif"))) {
-                    wp_die(esc_html__('Only format accepted: JPG, JPEG, BMP, PNG or GIF', 'elessi-theme'));
+
+        if (isset($nasa_opt['comment_media_video']) && $nasa_opt['comment_media_video'] && !empty($files_video)) {
+            
+            $max_size = isset($nasa_opt['maxsize_comment_media_video']) && (int) $nasa_opt['maxsize_comment_media_video'] ? (int) $nasa_opt['maxsize_comment_media_video'] : 1024;
+            $max_files = isset($nasa_opt['maxfiles_comment_media_video']) && (int) $nasa_opt['maxfiles_comment_media_video'] ? (int) $nasa_opt['maxfiles_comment_media_video'] : 1;
+            
+            /**
+             * Allow maxfiles upload
+             */
+            if (isset($files_video['name']) && count($files_video['name']) > $max_files) {
+                $mess = '<strong>' . esc_html__('Error: ', 'elessi-theme') . '</strong>' . sprintf(esc_html__('Maximum number of video files allowed is: %s file(s)', 'elessi-theme'), $max_files);
+                wp_die($mess);
+            }
+            
+            /**
+             * Allow maxsize upload
+             */
+            if (isset($files_video['size']) && !empty($files_video['size'])) {
+                foreach ($files_video['size'] as $k => $size) {
+                    if (!$size) {
+                        if (isset($files_video['name'][$k])) {
+                            unset($files_video['name'][$k]);
+                        }
+                        
+                        if (isset($files_video['type'][$k])) {
+                            unset($files_video['type'][$k]);
+                        }
+                        
+                        if (isset($files_video['size'][$k])) {
+                            unset($files_video['size'][$k]);
+                        }
+                        
+                        continue;
+                    }
+                    
+                    if ($size > ($max_size * 1024)) {
+                        $mess = '<strong>' . esc_html__('Error: ', 'elessi-theme') . '</strong>' . sprintf(esc_html__('Max video size allowed: %s kB', 'elessi-theme'), $max_size);
+                        wp_die($mess);
+                    }
+                }
+            }
+            
+            /**
+             * Allow Types upload
+             */
+            if (isset($files_video['type']) && !empty($files_video['type'])) {
+                foreach ($files_video['type'] as $type) {
+                    $type_file = strtolower($type);
+                    
+                    if (!in_array($type_file, array("video/mp4", "video/avi", "video/mpeg", "video/mov" ))) {
+                        wp_die(esc_html__('Only format video accepted: MP4, AVI, MPEG, MOV', 'elessi-theme'));
+                    }
                 }
             }
         }
@@ -2160,7 +2539,7 @@ if (!function_exists('elessi_preprocess_review_images')) :
         /**
          * Allow upload images
          */
-        add_action('comment_post', 'elessi_add_review_images', 10, 1);
+        add_action('comment_post', 'elessi_add_review_media', 10, 1);
         
         return $commentdata;
     }
@@ -2169,14 +2548,26 @@ endif;
 /**
  * Add Review images
  */
-if (!function_exists('elessi_add_review_images')) :
-    function elessi_add_review_images($comment_id) {
+if (!function_exists('elessi_add_review_media')) :
+    function elessi_add_review_media($comment_id) {
         $comment = get_comment($comment_id);
         
         $post_id = isset($comment->comment_post_ID) ? $comment->comment_post_ID : null;
-        
-        $files  = $_FILES["ns_image_upload"];
-        $img_id = array();
+
+        $files_img  = $_FILES["ns_image_upload"];
+        $files_video  = $_FILES["ns_video_upload"];
+
+        $files = array();
+
+        if (!empty($files_img) && !empty($files_video)) {
+            foreach ($files_img as $key => $value) {
+                $files[$key] = array_merge($files_img[$key], $files_video[$key]);
+            }
+        } else {
+            $files = !empty($files_img) ? $files_img : $files_video;
+        }
+
+        $media_id = array();
         
         if (!empty($files['name'])) {
             require_once ABSPATH . 'wp-admin/includes/image.php';
@@ -2202,7 +2593,7 @@ if (!function_exists('elessi_add_review_images')) :
                     if (is_wp_error($attachment_id)) {
                         wp_die($attachment_id->get_error_message());
                     } else {
-                        $img_id[] = $attachment_id;
+                        $media_id[] = $attachment_id;
                     }
                 }
             }
@@ -2210,9 +2601,49 @@ if (!function_exists('elessi_add_review_images')) :
             remove_filter('intermediate_image_sizes_advanced', 'elessi_comment_img_sizes');
         }
 
-        if (!empty($img_id)) {
-            update_comment_meta($comment_id, 'nasa_review_images', $img_id);
+        if (!empty($media_id)) {
+            update_comment_meta($comment_id, 'nasa_review_images', $media_id);
         }
+    }
+endif;
+
+if (!function_exists('get_latest_reviews_attachment_ids_with_images')) :
+    function get_latest_reviews_attachment_ids_with_images($product_id, $limit = 5) {
+        $attachment_ids= [];
+        $k = 0;
+        $args = array(
+            'post_id' => $product_id,
+            // 'number' => $limit,
+            'status' => 'approve',
+            'meta_query' => array(
+                array(
+                    'key' => 'nasa_review_images',
+                    'compare' => 'EXISTS'
+                ),
+            ),
+            'orderby' => 'comment_date',
+            'order' => 'DESC',
+        );
+
+        $comments = get_comments($args);
+
+        if (!empty($comments)) {
+            foreach ($comments as $comment) {
+        
+                $review_images = get_comment_meta($comment->comment_ID, 'nasa_review_images', true);
+                
+                if (!empty($review_images) && is_array($review_images)) {
+                    foreach ($review_images as $attachment_id) {
+                        $k++;
+                        if (count($attachment_ids) < 5) {
+                            $attachment_ids[] = $attachment_id;
+                        }
+                    }
+                }
+            }
+        }
+    
+        return ['attachment_ids' => $attachment_ids, 'count' => $k];
     }
 endif;
 
@@ -2232,7 +2663,7 @@ endif;
 /**
  * Show Review images
  */
-add_action('woocommerce_review_after_comment_text', 'elessi_review_images', 10, 1);
+add_action('woocommerce_review_before', 'elessi_review_images', 10, 1);
 if (!function_exists('elessi_review_images')) :
     function elessi_review_images($comment) {
         global $nasa_opt;
@@ -2317,4 +2748,35 @@ function wp_kses_allowed_html_svg( $allowedposttags, $context ) {
     }
     return $allowedposttags;
 }
+endif;
+
+
+add_filter('comment_post_redirect', 'custom_comment_post_redirect', 10, 2);
+if (!function_exists('custom_comment_post_redirect')) :
+function custom_comment_post_redirect($location, $comment) {
+
+    $html = file_get_contents($location);
+    $response = array(
+        'code' => 'success',
+        'html' => $html,
+        'comment_id' => '#li-comment-' . $comment->comment_ID,
+        'message' => esc_html__('Your review has been submitted', 'elessi-theme')
+    );
+
+    header('Content-Type: application/json');
+    
+    echo json_encode($response);
+
+    exit;
+}
+endif;
+
+add_action('woocommerce_review_before', 'elessi_review_confetti', 10, 1);
+if (!function_exists('elessi_review_confetti')) :
+    function elessi_review_confetti() { 
+        global $nasa_opt;
+        $theme_version = isset($nasa_opt['js_theme_version']) && $nasa_opt['js_theme_version'] ? apply_filters('nasa_version_assets', NASA_VERSION) : null;
+    
+        wp_enqueue_script('jquery-confetti', ELESSI_THEME_URI . '/assets/js/min/jquery.confetti.min.js', array('jquery'), $theme_version, true);
+    }
 endif;

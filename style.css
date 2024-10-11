@@ -4,7 +4,7 @@ Theme URI: https://elessi.nasatheme.com
 Author: NasaTheme
 Author URI: https://nasatheme.com
 Description: A Premium and Responsive WooCommerce - WordPress Theme, designed for E-Commerce websites
-Version: 6.0.9.1
+Version: 6.1.8.1
 Requires PHP: 5.6.0 or Higher
 License: https://themeforest.net/licenses
 License URI: https://themeforest.net/licenses
@@ -151,8 +151,6 @@ sub {
 img {
   border: 0;
   color: transparent;
-  width: auto;
-  height: auto;
 }
 
 svg:not(:root) {
@@ -1338,6 +1336,10 @@ small.woocommerce-invalid {
   color: white;
 }
 
+input[hidden] {
+  display: none;
+}
+
 /* Tables */
 table {
   margin-bottom: 1.37931em;
@@ -1425,7 +1427,8 @@ table tr:last-child {
 }
 
 #nasa-confetti-popup,
-#nasa-confetti {
+#nasa-confetti,
+#nasa-confetti-review {
   cursor: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0xNy40NTksMTYuMDE0bDguMjM5LTguMTk0YzAuMzk1LTAuMzkxLDAuMzk1LTEuMDI0LDAtMS40MTRjLTAuMzk0LTAuMzkxLTEuMDM0LTAuMzkxLTEuNDI4LDAgIGwtOC4yMzIsOC4xODdMNy43Myw2LjI4NGMtMC4zOTQtMC4zOTUtMS4wMzQtMC4zOTUtMS40MjgsMGMtMC4zOTQsMC4zOTYtMC4zOTQsMS4wMzcsMCwxLjQzMmw4LjMwMiw4LjMwM2wtOC4zMzIsOC4yODYgIGMtMC4zOTQsMC4zOTEtMC4zOTQsMS4wMjQsMCwxLjQxNGMwLjM5NCwwLjM5MSwxLjAzNCwwLjM5MSwxLjQyOCwwbDguMzI1LTguMjc5bDguMjc1LDguMjc2YzAuMzk0LDAuMzk1LDEuMDM0LDAuMzk1LDEuNDI4LDAgIGMwLjM5NC0wLjM5NiwwLjM5NC0xLjAzNywwLTEuNDMyTDE3LjQ1OSwxNi4wMTR6IiBmaWxsPSIjZmZmIiBpZD0iQ2xvc2UiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=") 16 16, pointer;
 }
 
@@ -1586,6 +1589,61 @@ table tr:last-child {
 
   100% {
     transform: rotate(359deg);
+  }
+}
+/* Safari | chrome */
+@-webkit-keyframes nasa-error {
+  0% {
+    font-size: 70%;
+  }
+
+  50% {
+    font-size: 80%;
+  }
+
+  100% {
+    font-size: 70%;
+  }
+}
+/* FF */
+@-moz-keyframes nasa-error {
+  0% {
+    font-size: 70%;
+  }
+
+  50% {
+    font-size: 80%;
+  }
+
+  100% {
+    font-size: 70%;
+  }
+}
+/* Opera */
+@-o-keyframes nasa-error {
+  0% {
+    font-size: 70%;
+  }
+
+  50% {
+    font-size: 80%;
+  }
+
+  100% {
+    font-size: 70%;
+  }
+}
+@keyframes nasa-error {
+  0% {
+    font-size: 70%;
+  }
+
+  50% {
+    font-size: 80%;
+  }
+
+  100% {
+    font-size: 70%;
   }
 }
 .blockUI.blockOverlay {
@@ -1993,16 +2051,22 @@ body > #nasa-confetti {
   z-index: 1;
 }
 
-.nasa-img-captcha {
-  margin: 0 20px 10px 0;
+.nasa-capcha-row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  gap: 10px;
 }
-
-.nasa-reload-captcha {
+.nasa-capcha-row .nasa-reload-captcha {
   position: relative;
-  top: 10px;
 }
-
-.nasa-reload-captcha i {
+.nasa-capcha-row .nasa-reload-captcha i {
   font-size: 180%;
   line-height: 30px;
   height: 30px;
@@ -2681,6 +2745,17 @@ svg.ns-coupon-icon path {
   line-height: 30px;
   font-size: 90%;
 }
+.mini-cart-item-subtotal small {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  line-height: 1.2;
+}
 
 /* Cart total at right sidebar */
 .cart-sidebar .cart_totals table {
@@ -2762,6 +2837,13 @@ svg.ns-coupon-icon path {
   padding: 25px;
   overflow-y: auto;
   background: #fff;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+#nasa-quickview-sidebar-content:-webkit-scrollbar {
+  display: none;
 }
 
 .nasa-static-sidebar {
@@ -2814,6 +2896,7 @@ svg.ns-coupon-icon path {
   -webkit-box-shadow: 0 0 6px 0 rgba(1, 1, 1, 0.3);
   -moz-box-shadow: 0 0 6px 0 rgba(1, 1, 1, 0.3);
   box-shadow: 0 0 6px 0 rgba(1, 1, 1, 0.3);
+  color: #fff;
 }
 
 .ns-cart-popup-wrap {
@@ -4218,11 +4301,6 @@ tr.price {
 .nasa-product-content-nasa_label-wrap .nasa-product-content-child > a.ux-item-more {
   display: none !important;
 }
-.nasa-product-content-nasa_label-wrap .nasa-product-content-child > a.nasa-attr-ux-more {
-  font-weight: normal !important;
-  border: none !important;
-  padding: 0 !important;
-}
 
 .nasa-product-content-color-image-wrap {
   position: absolute;
@@ -4274,7 +4352,7 @@ tr.price {
 .nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color:first-child {
   margin-left: 0;
 }
-.nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color > span {
+.nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color > span:not(.nasa-tip-content) {
   font-size: 0;
   color: transparent;
   overflow: hidden;
@@ -4288,7 +4366,7 @@ tr.price {
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
-.nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color > span > span {
+.nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color > span:not(.nasa-tip-content) > span {
   width: 100%;
   height: 100%;
 }
@@ -4298,7 +4376,7 @@ tr.price {
 .nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color.nasa-active {
   border-color: #666666;
 }
-.nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color.nasa-active span {
+.nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color.nasa-active span:not(.nasa-tip-content) {
   top: 1px;
   right: 1px;
   bottom: 1px;
@@ -4306,15 +4384,6 @@ tr.price {
 }
 .nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color.ux-item-more {
   display: none !important;
-}
-.nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_color.nasa-attr-ux-more {
-  border: none;
-  font-size: 13px;
-  font-weight: normal !important;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
 }
 .nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_image {
   display: inline-block;
@@ -4347,10 +4416,29 @@ tr.price {
 .nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_image.ux-item-more {
   display: none !important;
 }
-.nasa-product-content-color-image-wrap .nasa-attr-ux-nasa_image.nasa-attr-ux-more {
+
+.nasa-product-content-child .nasa-attr-ux-more {
   border: none;
-  line-height: 22px;
-  font-weight: normal !important;
+  font-size: 110%;
+  width: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.nasa-product-content-child .nasa-attr-ux-more svg {
+  width: 9px;
+  height: 9px;
+  -webkit-transform: translate(1px, 0px);
+  -moz-transform: translate(1px, 0px);
+  -o-transform: translate(1px, 0px);
+  -ms-transform: translate(1px, 0px);
+  transform: translate(1px, 0px);
 }
 
 @media only screen and (max-width: 767px) {
@@ -5131,6 +5219,7 @@ select:hover {
   -webkit-align-items: center;
   align-items: center;
   margin: 15px 0;
+  gap: 20px;
 }
 .product-info .nasa-single-share .nasa-share-label {
   display: -webkit-box;
@@ -5160,22 +5249,6 @@ select:hover {
 .product-info .nasa-single-share .social-icons {
   margin-top: 0;
   margin-bottom: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-left: 25px;
-  line-height: 20px;
-}
-.product-info .nasa-single-share .social-icons li {
-  margin: 5px 25px 5px 0;
-}
-.product-info .nasa-single-share .social-icons li:last-child {
-  margin-right: 0;
 }
 .product-info .nasa-single-share:empty {
   display: none;
@@ -6227,6 +6300,7 @@ form .select2-container--default .select2-search--dropdown .select2-search__fiel
   transform: translate(-50px, -50%) !important;
 }
 
+.sr7-bullets.custom,
 .tp-bullets.custom {
   width: auto !important;
   height: 1px !important;
@@ -6235,22 +6309,27 @@ form .select2-container--default .select2-search--dropdown .select2-search__fiel
   transform: none !important;
   text-align: center;
 }
+.sr7-bullets.custom :before,
 .tp-bullets.custom :before {
   display: none;
 }
+.sr7-bullets.custom .sr7-bullet,
+.sr7-bullets.custom .tp-bullet,
+.tp-bullets.custom .sr7-bullet,
 .tp-bullets.custom .tp-bullet {
   margin: 0 3px;
   border: none;
   opacity: 0.5;
   display: inline-block;
   cursor: pointer;
-  position: relative;
   background: #C0C0C0;
+  position: relative !important;
   top: -25px !important;
   left: auto !important;
-  width: 8px;
-  height: 8px;
+  width: 8px !important;
+  height: 8px !important;
   padding: 0;
+  box-sizing: content-box;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -6259,6 +6338,9 @@ form .select2-container--default .select2-search--dropdown .select2-search__fiel
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
+.sr7-bullets.custom .sr7-bullet.selected,
+.sr7-bullets.custom .tp-bullet.selected,
+.tp-bullets.custom .sr7-bullet.selected,
 .tp-bullets.custom .tp-bullet.selected {
   opacity: 1;
   background-color: #f76b6a;
@@ -6588,6 +6670,8 @@ form .select2-container--default .select2-search--dropdown .select2-search__fiel
   top: 0;
   left: 0;
   right: 0;
+  max-height: 100%;
+  overflow: hidden;
   -webkit-transform: translateY(25px);
   -moz-transform: translateY(25px);
   -o-transform: translateY(25px);
@@ -6600,6 +6684,8 @@ form .select2-container--default .select2-search--dropdown .select2-search__fiel
   visibility: visible;
   position: relative;
   z-index: 2;
+  max-height: initial;
+  overflow: initial;
   -webkit-transform: none;
   -moz-transform: none;
   -o-transform: none;
@@ -6957,7 +7043,7 @@ ul.nasa-tabs {
 }
 .nasa-classic-style.nasa-tabs-no-border.nasa-tabs-radius li:hover a {
   color: #000;
-  background-color: #f8f9fa !important;
+  background-color: #f5f5f5 !important;
 }
 .nasa-classic-style.nasa-tabs-has-bg {
   padding: 15px;
@@ -7040,7 +7126,6 @@ ul.nasa-tabs {
 .nasa-accordion-title a {
   color: #333333;
   font-weight: 700;
-  letter-spacing: 1px;
   padding: 15px 15px 15px 40px;
   line-height: 1.4;
   display: block;
@@ -7355,7 +7440,7 @@ ul.nasa-tabs {
 .nasa-open-toggle > ul:last-child {
   margin-bottom: 10px;
 }
-.nasa-open-toggle > ul.nasa-product-status-widget {
+.nasa-open-toggle > ul.nasa-product-status-widget, .nasa-open-toggle > ul.nasa-product-alphabet-widget {
   margin-bottom: 5px;
 }
 
@@ -7393,6 +7478,17 @@ ul.nasa-tabs {
   padding: 5px 10px;
   background-color: transparent;
   color: #555555;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 .widget li.nasa_show_manual a:after {
   display: none;
@@ -7853,6 +7949,24 @@ ul.nasa-tabs {
   clear: none !important;
   width: 100%;
 }
+.col-sidebar .widget .nasa-product-alphabet-widget,
+.nasa-side-sidebar .widget .nasa-product-alphabet-widget,
+.top-bar-wrap-type-2 .widget .nasa-product-alphabet-widget {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.col-sidebar .widget .nasa-product-alphabet-widget li,
+.nasa-side-sidebar .widget .nasa-product-alphabet-widget li,
+.top-bar-wrap-type-2 .widget .nasa-product-alphabet-widget li {
+  clear: none !important;
+  width: 50%;
+}
 .col-sidebar .widget .nasa-variation-filters-brands li,
 .nasa-side-sidebar .widget .nasa-variation-filters-brands li,
 .top-bar-wrap-type-2 .widget .nasa-variation-filters-brands li {
@@ -7863,6 +7977,11 @@ ul.nasa-tabs {
 .nasa-side-sidebar .widget .nasa-variation-filters-brands li::nth-of-type(2n+1),
 .top-bar-wrap-type-2 .widget .nasa-variation-filters-brands li::nth-of-type(2n+1) {
   clear: both !important;
+}
+.col-sidebar .widget .nasa-variation-filters-brands.ns-cols-1 li,
+.nasa-side-sidebar .widget .nasa-variation-filters-brands.ns-cols-1 li,
+.top-bar-wrap-type-2 .widget .nasa-variation-filters-brands.ns-cols-1 li {
+  width: 100%;
 }
 
 .nasa-side-sidebar {
@@ -7920,6 +8039,13 @@ ul.nasa-tabs {
   overflow-y: auto;
   padding: 40px;
   color: #333;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+.nasa-side-sidebar .nasa-sidebar-off-canvas:-webkit-scrollbar {
+  display: none;
 }
 
 .col-sidebar .widget [class*="block-grid-"].ns-cols-2 > li.nasa-li-filter-color, .col-sidebar .widget [class*="block-grid-"].ns-cols-2 > li.nasa-li-filter-size, .col-sidebar .widget [class*="block-grid-"].ns-cols-2 > li.nasa-li-filter-image,
@@ -8063,6 +8189,7 @@ ul.nasa-tabs {
 }
 .nasa-side-sidebar .nasa-sidebar-off-canvas .widget .nasa-toggle-widget:hover, .nasa-side-sidebar .nasa-sidebar-off-canvas .widget .nasa-toggle-widget:not(.nasa-hide) {
   background: #f8f8f8;
+  color: #000;
 }
 .nasa-side-sidebar .nasa-sidebar-off-canvas .widget .nasa-toggle-widget .widget-title {
   margin: 0;
@@ -8203,6 +8330,7 @@ ul.nasa-tabs {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .mfp-container:before {
@@ -8565,6 +8693,108 @@ img.mfp-img {
     padding-right: 6px;
   }
 }
+.pswp .pswp__caption {
+  display: none;
+}
+.pswp .pswp__item .pswp__img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.pswp .pswp__item .ns-woo-popup-video {
+  max-width: 90%;
+  max-height: 90%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.pswp .pswp__item .ns-woo-popup-video-url {
+  width: 900px;
+  height: 400px;
+}
+.pswp .pswp__top-bar {
+  background-color: transparent;
+}
+.pswp .pswp__bg {
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.pswp .pswp__button--arrow--right,
+.pswp .pswp__button--arrow--left {
+  opacity: 0.7;
+  background-color: #333 !important;
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.pswp .pswp__button--arrow--right::before,
+.pswp .pswp__button--arrow--left::before {
+  height: 60px;
+  width: 60px;
+  top: 0;
+  left: 0;
+}
+.pswp .pswp__button--arrow--right:hover,
+.pswp .pswp__button--arrow--left:hover {
+  opacity: 1;
+  background-color: #333 !important;
+}
+.pswp .pswp__button--arrow--right {
+  right: 30px;
+}
+.pswp .pswp__button--arrow--right::before {
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 32 32" fill="%23fff"><path d="M19.159 16.767l0.754-0.754-6.035-6.035-0.754 0.754 5.281 5.281-5.256 5.256 0.754 0.754 3.013-3.013z"></path></svg>') 0 0 no-repeat;
+}
+.pswp .pswp__button--arrow--left {
+  left: 30px;
+}
+.pswp .pswp__button--arrow--left::before {
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 32 32" fill="%23fff"><path d="M12.792 15.233l-0.754 0.754 6.035 6.035 0.754-0.754-5.281-5.281 5.256-5.256-0.754-0.754-3.013 3.013z"></path></svg>') 0 0 no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+  .pswp .pswp__item .pswp__img {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .pswp .pswp__item .ns-woo-popup-video {
+    max-width: calc(100% - 10px);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+  .pswp .pswp__button--arrow--right,
+  .pswp .pswp__button--arrow--left {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
 .mfp-bg {
   -webkit-transition: all 700ms ease;
   -moz-transition: all 700ms ease;
@@ -8775,11 +9005,6 @@ img.mfp-img {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-}
-
-.nasa-in-mobile .mfp-container {
-  position: fixed;
-  overflow-y: auto;
 }
 
 .nasa-popup-exit-intent-wrap,
@@ -9496,6 +9721,9 @@ img.mfp-img {
 .nasa-promotion-news .nasa-content-promotion-custom a:hover {
   text-decoration: none;
 }
+.nasa-promotion-news .nasa-content-promotion-custom.nasa-promo-silde .slick-slide {
+  height: 48px;
+}
 .nasa-promotion-news .nasa-stclose {
   position: absolute;
   z-index: 10;
@@ -9597,9 +9825,6 @@ img.mfp-img {
   display: none;
 }
 .nasa-static-group-btn a svg {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
   color: #333;
 }
 .nasa-static-group-btn a i {
@@ -9624,7 +9849,8 @@ img.mfp-img {
   display: none !important;
 }
 
-#nasa-back-to-top {
+#nasa-back-to-top,
+#nasa-where-you-are {
   position: relative;
   z-index: 100;
   font-size: 200%;
@@ -9651,18 +9877,10 @@ img.mfp-img {
 .nasa-share {
   margin-top: 10px;
   margin-bottom: 0;
-}
-.nasa-share li {
-  display: -webkit-inline-box;
-  display: -moz-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  position: relative;
-  list-style: none;
-  margin-right: 25px;
-}
-.nasa-share li:last-child {
-  margin-right: 0;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .nasa-share a {
   display: inherit;
@@ -9692,9 +9910,11 @@ img.mfp-img {
   line-height: 1.6;
 }
 
+.follow-icon {
+  gap: 20px;
+}
 .follow-icon a {
   position: relative;
-  margin-right: 20px;
   line-height: 1.6;
   display: -webkit-inline-box;
   display: -moz-inline-box;
@@ -10009,10 +10229,10 @@ body .blockOverlay {
 }
 .ns-sale-notification .close-noti svg {
   color: #666666;
-  -webkit-transition: all 350ms ease 200ms ease;
-  -moz-transition: all 350ms ease 200ms ease;
-  -o-transition: all 350ms ease 200ms ease;
-  transition: all 350ms ease 200ms ease;
+  -webkit-transition: all 350ms ease;
+  -moz-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+  transition: all 350ms ease;
 }
 .ns-sale-notification .close-noti:hover {
   background-color: #f1f1f1;
@@ -10086,6 +10306,437 @@ body .blockOverlay {
     width: 0;
   }
 }
+.ns-categories-tree-warp {
+  margin: 30px 0;
+}
+.ns-categories-tree-warp li {
+  list-style: none;
+}
+.ns-categories-tree-warp .ns-categories-tree-column {
+  padding: 0px;
+}
+.ns-categories-tree-warp .ns-categories-tree-column::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #555555;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-tree-link {
+  line-height: 30px;
+  display: block;
+  padding-left: 20px;
+  position: relative;
+  font-size: 110%;
+  width: fit-content;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-tree-link::before {
+  content: '';
+  width: 15px;
+  height: 1px;
+  background-color: #c1c1c1;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  display: block;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-tree-link::after {
+  content: '';
+  width: 1px;
+  height: 20px;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  display: block;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-tree-link .count {
+  font-size: 80%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #efefef;
+  padding: 2px 10px 0px 10px;
+  line-height: 1;
+  height: fit-content;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-tree-link:hover .count {
+  background-color: #f76b6a;
+  border-color: #f76b6a;
+  color: #fff;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root {
+  position: relative;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root::before {
+  content: '';
+  width: 1px;
+  height: 100%;
+  background-color: #555555;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background-color: #555555;
+  position: absolute;
+  top: 29px;
+  left: -7px;
+  display: block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root:last-child::before {
+  display: none;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root:last-child > .ns-cat-tree-link::after {
+  content: '';
+  width: 1px;
+  height: 35px;
+  background-color: #555555;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root > .ns-cat-tree-link {
+  font-size: 120%;
+  padding-top: 20px;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root > .ns-cat-tree-link::before {
+  top: 35px;
+  background-color: #555555;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root > .ns-cat-tree-link::after {
+  height: 35px;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child {
+  margin-left: 30px;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li {
+  position: relative;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li::before {
+  content: '';
+  width: 1px;
+  height: 100%;
+  background-color: #c1c1c1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #c1c1c1;
+  position: absolute;
+  top: 16px;
+  left: -4px;
+  display: block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li > .ns-cat-tree-link {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li:last-child::before {
+  display: none;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li:last-child .ns-cat-tree-link::after {
+  content: '';
+  width: 1px;
+  height: 25px;
+  background-color: #c1c1c1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li:hover::after {
+  background-color: #f76b6a;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li:hover > .ns-cat-tree-link {
+  padding-left: 25px;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li:hover > .ns-cat-tree-link::after {
+  width: 3px;
+  left: -1px;
+  background-color: #f76b6a;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li:hover > .ns-cat-tree-link::before {
+  height: 3px;
+  top: 19px;
+  background-color: #f76b6a;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li:has(~ li:hover)::before {
+  width: 3px;
+  left: -1px;
+  background-color: #f76b6a;
+  z-index: 5;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li:has(~ li:hover)::after {
+  opacity: 0;
+  visibility: hidden;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root .ns-cat-child li:has(~ li:hover) > .ns-cat-tree-link::after {
+  opacity: 0;
+  visibility: hidden;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root:hover::after {
+  background-color: #f76b6a;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root:hover > .ns-cat-tree-link {
+  padding-left: 25px;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root:hover > .ns-cat-tree-link::after {
+  width: 3px;
+  left: -1px;
+  background-color: #f76b6a;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root:hover > .ns-cat-tree-link::before {
+  height: 3px;
+  top: 34px;
+  background-color: #f76b6a;
+}
+.ns-categories-tree-warp .ns-categories-tree-column .ns-cat-root:has(~ .ns-cat-root:hover)::before {
+  width: 3px;
+  left: -1px;
+  background-color: #f76b6a;
+}
+
+.nasa-where-you-are-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: auto;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.nasa-where-you-are-wrap.nasa-active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 99999999;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.nasa-where-you-are-wrap .nasa-close-site-map {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 3;
+}
+.nasa-where-you-are-wrap .nasa-site-map,
+.nasa-where-you-are-wrap .nasa-cat-map {
+  width: 100%;
+  padding: 20px;
+}
+.nasa-where-you-are-wrap .nasa-title {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 4px #dedede;
+  -moz-box-shadow: 0px 0px 4px #dedede;
+  box-shadow: 0px 0px 4px #dedede;
+  z-index: 9;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.nasa-where-you-are-wrap .nasa-title .ns-map-lcl {
+  font-size: 150%;
+  margin: 20px 0 0 0;
+  position: relative;
+  text-align: center;
+  color: #f76b6a;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.nasa-where-you-are-wrap .nasa-title .ns-map-lcl svg {
+  position: relative;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  animation: float_lcl  3s ease-in-out infinite;
+}
+.nasa-where-you-are-wrap .nasa-title .ns-map-lcl::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: #f76b6a;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.nasa-where-you-are-wrap .nasa-title .ns-map-lcl:hover::after {
+  left: 0;
+  width: 100%;
+}
+.nasa-where-you-are-wrap .current-menu-item svg {
+  bottom: 5px;
+  position: relative;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  animation: float_lcl  3s ease-in-out infinite;
+}
+.nasa-where-you-are-wrap .current-menu-item:hover svg {
+  height: 40px;
+  width: 40px;
+}
+
+@keyframes float_lcl {
+  0% {
+    transform: translate(0, -10%) rotateY(0deg);
+  }
+
+  50% {
+    transform: translate(0, 10%) rotateY(180deg);
+  }
+
+  100% {
+    transform: translate(0, -10%) rotateY(0deg);
+  }
+}
+/* Safari | chrome */
+@-webkit-keyframes float_lcl {
+  0% {
+    -webkit-transform: translate(0, -10%) rotateY(0deg);
+  }
+
+  50% {
+    -webkit-transform: translate(0, 10%) rotateY(180deg);
+  }
+
+  100% {
+    -webkit-transform: translate(0, -10%) rotateY(0deg);
+  }
+}
+/* FF */
+@-moz-keyframes float_lcl {
+  0% {
+    -moz-transform: translate(0, -10%) rotateY(0deg);
+  }
+
+  50% {
+    -moz-transform: translate(0, 10%) rotateY(180deg);
+  }
+
+  100% {
+    -moz-transform: translate(0, -10%) rotateY(0deg);
+  }
+}
+/* Opera */
+@-o-keyframes float_lcl {
+  0% {
+    -o-transform: translate(0, -10%) rotateY(0deg);
+  }
+
+  50% {
+    -o-transform: translate(0, 10%) rotateY(180deg);
+  }
+
+  100% {
+    -o-transform: translate(0, -10%) rotateY(0deg);
+  }
+}
 /* Slick Slider */
 .slick-slider {
   position: relative;
@@ -10156,7 +10807,6 @@ body .blockOverlay {
 
 .slick-slide {
   float: left;
-  height: 100%;
   min-height: 1px;
   outline: none;
   display: none;
@@ -10315,7 +10965,7 @@ button.slick-arrow {
 }
 
 .nasa-nav-top > .nasa-nav-arrow {
-  top: -37px;
+  top: -55px;
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -o-transform: translateX(0);
@@ -10341,6 +10991,8 @@ button.slick-arrow {
   visibility: visible;
   opacity: 1;
   width: 15px;
+  height: 40px;
+  overflow: hidden;
 }
 .nasa-slick-nav.nasa-nav-top > .nasa-nav-arrow svg {
   position: absolute;
@@ -10433,8 +11085,10 @@ button.slick-arrow {
 }
 
 .nasa-nav-top-list > .nasa-nav-arrow {
-  top: -46px;
+  top: -67px;
   width: 20px;
+  height: 40px;
+  overflow: hidden;
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -o-transform: translateX(0);
@@ -10634,11 +11288,23 @@ button.slick-arrow {
     -ms-transform: translateX(50%);
     transform: translateX(50%);
   }
+  .elementor-section.elementor-section-boxed > .elementor-container .nasa-category-slider-horizontal .nasa-slick-slider > .nasa-nav-arrow:hover:not(.slick-disabled).slick-prev {
+    left: -5px;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container .nasa-category-slider-horizontal .nasa-slick-slider > .nasa-nav-arrow:hover:not(.slick-disabled).slick-next {
+    right: -5px;
+  }
   .elementor-section.elementor-section-boxed > .elementor-container .nasa-category-slider-horizontal .nasa-slick-slider.nasa-category-horizontal-1 > .nasa-nav-arrow.slick-prev {
     left: -10px;
   }
   .elementor-section.elementor-section-boxed > .elementor-container .nasa-category-slider-horizontal .nasa-slick-slider.nasa-category-horizontal-1 > .nasa-nav-arrow.slick-next {
     right: -10px;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container .nasa-category-slider-horizontal .nasa-slick-slider.nasa-category-horizontal-1 > .nasa-nav-arrow:hover:not(.slick-disabled).slick-prev {
+    left: -15px;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container .nasa-category-slider-horizontal .nasa-slick-slider.nasa-category-horizontal-1 > .nasa-nav-arrow:hover:not(.slick-disabled).slick-next {
+    right: -15px;
   }
 }
 .ns-items-gap {
@@ -10766,6 +11432,9 @@ button.slick-arrow {
   flex-wrap: nowrap;
 }
 .nasa-slick-slider:not(.slick-initialized) > * {
+  display: none;
+}
+.nasa-slick-slider .product-item .nasa-attr-ux-item .nasa-tip-content {
   display: none;
 }
 
@@ -12292,11 +12961,6 @@ div.wpcf7 input[type="file"]:disabled {
   cursor: default;
 }
 
-div.wpcf7 .button.btn-contact {
-  font-size: 12px;
-  padding: 12px 40px;
-}
-
 .watch-style-wrap .wpcf7 p {
   display: -webkit-box;
   display: -moz-box;
@@ -12963,11 +13627,20 @@ textarea.nasa-error {
 .nasa-stclose.bg-white:hover {
   background: #FFFFFF;
 }
-.nasa-stclose.nasa-mfp-close, .nasa-stclose.ns-node-close, .nasa-stclose.ns-form-close {
+.nasa-stclose.nasa-mfp-close, .nasa-stclose.ns-node-close, .nasa-stclose.ns-form-close, .nasa-stclose.close-360-degree {
   position: absolute;
   top: 10px;
   right: 10px;
   z-index: 400;
+}
+
+.nasa-static-sidebar.style-2 .nasa-stclose:before,
+.nasa-static-sidebar.style-2 .nasa-stclose:after {
+  border-color: #ccc;
+}
+.nasa-static-sidebar.style-2 .nasa-stclose:hover:before,
+.nasa-static-sidebar.style-2 .nasa-stclose:hover:after {
+  border-color: #333;
 }
 
 .woocommerce-checkout .screen-reader-text {
@@ -13148,7 +13821,10 @@ table {
   margin-bottom: 0;
 }
 .nasa-pagination ul li {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   list-style: none;
 }
 .nasa-pagination ul li .pe7-icon {
@@ -13321,6 +13997,18 @@ table {
 .woocommerce-pagination .page-numbers .current {
   background-color: #f76b6a;
   color: #fff;
+}
+
+.nasa-pagination.style-1 .woocommerce-pagination {
+  width: initial;
+  text-align: initial;
+}
+.nasa-pagination.style-1 .woocommerce-pagination ul li {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .nasa-footer-info-box {
@@ -15825,6 +16513,22 @@ span.custom-icon-w-text i.checked {
   body .product-item p.wc-gzd-additional-info {
     margin-top: 0;
   }
+
+  #main-content:after {
+    content: '';
+    z-index: 99999;
+    background-color: #fff;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+  }
 }
 /**
  * For Product Card Styles
@@ -15852,6 +16556,9 @@ span.custom-icon-w-text i.checked {
   }
   body .nasa-slick-slider .product-item .info .star-rating {
     margin-bottom: 7px;
+  }
+  body .woocommerce-checkout .nasa-slick-slider .product-item .info .star-rating {
+    margin-bottom: 3px;
   }
   body .nasa-item-meta .nasa-widget-title {
     font-size: 105%;
@@ -17281,6 +17988,28 @@ body .wcfmmp-product-geolocate-search-form i.wcfmmmp_locate_icon {
   background-color: #ffffff;
   padding: 5px 20px 15px 20px;
   border-bottom: 1px solid #efefef;
+  max-height: 200px;
+  overflow: auto;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.nasa-mobile-nav-wrap .nasa-menusub-for-mobile .li_accordion .nav-dropdown-mobile::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.nasa-mobile-nav-wrap .nasa-menusub-for-mobile .li_accordion .nav-dropdown-mobile::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  backdrop-filter: blur(4px);
+}
+.nasa-mobile-nav-wrap .nasa-menusub-for-mobile .li_accordion .nav-dropdown-mobile::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+.nasa-mobile-nav-wrap .nasa-menusub-for-mobile .li_accordion .nav-dropdown-mobile::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa;
 }
 .nasa-mobile-nav-wrap .nasa-menusub-for-mobile .li_accordion .nav-dropdown-mobile .sub-menu li {
   margin-top: 10px;
@@ -17435,6 +18164,12 @@ body input[type="submit"].dokan-btn-theme,
   color: #FFF;
 }
 
+.button.btn-border {
+  background-color: transparent !important;
+  border-color: #efefef;
+  color: inherit;
+}
+
 button:hover,
 .button:hover,
 #submit:hover,
@@ -17464,6 +18199,11 @@ body input[type="submit"].dokan-btn-theme:hover,
   background-color: #f54543;
   border-color: #f54543;
   color: #FFF;
+}
+
+.button.btn-border:hover {
+  border-color: #555555;
+  color: inherit;
 }
 
 #submit[disabled],
@@ -19046,6 +19786,10 @@ input[type="submit"][disabled]:hover {
 .html-ready .radio-list-wrap input[type="radio"]:after,
 .html-ready .nasa-item-review-thumb .svg-wrap,
 .html-ready .nasa-item-review-thumb::before,
+.html-ready .nasa-item-review-thumb .ns-review-img-count,
+.html-ready .nasa-item-reviewed-thumb .svg-wrap,
+.html-ready .nasa-item-reviewed-thumb::before,
+.html-ready .nasa-item-reviewed-thumb .ns-review-img-count,
 .html-ready .ns-cart-popup-v2 .woocommerce-mini-cart-item,
 .html-ready .nasa-nav-arrow svg {
   -webkit-transition: all 350ms ease;
@@ -19103,7 +19847,7 @@ input[type="submit"][disabled]:hover {
   -o-transition: all 250ms ease;
   transition: all 250ms ease;
 }
-.html-ready .nasa-static-sidebar .nasa-sidebar-close a:before,
+.html-ready .nasa-static-sidebar .nasa-sidebar-close a svg,
 .html-ready .product-remove a,
 .html-ready .mini-cart-info .variation,
 .html-ready .nav-dropdown,
@@ -19239,7 +19983,7 @@ input[type="submit"][disabled]:hover {
   -o-transition: color .3s .001s ease-out, background .1s .001s ease-out, visibility .3s .2s ease-out, opacity .3s .2s ease-out, transform .3s .2s ease-out, margin 200ms ease;
   transition: color .3s .001s ease-out, background .1s .001s ease-out, visibility .3s .2s ease-out, opacity .3s .2s ease-out, transform .3s .2s ease-out, margin 200ms ease;
 }
-.html-ready .nasa-elements-wrap .logo img {
+.html-ready .logo img.header_logo {
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -19433,7 +20177,4 @@ input[type="submit"][disabled]:hover {
   100% {
     background-position: 100em 0;
   }
-}
-.lg-toolbar .lg-icon{
-  color: #fff !important;
 }

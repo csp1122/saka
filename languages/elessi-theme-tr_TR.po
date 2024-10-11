@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Elessi Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-22 08:00+0000\n"
-"PO-Revision-Date: 2024-04-24 07:31+0000\n"
+"PO-Revision-Date: 2024-09-13 14:43+0000\n"
 "Last-Translator: NasaTheme\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -12,19 +12,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
 "X-Domain: elessi-theme"
 
-#: includes/nasa-sidebar-wishlist_content.php:163
+#: includes/nasa-sidebar-wishlist_content.php:166
 msgid " &mdash; In Stock"
 msgstr "&mdash; Stokta var"
 
-#: includes/nasa-sidebar-wishlist_content.php:161
+#: includes/nasa-sidebar-wishlist_content.php:164
 msgid " - Out of Stock"
 msgstr "- Stoklar tükendi"
 
 #. 1: reviews count 2: product name
-#: woocommerce/single-product-reviews.php:152
+#: woocommerce/single-product-reviews.php:178
 #, php-format
 msgid "%1$s review for %2$s"
 msgid_plural "%1$s reviews for %2$s"
@@ -48,7 +48,7 @@ msgstr "%s başarıyla yüklendi ve etkinleştirildi."
 msgid "%s installed successfully."
 msgstr "%s başarıyla yüklendi."
 
-#: cores/nasa-custom-wc-ajax.php:592
+#: cores/nasa-custom-wc-ajax.php:593
 #, php-format
 msgid "%s is a required field"
 msgid_plural "%s are required fields"
@@ -80,6 +80,11 @@ msgstr "%s sonuç"
 msgid "%s results"
 msgstr "%s sonuç"
 
+#: woocommerce/single-product-reviews.php:60
+#, php-format
+msgid "%s reviews"
+msgstr "%s incelemesi"
+
 #: includes/nasa-mini-cart-add-coupon.php:22
 #: includes/nasa-mini-cart-add-coupon.php:26
 #, php-format
@@ -91,8 +96,8 @@ msgstr "%s&nbsp;İndirim"
 msgid "%s&nbsp;Product Discount"
 msgstr "%s&nbsp;Ürün İndirimi"
 
-#: woocommerce/loop/sale-flash.php:56
-#: woocommerce/single-product/sale-flash.php:57
+#: woocommerce/loop/sale-flash.php:65
+#: woocommerce/single-product/sale-flash.php:66
 #, php-format
 msgid "&#45;%s&#37;"
 msgstr "&#45;%s&#37;"
@@ -109,7 +114,7 @@ msgstr "&larr; Eski Yorumlar"
 msgid "&larr; Previous"
 msgstr "&larr; Öncesi"
 
-#: woocommerce/archive-product.php:197 woocommerce/archive-product.php:310
+#: woocommerce/archive-product.php:188 woocommerce/archive-product.php:300
 msgid "&nbsp;Filters"
 msgstr "&nbsp;Filtreler"
 
@@ -123,7 +128,7 @@ msgstr "(%s için tahmini)"
 msgid "+"
 msgstr "+"
 
-#: cores/nasa-widget-functions.php:341 cores/nasa-woo-actions.php:1451
+#: cores/nasa-widget-functions.php:343 cores/nasa-woo-actions.php:1459
 #: widgets/wg-nasa-product-brands.php:260
 #: widgets/wg-nasa-product-categories.php:468
 #: widgets/wg-nasa-product-categories.php:489 widgets/wg-nasa-tag-cloud.php:74
@@ -131,7 +136,7 @@ msgid "+ Show more"
 msgstr "+ Daha fazla göster"
 
 #: includes/nasa-blog-grid.php:93 includes/nasa-blog-list.php:91
-#: includes/nasa-blog-masonry-isotope.php:99 includes/nasa-blog-standard.php:85
+#: includes/nasa-blog-masonry-isotope.php:98 includes/nasa-blog-standard.php:85
 msgid ", "
 msgstr ","
 
@@ -139,7 +144,7 @@ msgstr ","
 msgid "- Select -"
 msgstr "- Seçme -"
 
-#: cores/nasa-widget-functions.php:340 cores/nasa-woo-actions.php:1451
+#: cores/nasa-widget-functions.php:342 cores/nasa-woo-actions.php:1459
 #: widgets/wg-nasa-product-brands.php:260
 #: widgets/wg-nasa-product-categories.php:468
 #: widgets/wg-nasa-product-categories.php:489 widgets/wg-nasa-tag-cloud.php:73
@@ -151,14 +156,14 @@ msgid "..."
 msgstr "..."
 
 #: widgets/wg-nasa-product-filter-variations.php:186
-#: admin/settings/nasa_07_3_product_detail_heading.php:80
-#: admin/settings/nasa_07_3_product_detail_heading.php:130
+#: admin/settings/nasa_07_3_product_detail_heading.php:81
+#: admin/settings/nasa_07_3_product_detail_heading.php:131
 msgid "1 Column"
 msgstr "1 Sütun"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:602
-#: admin/settings/nasa_07_2_product_page_heading.php:218
-#: admin/settings/nasa_07_3_product_detail_heading.php:490
+#: admin/settings/nasa_07_2_product_page_heading.php:226
+#: admin/settings/nasa_07_3_product_detail_heading.php:522
 #: admin/settings/nasa_08_blog_heading.php:101
 #: admin/settings/nasa_08_blog_heading.php:112
 #: admin/settings/nasa_08_blog_heading.php:252
@@ -170,14 +175,14 @@ msgstr "1 sütun"
 msgid "1 Level"
 msgstr "1 Seviye"
 
-#: cores/nasa-woo-actions.php:1276 cores/nasa-woo-actions.php:1285
+#: cores/nasa-woo-actions.php:1284 cores/nasa-woo-actions.php:1293
 msgid "1 result"
 msgid_plural "%d results"
 msgstr[0] "1 sonuç"
 msgstr[1] "%d sonuç"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:601
-#: admin/settings/nasa_07_3_product_detail_heading.php:489
+#: admin/settings/nasa_07_3_product_detail_heading.php:521
 #| msgid "1,5 column"
 msgid "1.5 column"
 msgstr "1.5 sütun"
@@ -188,26 +193,26 @@ msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr "%2$s'de %1$s"
 
-#: includes/nasa-change-view.php:231
+#: includes/nasa-change-view.php:236
 msgid "2"
 msgstr "2"
 
-#: includes/nasa-change-view.php:228
+#: includes/nasa-change-view.php:233
 #: widgets/wg-nasa-product-filter-variations.php:185
-#: admin/settings/nasa_07_2_product_page_heading.php:179
-#: admin/settings/nasa_07_3_product_detail_heading.php:79
-#: admin/settings/nasa_07_3_product_detail_heading.php:131
+#: admin/settings/nasa_07_2_product_page_heading.php:187
+#: admin/settings/nasa_07_3_product_detail_heading.php:80
+#: admin/settings/nasa_07_3_product_detail_heading.php:132
 msgid "2 Columns"
 msgstr "2 Sütun"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:590
 #: admin/settings/nasa_07_1_product_global_heading.php:600
-#: admin/settings/nasa_07_2_product_page_heading.php:204
-#: admin/settings/nasa_07_2_product_page_heading.php:219
-#: admin/settings/nasa_07_2_product_page_heading.php:229
-#: admin/settings/nasa_07_3_product_detail_heading.php:466
-#: admin/settings/nasa_07_3_product_detail_heading.php:478
-#: admin/settings/nasa_07_3_product_detail_heading.php:488
+#: admin/settings/nasa_07_2_product_page_heading.php:212
+#: admin/settings/nasa_07_2_product_page_heading.php:227
+#: admin/settings/nasa_07_2_product_page_heading.php:237
+#: admin/settings/nasa_07_3_product_detail_heading.php:498
+#: admin/settings/nasa_07_3_product_detail_heading.php:510
+#: admin/settings/nasa_07_3_product_detail_heading.php:520
 #: admin/settings/nasa_08_blog_heading.php:88
 #: admin/settings/nasa_08_blog_heading.php:102
 #: admin/settings/nasa_08_blog_heading.php:113
@@ -221,21 +226,21 @@ msgstr "2 sütun"
 msgid "2 Levels"
 msgstr "2 Seviye"
 
-#: includes/nasa-change-view.php:246
+#: includes/nasa-change-view.php:251
 msgid "3"
 msgstr "3"
 
-#: includes/nasa-change-view.php:243
-#: admin/settings/nasa_07_2_product_page_heading.php:180
+#: includes/nasa-change-view.php:248
+#: admin/settings/nasa_07_2_product_page_heading.php:188
 msgid "3 Columns"
 msgstr "3 Sütun"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:578
 #: admin/settings/nasa_07_1_product_global_heading.php:589
-#: admin/settings/nasa_07_2_product_page_heading.php:205
-#: admin/settings/nasa_07_2_product_page_heading.php:230
-#: admin/settings/nasa_07_3_product_detail_heading.php:465
-#: admin/settings/nasa_07_3_product_detail_heading.php:477
+#: admin/settings/nasa_07_2_product_page_heading.php:213
+#: admin/settings/nasa_07_2_product_page_heading.php:238
+#: admin/settings/nasa_07_3_product_detail_heading.php:497
+#: admin/settings/nasa_07_3_product_detail_heading.php:509
 #: admin/settings/nasa_08_blog_heading.php:89
 #: admin/settings/nasa_08_blog_heading.php:114
 #: admin/settings/nasa_08_blog_heading.php:240
@@ -252,21 +257,21 @@ msgstr "3 Seviye"
 msgid "360&#176; Badge Color"
 msgstr "360&#176; Rozet Rengi"
 
-#: includes/nasa-change-view.php:262
+#: includes/nasa-change-view.php:267
 msgid "4"
 msgstr "4"
 
-#: includes/nasa-change-view.php:259
-#: admin/settings/nasa_07_2_product_page_heading.php:181
+#: includes/nasa-change-view.php:264
+#: admin/settings/nasa_07_2_product_page_heading.php:189
 msgid "4 Columns"
 msgstr "4 Sütun"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:577
 #: admin/settings/nasa_07_1_product_global_heading.php:588
-#: admin/settings/nasa_07_2_product_page_heading.php:206
-#: admin/settings/nasa_07_2_product_page_heading.php:231
-#: admin/settings/nasa_07_3_product_detail_heading.php:464
-#: admin/settings/nasa_07_3_product_detail_heading.php:476
+#: admin/settings/nasa_07_2_product_page_heading.php:214
+#: admin/settings/nasa_07_2_product_page_heading.php:239
+#: admin/settings/nasa_07_3_product_detail_heading.php:496
+#: admin/settings/nasa_07_3_product_detail_heading.php:508
 #: admin/settings/nasa_08_blog_heading.php:90
 #: admin/settings/nasa_08_blog_heading.php:241
 #: admin/settings/nasa_10_portfolio_heading.php:88
@@ -277,18 +282,18 @@ msgstr "4 sütun"
 msgid "404"
 msgstr "404"
 
-#: includes/nasa-change-view.php:277
+#: includes/nasa-change-view.php:282
 msgid "5"
 msgstr "5"
 
-#: includes/nasa-change-view.php:274
-#: admin/settings/nasa_07_2_product_page_heading.php:182
+#: includes/nasa-change-view.php:279
+#: admin/settings/nasa_07_2_product_page_heading.php:190
 msgid "5 Columns"
 msgstr "5 Sütun"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:576
-#: admin/settings/nasa_07_2_product_page_heading.php:207
-#: admin/settings/nasa_07_3_product_detail_heading.php:463
+#: admin/settings/nasa_07_2_product_page_heading.php:215
+#: admin/settings/nasa_07_3_product_detail_heading.php:495
 #: admin/settings/nasa_08_blog_heading.php:91
 #: admin/settings/nasa_08_blog_heading.php:242
 #: admin/settings/nasa_10_portfolio_heading.php:87
@@ -299,17 +304,17 @@ msgstr "5 sütun"
 msgid "50%"
 msgstr "50%"
 
-#: includes/nasa-change-view.php:293
+#: includes/nasa-change-view.php:298
 msgid "6"
 msgstr "6"
 
-#: includes/nasa-change-view.php:290
-#: admin/settings/nasa_07_2_product_page_heading.php:183
+#: includes/nasa-change-view.php:295
+#: admin/settings/nasa_07_2_product_page_heading.php:191
 msgid "6 Columns"
 msgstr "6 Sütun"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:208
-#: admin/settings/nasa_07_3_product_detail_heading.php:462
+#: admin/settings/nasa_07_2_product_page_heading.php:216
+#: admin/settings/nasa_07_3_product_detail_heading.php:494
 msgid "6 columns"
 msgstr "6 sütun"
 
@@ -376,7 +381,7 @@ msgstr ""
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Önceki"
 
-#: cores/nasa-woo-functions.php:1193
+#: cores/nasa-woo-functions.php:1349
 msgid "<span>Availability:</span> "
 msgstr "<span>Kullanılabilirlik:</span>"
 
@@ -449,6 +454,10 @@ msgstr "Ana Ekranda Hesap - Mobil Düzen"
 msgid "Account Options"
 msgstr "Hesap seçenekleri"
 
+#: includes/nasa-acc-nav.php:15
+msgid "Account pages"
+msgstr "Hesap sayfaları"
+
 #: admin/classes/class-tgm-plugin-activation.php:2778
 msgid "Activate"
 msgstr "Etkinleştir"
@@ -469,9 +478,10 @@ msgid "Add"
 msgstr "Eklemek"
 
 #. %s is product title
-#: woocommerce/single-product-reviews.php:89
-msgid "Add a review"
-msgstr "İnceleme ekle"
+#: woocommerce/single-product-reviews.php:105
+#, php-format
+msgid "Add a review &ldquo;%s&rdquo;"
+msgstr "Bir inceleme ekle &ldquo;%s&rdquo;"
 
 #: cores/nasa-theme-options.php:164
 msgid "Add Icon Image (Using for Section of Tabs)"
@@ -497,10 +507,6 @@ msgstr "Yeni Slayt Ekle"
 msgid "Add note"
 msgstr "Not ekle"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "Add photos"
-msgstr "Fotoğraf ekle"
-
 #: cores/nasa-yith-wcwl-ext.php:318
 msgid "Add to cart"
 msgstr "Sepete ekle"
@@ -510,7 +516,7 @@ msgstr "Sepete ekle"
 msgid "Add To Cart in Grid"
 msgstr "Döngüde Sepete Ekle"
 
-#: cores/nasa-woo-actions.php:1987
+#: cores/nasa-woo-actions.php:2000
 msgid "Add to Compare"
 msgstr "Karşılaştırmaya Ekle"
 
@@ -518,7 +524,7 @@ msgstr "Karşılaştırmaya Ekle"
 msgid "Add to Wishlist"
 msgstr "İstek listesine ekle"
 
-#: cores/nasa-wishlist.php:187 cores/nasa-woo-functions.php:1163
+#: cores/nasa-wishlist.php:184 cores/nasa-woo-functions.php:1315
 msgid "Add to wishlist"
 msgstr "İstek listesine ekle"
 
@@ -530,7 +536,7 @@ msgstr ""
 "Özel Favicon resminizi ekleyin. 16x16 - 32x32 *.ico veya *.png gereklidir. "
 "(Önerilen 16x16 *.ico)"
 
-#: cores/nasa-woo-actions.php:1943 cores/nasa-woo-actions.php:1988
+#: cores/nasa-woo-actions.php:1956 cores/nasa-woo-actions.php:2001
 msgid "Added to Compare"
 msgstr "Karşılaştırmaya eklendi"
 
@@ -538,33 +544,33 @@ msgstr "Karşılaştırmaya eklendi"
 msgid "Added to Wishlist"
 msgstr "İstek listesine eklendi"
 
-#: cores/nasa-wishlist.php:188
+#: cores/nasa-wishlist.php:185
 msgid "Added to wishlist"
 msgstr "İstek listesine eklendi"
 
-#: cores/nasa-theme-footers.php:310
+#: cores/nasa-theme-footers.php:341
 msgid "Adding"
 msgstr "Ekleme"
 
-#: cores/nasa-theme-footers.php:358
+#: cores/nasa-theme-footers.php:391
 msgid "Adding cart"
 msgstr "Sepet ekleniyor"
 
-#: admin/importer/nasa-importer.php:1479
+#: admin/importer/nasa-importer.php:1492
 msgid "Addition Homepage Success!"
 msgstr "Ek Ana Sayfa Başarı!"
 
-#: admin/settings/nasa_03_1_header_heading.php:313
-#: admin/settings/nasa_03_1_header_heading.php:314
+#: admin/settings/nasa_03_1_header_heading.php:315
+#: admin/settings/nasa_03_1_header_heading.php:316
 #: admin/settings/nasa_07_1_product_global_heading.php:288
 #: admin/settings/nasa_07_1_product_global_heading.php:289
-#: admin/settings/nasa_07_3_product_detail_heading.php:362
 #: admin/settings/nasa_07_3_product_detail_heading.php:363
+#: admin/settings/nasa_07_3_product_detail_heading.php:364
 msgid "Addon Options"
 msgstr "Eklenti Seçenekleri"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:299
-#: admin/settings/nasa_07_2_product_page_heading.php:300
+#: admin/settings/nasa_07_2_product_page_heading.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:308
 msgid "Advance Content Options"
 msgstr "Gelişmiş İçerik Seçenekleri"
 
@@ -573,7 +579,7 @@ msgstr "Gelişmiş İçerik Seçenekleri"
 msgid "Advanced options"
 msgstr "Gelişmiş seçenekler"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:327
+#: admin/settings/nasa_07_2_product_page_heading.php:335
 msgid "After Breadcrumb - Only for Shop Page"
 msgstr "Breadcrumb'tan Sonra - Yalnızca Mağaza Sayfası için"
 
@@ -581,19 +587,19 @@ msgstr "Breadcrumb'tan Sonra - Yalnızca Mağaza Sayfası için"
 msgid "After Tabs Title (Using for Section of Tabs)"
 msgstr "Sekmelerden Sonra Başlık (Sekme Bölümleri için Kullanılır)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:402
+#: admin/settings/nasa_07_3_product_detail_heading.php:403
 msgid "After WooCommerce Tabs"
 msgstr "WooCommerce Sekmelerinden Sonra"
 
-#: admin/settings/nasa_01_general_heading.php:135
+#: admin/settings/nasa_01_general_heading.php:204
 msgid "Age Verification"
 msgstr "Yaş Doğrulaması"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:270
+#: admin/settings/nasa_07_3_product_detail_heading.php:271
 msgid "AJAX add to cart button on Single And Quickview"
 msgstr "AJAX Single And Quickview'da sepete ekle düğmesi"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:429
+#: admin/settings/nasa_07_3_product_detail_heading.php:461
 msgid "Ajax Load"
 msgstr "Ajax Yükü"
 
@@ -626,13 +632,17 @@ msgstr "Tüm eklentiler başarıyla yüklendi ve etkinleştirildi. %1$s"
 msgid "ALL PRODUCTS LOADED !"
 msgstr "TÜM ÜRÜNLER YÜKLÜ!"
 
-#: cores/nasa-woo-actions.php:1599
+#: cores/nasa-woo-actions.php:1607
 msgid "All transactions are secure and encrypted."
 msgstr "Tüm işlemler güvenli ve şifrelidir."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:408
+#: admin/settings/nasa_07_3_product_detail_heading.php:411
 msgid "Allow Comments Images upload"
 msgstr "Yorumlara İzin Ver Resim yükleme"
+
+#: admin/settings/nasa_07_3_product_detail_heading.php:436
+msgid "Allow Comments Video upload"
+msgstr "Yorumlara İzin Ver Video yükleme"
 
 #: includes/nasa-login-register-form.php:177
 msgid "Already got an account? "
@@ -648,7 +658,7 @@ msgstr "%1$s:<strong>%2$s</strong> yüklenirken bir hata oluştu."
 msgid "AND"
 msgstr "VE"
 
-#: admin/settings/nasa_01_general_heading.php:96
+#: admin/settings/nasa_01_general_heading.php:165
 msgid "Animation Effect"
 msgstr "Animasyon Efekti"
 
@@ -691,7 +701,7 @@ msgstr "Arşiv Ürünleri Sayfası"
 msgid "Are you over 18?"
 msgstr "18 yaşın üzerinde misin?"
 
-#: cores/nasa-theme-footers.php:841
+#: cores/nasa-theme-footers.php:886
 msgid "Are you sure you want to remove it?"
 msgstr "Kaldırmak istediğinizden emin misiniz?"
 
@@ -703,7 +713,7 @@ msgstr "Arial"
 msgid "Arrow"
 msgstr "Ok"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:171
+#: admin/settings/nasa_07_3_product_detail_heading.php:172
 msgid "Arrows for Main Slide"
 msgstr "Ana Slayt için Oklar"
 
@@ -728,7 +738,7 @@ msgstr "Yazar Ata"
 msgid "assign posts to an existing user:"
 msgstr "gönderileri mevcut bir kullanıcıya atayın:"
 
-#: admin/settings/nasa_01_general_heading.php:213
+#: admin/settings/nasa_01_general_heading.php:300
 msgid "Async"
 msgstr "Zaman uyumsuz"
 
@@ -750,11 +760,11 @@ msgid "Author info"
 msgstr "Yazar bilgisi"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:607
-#: admin/settings/nasa_07_3_product_detail_heading.php:140
+#: admin/settings/nasa_07_3_product_detail_heading.php:141
 msgid "Auto Slide"
 msgstr "Otomatik Kaydırma"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:495
+#: admin/settings/nasa_07_3_product_detail_heading.php:527
 #| msgid "Auto Slide - Relate | You may also like&hellip;"
 msgid "Auto Slide - Related | You may also like&hellip;"
 msgstr "Otomatik Kaydırma - İlgili | Şunlar da hoşunuza gidebilir&hellip;"
@@ -775,15 +785,15 @@ msgstr "Ön siparişte mevcut"
 msgid "Available version:"
 msgstr "Mevcut sürüm:"
 
-#: woocommerce/single-product-reviews.php:129
+#: woocommerce/single-product-reviews.php:148
 msgid "Average"
 msgstr "Ortalama"
 
-#: cores/nasa-woo-functions.php:1724
+#: cores/nasa-woo-functions.php:1880
 msgid "Average rating"
 msgstr "Ortalama puanı"
 
-#: woocommerce/single-product/product-image.php:170
+#: woocommerce/single-product/product-image.php:174
 msgid "Awaiting product image"
 msgstr "Ürün resmi bekleniyor"
 
@@ -808,22 +818,22 @@ msgstr "Kontrol Paneline Geri Dön"
 msgid "BACK TO STEP 1"
 msgstr "1. ADIM'A GERİ DÖN"
 
-#: cores/nasa-theme-footers.php:189
+#: cores/nasa-theme-footers.php:199
 #: admin/settings/nasa_01_general_heading.php:84
 msgid "Back to Top"
 msgstr "Başa dönüş"
 
-#: admin/settings/nasa_03_1_header_heading.php:702
+#: admin/settings/nasa_03_1_header_heading.php:715
 #: admin/settings/nasa_06_breadcrumb_heading.php:79
-#: admin/settings/nasa_07_3_product_detail_heading.php:64
+#: admin/settings/nasa_07_3_product_detail_heading.php:65
 msgid "Background Color"
 msgstr "Arka plan rengi"
 
-#: admin/settings/nasa_03_1_header_heading.php:376
+#: admin/settings/nasa_03_1_header_heading.php:378
 msgid "Background Color Header"
 msgstr "Arka Plan Rengi Başlığı"
 
-#: admin/settings/nasa_03_1_header_heading.php:386
+#: admin/settings/nasa_03_1_header_heading.php:388
 msgid "Background Color Header - Sticky"
 msgstr "Arka Plan Rengi Başlığı - Yapışkan"
 
@@ -831,7 +841,7 @@ msgstr "Arka Plan Rengi Başlığı - Yapışkan"
 msgid "Background Color Of Product Items In The Shop"
 msgstr "Mağazadaki Ürün Öğelerinin Arka Plan Rengi"
 
-#: admin/settings/nasa_03_1_header_heading.php:709
+#: admin/settings/nasa_03_1_header_heading.php:722
 #: admin/settings/nasa_06_breadcrumb_heading.php:58
 msgid "Background Image"
 msgstr "Arka plan görüntüsü"
@@ -852,8 +862,8 @@ msgstr "Arka Plan Paralaksı"
 msgid "Backorder Allowed Badge"
 msgstr "Ön Siparişe İzin Verildi Rozeti"
 
-#: woocommerce/loop/sale-flash.php:82
-#: woocommerce/single-product/sale-flash.php:83
+#: woocommerce/loop/sale-flash.php:91
+#: woocommerce/single-product/sale-flash.php:92
 msgid "Backorders"
 msgstr "Beklenen siparişler"
 
@@ -882,17 +892,13 @@ msgstr "Rozet - Seçenekler"
 msgid "Banner font"
 msgstr "Afiş yazı tipi"
 
-#: woocommerce/single-product-reviews.php:43
-#, php-format
-msgid "Based on %s reviews"
-msgstr "%s incelemeye göre"
-
-#: woocommerce/single-product-reviews.php:89
+#: woocommerce/single-product-reviews.php:105
+#: woocommerce/single-product-reviews.php:164
 #, php-format
 msgid "Be the first to review &ldquo;%s&rdquo;"
 msgstr "&ldquo;%s&rdquo; için ilk yorum yapan siz olun"
 
-#: admin/theme-admin.php:343
+#: admin/theme-admin.php:365
 msgid "Before Footer"
 msgstr "Alt Bilgiden Önce"
 
@@ -934,7 +940,7 @@ msgstr "Blog"
 msgid "Blog Options"
 msgstr "Blog Seçenekleri"
 
-#: options/nasa-options.php:1251
+#: options/nasa-options.php:1286
 msgid "Blog Sidebar"
 msgstr "Blog Kenar Çubuğu"
 
@@ -982,7 +988,7 @@ msgstr "Kutulu"
 msgid "Breadcrumb"
 msgstr "Kırıntı"
 
-#: cores/nasa-woo-functions.php:776
+#: cores/nasa-woo-functions.php:924
 msgid "BROWSE"
 msgstr "ARAŞTIR"
 
@@ -1068,16 +1074,16 @@ msgstr "Düğmeler Metin Rengi"
 msgid "Buttons Text Color Hover"
 msgstr "Düğmeler Metin Rengi Vurgulu"
 
-#: cores/nasa-woo-actions.php:1125
-#: admin/settings/nasa_07_3_product_detail_heading.php:210
+#: cores/nasa-woo-actions.php:1132
+#: admin/settings/nasa_07_3_product_detail_heading.php:211
 msgid "Buy Now"
 msgstr "Şimdi al"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:217
+#: admin/settings/nasa_07_3_product_detail_heading.php:218
 msgid "Buy Now Background Color"
 msgstr "Şimdi Satın Al Arka Plan Rengi"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:226
+#: admin/settings/nasa_07_3_product_detail_heading.php:227
 msgid "Buy Now Background Color Hover"
 msgstr "Şimdi Satın Al Arka Plan Rengi Vurgulu"
 
@@ -1098,15 +1104,15 @@ msgstr "İle"
 msgid "Cancel"
 msgstr "İptal etmek"
 
-#: includes/nasa-tmpl-captcha-field-register.php:14
+#: includes/nasa-tmpl-captcha-field-register.php:16
 msgid "Captcha Code"
 msgstr "Captcha kodu"
 
-#: cores/nasa-theme-options.php:516
+#: cores/nasa-theme-options.php:537
 msgid "Captcha Error!"
 msgstr "Captcha hatası!"
 
-#: admin/settings/nasa_03_1_header_heading.php:306
+#: admin/settings/nasa_03_1_header_heading.php:307
 msgid "Captcha For Register Form"
 msgstr "Kayıt Formu İçin Captcha"
 
@@ -1114,7 +1120,7 @@ msgstr "Kayıt Formu İçin Captcha"
 msgid "CART"
 msgstr "SEPETE"
 
-#: cores/nasa-woo-functions.php:236 cores/nasa-woo-functions.php:242
+#: cores/nasa-woo-functions.php:218 cores/nasa-woo-functions.php:224
 #: includes/nasa-mobile-bottom-bar-app.php:102
 #: includes/nasa-mobile-bottom-bar-app.php:104
 #: includes/nasa-mobile-bottom-bar.php:102
@@ -1130,11 +1136,11 @@ msgstr "Sepet Kenar Çubuğu Düzeni"
 msgid "Catalog Mode - Disable Add To Cart Feature"
 msgstr "Katalog Modu - Sepete Ekle Özelliğini Devre Dışı Bırak"
 
-#: cores/nasa-woo-functions.php:761
+#: cores/nasa-woo-functions.php:909
 msgid "CATEGORIES"
 msgstr "KATEGORİLER"
 
-#: cores/nasa-theme-footers.php:743 cores/nasa-theme-headers.php:392
+#: cores/nasa-theme-footers.php:780 cores/nasa-theme-headers.php:392
 #: includes/nasa-mobile-bottom-bar-app.php:59
 #: includes/nasa-mobile-bottom-bar-app.php:61
 #: includes/nasa-mobile-bottom-bar.php:59
@@ -1155,12 +1161,16 @@ msgstr ""
 msgid "Categories info"
 msgstr "Kategoriler bilgisi"
 
+#: cores/nasa-custom-wc-ajax.php:873
+msgid "Categories Map"
+msgstr "Kategori Haritası"
+
 #: archive.php:65
 #, php-format
 msgid "Category Archives: %s"
 msgstr "Kategori Arşivleri: %s"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:317
+#: admin/settings/nasa_07_2_product_page_heading.php:325
 msgid "Category bottom content"
 msgstr "Kategori alt içeriği"
 
@@ -1169,21 +1179,21 @@ msgstr "Kategori alt içeriği"
 msgid "Category Order"
 msgstr "Kategori Sırası"
 
-#: admin/settings/nasa_03_1_header_heading.php:656
+#: admin/settings/nasa_03_1_header_heading.php:660
 msgid "Category Post"
 msgstr "Kategori Gönderisi"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:315
 msgid "Category top content"
 msgstr "Kategori en iyi içeriği"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:98
-#: admin/settings/nasa_07_3_product_detail_heading.php:311
+#: admin/settings/nasa_07_3_product_detail_heading.php:312
 msgid "Center"
 msgstr "Merkez"
 
-#: cores/nasa-woo-actions.php:1527 cores/nasa-woo-actions.php:1537
-#: cores/nasa-woo-actions.php:1546 admin/classes/class.options_machine.php:802
+#: cores/nasa-woo-actions.php:1535 cores/nasa-woo-actions.php:1545
+#: cores/nasa-woo-actions.php:1554 admin/classes/class.options_machine.php:802
 msgid "Change"
 msgstr "Değiştirmek"
 
@@ -1206,9 +1216,10 @@ msgstr "Mağaza Düzeni Modunu Değiştir"
 msgid "Change View Mode (Only Desktop Mode)"
 msgstr "Görünüm Modunu Değiştir (Yalnızca Masaüstü Modu)"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:192
-msgid "Change View Mode (Only Mobile Layout Mode)"
-msgstr "Görünüm Modunu Değiştir (Yalnızca Mobil Düzen Modu)"
+#: admin/settings/nasa_07_2_product_page_heading.php:200
+#| msgid "Change View Mode (Only Mobile Layout Mode)"
+msgid "Change View Mode Mobile (Only Mobile App Layout Mode)"
+msgstr "Görünüm Modunu Değiştir Mobil (Yalnızca Mobil Uygulama Düzeni Modu)"
 
 #: admin/settings/nasa_05_type_heading.php:191
 msgid "Character Sub-sets"
@@ -1239,7 +1250,7 @@ msgstr ""
 "Yüklemek için bir WXR (.xml) dosyası seçin, ardından Dosya yükle ve içe "
 "aktar'a tıklayın."
 
-#: admin/settings/nasa_03_1_header_heading.php:516
+#: admin/settings/nasa_03_1_header_heading.php:502
 msgid "Classic"
 msgstr "Klasik"
 
@@ -1278,19 +1289,19 @@ msgstr "Bu kuponu uygulamak için buraya tıklayın."
 
 #: admin/settings/nasa_03_1_header_heading.php:72
 #: admin/settings/nasa_03_1_header_heading.php:93
-#: admin/settings/nasa_03_1_header_heading.php:336
-#: admin/settings/nasa_03_1_header_heading.php:348
-#: admin/settings/nasa_03_1_header_heading.php:360
-#: admin/settings/nasa_03_1_header_heading.php:592
+#: admin/settings/nasa_03_1_header_heading.php:338
+#: admin/settings/nasa_03_1_header_heading.php:350
+#: admin/settings/nasa_03_1_header_heading.php:362
+#: admin/settings/nasa_03_1_header_heading.php:596
 #: admin/settings/nasa_03_2_footer_heading.php:120
 #: admin/settings/nasa_03_2_footer_heading.php:137
 #: admin/settings/nasa_03_2_footer_heading.php:163
 #: admin/settings/nasa_03_2_footer_heading.php:180
 #: admin/settings/nasa_03_3_mobile_heading.php:82
-#: admin/settings/nasa_07_2_product_page_heading.php:313
-#: admin/settings/nasa_07_2_product_page_heading.php:323
-#: admin/settings/nasa_07_2_product_page_heading.php:333
-#: admin/settings/nasa_07_3_product_detail_heading.php:358
+#: admin/settings/nasa_07_2_product_page_heading.php:321
+#: admin/settings/nasa_07_2_product_page_heading.php:331
+#: admin/settings/nasa_07_2_product_page_heading.php:341
+#: admin/settings/nasa_07_3_product_detail_heading.php:359
 #: admin/settings/nasa_09_promo_popup_heading.php:88
 #: admin/settings/nasa_09_promo_popup_heading.php:164
 msgid "Click here to Edit"
@@ -1300,7 +1311,7 @@ msgstr "Düzenlemek için burayı tıklayın"
 msgid "Click here to enter your code"
 msgstr "Kodunuzu girmek için buraya tıklayın"
 
-#: woocommerce/checkout/form-login.php:18
+#: woocommerce/checkout/form-login.php:19
 msgid "Click here to login"
 msgstr "Giriş yapmak için tıklayınız"
 
@@ -1315,33 +1326,33 @@ msgstr "için simge seç'e tıklayın"
 
 #: archive.php:132 index.php:77 page-left-sidebar.php:34
 #: page-right-sidebar.php:34 search.php:76 single.php:64
-#: cores/nasa-theme-footers.php:306 cores/nasa-theme-footers.php:481
-#: cores/nasa-theme-footers.php:516 cores/nasa-theme-footers.php:531
-#: cores/nasa-theme-footers.php:605 cores/nasa-theme-footers.php:717
-#: cores/nasa-theme-footers.php:748 headers/header-structure-1.php:48
+#: cores/nasa-theme-footers.php:337 cores/nasa-theme-footers.php:514
+#: cores/nasa-theme-footers.php:569 cores/nasa-theme-footers.php:642
+#: cores/nasa-theme-footers.php:785 headers/header-structure-1.php:48
 #: headers/header-structure-2.php:73 headers/header-structure-3.php:63
 #: headers/header-structure-5.php:48 headers/header-structure-7.php:43
-#: headers/header-structure-7.php:53 includes/nasa-blog-promotion.php:16
+#: headers/header-structure-7.php:53 includes/nasa-blog-promotion.php:18
 #: includes/nasa-checkout-coupon-modern.php:22
 #: includes/nasa-sidebar-shop-side.php:64 includes/nasa-sidebar-shop-top.php:55
-#: includes/nasa-single-product-classic.php:83
-#: includes/nasa-single-product-full.php:71
-#: includes/nasa-single-product-modern-1.php:58
-#: includes/nasa-single-product-modern-2.php:59
-#: includes/nasa-single-product-modern-3.php:59
+#: includes/nasa-single-product-classic.php:84
+#: includes/nasa-single-product-full.php:73
+#: includes/nasa-single-product-modern-1.php:60
+#: includes/nasa-single-product-modern-2.php:61
+#: includes/nasa-single-product-modern-3.php:61
+#: includes/nasa-single-product-modern-4.php:76
 #: includes/nasa-single-product-new-2.php:42
 #: includes/nasa-single-product-new.php:71
 msgid "Close"
 msgstr "Kapalı"
 
-#: cores/nasa-theme-footers.php:346 cores/nasa-theme-footers.php:352
-#: cores/nasa-theme-footers.php:353 cores/nasa-theme-footers.php:832
-#: cores/nasa-theme-footers.php:1037 includes/nasa-after-add-to-cart.php:20
-#: includes/nasa-promo-popup.php:41
+#: cores/nasa-theme-footers.php:380 cores/nasa-theme-footers.php:385
+#: cores/nasa-theme-footers.php:386 cores/nasa-theme-footers.php:866
+#: cores/nasa-theme-footers.php:877 cores/nasa-theme-footers.php:1089
+#: includes/nasa-after-add-to-cart.php:20 includes/nasa-promo-popup.php:42
 msgid "Close (Esc)"
 msgstr "Kapat (Esc)"
 
-#: searchform.php:115 searchform.php:194
+#: searchform.php:116 searchform.php:195
 msgid "Close search"
 msgstr "Aramayı kapat"
 
@@ -1360,7 +1371,7 @@ msgid "Colors Options"
 msgstr "Renk Seçenekleri"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:571
-#: admin/settings/nasa_07_2_product_page_heading.php:199
+#: admin/settings/nasa_07_2_product_page_heading.php:207
 msgid "Columns"
 msgstr "Sütunlar"
 
@@ -1395,17 +1406,17 @@ msgstr "Mobilde İlgili Sütunlar"
 msgid "Columns Related in Tablet"
 msgstr "Tablet ile İlgili Sütunlar"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:457
+#: admin/settings/nasa_07_3_product_detail_heading.php:489
 #| msgid "Columns Relate | You may also like&hellip;"
 msgid "Columns Related | You may also like&hellip;"
 msgstr "İlgili Sütunlar | Şunlar da hoşunuza gidebilir&hellip;"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:483
+#: admin/settings/nasa_07_3_product_detail_heading.php:515
 #| msgid "Columns Relate | You may also like&hellip; for Mobile"
 msgid "Columns Related | You may also like&hellip; for Mobile"
 msgstr "İlgili Sütunlar | Şunları da beğenebilirsiniz&hellip; Mobil için"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:471
+#: admin/settings/nasa_07_3_product_detail_heading.php:503
 #| msgid "Columns Relate | You may also like&hellip; for Tablet"
 msgid "Columns Related | You may also like&hellip; for Tablet"
 msgstr "İlgili Sütunlar | Şunları da beğenebilirsiniz&hellip; Tablet için"
@@ -1419,7 +1430,7 @@ msgid "Comment navigation"
 msgstr "Yorum navigasyonu"
 
 #: comments.php:19 includes/nasa-blog-grid.php:68
-#: includes/nasa-blog-list.php:67 includes/nasa-blog-masonry-isotope.php:71
+#: includes/nasa-blog-list.php:67 includes/nasa-blog-masonry-isotope.php:70
 #: includes/nasa-blog-standard.php:60
 msgid "Comments"
 msgstr "Yorumlar"
@@ -1443,9 +1454,9 @@ msgstr "Yoruma kapalı."
 msgid "Compact Number - Cart, Wishlist, Compare (9+)"
 msgstr "Kompakt Numara - Alışveriş Sepeti, İstek Listesi, Karşılaştır (9+)"
 
-#: cores/nasa-woo-actions.php:1943 cores/nasa-woo-actions.php:1984
-#: cores/nasa-woo-actions.php:1984 cores/nasa-woo-functions.php:687
-#: cores/nasa-woo-functions.php:692
+#: cores/nasa-woo-actions.php:1956 cores/nasa-woo-actions.php:1997
+#: cores/nasa-woo-actions.php:1997 cores/nasa-woo-functions.php:835
+#: cores/nasa-woo-functions.php:840
 msgid "Compare"
 msgstr "Karşılaştırmak"
 
@@ -1466,7 +1477,7 @@ msgstr "Ürünü Karşılaştır"
 msgid "Compare Products"
 msgstr "Ürünleri karşılaştır"
 
-#: cores/nasa-custom-wc-ajax.php:781
+#: cores/nasa-custom-wc-ajax.php:782
 msgid "Compare products were empty !"
 msgstr "Karşılaştır ürünleri boştu!"
 
@@ -1474,7 +1485,7 @@ msgstr "Karşılaştır ürünleri boştu!"
 msgid "Congratulations! You've got free shipping."
 msgstr "Tebrikler! Ücretsiz kargonuz var."
 
-#: cores/nasa-woo-actions.php:1525
+#: cores/nasa-woo-actions.php:1533
 msgid "Contact"
 msgstr "Temas etmek"
 
@@ -1496,17 +1507,17 @@ msgstr "DEVAM ETMEK"
 
 #: includes/nasa-blog-grid.php:85 includes/nasa-blog-grid.php:86
 #: includes/nasa-blog-list.php:84 includes/nasa-blog-list.php:85
-#: includes/nasa-blog-masonry-isotope.php:89
-#: includes/nasa-blog-masonry-isotope.php:90 includes/nasa-blog-standard.php:77
+#: includes/nasa-blog-masonry-isotope.php:88
+#: includes/nasa-blog-masonry-isotope.php:89 includes/nasa-blog-standard.php:77
 #: includes/nasa-blog-standard.php:78
 msgid "CONTINUE READING  &#10142;"
 msgstr "OKUMAYA DEVAM ET &#10142;"
 
-#: cores/nasa-woo-actions.php:1499 cores/nasa-woo-actions.php:1572
+#: cores/nasa-woo-actions.php:1507 cores/nasa-woo-actions.php:1580
 msgid "Continue To Payment"
 msgstr "Ödeme devam"
 
-#: cores/nasa-woo-actions.php:1498
+#: cores/nasa-woo-actions.php:1506
 msgid "Continue To Shipping"
 msgstr "Sevkiyata Devam Et"
 
@@ -1514,7 +1525,7 @@ msgstr "Sevkiyata Devam Et"
 msgid "cookie policy"
 msgstr "çerez politikası"
 
-#: cores/nasa-woo-actions.php:2534 cores/nasa-woo-functions.php:2005
+#: cores/nasa-woo-actions.php:2542 cores/nasa-woo-functions.php:2161
 msgid "Coupon"
 msgstr "Kupon"
 
@@ -1523,7 +1534,7 @@ msgstr "Kupon"
 msgid "Coupon code"
 msgstr "Kupon Kodu"
 
-#: cores/nasa-custom-wc-ajax.php:1331
+#: cores/nasa-custom-wc-ajax.php:1372
 msgid "Coupon has been removed."
 msgstr "Kupon kaldırıldı."
 
@@ -1539,7 +1550,7 @@ msgstr "Bir hesap oluşturun"
 msgid "Cross-Sells Products"
 msgstr "Cross-Sells Ürünler"
 
-#: admin/settings/nasa_03_1_header_heading.php:569
+#: admin/settings/nasa_03_1_header_heading.php:573
 msgid "Currencies Switcher"
 msgstr "Para Birimi Değiştirici"
 
@@ -1551,12 +1562,12 @@ msgstr "Mevcut değer:"
 msgid "Custom Badge Color"
 msgstr "Özel Rozet Rengi"
 
-#: admin/theme-admin.php:347
+#: admin/theme-admin.php:369
 msgid "Custom Block"
 msgstr "Özel Blok"
 
-#: admin/settings/nasa_03_1_header_heading.php:638
-#: admin/settings/nasa_03_1_header_heading.php:645
+#: admin/settings/nasa_03_1_header_heading.php:642
+#: admin/settings/nasa_03_1_header_heading.php:649
 msgid "Custom Content"
 msgstr "Özel içerik"
 
@@ -1607,17 +1618,17 @@ msgstr "Tarih saat bilgisi"
 msgid "Deal Badge Color"
 msgstr "Anlaşma Rozeti Rengi"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:368
+#: admin/settings/nasa_07_3_product_detail_heading.php:369
 msgid "Deal Time in Single or Quickview"
 msgstr "Tek veya Hızlı Görünümde Anlaşma Süresi"
 
 #: admin/settings/nasa_05_type_heading.php:247
 #: admin/settings/nasa_07_1_product_global_heading.php:477
-#: admin/settings/nasa_07_3_product_detail_heading.php:403
+#: admin/settings/nasa_07_3_product_detail_heading.php:404
 msgid "Default"
 msgstr "Varsayılan"
 
-#: admin/settings/nasa_03_1_header_heading.php:579
+#: admin/settings/nasa_03_1_header_heading.php:583
 msgid ""
 "Default (%symbol%) %code%. You can custom for this. Ex (%name% (%symbol%) - "
 "%code%)"
@@ -1637,7 +1648,7 @@ msgstr "Varsayılan - Yith WooCommerce Karşılaştırması"
 msgid "Default font"
 msgstr "Varsayılan yazı tipi"
 
-#: cores/nasa-woo-functions.php:1722
+#: cores/nasa-woo-functions.php:1878
 msgid "Default sorting"
 msgstr "Varsayılan sıralama"
 
@@ -1649,7 +1660,7 @@ msgstr "Varsayılan birincil rengi kullan"
 msgid "Default View"
 msgstr "Varsayılan görünüm"
 
-#: admin/settings/nasa_01_general_heading.php:104
+#: admin/settings/nasa_01_general_heading.php:173
 msgid "Delay Overlay (ms)"
 msgstr "Gecikme Kaplaması (ms)"
 
@@ -1689,7 +1700,7 @@ msgstr ""
 msgid "Disable - Progress Bar loading ajax"
 msgstr "Devre Dışı Bırak - İlerleme Çubuğu yükleme ajax"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:289
+#: admin/settings/nasa_07_2_product_page_heading.php:297
 msgid "Disable Ajax Shop"
 msgstr "Ajax Mağazasını Devre Dışı Bırak"
 
@@ -1701,7 +1712,7 @@ msgstr "Giriş/Kayıt işlemini devre dışı bırak"
 msgid "Disable Quick View"
 msgstr "Hızlı Görünümü Devre Dışı Bırak"
 
-#: admin/settings/nasa_01_general_heading.php:119
+#: admin/settings/nasa_01_general_heading.php:188
 msgid "Disable Refill - Contact Form 7"
 msgstr "Doldurmayı Devre Dışı Bırak - İletişim Formu 7"
 
@@ -1716,6 +1727,10 @@ msgstr ""
 #: admin/classes/class-tgm-plugin-activation.php:384
 msgid "Dismiss this notice"
 msgstr "Bu bildirimi kapat"
+
+#: widgets/wg-nasa-product-filter-alphabet.php:25
+msgid "Display a list of alphabet to filter products."
+msgstr "Ürünleri filtrelemek için alfabe listesini görüntüleyin."
 
 #: widgets/wg-nasa-product-filter-multi-categories.php:31
 msgid "Display a list of categories to filter products."
@@ -1757,7 +1772,7 @@ msgstr "Accordion ile ürün markalarınızı görüntüleyin."
 msgid "Dokan"
 msgstr "Dokan"
 
-#: includes/nasa-promo-popup.php:70
+#: includes/nasa-promo-popup.php:71
 msgid "Don't show this popup again"
 msgstr "Bu açılır pencereyi bir daha gösterme"
 
@@ -1765,7 +1780,7 @@ msgstr "Bu açılır pencereyi bir daha gösterme"
 msgid "Done. Please wait for continuing to import data"
 msgstr "Tamamlamak. Verileri içe aktarmaya devam etmek için lütfen bekleyin"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:161
+#: admin/settings/nasa_07_3_product_detail_heading.php:162
 msgid "Dots for Main Slide"
 msgstr "Ana Slayt için Noktalar"
 
@@ -1791,7 +1806,7 @@ msgstr "Dosya eklerini indirin ve içe aktarın"
 msgid "Edit"
 msgstr "Düzenlemek"
 
-#: admin/settings/nasa_01_general_heading.php:112
+#: admin/settings/nasa_01_general_heading.php:181
 msgid "Effect Before Load Site"
 msgstr "Yükleme Alanından Önce Etkisi"
 
@@ -1803,8 +1818,8 @@ msgstr "Daha fazla göster ve daha az göster için efekt"
 msgid "Elementor - Homepage List"
 msgstr "Elementor - Ana Sayfa Listesi"
 
+#: admin/functions/functions.interface.php:101
 #: admin/functions/functions.interface.php:102
-#: admin/functions/functions.interface.php:103
 msgid "Elementor Header & Footer Builder"
 msgstr "Elementor Üstbilgi ve Altbilgi Oluşturucu"
 
@@ -1812,16 +1827,21 @@ msgstr "Elementor Üstbilgi ve Altbilgi Oluşturucu"
 msgid "Elessi Theme"
 msgstr "Elessi Teması"
 
-#: woocommerce/single-product-reviews.php:98
+#: woocommerce/single-product-reviews.php:115
+#: woocommerce/single-product-reviews.php:116
 msgid "Email"
 msgstr "E-posta"
+
+#: woocommerce/single-product-reviews.php:116
+msgid "Email *"
+msgstr "E-posta *"
 
 #: includes/nasa-checkout-modern.php:116
 #: includes/nasa-login-register-form.php:136
 msgid "Email address"
 msgstr "E-posta adresi"
 
-#: cores/nasa-woo-actions.php:1503
+#: cores/nasa-woo-actions.php:1511
 msgid "Email incorrect format."
 msgstr "E-posta yanlış biçim."
 
@@ -1854,8 +1874,8 @@ msgstr "Gönderim seçeneklerini görüntülemek için adresinizi girin."
 msgid "Error"
 msgstr "Hata"
 
-#: cores/nasa-custom-wc-ajax.php:669 cores/nasa-custom-wc-ajax.php:721
-#: cores/nasa-custom-wc-ajax.php:765 admin/front-end/options.php:15
+#: cores/nasa-custom-wc-ajax.php:670 cores/nasa-custom-wc-ajax.php:722
+#: cores/nasa-custom-wc-ajax.php:766 admin/front-end/options.php:15
 msgid "Error!"
 msgstr "Hata!"
 
@@ -1863,8 +1883,13 @@ msgstr "Hata!"
 msgid "Error."
 msgstr "Hata."
 
-#: cores/nasa-custom-wc-ajax.php:1156 cores/nasa-custom-wc-ajax.php:1215
-#: cores/nasa-woo-actions.php:2519
+#: cores/nasa-woo-functions.php:2329 cores/nasa-woo-functions.php:2355
+#: cores/nasa-woo-functions.php:2384 cores/nasa-woo-functions.php:2410
+msgid "Error: "
+msgstr "Hata:"
+
+#: cores/nasa-custom-wc-ajax.php:1197 cores/nasa-custom-wc-ajax.php:1256
+#: cores/nasa-woo-actions.php:2527
 msgid "Estimate shipping rates"
 msgstr "Tahmini nakliye ücretleri"
 
@@ -1872,17 +1897,7 @@ msgstr "Tahmini nakliye ücretleri"
 msgid "Event After Add to Cart"
 msgstr "Sepete Ekledikten Sonra Etkinlik"
 
-#: admin/classes/class.options_machine.php:870
-#: admin/classes/class.options_machine.php:904
-msgid "Ex: 3 days ago, 5 hours ago, ..."
-msgstr "Örn: 3 gün önce, 5 saat önce, ..."
-
-#: admin/classes/class.options_machine.php:869
-#: admin/classes/class.options_machine.php:893
-msgid "Ex: Jonh in US purchased a"
-msgstr "Örn: ABD'deki Jonh bir"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:252
+#: admin/settings/nasa_07_3_product_detail_heading.php:253
 msgid "Extends Desktop"
 msgstr "Masaüstünü Genişletiyor"
 
@@ -1904,15 +1919,15 @@ msgstr "Ekstra sınıf adı"
 msgid "Fade"
 msgstr "Solmak"
 
-#: admin/settings/nasa_03_1_header_heading.php:452
+#: admin/settings/nasa_03_1_header_heading.php:454
 msgid "Fade In"
 msgstr "Fade In"
 
-#: admin/settings/nasa_03_1_header_heading.php:449
+#: admin/settings/nasa_03_1_header_heading.php:451
 msgid "Fade In Down"
 msgstr "Aşağı Fade"
 
-#: admin/settings/nasa_03_1_header_heading.php:450
+#: admin/settings/nasa_03_1_header_heading.php:452
 msgid "Fade In Up"
 msgstr "Yukarı Fade"
 
@@ -1976,8 +1991,8 @@ msgstr "Favicon Seçenekleri"
 #: widgets/wg-nasa-product-filter-status.php:44
 #: widgets/wg-nasa-product-filter-status.php:276
 #: widgets/wg-nasa-product-filter-status.php:276
-#: woocommerce/loop/sale-flash.php:22
-#: woocommerce/single-product/sale-flash.php:22
+#: woocommerce/loop/sale-flash.php:26
+#: woocommerce/single-product/sale-flash.php:26
 msgid "Featured"
 msgstr "Özel"
 
@@ -2001,9 +2016,9 @@ msgstr "Filtre"
 msgid "Filter by"
 msgstr "Tarafından filtre"
 
-#: widgets/wg-nasa-product-filter-multi-categories.php:37
-msgid "Filter by Multi Category"
-msgstr "Çoklu Kategoriye Göre Filtrele"
+#: widgets/wg-nasa-product-filter-alphabet.php:31
+msgid "Filter by Alphabet"
+msgstr "Alfabeye göre filtrele"
 
 #: widgets/wg-nasa-product-filter-price-list.php:25
 #: widgets/wg-nasa-product-filter-price.php:35
@@ -2018,7 +2033,7 @@ msgstr "Duruma göre filtrele"
 msgid "Filter by Tags"
 msgstr "Etiketlere göre Filtrele"
 
-#: woocommerce/archive-product.php:189
+#: woocommerce/archive-product.php:180
 msgid "Filter by:"
 msgstr "Tarafından filtre:"
 
@@ -2027,12 +2042,12 @@ msgstr "Tarafından filtre:"
 #: includes/nasa-mobile-bottom-bar.php:51
 #: includes/nasa-mobile-bottom-bar.php:53
 #: includes/nasa-sidebar-shop-side.php:61 includes/nasa-sidebar-shop-top.php:52
-#: woocommerce/archive-product.php:267 woocommerce/archive-product.php:354
-#: woocommerce/archive-product.php:398
+#: woocommerce/archive-product.php:257 woocommerce/archive-product.php:343
+#: woocommerce/archive-product.php:389
 msgid "Filters"
 msgstr "Filtreler"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:269
+#: admin/settings/nasa_07_2_product_page_heading.php:277
 msgid "Fit Rows"
 msgstr "Satırları Sığdır"
 
@@ -2044,11 +2059,11 @@ msgstr "Esnek - Menü Yeniden Boyutlandırma (Masaüstü ve Tablet)"
 msgid "Flip Horizontal"
 msgstr "Yatay çevirmek"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:196
+#: admin/settings/nasa_07_3_product_detail_heading.php:197
 msgid "Focus Main Image"
 msgstr "Ana Görüntüye Odaklan"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:198
+#: admin/settings/nasa_07_3_product_detail_heading.php:199
 msgid "Focus main image after active variation product"
 msgstr "Aktif varyasyon ürününden sonra ana resme odaklan"
 
@@ -2096,7 +2111,7 @@ msgstr "Yazı Tipi Ağırlığı"
 msgid "Fontawesome icons"
 msgstr "Fontawesome icons"
 
-#: admin/theme-admin.php:339
+#: admin/theme-admin.php:361
 msgid "Footer"
 msgstr "Altbilgi"
 
@@ -2104,11 +2119,11 @@ msgstr "Altbilgi"
 msgid "Footer Built-In Support (Widgets Builder)"
 msgstr "Footer Built-In Support (Widgets Builder)"
 
-#: options/nasa-options.php:1423
+#: options/nasa-options.php:1458
 msgid "Footer Dark ( No.1 )"
 msgstr "Footer Dark ( No.1 )"
 
-#: options/nasa-options.php:1432
+#: options/nasa-options.php:1467
 msgid "Footer Dark ( No.2 )"
 msgstr "Footer Dark ( No.2 )"
 
@@ -2122,67 +2137,67 @@ msgstr "Altbilgi Genel"
 msgid "Footer Layout"
 msgstr "Altbilgi Düzeni"
 
-#: options/nasa-options.php:1285
+#: options/nasa-options.php:1320
 msgid "Footer Light 1 ( No.1 )"
 msgstr "Footer Light 1 ( No.1 )"
 
-#: options/nasa-options.php:1294
+#: options/nasa-options.php:1329
 msgid "Footer Light 1 ( No.2 )"
 msgstr "Footer Light 1 ( No.2 )"
 
-#: options/nasa-options.php:1303
+#: options/nasa-options.php:1338
 msgid "Footer Light 1 ( No.3 )"
 msgstr "Footer Light 1 ( No.3 )"
 
-#: options/nasa-options.php:1312
+#: options/nasa-options.php:1347
 msgid "Footer Light 1 ( No.4 )"
 msgstr "Footer Light 1 ( No.4 )"
 
-#: options/nasa-options.php:1321
+#: options/nasa-options.php:1356
 msgid "Footer Light 1 ( No.5 )"
 msgstr "Footer Light 1 ( No.5 )"
 
-#: options/nasa-options.php:1330
+#: options/nasa-options.php:1365
 msgid "Footer Light 1 ( No.6 )"
 msgstr "Footer Light 1 ( No.6 )"
 
-#: options/nasa-options.php:1340
+#: options/nasa-options.php:1375
 msgid "Footer Light 2 ( No.1 )"
 msgstr "Footer Light 2 ( No.1 )"
 
-#: options/nasa-options.php:1349
+#: options/nasa-options.php:1384
 msgid "Footer Light 2 ( No.2 )"
 msgstr "Footer Light 2 ( No.2 )"
 
-#: options/nasa-options.php:1358
+#: options/nasa-options.php:1393
 msgid "Footer Light 2 ( No.3 )"
 msgstr "Footer Light 2 ( No.3 )"
 
-#: options/nasa-options.php:1367
+#: options/nasa-options.php:1402
 msgid "Footer Light 2 ( No.4 )"
 msgstr "Footer Light 2 ( No.4 )"
 
-#: options/nasa-options.php:1376
+#: options/nasa-options.php:1411
 msgid "Footer Light 2 ( No.5 )"
 msgstr "Footer Light 2 ( No.5 )"
 
-#: options/nasa-options.php:1385
+#: options/nasa-options.php:1420
 msgid "Footer Light 2 ( No.6 )"
 msgstr "Footer Light 2 ( No.6 )"
 
-#: options/nasa-options.php:1394
+#: options/nasa-options.php:1429
 msgid "Footer Light 2 ( No.7 )"
 msgstr "Footer Light 2 ( No.7 )"
 
-#: options/nasa-options.php:1404
+#: options/nasa-options.php:1439
 msgid "Footer Light 3 ( No.1 )"
 msgstr "Footer Light 3 ( No.1 )"
 
-#: options/nasa-options.php:1413
+#: options/nasa-options.php:1448
 msgid "Footer Light 3 ( No.2 )"
 msgstr "Footer Light 3 ( No.2 )"
 
-#: options/nasa-options.php:1442
+#: options/nasa-options.php:1477
 msgid "Footer Mobile"
 msgstr "Altbilgi Mobil"
 
@@ -2197,12 +2212,12 @@ msgstr "Altbilgi Mobil Düzeni"
 msgid "Footer Options"
 msgstr "Alt Bilgi Seçenekleri"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:204
 #: admin/settings/nasa_07_3_product_detail_heading.php:205
+#: admin/settings/nasa_07_3_product_detail_heading.php:206
 msgid "Form Options"
 msgstr "Form Seçenekleri"
 
-#: admin/settings/nasa_03_1_header_heading.php:578
+#: admin/settings/nasa_03_1_header_heading.php:582
 #| msgid "Format Currency - Only for WPML"
 msgid "Format Currency - Only Apply for WPML"
 msgstr "Para Birimini Biçimlendir - Yalnızca WPML için Başvurun"
@@ -2211,11 +2226,11 @@ msgstr "Para Birimini Biçimlendir - Yalnızca WPML için Başvurun"
 msgid "Free Shipping Bar - WooCommerce Advanced Free Shipping"
 msgstr "Ücretsiz Gönderim Çubuğu - WooCommerce Gelişmiş Ücretsiz Gönderim"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:282
+#: admin/settings/nasa_07_2_product_page_heading.php:290
 msgid "Full"
 msgstr "Tam dolu"
 
-#: admin/settings/nasa_03_1_header_heading.php:688
+#: admin/settings/nasa_03_1_header_heading.php:701
 #: admin/settings/nasa_09_promo_popup_heading.php:100
 msgid "Full Width"
 msgstr "Tam genişlik"
@@ -2240,20 +2255,20 @@ msgstr "Tam Genişlikte Ana Menü"
 msgid "Gallery - Carousel"
 msgstr "Galeri - Atlıkarınca"
 
-#: admin/settings/nasa_01_general_heading.php:186
+#: admin/settings/nasa_01_general_heading.php:273
 msgid "GDPR Notice"
 msgstr "GDPR Bildirimi"
 
-#: admin/settings/nasa_01_general_heading.php:180
-#: admin/settings/nasa_01_general_heading.php:181
+#: admin/settings/nasa_01_general_heading.php:267
+#: admin/settings/nasa_01_general_heading.php:268
 msgid "GDPR Options"
 msgstr "GDPR Seçenekleri"
 
-#: admin/settings/nasa_01_general_heading.php:193
+#: admin/settings/nasa_01_general_heading.php:280
 msgid "GDPR Policies Link"
 msgstr "GDPR Politikaları Bağlantısı"
 
-#: cores/nasa-theme-footers.php:817
+#: cores/nasa-theme-footers.php:855
 #: admin/settings/nasa_01_general_heading.php:12
 msgid "General"
 msgstr "Genel"
@@ -2290,7 +2305,7 @@ msgstr "EVE GİTMEK"
 msgid "Go to Theme Options"
 msgstr "Tema Seçeneklerine Git"
 
-#: woocommerce/single-product-reviews.php:128
+#: woocommerce/single-product-reviews.php:147
 msgid "Good"
 msgstr "İyi"
 
@@ -2298,7 +2313,7 @@ msgstr "İyi"
 msgid "Google font"
 msgstr "Google yazı tipi"
 
-#: admin/settings/nasa_01_general_heading.php:97
+#: admin/settings/nasa_01_general_heading.php:166
 msgid "Gray Effect"
 msgstr "Gri Efekt"
 
@@ -2332,7 +2347,7 @@ msgstr "Izgara"
 msgid "Grid Products - Options"
 msgstr "Izgara Ürünleri - Seçenekler"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:256
+#: admin/settings/nasa_07_2_product_page_heading.php:264
 msgid "Grid Rows"
 msgstr "Izgara Satırları"
 
@@ -2345,7 +2360,7 @@ msgstr "Kupon kodun var mı?"
 msgid "Have a coupon?"
 msgstr "Kuponunuz var mı?"
 
-#: admin/theme-admin.php:335
+#: admin/theme-admin.php:357
 msgid "Header"
 msgstr "Başlık"
 
@@ -2362,11 +2377,11 @@ msgid "Header Global"
 msgstr "Başlık Küresel"
 
 #: cores/nasa-theme-options.php:220
-#: admin/settings/nasa_03_1_header_heading.php:396
+#: admin/settings/nasa_03_1_header_heading.php:398
 msgid "Header Icons"
 msgstr "Başlık Simgeleri"
 
-#: admin/settings/nasa_03_1_header_heading.php:406
+#: admin/settings/nasa_03_1_header_heading.php:408
 msgid "Header Icons - Sticky"
 msgstr "Başlık Simgeleri - Yapışkan"
 
@@ -2374,11 +2389,11 @@ msgstr "Başlık Simgeleri - Yapışkan"
 msgid "Header icons Cart | Wishlist | Compare"
 msgstr "Başlık simgeleri Sepet | İstek Listesi | Karşılaştırmak"
 
-#: admin/settings/nasa_03_1_header_heading.php:416
+#: admin/settings/nasa_03_1_header_heading.php:418
 msgid "Header Icons Hover"
 msgstr "Başlık Simgeleri Vurgulu"
 
-#: admin/settings/nasa_03_1_header_heading.php:426
+#: admin/settings/nasa_03_1_header_heading.php:428
 msgid "Header Icons Hover - Sticky"
 msgstr "Başlık Simgeleri Vurgulu - Yapışkan"
 
@@ -2435,7 +2450,7 @@ msgstr "Yükseklik - Yapışkan Logo"
 msgid "Height For Mobile"
 msgstr "Mobil İçin Yükseklik"
 
-#: cores/nasa-woo-functions.php:141
+#: cores/nasa-woo-functions.php:123
 #, php-format
 msgid "Hello, %s!"
 msgstr "Merhaba, %s!"
@@ -2448,7 +2463,7 @@ msgstr "Helvetika"
 msgid "Hide \"View Cart\" Button in Mini Cart"
 msgstr "Mini Sepetteki \"Sepeti Görüntüle\" Düğmesini Gizle"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:342
+#: admin/settings/nasa_07_3_product_detail_heading.php:343
 msgid "Hide Additional Information Tab"
 msgstr "Ek Bilgi Sekmesini Gizle"
 
@@ -2489,7 +2504,7 @@ msgstr ""
 msgid "Home"
 msgstr "Ev"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:108
+#: admin/settings/nasa_07_3_product_detail_heading.php:109
 msgid "Horizontal"
 msgstr "Yatay"
 
@@ -2497,7 +2512,7 @@ msgstr "Yatay"
 msgid "Hover - Product Card Styles - Effect"
 msgstr "Vurgula - Ürün Kartı Stilleri - Efekt"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:181
+#: admin/settings/nasa_07_3_product_detail_heading.php:182
 msgid "Hover Zoom Image"
 msgstr "Görüntüyü Yakınlaştır"
 
@@ -2519,7 +2534,7 @@ msgstr "https://elessi.nasatheme.com"
 msgid "https://nasatheme.com"
 msgstr "https://nasatheme.com"
 
-#: cores/nasa-woo-actions.php:1178 cores/nasa-woo-actions.php:1200
+#: cores/nasa-woo-actions.php:1185 cores/nasa-woo-actions.php:1208
 msgid "Hurry up! Sale end in:"
 msgstr "Acele etmek! Satış bitiş tarihi:"
 
@@ -2531,7 +2546,7 @@ msgstr "18 yaşındayım veya daha büyüğüm"
 msgid "I am under 18"
 msgstr "ben 18 yaşının altındayım"
 
-#: searchform.php:40 searchform.php:131
+#: searchform.php:41 searchform.php:132
 msgid "I'm shopping for ..."
 msgstr "için alışveriş yapıyorum..."
 
@@ -2554,7 +2569,7 @@ msgstr ""
 "parola oluşturulur ve yeni kullanıcının rolü %s olarak belirlenir. Yeni "
 "kullanıcının ayrıntılarının manuel olarak değiştirilmesi gerekli olacaktır."
 
-#: admin/settings/nasa_03_1_header_heading.php:467
+#: admin/settings/nasa_03_1_header_heading.php:469
 msgid "If Turn on, the live search Ajax feature will be lost"
 msgstr "Açılırsa, canlı arama Ajax özelliği kaybolacak"
 
@@ -2562,13 +2577,23 @@ msgstr "Açılırsa, canlı arama Ajax özelliği kaybolacak"
 msgid "If you have a coupon code, please apply it below."
 msgstr "Kupon kodunuz varsa, lütfen aşağıdan uygulayın."
 
-#: woocommerce/checkout/form-login.php:24
+#: woocommerce/checkout/form-login.php:25
 msgid ""
 "If you have shopped with us before, please enter your details below. If you "
 "are a new customer, please proceed to the Billing section."
 msgstr ""
 "Eğer bizden daha önce alışveriş yaptıysanız lütfen aşağıya bilgilerinizi "
 "giriniz. Yeni bir müşteriyseniz lütfen Faturalandırma bölümüne ilerleyin."
+
+#: admin/settings/nasa_01_general_heading.php:221
+msgid ""
+"If you skip this field notification will be default \"😁😁 Come back! | "
+"❤️‍🔥❤️‍🔥 Don't forget this ...\". If you want to add more notifications, you "
+"just need to add \"|\" between notifications."
+msgstr ""
+"Bu alanı atlarsanız bildirim varsayılan olarak \"😁😁 Come back! | ❤️‍🔥❤️‍🔥 "
+"Don't forget this ...\" olacaktır. Daha fazla bildirim eklemek istiyorsanız, "
+"bildirimler arasına \"|\" eklemeniz yeterlidir."
 
 #: cores/nasa-theme-options.php:279 cores/nasa-theme-options.php:299
 msgid ""
@@ -2595,11 +2620,11 @@ msgstr "Resim URL'si"
 msgid "Images"
 msgstr "Görüntüler"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:74
+#: admin/settings/nasa_07_3_product_detail_heading.php:75
 msgid "Images Columns"
 msgstr "Görüntü Sütunları"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:88
+#: admin/settings/nasa_07_3_product_detail_heading.php:89
 msgid "Images Style"
 msgstr "Görüntü Stili"
 
@@ -2670,27 +2695,29 @@ msgstr "Stokta var"
 msgid "In Topbar - Header"
 msgstr "Topbar'da - Başlık"
 
-#: admin/settings/nasa_05_type_heading.php:341
-msgid "Include FontAwesome 5 (Note: You only can use Free icons)"
-msgstr ""
-"FontAwesome 5'i dahil edin (Not: Yalnızca Ücretsiz simgeleri "
-"kullanabilirsiniz)"
+#: admin/settings/nasa_01_general_heading.php:211
+msgid "Inactive Tab"
+msgstr "Etkin Olmayan Sekme"
 
-#: admin/settings/nasa_01_general_heading.php:243
+#: admin/settings/nasa_01_general_heading.php:219
+msgid "Inactive Tab Notification Content"
+msgstr "Etkin Olmayan Sekme Bildirim İçeriği"
+
+#: admin/settings/nasa_01_general_heading.php:330
 msgid "Include Theme Version when call css files"
 msgstr "Css dosyalarını çağırırken Tema Sürümünü Dahil Et"
 
-#: admin/settings/nasa_01_general_heading.php:250
+#: admin/settings/nasa_01_general_heading.php:337
 msgid "Include Theme Version when call js files"
 msgstr "js dosyalarını çağırırken Tema Sürümünü dahil et"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:283
+#: admin/settings/nasa_07_2_product_page_heading.php:291
 msgid "Infinite - Only using for Ajax"
 msgstr "Sonsuz - Yalnızca Ajax için kullanılıyor"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:614
-#: admin/settings/nasa_07_3_product_detail_heading.php:150
-#: admin/settings/nasa_07_3_product_detail_heading.php:502
+#: admin/settings/nasa_07_3_product_detail_heading.php:151
+#: admin/settings/nasa_07_3_product_detail_heading.php:534
 msgid "Infinite Slide"
 msgstr "Sonsuz Slayt"
 
@@ -2698,7 +2725,7 @@ msgstr "Sonsuz Slayt"
 msgid "Infinite Slide In Quickview"
 msgstr "Hızlı Görünümde Sonsuz Slayt"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:125
+#: admin/settings/nasa_07_3_product_detail_heading.php:126
 msgid "Infomations Columns"
 msgstr "Bilgi Sütunları"
 
@@ -2774,7 +2801,7 @@ msgstr "Eklenti Kurulumu: %s"
 msgid "Invalid file type"
 msgstr "Geçersiz dosya türü"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:263
+#: admin/settings/nasa_07_2_product_page_heading.php:271
 msgid "Isotope Layout Mode"
 msgstr "İzotop Düzeni Modu"
 
@@ -2796,7 +2823,7 @@ msgstr "Öğeler"
 msgid "items"
 msgstr "öğeler"
 
-#: admin/settings/nasa_03_1_header_heading.php:561
+#: admin/settings/nasa_03_1_header_heading.php:565
 msgid "Languages Switcher"
 msgstr "Dil Değiştirici"
 
@@ -2812,7 +2839,7 @@ msgstr "Geniş Aralık"
 msgid "Last Backup : "
 msgstr "Son yedekleme :"
 
-#: cores/nasa-woo-functions.php:1725
+#: cores/nasa-woo-functions.php:1881
 msgid "Latest"
 msgstr "En sonuncu"
 
@@ -2842,18 +2869,18 @@ msgstr "Düzen Seçenekleri"
 msgid "Layout Single or Double rows."
 msgstr "Düzen Tek veya Çift sıralar."
 
-#: admin/settings/nasa_07_2_product_page_heading.php:251
+#: admin/settings/nasa_07_2_product_page_heading.php:259
 msgid "Layout Style"
 msgstr "Düzen Stili"
 
 #. %s is product title
-#: woocommerce/single-product-reviews.php:91
+#: woocommerce/single-product-reviews.php:107
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "%s için bir Yanıt bırakın"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:99
-#: admin/settings/nasa_07_3_product_detail_heading.php:312
+#: admin/settings/nasa_07_3_product_detail_heading.php:313
 msgid "Left"
 msgstr "Sol"
 
@@ -2872,12 +2899,12 @@ msgstr "Sol Kenar Çubuğu - Klasik"
 msgid "Left Sidebar - Off-canvas"
 msgstr "Sol Kenar Çubuğu - Tuval Dışı"
 
-#: admin/settings/nasa_03_1_header_heading.php:451
+#: admin/settings/nasa_03_1_header_heading.php:453
 #: admin/settings/nasa_07_1_product_global_heading.php:57
 msgid "Left To Right"
 msgstr "Soldan sağa"
 
-#: woocommerce/archive-product.php:191
+#: woocommerce/archive-product.php:182
 msgid "Less -"
 msgstr "Az -"
 
@@ -2907,15 +2934,15 @@ msgstr "Işık"
 msgid "Light Mode"
 msgstr "Işık Modu"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:189
+#: admin/settings/nasa_07_3_product_detail_heading.php:190
 msgid "Lightbox Image"
 msgstr "Işık Kutusu Resmi"
 
-#: admin/settings/nasa_03_1_header_heading.php:668
+#: admin/settings/nasa_03_1_header_heading.php:672
 msgid "Limit Posts"
 msgstr "Gönderileri Sınırla"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:236
+#: admin/settings/nasa_07_2_product_page_heading.php:244
 msgid "Limit Products Per Page"
 msgstr "Sayfa Başına Ürünleri Sınırla"
 
@@ -2925,8 +2952,8 @@ msgstr ""
 "Daha fazlasını göstermek için widget'ları sınırlayın. (\"All\" girişi tüm "
 "widget'ları gösterecektir)"
 
-#: woocommerce/loop/sale-flash.php:68
-#: woocommerce/single-product/sale-flash.php:69
+#: woocommerce/loop/sale-flash.php:77
+#: woocommerce/single-product/sale-flash.php:78
 msgid "Limited"
 msgstr "Sınırlı"
 
@@ -2938,9 +2965,9 @@ msgstr "Bağlantı URL'si (isteğe bağlı)"
 msgid "Links"
 msgstr "Bağlantılar"
 
-#: includes/nasa-change-view.php:317 includes/nasa-change-view.php:320
+#: includes/nasa-change-view.php:322 includes/nasa-change-view.php:325
 #: admin/settings/nasa_07_2_product_page_heading.php:118
-#: admin/settings/nasa_07_2_product_page_heading.php:184
+#: admin/settings/nasa_07_2_product_page_heading.php:192
 #: admin/settings/nasa_08_blog_heading.php:54
 msgid "List"
 msgstr "Liste"
@@ -2949,32 +2976,32 @@ msgstr "Liste"
 msgid "List - 2 Columns"
 msgstr "Liste - 2 Sütun"
 
-#: includes/nasa-change-view.php:305
+#: includes/nasa-change-view.php:310
 msgid "List 2"
 msgstr "Liste 2"
 
-#: includes/nasa-change-view.php:302
-#: admin/settings/nasa_07_2_product_page_heading.php:185
+#: includes/nasa-change-view.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:193
 msgid "List 2 Columns"
 msgstr "2 Sütun Listele"
 
-#: admin/settings/nasa_01_general_heading.php:233
+#: admin/settings/nasa_01_general_heading.php:320
 msgid "List Files JS Delay - Delay JavaScript Execution"
 msgstr "Dosyaları Listele JS Gecikmesi - JavaScript Yürütmesini Geciktirin"
 
-#: admin/settings/nasa_03_1_header_heading.php:472
+#: admin/settings/nasa_03_1_header_heading.php:474
 msgid "Live Search Ajax Products"
 msgstr "Canlı Arama Ajax Ürünleri"
 
-#: admin/settings/nasa_03_1_header_heading.php:511
+#: admin/settings/nasa_03_1_header_heading.php:497
 msgid "Live Search Layout - (Header type 1, 2, 5, 7)"
 msgstr "Canlı Arama Düzeni - (Başlık türü 1, 2, 5, 7)"
 
-#: admin/settings/nasa_01_general_heading.php:208
+#: admin/settings/nasa_01_general_heading.php:295
 msgid "Load Css Canvas"
 msgstr "Css Kanvasını Yükle"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:284
+#: admin/settings/nasa_07_2_product_page_heading.php:292
 msgid "Load More - Only using for Ajax"
 msgstr "Daha Fazla Yükle - Yalnızca Ajax için kullanılıyor"
 
@@ -2982,12 +3009,12 @@ msgstr "Daha Fazla Yükle - Yalnızca Ajax için kullanılıyor"
 msgid "LOAD MORE ..."
 msgstr "DAHA FAZLA YÜKLE ..."
 
-#: woocommerce/global/form-login.php:50
+#: woocommerce/global/form-login.php:52
 msgid "Login"
 msgstr "Giriş yapmak"
 
 #: cores/nasa-theme-headers.php:334 cores/nasa-theme-headers.php:477
-#: cores/nasa-woo-functions.php:103 cores/nasa-woo-functions.php:103
+#: cores/nasa-woo-functions.php:85 cores/nasa-woo-functions.php:85
 msgid "Login / Register"
 msgstr "Giriş / Kayıt"
 
@@ -3012,7 +3039,7 @@ msgstr "Logo ve Favicon"
 msgid "Logo Options"
 msgstr "Logo Seçenekleri"
 
-#: woocommerce/global/form-login.php:43
+#: woocommerce/global/form-login.php:45
 msgid "Lost your password?"
 msgstr "Şifreni mi unuttun?"
 
@@ -3024,7 +3051,7 @@ msgstr "Kayıp?"
 msgid "Main Image"
 msgstr "Ana resim"
 
-#: functions.php:100
+#: functions.php:101
 msgid "Main Menu"
 msgstr "Ana menü"
 
@@ -3057,11 +3084,11 @@ msgstr "Ana yönlendirici"
 msgid "Manage Your Items List"
 msgstr "Ürün Listenizi Yönetin"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:268
+#: admin/settings/nasa_07_2_product_page_heading.php:276
 msgid "Masonry"
 msgstr "Duvarcılık"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:257
+#: admin/settings/nasa_07_2_product_page_heading.php:265
 #: admin/settings/nasa_08_blog_heading.php:56
 msgid "Masonry Isotope"
 msgstr "Duvar izotopu"
@@ -3076,13 +3103,13 @@ msgstr "Yığma İzotop - Izgara - Blog stili"
 msgid "Max Depth Level - Top Filter Categories"
 msgstr "Maksimum Derinlik Seviyesi - En İyi Filtre Kategorileri"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:415
+#: admin/settings/nasa_07_3_product_detail_heading.php:418
 msgid "Max files Comments Images upload"
 msgstr "Maks. dosya Yorumlar Resim yükleme"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "max files:"
-msgstr "maksimum dosyalar:"
+#: admin/settings/nasa_07_3_product_detail_heading.php:443
+msgid "Max files Comments Video upload"
+msgstr "Maksimum dosya Yorumlar Video yükleme"
 
 #: admin/settings/nasa_02_logo_icon_heading.php:56
 msgid "Max Height - Logo"
@@ -3096,6 +3123,12 @@ msgstr "Maksimum Yükseklik - Yapışkan Logo"
 msgid "Max Height Logo - Mobile"
 msgstr "Maksimum Yükseklik Logosu - Mobil"
 
+#: cores/nasa-woo-functions.php:2355
+#, php-format
+#| msgid "Max size allowed: %s kB"
+msgid "Max image size allowed: %s kB"
+msgstr "İzin verilen maksimum boyut: %s kB"
+
 #: woocommerce/content-widget-price-filter.php:28
 msgid "Max price"
 msgstr "maksimum fiyat"
@@ -3108,23 +3141,41 @@ msgstr "Maksimum fiyat aralıkları"
 msgid "Max products compare"
 msgstr "Maksimum ürün karşılaştırması"
 
-#: cores/nasa-woo-functions.php:2141
-#, php-format
-msgid "Max size allowed: %s kB"
-msgstr "İzin verilen maksimum boyut: %s kB"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:422
+#: admin/settings/nasa_07_3_product_detail_heading.php:427
 msgid "Max Size Comments Images upload (kb)"
 msgstr "Maksimum Boyut Yorumlar Resim yükleme (kb)"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "max size:"
-msgstr "maksimum boyut:"
+#: admin/settings/nasa_07_3_product_detail_heading.php:452
+msgid "Max Size Comments Video upload (kb)"
+msgstr "Maksimum Boyut Yorumlar Video yükleme (kb)"
 
-#: cores/nasa-woo-functions.php:2115
+#: cores/nasa-woo-functions.php:2410
 #, php-format
-msgid "Maximum number of files allowed is: %s file(s)"
+msgid "Max video size allowed: %s kB"
+msgstr "İzin verilen maksimum video boyutu: %s kB"
+
+#: cores/nasa-woo-functions.php:2283
+#, php-format
+msgid "Maximum file size is %s kB, max %s file"
+msgid_plural "Maximum file size is %s kB, max %s files"
+msgstr[0] "Maksimum dosya boyutu %s kB, maksimum %s dosya"
+msgstr[1] "Maksimum dosya boyutu %s kB, maksimum %s dosya"
+
+#: cores/nasa-woo-functions.php:2237
+#, php-format
+msgid "Maximum file size is %s kB, max %s files"
+msgstr "Maksimum dosya boyutu %s kB, maksimum %s dosya"
+
+#: cores/nasa-woo-functions.php:2329
+#, php-format
+#| msgid "Maximum number of files allowed is: %s file(s)"
+msgid "Maximum number of image files allowed is: %s file(s)"
 msgstr "İzin verilen maksimum dosya sayısı: %s dosya(lar)"
+
+#: cores/nasa-woo-functions.php:2384
+#, php-format
+msgid "Maximum number of video files allowed is: %s file(s)"
+msgstr "İzin verilen maksimum video dosyası sayısı: %s dosya"
 
 #: cores/nasa-theme-options.php:55
 msgid "Medium"
@@ -3147,6 +3198,10 @@ msgstr "Geçersiz menü bilgisi nedeniyle menü öğesi atlandı: %s"
 msgid "Menu item skipped due to missing menu slug"
 msgstr "Eksik menü bilgisi nedeniyle menü öğesi atlandı"
 
+#: cores/nasa-custom-wc-ajax.php:868
+msgid "Menu Map"
+msgstr "Menü Haritası"
+
 #: admin/settings/nasa_03_1_header_heading.php:100
 #: admin/settings/nasa_03_1_header_heading.php:101
 msgid "Menu Options"
@@ -3157,15 +3212,15 @@ msgstr "Menü seçenekleri"
 msgid "Meta Info - Blog Style"
 msgstr "Meta Bilgi - Blog Stili"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:390
+#: admin/settings/nasa_07_3_product_detail_heading.php:391
 msgid "Meta Infomations (SKU, Categories, Tags, etc...)"
 msgstr "Meta Bilgileri (SKU, Kategoriler, Etiketler vb...)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:397
+#: admin/settings/nasa_07_3_product_detail_heading.php:398
 msgid "Meta Infomations Position"
 msgstr "Meta Bilgi Konumu"
 
-#: cores/nasa-woo-actions.php:1544
+#: cores/nasa-woo-actions.php:1552
 msgid "Method"
 msgstr "Yöntem"
 
@@ -3224,7 +3279,7 @@ msgid "Mobile Bottom Bar Options"
 msgstr "Mobil Alt Çubuk Seçenekleri"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:595
-#: admin/settings/nasa_07_2_product_page_heading.php:213
+#: admin/settings/nasa_07_2_product_page_heading.php:221
 msgid "Mobile Columns"
 msgstr "Mobil Sütunlar"
 
@@ -3263,7 +3318,7 @@ msgstr "Mobil Tek Ürün Seçenekleri"
 msgid "Mode"
 msgstr "mod"
 
-#: admin/settings/nasa_03_1_header_heading.php:517
+#: admin/settings/nasa_03_1_header_heading.php:503
 msgid "Modern"
 msgstr "Modern"
 
@@ -3280,11 +3335,11 @@ msgstr "Modern - Üst Bilgi Yok, Alt Bilgi Yok"
 msgid "Monthly Archives: %s"
 msgstr "Aylık Arşivler: %s"
 
-#: woocommerce/archive-product.php:190
+#: woocommerce/archive-product.php:181
 msgid "More +"
 msgstr "Daha fazla +"
 
-#: options/nasa-options.php:758
+#: options/nasa-options.php:779
 msgid "More Results"
 msgstr "Daha fazla sonuç"
 
@@ -3293,24 +3348,29 @@ msgid "Move To Top"
 msgstr "Yukarı Taşı"
 
 #: cores/nasa-theme-headers.php:334 cores/nasa-theme-headers.php:477
-#: cores/nasa-woo-functions.php:115 cores/nasa-woo-functions.php:115
+#: cores/nasa-woo-functions.php:97 cores/nasa-woo-functions.php:97
 #: woocommerce/checkout/thankyou.php:35
 msgid "My Account"
 msgstr "Hesabım"
 
-#: cores/nasa-theme-footers.php:311
+#: cores/nasa-theme-footers.php:342
 msgid "My Cart"
 msgstr "Sepetim"
 
-#: cores/nasa-custom-wc-ajax.php:1056 woocommerce/single-product/meta.php:25
+#: cores/nasa-custom-wc-ajax.php:1097 woocommerce/single-product/meta.php:25
 msgid "N/A"
 msgstr "Yok"
 
 #: widgets/wg-nasa-product-categories.php:72
-#: woocommerce/single-product-reviews.php:96
+#: woocommerce/single-product-reviews.php:112
+#: woocommerce/single-product-reviews.php:113
 #: admin/settings/nasa_07_1_product_global_heading.php:352
 msgid "Name"
 msgstr "İsim"
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Name *"
+msgstr "İsim *"
 
 #: widgets/wg-nasa-product-filter-price.php:31
 msgid "Nasa - Filter Product by Price (slide)"
@@ -3336,8 +3396,8 @@ msgstr "NasaTheme İstek Listesi Özelliği"
 msgid "Never expire"
 msgstr "Hiç sona ermeyen"
 
-#: woocommerce/loop/sale-flash.php:33
-#: woocommerce/single-product/sale-flash.php:33
+#: woocommerce/loop/sale-flash.php:42
+#: woocommerce/single-product/sale-flash.php:42
 msgid "New"
 msgstr "Yeni"
 
@@ -3376,7 +3436,11 @@ msgstr "SONRAKİ"
 msgid "Next &rarr;"
 msgstr "Sonraki &rarr;"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:376
+#: cores/nasa-theme-footers.php:866
+msgid "Next (arrow right)"
+msgstr "Sonraki (sağ ok)"
+
+#: admin/settings/nasa_07_3_product_detail_heading.php:377
 msgid "Next - Previous Product"
 msgstr "Sonraki - Önceki Ürün"
 
@@ -3393,7 +3457,7 @@ msgstr "Sonraki <span class=\"meta-nav\">&rarr;</span>"
 #: admin/settings/nasa_03_1_header_heading.php:275
 #: admin/settings/nasa_07_1_product_global_heading.php:384
 #: admin/settings/nasa_07_1_product_global_heading.php:518
-#: admin/settings/nasa_07_2_product_page_heading.php:293
+#: admin/settings/nasa_07_2_product_page_heading.php:301
 msgid "No"
 msgstr "HAYIR"
 
@@ -3407,7 +3471,7 @@ msgstr "Herhangi bir işlem yapılmadı. %1$s eklentisi zaten etkindi."
 msgid "No backups yet."
 msgstr "Henüz yedek yok."
 
-#: admin/settings/nasa_03_1_header_heading.php:453
+#: admin/settings/nasa_03_1_header_heading.php:455
 #: admin/settings/nasa_07_1_product_global_heading.php:60
 msgid "No Effect"
 msgstr "Etkisi yok"
@@ -3445,22 +3509,22 @@ msgstr "Güncellenecek eklenti seçilmedi. Herhangi bir işlem yapılmadı."
 msgid "No product added to compare !"
 msgstr "Karşılaştırılacak ürün eklenmemiş!"
 
-#: cores/nasa-woo-functions.php:1399 widgets/wg-nasa-product-brands.php:251
+#: cores/nasa-woo-functions.php:1555 widgets/wg-nasa-product-brands.php:251
 #: widgets/wg-nasa-product-categories.php:451
 msgid "No product categories exist."
 msgstr "Ürün kategorisi yok."
 
-#: woocommerce/cart/mini-cart.php:205
+#: woocommerce/cart/mini-cart.php:211
 msgid "No products in the cart."
 msgstr "Sepette ürün yok."
 
-#: includes/nasa-sidebar-wishlist_content.php:89
-#: includes/nasa-sidebar-wishlist_content.php:210
-#: includes/nasa-sidebar-wishlist_html.php:94
+#: includes/nasa-sidebar-wishlist_content.php:92
+#: includes/nasa-sidebar-wishlist_content.php:213
+#: includes/nasa-sidebar-wishlist_html.php:96
 msgid "No products in the wishlist."
 msgstr "İstek listesinde ürün yok."
 
-#: woocommerce/loop/no-products-found.php:21
+#: woocommerce/loop/no-products-found.php:19
 msgid "No products were found matching your selection."
 msgstr "Seçiminizle eşleşen ürün bulunamadı."
 
@@ -3502,7 +3566,7 @@ msgid "No vendor found!"
 msgstr "Satıcı bulunamadı!"
 
 #: cores/nasa-theme-options.php:36 admin/classes/class.options_machine.php:434
-#: admin/settings/nasa_01_general_heading.php:98
+#: admin/settings/nasa_01_general_heading.php:167
 msgid "None"
 msgstr "Hiçbiri"
 
@@ -3515,7 +3579,6 @@ msgid "Not a member? "
 msgstr "Üye değil?"
 
 #: woocommerce/loop/no-products-found.php:17
-#: woocommerce/loop/no-products-found.php:19
 msgid "Not Found Products"
 msgstr "Bulunamayan Ürünler"
 
@@ -3536,23 +3599,23 @@ msgstr ""
 msgid "Not Set"
 msgstr "Ayarlanmadı"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:251
+#: admin/settings/nasa_07_3_product_detail_heading.php:252
 msgid "Not Show"
 msgstr "Gösterme"
 
-#: woocommerce/single-product-reviews.php:130
+#: woocommerce/single-product-reviews.php:149
 msgid "Not that bad"
 msgstr "o kadar da kötü değil"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:265
+#: admin/settings/nasa_07_3_product_detail_heading.php:266
 msgid "Not use Mobile App - Simulator"
 msgstr "Mobil Uygulama - Simülatör kullanmamak"
 
-#: cores/nasa-woo-actions.php:2486 includes/nasa-mini-cart-note.php:20
+#: cores/nasa-woo-actions.php:2494 includes/nasa-mini-cart-note.php:20
 msgid "Note"
 msgstr "Not"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:274
+#: admin/settings/nasa_07_3_product_detail_heading.php:275
 msgid ""
 "Note: Consider disabling this feature if you are using a third-party plugin "
 "developed for the Add to Cart feature in the Single Product Page!"
@@ -3560,7 +3623,7 @@ msgstr ""
 "Not: Tek Ürün Sayfasında Sepete Ekle özelliği için geliştirilmiş üçüncü "
 "taraf bir eklenti kullanıyorsanız, bu özelliği devre dışı bırakmayı düşünün!"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:245
+#: admin/settings/nasa_07_2_product_page_heading.php:253
 msgid "Note: don't using for Sidebar Off-canvas and Toggle Sidebar Classic"
 msgstr ""
 "Not: Tuval Dışı Kenar Çubuğu ve Kenar Çubuğu Klasik Geçiş Yap için "
@@ -3594,7 +3657,7 @@ msgstr "Sayı Kategorileri"
 msgid "Number for related blog"
 msgstr "İlgili blog için numara"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:450
+#: admin/settings/nasa_07_3_product_detail_heading.php:482
 #| msgid "Number for relate products"
 msgid "Number for related products"
 msgstr "İlgili ürünler için numara"
@@ -3644,7 +3707,7 @@ msgstr "Beklenen Siparişlerde"
 msgid "On Sale"
 msgstr "Satılık"
 
-#: cores/nasa-woo-actions.php:1093
+#: cores/nasa-woo-actions.php:1100
 #, php-format
 msgid "Only %s item(s) left in stock."
 msgstr "Stokta sadece %s ürün kaldı."
@@ -3653,7 +3716,7 @@ msgstr "Stokta sadece %s ürün kaldı."
 msgid "Only Display 1 Time"
 msgstr "Sadece 1 Kez Görüntüle"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:152
+#: admin/settings/nasa_07_3_product_detail_heading.php:153
 #| msgid ""
 #| "Only effective for style 1, style 2(Images style : slide images), style 5,"
 #| " style 6 and style 7"
@@ -3664,17 +3727,22 @@ msgstr ""
 "Yalnızca stil 1, stil 2(Görüntüler stili : slayt görüntüleri), stil 5, stil "
 "6 ve stil 7 için etkilidir"
 
-#: cores/nasa-woo-functions.php:2155
-msgid "Only format accepted: JPG, JPEG, BMP, PNG or GIF"
-msgstr "Yalnızca kabul edilen biçim: JPG, JPEG, BMP, PNG veya GIF"
+#: cores/nasa-woo-functions.php:2369
+#| msgid "Only format accepted: JPG, JPEG, BMP, PNG or GIF"
+msgid "Only format image accepted: JPG, JPEG, BMP, PNG, GIF"
+msgstr "Yalnızca kabul edilen biçim: JPG, JPEG, BMP, PNG, GIF"
 
-#: woocommerce/single-product-reviews.php:142
+#: cores/nasa-woo-functions.php:2424
+msgid "Only format video accepted: MP4, AVI, MPEG, MOV"
+msgstr "Yalnızca video formatı kabul edilir: MP4, AVI, MPEG, MOV"
+
+#: woocommerce/single-product-reviews.php:168
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
 "Yalnızca bu ürünü satın almış oturum açmış müşteriler yorum bırakabilir."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:256
+#: admin/settings/nasa_07_3_product_detail_heading.php:257
 msgid "Only Show Buttons"
 msgstr "Yalnızca Düğmeleri Göster"
 
@@ -3711,10 +3779,11 @@ msgstr "Açık"
 msgid "Open Cart Sidebar"
 msgstr "Sepet Kenar Çubuğunu Aç"
 
-#: includes/nasa-single-product-full.php:44
-#: includes/nasa-single-product-modern-1.php:31
-#: includes/nasa-single-product-modern-2.php:31
-#: includes/nasa-single-product-modern-3.php:31
+#: includes/nasa-single-product-full.php:46
+#: includes/nasa-single-product-modern-1.php:33
+#: includes/nasa-single-product-modern-2.php:33
+#: includes/nasa-single-product-modern-3.php:33
+#: includes/nasa-single-product-modern-4.php:36
 #: includes/nasa-single-product-new-2.php:15
 #: includes/nasa-single-product-new.php:42
 msgid "Open Sidebar"
@@ -3781,11 +3850,7 @@ msgstr "Mobil Menü Siparişi"
 msgid "Out of stock"
 msgstr "Stoklar tükendi"
 
-#: woocommerce/single-product-reviews.php:49
-msgid "Overall"
-msgstr "Etraflı"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:116
+#: admin/settings/nasa_07_3_product_detail_heading.php:117
 msgid "Overflows: + 0.5 items"
 msgstr "Taşmalar: + 0,5 öğe"
 
@@ -3797,7 +3862,7 @@ msgstr "Sayfa görünümü ürünleri karşılaştırın"
 msgid "Pages:"
 msgstr "Sayfalar:"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:276
+#: admin/settings/nasa_07_2_product_page_heading.php:284
 msgid "Pagination Layout"
 msgstr "Sayfalandırma Düzeni"
 
@@ -3807,7 +3872,7 @@ msgstr "Palatino"
 
 #: includes/nasa-login-register-form.php:78
 #: includes/nasa-login-register-form.php:146
-#: woocommerce/global/form-login.php:29
+#: woocommerce/global/form-login.php:31
 msgid "Password"
 msgstr "Şifre"
 
@@ -3827,7 +3892,7 @@ msgstr "ÖDEME"
 msgid "Payment Method"
 msgstr "Ödeme yöntemi"
 
-#: cores/nasa-woo-actions.php:1597
+#: cores/nasa-woo-actions.php:1605
 msgid "Payment Methods"
 msgstr "Ödeme metodları"
 
@@ -3835,36 +3900,27 @@ msgstr "Ödeme metodları"
 msgid "Pe7s icons"
 msgstr "Pe7s simgeler"
 
-#: woocommerce/single-product-reviews.php:127
+#: woocommerce/single-product-reviews.php:146
 msgid "Perfect"
 msgstr "Mükemmel"
 
-#: admin/settings/nasa_01_general_heading.php:203
+#: admin/settings/nasa_01_general_heading.php:290
 msgid "Performance - Assets"
 msgstr "Performans - Varlıklar"
 
-#: cores/nasa-woo-actions.php:1711
+#: cores/nasa-woo-actions.php:1719
 msgid "Phone"
 msgstr "Telefon"
 
-#: cores/nasa-woo-actions.php:1504
+#: cores/nasa-woo-actions.php:1512
 msgid "Phone incorrect format."
 msgstr "Telefon yanlış format."
-
-#: cores/nasa-woo-functions.php:2076
-msgid "Pictures"
-msgstr "Resimler"
-
-#: cores/nasa-woo-functions.php:2075
-#, php-format
-msgid "Pictures (max size: %s kB, max files: %s)"
-msgstr "Resimler (maksimum boyut: %s kB, maks. dosyalar: %s)"
 
 #: cores/nasa-theme-functions.php:916
 msgid "Pingback:"
 msgstr "Geribildirim:"
 
-#: cores/nasa-woo-functions.php:1094
+#: cores/nasa-woo-functions.php:1246
 msgid "Play Video"
 msgstr "Video oynatmak"
 
@@ -3887,15 +3943,15 @@ msgstr ""
 "Lütfen eklenti sağlayıcısıyla iletişime geçin ve eklentilerini WordPress "
 "yönergelerine göre paketlemelerini isteyin."
 
-#: admin/settings/nasa_03_1_header_heading.php:336
-#: admin/settings/nasa_03_1_header_heading.php:348
-#: admin/settings/nasa_03_1_header_heading.php:360
-#: admin/settings/nasa_03_1_header_heading.php:592
+#: admin/settings/nasa_03_1_header_heading.php:338
+#: admin/settings/nasa_03_1_header_heading.php:350
+#: admin/settings/nasa_03_1_header_heading.php:362
+#: admin/settings/nasa_03_1_header_heading.php:596
 #: admin/settings/nasa_03_3_mobile_heading.php:82
-#: admin/settings/nasa_07_2_product_page_heading.php:313
-#: admin/settings/nasa_07_2_product_page_heading.php:323
-#: admin/settings/nasa_07_2_product_page_heading.php:333
-#: admin/settings/nasa_07_3_product_detail_heading.php:358
+#: admin/settings/nasa_07_2_product_page_heading.php:321
+#: admin/settings/nasa_07_2_product_page_heading.php:331
+#: admin/settings/nasa_07_2_product_page_heading.php:341
+#: admin/settings/nasa_07_3_product_detail_heading.php:359
 #: admin/settings/nasa_09_promo_popup_heading.php:164
 msgid ""
 "Please create Static Blocks (or Custom Block of Elementor Header & Footer "
@@ -3904,23 +3960,33 @@ msgstr ""
 "Lütfen Statik Bloklar (veya Elementor Üstbilgi ve Altbilgi Oluşturucunun "
 "Özel Bloğu) oluşturun ve burayı seçin."
 
+#: woocommerce/single-product-reviews.php:38
+msgid "Please enter a valid email address."
+msgstr "Geçerli bir e."
+
 #: cores/nasa-wc-checkout-ext.php:92
 msgid "Please enter an address to continue."
 msgstr "Devam etmek için lütfen bir adres girin."
+
+#: woocommerce/checkout/payment.php:26
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Mevcut ödeme yöntemlerini görmek için lütfen bilgilerinizi yukarıya girin."
 
 #: admin/settings/nasa_07_4_product_compare_heading.php:61
 msgid "Please Install Yith WooCommerce Compare Plugin"
 msgstr "Lütfen Yith WooCommerce Karşılaştırma Eklentisini Yükleyin"
 
-#: options/nasa-options.php:703
+#: options/nasa-options.php:705
 msgid ""
 "Please select some product options before adding this product to your cart."
 msgstr ""
 "Lütfen bu ürünü sepetinize eklemeden önce bazı ürün seçeneklerini seçin."
 
 #: includes/nasa-age-verification.php:17
-msgid "Please verifi your age to enter."
-msgstr "Lütfen katılmak için yaşınızı doğrulayın."
+#| msgid "Please verifi your age to enter."
+msgid "Please verify your age to enter."
+msgstr "Giriş yapabilmek için lütfen yaşınızı doğrulayın."
 
 #: admin/importer/tpl-import-demo-data.php:127
 msgid "Please waiting in a few minutes, The process is running..."
@@ -3972,15 +4038,15 @@ msgstr[1] "Tüm <span class=\"count\">(%s)</span>"
 msgid "Plus"
 msgstr "Artı"
 
-#: admin/settings/nasa_03_1_header_heading.php:503
-msgid "Popular Keywords"
-msgstr "Popüler Anahtar Kelimeler"
+#: admin/settings/nasa_03_1_header_heading.php:518
+msgid "Popular Keywords - (Header type 1, 2, 5, 7)"
+msgstr "Popüler Anahtar Kelimeler - (Başlık türü 1, 2, 5, 7)"
 
-#: searchform.php:88 searchform.php:174
+#: searchform.php:89 searchform.php:175
 msgid "Popular Searches:"
 msgstr "Popüler aramalar:"
 
-#: cores/nasa-woo-functions.php:1723
+#: cores/nasa-woo-functions.php:1879
 msgid "Popularity"
 msgstr "Popülerlik"
 
@@ -4068,7 +4134,7 @@ msgstr "Konum filtresi kategorileri"
 msgid "Position Filter Categories - Type 3"
 msgstr "Konum Filtresi Kategorileri - Tip 3"
 
-#: admin/settings/nasa_03_1_header_heading.php:639
+#: admin/settings/nasa_03_1_header_heading.php:643
 msgid "Posts"
 msgstr "Gönderiler"
 
@@ -4083,6 +4149,10 @@ msgstr "Yazı Tiplerini Önceden Yükle Simgeleri"
 #: cores/nasa-theme-functions.php:1364
 msgid "PREVIOUS"
 msgstr "ÖNCESİ"
+
+#: cores/nasa-theme-footers.php:866
+msgid "Previous (arrow left)"
+msgstr "Önceki (sol ok)"
 
 #: includes/nasa-after-add-to-cart.php:33
 #: includes/nasa-after-add-to-cart.php:99
@@ -4108,11 +4178,11 @@ msgstr "Fiyat aralığı boyutu"
 msgid "Price:"
 msgstr "Fiyat:"
 
-#: cores/nasa-woo-functions.php:1726
+#: cores/nasa-woo-functions.php:1882
 msgid "Price: Ascending"
 msgstr "Fiyat: Artan"
 
-#: cores/nasa-woo-functions.php:1727
+#: cores/nasa-woo-functions.php:1883
 msgid "Price: Descending"
 msgstr "Fiyat: Azalan"
 
@@ -4132,20 +4202,20 @@ msgstr "Çıkışa doğru devam et"
 msgid "Product"
 msgstr "Ürün"
 
-#: cores/nasa-custom-wc-ajax.php:416 cores/nasa-woo-functions.php:265
+#: cores/nasa-custom-wc-ajax.php:417 cores/nasa-woo-functions.php:250
 #: cores/nasa-yith-wcwl-ext.php:36
 msgid "Product added to cart successfully!"
 msgstr "Ürün başarıyla sepete eklendi!"
 
-#: cores/nasa-custom-wc-ajax.php:696
+#: cores/nasa-custom-wc-ajax.php:697
 msgid "Product added to compare !"
 msgstr "Ürün karşılaştırmak için eklendi!"
 
-#: cores/nasa-custom-wc-ajax.php:910
+#: cores/nasa-custom-wc-ajax.php:951
 msgid "Product added to wishlist successfully!"
 msgstr "Ürün istek listesine başarıyla eklendi!"
 
-#: cores/nasa-custom-wc-ajax.php:698
+#: cores/nasa-custom-wc-ajax.php:699
 msgid "Product already exists in Compare list !"
 msgstr "Ürün, Karşılaştırma listesinde zaten var!"
 
@@ -4165,7 +4235,7 @@ msgstr "Ürün Kategorileri"
 msgid "Product Column Icon Style"
 msgstr "Ürün Sütunu Simge Stili"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:335
+#: admin/settings/nasa_07_3_product_detail_heading.php:336
 msgid "Product Description Wrapper - Apply with Tabs Classic"
 msgstr "Ürün Açıklaması Sarıcı - Tabs Classic ile Uygula"
 
@@ -4173,23 +4243,27 @@ msgstr "Ürün Açıklaması Sarıcı - Tabs Classic ile Uygula"
 msgid "Product Global Options"
 msgstr "Ürün Global Seçenekleri"
 
-#: cores/nasa-custom-wc-ajax.php:742
+#: cores/nasa-custom-wc-ajax.php:743
 msgid "Product not already exists in Compare list !"
 msgstr "Ürün zaten Karşılaştırma listesinde yok!"
+
+#: woocommerce/loop/pagination.php:73 woocommerce/loop/pagination.php:86
+msgid "Product Pagination"
+msgstr "Ürün Sayfalandırması"
 
 #: woocommerce/global/quantity-input.php:60
 msgid "Product quantity"
 msgstr "Ürün miktarı"
 
-#: cores/nasa-custom-wc-ajax.php:1101
+#: cores/nasa-custom-wc-ajax.php:1142
 msgid "Product quantity updated successfully!"
 msgstr "Ürün miktarı başarıyla güncellendi!"
 
-#: cores/nasa-custom-wc-ajax.php:938 cores/nasa-custom-wc-ajax.php:967
+#: cores/nasa-custom-wc-ajax.php:979 cores/nasa-custom-wc-ajax.php:1008
 msgid "Product removed from wishlist successfully!"
 msgstr "Ürün istek listesinden başarıyla kaldırıldı!"
 
-#: options/nasa-options.php:1271
+#: options/nasa-options.php:1306
 msgid "Product Sidebar"
 msgstr "Ürün Kenar Çubuğu"
 
@@ -4221,12 +4295,12 @@ msgstr "Proje Kategorisi"
 msgid "Project Name"
 msgstr "Proje Adı"
 
-#: cores/nasa-woo-actions.php:1874 cores/nasa-woo-actions.php:1905
+#: cores/nasa-woo-actions.php:1887 cores/nasa-woo-actions.php:1918
 msgid "Promotion Gifts"
 msgstr "Promosyon Hediyeleri"
 
-#: admin/settings/nasa_03_1_header_heading.php:619
-#: admin/settings/nasa_03_1_header_heading.php:620
+#: admin/settings/nasa_03_1_header_heading.php:623
+#: admin/settings/nasa_03_1_header_heading.php:624
 msgid "Promotion News"
 msgstr "Promosyon Haberler"
 
@@ -4265,8 +4339,8 @@ msgstr "Adet Girişi - Mini Sepet"
 msgid "Query type"
 msgstr "Sorgu Türü"
 
-#: cores/nasa-theme-footers.php:685 cores/nasa-woo-actions.php:1852
-#: cores/nasa-woo-actions.php:1853 cores/nasa-woo-functions.php:394
+#: cores/nasa-theme-footers.php:722 cores/nasa-woo-actions.php:1864
+#: cores/nasa-woo-actions.php:1865 cores/nasa-woo-functions.php:545
 #: woocommerce/content-widget-product.php:77
 msgid "Quick View"
 msgstr "Hızlı Görünüm"
@@ -4284,7 +4358,7 @@ msgstr "Hızlı Görünüm Seçenekleri"
 msgid "Quotes"
 msgstr "Alıntılar"
 
-#: woocommerce/single-product-reviews.php:126
+#: woocommerce/single-product-reviews.php:145
 msgid "Rate&hellip;"
 msgstr "Oran&hellip;"
 
@@ -4331,7 +4405,7 @@ msgstr "Son Projeler"
 msgid "Recommend Turn Off to use Builder Mode"
 msgstr "Oluşturucu Modunu kullanmak için Kapatmayı Önerin"
 
-#: cores/nasa-theme-footers.php:818
+#: cores/nasa-theme-footers.php:856
 msgid "Recommendation"
 msgstr "Öneri"
 
@@ -4344,13 +4418,13 @@ msgstr "Tavsiye edilen"
 msgid "Related"
 msgstr "İlgili"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:443
+#: admin/settings/nasa_07_3_product_detail_heading.php:475
 #: woocommerce/single-product/related.php:64
 msgid "Related Products"
 msgstr "İlgili Ürünler"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:437
-#: admin/settings/nasa_07_3_product_detail_heading.php:438
+#: admin/settings/nasa_07_3_product_detail_heading.php:469
+#: admin/settings/nasa_07_3_product_detail_heading.php:470
 msgid "Related | You may also like&hellip;"
 msgstr "İlgili | Şunlar da hoşunuza gidebilir…"
 
@@ -4362,7 +4436,7 @@ msgstr "Tekrar yükle"
 msgid "Remember"
 msgstr "Hatırlamak"
 
-#: woocommerce/global/form-login.php:39
+#: woocommerce/global/form-login.php:41
 msgid "Remember me"
 msgstr "Beni Hatırla"
 
@@ -4384,13 +4458,13 @@ msgstr "Uzak sunucu yanıt vermedi"
 msgid "Remote server returned error response %1$d %2$s"
 msgstr "Uzak sunucu %1$d %2$s hata yanıtı verdi"
 
-#: cores/nasa-woo-functions.php:2019 includes/nasa-after-add-to-cart.php:63
+#: cores/nasa-woo-functions.php:2175 includes/nasa-after-add-to-cart.php:63
 #: includes/nasa-after-add-to-cart.php:66
-#: includes/nasa-sidebar-wishlist_content.php:78
-#: includes/nasa-sidebar-wishlist_content.php:186
-#: includes/nasa-sidebar-wishlist_html.php:25
-#: includes/nasa-sidebar-wishlist_html.php:80
-#: includes/nasa-sidebar-wishlist_html.php:81
+#: includes/nasa-sidebar-wishlist_content.php:81
+#: includes/nasa-sidebar-wishlist_content.php:189
+#: includes/nasa-sidebar-wishlist_html.php:27
+#: includes/nasa-sidebar-wishlist_html.php:82
+#: includes/nasa-sidebar-wishlist_html.php:83
 #: includes/nasa-view-compare.php:114
 #: admin/classes/class.options_machine.php:1040
 #: admin/classes/class.options_machine.php:1114
@@ -4398,22 +4472,22 @@ msgid "Remove"
 msgstr "Kaldırmak"
 
 #. %s is the product name
-#: woocommerce/cart/cart.php:69 woocommerce/cart/mini-cart.php:88
+#: woocommerce/cart/cart.php:69 woocommerce/cart/mini-cart.php:94
 #, php-format
 msgid "Remove %s from cart"
 msgstr "Sepetten %s kaldır"
 
-#: includes/nasa-sidebar-wishlist_content.php:77
-#: includes/nasa-sidebar-wishlist_content.php:185
-#: includes/nasa-sidebar-wishlist_html.php:24
+#: includes/nasa-sidebar-wishlist_content.php:80
+#: includes/nasa-sidebar-wishlist_content.php:188
+#: includes/nasa-sidebar-wishlist_html.php:26
 msgid "Remove this product"
 msgstr "Bu ürünü kaldır"
 
-#: cores/nasa-custom-wc-ajax.php:779
+#: cores/nasa-custom-wc-ajax.php:780
 msgid "Removed all products from compare !"
 msgstr "Tüm ürünler karşılaştırmadan kaldırıldı!"
 
-#: cores/nasa-custom-wc-ajax.php:740
+#: cores/nasa-custom-wc-ajax.php:741
 msgid "Removed product from compare !"
 msgstr "Ürün karşılaştırmadan kaldırıldı!"
 
@@ -4434,11 +4508,11 @@ msgstr "Gerekli Güncelleme Mevcut Değil"
 msgid "Requires Update"
 msgstr "Güncelleme gerektirir"
 
-#: admin/settings/nasa_03_1_header_heading.php:565
+#: admin/settings/nasa_03_1_header_heading.php:569
 msgid "Requires WPML"
 msgstr "WPML gerektirir"
 
-#: admin/settings/nasa_03_1_header_heading.php:573
+#: admin/settings/nasa_03_1_header_heading.php:577
 #| msgid ""
 #| "Currencies Switcher - Requires WPML | FOX - Currency Switcher "
 #| "Professional for WooCommerce | CURCY - Multi Currency for WooCommerce"
@@ -4449,7 +4523,7 @@ msgstr ""
 "WPML gerektirir | FOX - WooCommerce için Para Birimi Değiştirici "
 "Profesyoneli | CURCY - WooCommerce için Çoklu Para Birimi"
 
-#: widgets/wg-nasa-reset-filter.php:90
+#: widgets/wg-nasa-reset-filter.php:97
 #: woocommerce/content-widget-price-filter.php:41
 msgid "Reset"
 msgstr "Sıfırla"
@@ -4458,11 +4532,11 @@ msgstr "Sıfırla"
 msgid "Reset WordPress plugin"
 msgstr "WordPress eklentisini sıfırla"
 
-#: admin/settings/nasa_03_1_header_heading.php:488
+#: admin/settings/nasa_03_1_header_heading.php:490
 msgid "Results Ajax Search (Limit Products)"
 msgstr "Sonuçlar Ajax Arama (Sınırlı Ürünler)"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:243
+#: admin/settings/nasa_07_2_product_page_heading.php:251
 msgid "Results info in top"
 msgstr "Sonuç bilgileri üstte"
 
@@ -4470,15 +4544,15 @@ msgstr "Sonuç bilgileri üstte"
 msgid "Retina Logo"
 msgstr "Retina logosu"
 
-#: cores/nasa-woo-actions.php:1495
+#: cores/nasa-woo-actions.php:1503
 msgid "RETURN TO CART"
 msgstr "SEPETE GERİ DÖN"
 
-#: cores/nasa-woo-actions.php:1495
+#: cores/nasa-woo-actions.php:1503
 msgid "Return to Cart"
 msgstr "Sepete Geri Dön"
 
-#: cores/nasa-woo-actions.php:1571
+#: cores/nasa-woo-actions.php:1579
 msgid "RETURN TO INFORMATION"
 msgstr "BİLGİYE DÖN"
 
@@ -4490,11 +4564,11 @@ msgstr "Önceki sayfaya dön"
 msgid "Return to Required Plugins Installer"
 msgstr "Gerekli Eklenti Yükleyicisine Dön"
 
-#: includes/nasa-sidebar-wishlist_content.php:89
-#: includes/nasa-sidebar-wishlist_content.php:211
-#: includes/nasa-sidebar-wishlist_html.php:96
+#: includes/nasa-sidebar-wishlist_content.php:92
+#: includes/nasa-sidebar-wishlist_content.php:214
+#: includes/nasa-sidebar-wishlist_html.php:98
 #: includes/nasa-view-compare.php:126 includes/nasa-view-compare.php:126
-#: woocommerce/cart/mini-cart.php:207
+#: woocommerce/cart/mini-cart.php:213
 msgid "RETURN TO SHOP"
 msgstr "MAĞAZAYA DÖN"
 
@@ -4509,15 +4583,15 @@ msgstr "Mağazaya dön"
 msgid "Return to the Dashboard"
 msgstr "Gösterge Tablosuna Dön"
 
-#: woocommerce/checkout/form-login.php:18
+#: woocommerce/checkout/form-login.php:19
 msgid "Returning customer?"
 msgstr "Müşteriye geri dönmek mi?"
 
-#: admin/theme-admin.php:257
+#: admin/theme-admin.php:252
 msgid "Review Product By Images"
 msgstr "Ürünü Görsellere Göre İncele"
 
-#: includes/nasa-review-images.php:14
+#: includes/nasa-review-images.php:57
 msgid "Review Product by Images"
 msgstr "Ürünü Görsellere Göre İncele"
 
@@ -4526,12 +4600,12 @@ msgstr "Ürünü Görsellere Göre İncele"
 msgid "Review Your Order"
 msgstr "Siparişini gözden geçir"
 
-#: cores/nasa-theme-footers.php:819 woocommerce/single-product-reviews.php:155
+#: cores/nasa-theme-footers.php:857 woocommerce/single-product-reviews.php:181
 msgid "Reviews"
 msgstr "Yorumlar"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:100
-#: admin/settings/nasa_07_3_product_detail_heading.php:313
+#: admin/settings/nasa_07_3_product_detail_heading.php:314
 msgid "Right"
 msgstr "Sağ"
 
@@ -4550,7 +4624,7 @@ msgstr "Sağ Kenar Çubuğu - Klasik"
 msgid "Right Sidebar - Off-canvas"
 msgstr "Sağ Kenar Çubuğu - Tuval Dışı"
 
-#: admin/settings/nasa_03_1_header_heading.php:448
+#: admin/settings/nasa_03_1_header_heading.php:450
 #: admin/settings/nasa_07_1_product_global_heading.php:58
 msgid "Right To Left"
 msgstr "Sağdan sola"
@@ -4579,8 +4653,8 @@ msgstr "RTL - Özel Yazı Tipi Seç"
 msgid "RTL - Text fonts (paragraphs, etc..)"
 msgstr "RTL - Metin yazı tipleri (paragraflar vb.)"
 
-#: woocommerce/loop/sale-flash.php:43
-#: woocommerce/single-product/sale-flash.php:44
+#: woocommerce/loop/sale-flash.php:52
+#: woocommerce/single-product/sale-flash.php:53
 msgid "Sale"
 msgstr "Satış"
 
@@ -4600,29 +4674,29 @@ msgstr "Kaydetmek"
 msgid "Save All Changes"
 msgstr "Tüm Değişiklikleri Kaydet"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:94
+#: admin/settings/nasa_07_3_product_detail_heading.php:95
 msgid "Scroll Images"
 msgstr "Resimleri Kaydır"
 
-#: searchform.php:104 searchform.php:166 cores/nasa-theme-headers.php:438
+#: searchform.php:105 searchform.php:167 cores/nasa-theme-headers.php:438
 #: includes/nasa-mobile-bottom-bar.php:67
 #: includes/nasa-mobile-bottom-bar.php:69
 msgid "Search"
 msgstr "Aramak"
 
-#: searchform.php:189
+#: searchform.php:190
 msgid "search"
 msgstr "aramak"
 
-#: admin/settings/nasa_03_1_header_heading.php:463
+#: admin/settings/nasa_03_1_header_heading.php:465
 msgid "Search Anything After Submit"
 msgstr "Gönderdikten Sonra Her Şeyi Arayın"
 
-#: admin/settings/nasa_03_1_header_heading.php:443
+#: admin/settings/nasa_03_1_header_heading.php:445
 msgid "Search Bar Effect"
 msgstr "Arama Çubuğu Etkisi"
 
-#: searchform.php:79
+#: searchform.php:80
 msgid "Search here"
 msgstr "Burada ara"
 
@@ -4635,8 +4709,8 @@ msgid "Search icon"
 msgstr "Arama simgesi"
 
 #: admin/front-end/options.php:60
-#: admin/settings/nasa_03_1_header_heading.php:436
-#: admin/settings/nasa_03_1_header_heading.php:437
+#: admin/settings/nasa_03_1_header_heading.php:438
+#: admin/settings/nasa_03_1_header_heading.php:439
 msgid "Search Options"
 msgstr "Arama seçenekleri"
 
@@ -4649,7 +4723,7 @@ msgstr "Arama Sonuçları: %s"
 msgid "Search.."
 msgstr "Aramak.."
 
-#: includes/nasa-change-view.php:223
+#: includes/nasa-change-view.php:228
 msgid "See"
 msgstr "Görmek"
 
@@ -4687,7 +4761,7 @@ msgstr "İletişim Formu Seçin"
 msgid "Select Custom Font"
 msgstr "Özel Yazı Tipi Seçin"
 
-#: cores/nasa-theme-footers.php:835
+#: cores/nasa-theme-footers.php:880
 msgid "Select Options"
 msgstr "Seçenekleri seçin"
 
@@ -4739,11 +4813,15 @@ msgstr "Kurulum Tema Seçenekleri"
 msgid "SETUP YOUR ACCOUNT"
 msgstr "HESABINIZI KURUN"
 
+#: cores/nasa-theme-footers.php:866
+msgid "Share"
+msgstr "Paylaşmak"
+
 #: admin/settings/nasa_08_blog_heading.php:212
 msgid "Share icons"
 msgstr "Paylaşım simgeleri"
 
-#: cores/nasa-woo-actions.php:1535
+#: cores/nasa-woo-actions.php:1543
 msgid "Ship to"
 msgstr "Alıcı"
 
@@ -4751,7 +4829,7 @@ msgstr "Alıcı"
 msgid "SHIPPING"
 msgstr "NAKLİYE"
 
-#: cores/nasa-woo-actions.php:2512 includes/nasa-mini-cart-shipping.php:26
+#: cores/nasa-woo-actions.php:2520 includes/nasa-mini-cart-shipping.php:26
 msgid "Shipping"
 msgstr "Nakliye"
 
@@ -4763,7 +4841,7 @@ msgstr "Gönderi Adresi"
 msgid "Shipping costs are calculated during checkout."
 msgstr "Nakliye masrafları ödeme sırasında hesaplanır."
 
-#: cores/nasa-woo-actions.php:1560
+#: cores/nasa-woo-actions.php:1568
 msgid "Shipping Methods"
 msgstr "Nakliye Yöntemleri"
 
@@ -4792,7 +4870,7 @@ msgstr "Arka Plan Rengini Satın Alın"
 msgid "Shop order"
 msgstr "Sipariş etmek"
 
-#: options/nasa-options.php:1261
+#: options/nasa-options.php:1296
 msgid "Shop Sidebar"
 msgstr "Alışveriş Kenar Çubuğu"
 
@@ -4822,7 +4900,7 @@ msgstr "Alışveriş Sepeti - Seçenekler"
 msgid "Short description (Only use for Blog Grid layout)"
 msgstr "Kısa açıklama (Yalnızca Blog Grid düzeni için kullanın)"
 
-#: includes/nasa-blog-promotion.php:38
+#: includes/nasa-blog-promotion.php:40
 msgid "Show"
 msgstr "Göstermek"
 
@@ -4928,9 +5006,22 @@ msgstr "Oturum açın"
 msgid "SIGN IN TO YOUR ACCOUNT"
 msgstr "HESABINIZA GİRİŞ YAPIN"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:281
+#: admin/settings/nasa_07_2_product_page_heading.php:289
 msgid "Simple"
 msgstr "Basit"
+
+#. $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:43
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Tarayıcınız JavaScript'i desteklemediğinden veya devre dışı olduğundan, "
+"lütfen siparişinizi vermeden önce %1$sToplamları Güncelle%2$s düğmesini "
+"tıkladığınızdan emin olun. Bunu yapmadığınız takdirde yukarıda belirtilen "
+"miktardan daha fazla ücret tahsil edilebilir."
 
 #: admin/settings/nasa_08_blog_heading.php:179
 msgid "Single Blog page"
@@ -4980,12 +5071,12 @@ msgstr "Site Arka Plan Resmi - Kutulu Düzen"
 msgid "Site Layout"
 msgstr "Site düzeni"
 
-#: admin/settings/nasa_01_general_heading.php:221
+#: admin/settings/nasa_01_general_heading.php:308
 msgid "Skip Load - Files CSS - Checkin it if you don't want your site call"
 msgstr ""
 "Yüklemeyi Atla - Dosyalar CSS - Site aramanızı istemiyorsanız kontrol edin"
 
-#: cores/nasa-woo-actions.php:2114 options/nasa-options.php:752
+#: cores/nasa-woo-actions.php:2135 options/nasa-options.php:773
 #: woocommerce/single-product/meta.php:25
 msgid "SKU:"
 msgstr "SKU:"
@@ -4994,11 +5085,11 @@ msgstr "SKU:"
 msgid "Slide"
 msgstr "Slayt"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:93
+#: admin/settings/nasa_07_3_product_detail_heading.php:94
 msgid "Slide Images"
 msgstr "Slayt Resimleri"
 
-#: admin/settings/nasa_03_1_header_heading.php:678
+#: admin/settings/nasa_03_1_header_heading.php:682
 msgid "Slide Show"
 msgstr "Slayt Gösterisi"
 
@@ -5018,7 +5109,7 @@ msgstr "Küçük Aralık"
 msgid "Sold By: "
 msgstr "Tarafından satılan:"
 
-#: cores/nasa-woo-actions.php:2181 includes/nasa-content-product-gift.php:62
+#: cores/nasa-woo-actions.php:2202 includes/nasa-content-product-gift.php:62
 msgid "Sold Out"
 msgstr "Hepsi satıldı"
 
@@ -5043,7 +5134,7 @@ msgstr ""
 "memory_limit (en az 196M'ye) geçici olarak artırmasını istemeniz "
 "gerekecektir."
 
-#: cores/nasa-custom-wc-ajax.php:1324
+#: cores/nasa-custom-wc-ajax.php:1365
 msgid "Sorry there was a problem removing this coupon."
 msgstr "Üzgünüz, bu kupon kaldırılırken bir sorun oluştu."
 
@@ -5063,11 +5154,20 @@ msgstr ""
 "Üzgünüz, ancak aradığınız sayfa bulunamadı. Lütfen geçerli URL'yi "
 "yazdığınızdan emin olun."
 
-#: cores/nasa-custom-wc-ajax.php:594
+#: woocommerce/checkout/payment.php:26
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+"Üzgünüz, kullanılabilir ödeme yöntemi yok gibi görünüyor. Yardıma "
+"ihtiyacınız varsa veya alternatif düzenlemeler yapmak istiyorsanız lütfen "
+"bizimle iletişime geçin."
+
+#: cores/nasa-custom-wc-ajax.php:595
 msgid "Sorry, Maybe product empty in stock."
 msgstr "Üzgünüz, Ürün stokta olmayabilir."
 
-#: options/nasa-options.php:702
+#: options/nasa-options.php:704
 msgid ""
 "Sorry, no products matched your selection. Please choose a different "
 "combination."
@@ -5075,7 +5175,7 @@ msgstr ""
 "Üzgünüz, seçiminizle eşleşen ürün bulunamadı. Lütfen farklı bir kombinasyon "
 "seçin."
 
-#: cores/nasa-custom-wc-ajax.php:446 cores/nasa-custom-wc-ajax.php:468
+#: cores/nasa-custom-wc-ajax.php:447 cores/nasa-custom-wc-ajax.php:469
 msgid "Sorry, Product is not existing."
 msgstr "Üzgünüz, Ürün mevcut değil."
 
@@ -5087,12 +5187,12 @@ msgstr "Üzgünüz, Ürün mevcut değil."
 msgid "Sorry, there has been an error."
 msgstr "Üzgünüz, bir hata oluştu."
 
-#: options/nasa-options.php:704
+#: options/nasa-options.php:706
 msgid ""
 "Sorry, this product is unavailable. Please choose a different combination."
 msgstr "Üzgünüz, bu ürün mevcut değil. Lütfen farklı bir kombinasyon seçin."
 
-#: options/nasa-options.php:760
+#: options/nasa-options.php:781
 msgid "Sorry. No results match your search."
 msgstr "Üzgünüm. Aramanızla eşleşen sonuç yok."
 
@@ -5124,7 +5224,7 @@ msgstr "Standart"
 msgid "START IMPORT SAMPLE DATA"
 msgstr "ÖRNEK VERİLERİ ALMAYA BAŞLAYIN"
 
-#: searchform.php:28 searchform.php:124
+#: searchform.php:29 searchform.php:125
 msgid "Start typing ..."
 msgstr "Yazmaya başlayın..."
 
@@ -5148,19 +5248,19 @@ msgstr "3. Adım: İçeriği İçe Aktarın"
 msgid "Step Change"
 msgstr "Adım Değişikliği"
 
-#: admin/settings/nasa_03_1_header_heading.php:366
+#: admin/settings/nasa_03_1_header_heading.php:368
 msgid "Sticky"
 msgstr "Yapışkan"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:235
+#: admin/settings/nasa_07_3_product_detail_heading.php:236
 msgid "Sticky Add To Cart"
 msgstr "Yapışkan Sepete Ekle"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:260
+#: admin/settings/nasa_07_3_product_detail_heading.php:261
 msgid "Sticky Add To Cart In Mobile"
 msgstr "Yapışkan Mobilde Sepete Ekle"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:242
+#: admin/settings/nasa_07_3_product_detail_heading.php:243
 msgid "Sticky Buy Now - Desktop"
 msgstr "Yapışkan Şimdi Satın Al - Masaüstü"
 
@@ -5177,7 +5277,7 @@ msgstr "Yapışkan Logo Seçenekleri"
 msgid "Sticky Sidebar"
 msgstr "Yapışkan Kenar Çubuğu"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:383
+#: admin/settings/nasa_07_3_product_detail_heading.php:384
 msgid "Stock Progress Bar"
 msgstr "Stok İlerleme Çubuğu"
 
@@ -5215,16 +5315,16 @@ msgstr "Stil"
 msgid "Style and Colors"
 msgstr "Stil ve Renkler"
 
-#: cores/nasa-woo-functions.php:1441
+#: cores/nasa-woo-functions.php:1597
 msgid "Subcategories: "
 msgstr "Alt kategoriler:"
 
-#: woocommerce/single-product-reviews.php:101
+#: woocommerce/single-product-reviews.php:118
 #: admin/importer/wordpress-importer.php:318
 msgid "Submit"
 msgstr "Göndermek"
 
-#: cores/nasa-woo-actions.php:2409 woocommerce/cart/cart.php:31
+#: cores/nasa-woo-actions.php:2417 woocommerce/cart/cart.php:31
 #: woocommerce/checkout/review-order.php:20
 #: woocommerce/checkout/review-order.php:107
 msgid "Subtotal"
@@ -5242,19 +5342,19 @@ msgstr "Ara toplam&nbsp;&nbsp;&nbsp;"
 msgid "Success Color"
 msgstr "Başarı Rengi"
 
-#: cores/nasa-theme-footers.php:358
+#: cores/nasa-theme-footers.php:391
 msgid "Successfully added to your cart."
 msgstr "Başarıyla sepetinize eklendi."
 
-#: admin/settings/nasa_03_1_header_heading.php:495
-msgid "Suggested Keywords"
-msgstr "Önerilen Anahtar Kelimeler"
+#: admin/settings/nasa_03_1_header_heading.php:508
+msgid "Suggested Keywords - (Header type 1, 2, 5, 7)"
+msgstr "Önerilen Anahtar Kelimeler - (Başlık türü 1, 2, 5, 7)"
 
 #: admin/settings/nasa_05_type_heading.php:313
 msgid "Support Font Icons"
 msgstr "Destek Yazı Tipi Simgeleri"
 
-#: admin/settings/nasa_03_1_header_heading.php:480
+#: admin/settings/nasa_03_1_header_heading.php:482
 msgid "Support Search By SKU"
 msgstr "SKU'ya Göre Aramayı Destekleyin"
 
@@ -5262,24 +5362,24 @@ msgstr "SKU'ya Göre Aramayı Destekleyin"
 msgid "Support Upload ICO medias"
 msgstr "Destek Yükleme ICO ortamları"
 
-#: admin/settings/nasa_01_general_heading.php:127
+#: admin/settings/nasa_01_general_heading.php:196
 msgid "Support Upload SVG medias"
 msgstr "Destek Yükleme SVG ortamları"
 
-#: admin/settings/nasa_01_general_heading.php:214
+#: admin/settings/nasa_01_general_heading.php:301
 msgid "Sync"
 msgstr "Senkronize et"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:352
+#: admin/settings/nasa_07_3_product_detail_heading.php:353
 msgid "Tab Global"
 msgstr "Sekme Küresel"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:583
-#: admin/settings/nasa_07_2_product_page_heading.php:224
+#: admin/settings/nasa_07_2_product_page_heading.php:232
 msgid "Tablet Columns"
 msgstr "Tablet Sütunları"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:306
+#: admin/settings/nasa_07_3_product_detail_heading.php:307
 msgid "Tabs Align"
 msgstr "Sekmeler Hizala"
 
@@ -5287,7 +5387,7 @@ msgstr "Sekmeler Hizala"
 msgid "Tabs Background color"
 msgstr "Sekmeler Arka plan rengi"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:284
+#: admin/settings/nasa_07_3_product_detail_heading.php:285
 msgid "Tabs Layouts"
 msgstr "Sekme Düzenleri"
 
@@ -5301,7 +5401,7 @@ msgid "Tag Archives: %s"
 msgstr "Etiket Arşivleri: %s"
 
 #: includes/nasa-blog-grid.php:98 includes/nasa-blog-list.php:96
-#: includes/nasa-blog-masonry-isotope.php:104
+#: includes/nasa-blog-masonry-isotope.php:103
 #: includes/nasa-blog-standard.php:90
 #, php-format
 msgid "Tagged %1$s"
@@ -5336,7 +5436,7 @@ msgstr "Metin Rengi"
 msgid "Text fonts (paragraphs, etc..)"
 msgstr "Metin yazı tipleri (paragraflar vb.)"
 
-#: admin/settings/nasa_03_1_header_heading.php:695
+#: admin/settings/nasa_03_1_header_heading.php:708
 msgid "Text Promotion Color"
 msgstr "Metin Promosyon Rengi"
 
@@ -5346,19 +5446,23 @@ msgstr "Metin Promosyon Rengi"
 msgid "TGMPA v%s"
 msgstr "TGMPA v%s"
 
-#: admin/settings/nasa_03_1_header_heading.php:342
+#: woocommerce/single-product-reviews.php:95
+msgid "Thank you!"
+msgstr "Teşekkür ederim!"
+
+#: admin/settings/nasa_03_1_header_heading.php:344
 msgid "The Block beside Logo in Header Type 2"
 msgstr "Başlık Türü 2'de Logonun Yanındaki Blok"
 
-#: admin/settings/nasa_03_1_header_heading.php:354
+#: admin/settings/nasa_03_1_header_heading.php:356
 msgid "The Block beside Main menu in Header Type 4, 6"
 msgstr "Başlık Türü 4, 6'da Ana menünün yanındaki Blok"
 
-#: admin/settings/nasa_01_general_heading.php:172
+#: admin/settings/nasa_01_general_heading.php:259
 msgid "The block editor from managing widgets"
 msgstr "Widget'ları yönetmekten blok düzenleyici"
 
-#: admin/settings/nasa_03_1_header_heading.php:330
+#: admin/settings/nasa_03_1_header_heading.php:332
 msgid "The Block Under Header"
 msgstr "Başlık Altındaki Blok"
 
@@ -5463,6 +5567,10 @@ msgid ""
 msgstr ""
 "Mobil üst navigasyon yalnızca web sitesi mobil uygulama modundayken görünür"
 
+#: cores/nasa-custom-wc-ajax.php:861
+msgid "The page location you are viewing is marked with"
+msgstr "Görüntülediğiniz sayfa konumu ile işaretlenmiştir"
+
 #: admin/classes/class-tgm-plugin-activation.php:1026
 msgid ""
 "The remote plugin package consists of more than one file, but the files are "
@@ -5500,7 +5608,7 @@ msgid "Theme has not been installed or enabled Wishlist Feature."
 msgstr "Tema yüklenmedi veya İstek Listesi Özelliği etkinleştirilmedi."
 
 #: admin/front-end/options.php:23 admin/front-end/options.php:41
-#: admin/functions/functions.interface.php:74
+#: admin/functions/functions.interface.php:73
 msgid "Theme Options"
 msgstr "Tema Ayarları"
 
@@ -5508,7 +5616,7 @@ msgstr "Tema Ayarları"
 msgid "Theme Setup"
 msgstr "Tema Kurulumu"
 
-#: woocommerce/single-product-reviews.php:181
+#: woocommerce/single-product-reviews.php:207
 msgid "There are no reviews yet."
 msgstr "Henüz hiç yorum yok."
 
@@ -5529,7 +5637,7 @@ msgstr ""
 "Yüklemek, güncellemek veya etkinleştirmek için gerekli veya önerilen bir "
 "veya daha fazla eklenti vardır."
 
-#: cores/nasa-theme-footers.php:442
+#: cores/nasa-theme-footers.php:475
 #, php-format
 #| msgid ""
 #| "There are <span class=\"primary-color\"> %s item</span> in your cart."
@@ -5557,7 +5665,7 @@ msgid ""
 "This does not appear to be a WXR file, missing/invalid WXR version number"
 msgstr "Bu bir WXR dosyası gibi görünmüyor, eksik/geçersiz WXR sürüm numarası"
 
-#: cores/nasa-woo-actions.php:1502
+#: cores/nasa-woo-actions.php:1510 woocommerce/single-product-reviews.php:37
 msgid "This field is required."
 msgstr "Bu alan gereklidir."
 
@@ -5608,7 +5716,7 @@ msgstr ""
 "Bu WXR dosyası (%s sürümü), içe aktarıcının bu sürümü tarafından "
 "desteklenmiyor olabilir. Lütfen güncellemeyi düşünün."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:102
+#: admin/settings/nasa_07_3_product_detail_heading.php:103
 msgid "Thumbnail Layout"
 msgstr "Küçük Resim Düzeni"
 
@@ -5626,6 +5734,7 @@ msgstr "Minik"
 
 #: widgets/wg-nasa-product-brands.php:42
 #: widgets/wg-nasa-product-categories.php:64
+#: widgets/wg-nasa-product-filter-alphabet.php:32
 #: widgets/wg-nasa-product-filter-multi-categories.php:38
 #: widgets/wg-nasa-product-filter-multi-tags.php:38
 #: widgets/wg-nasa-product-filter-price-list.php:26
@@ -5669,6 +5778,10 @@ msgstr ""
 "isteyebilirsiniz. Örneğin, tüm girişleri <code>admin</code>'in girişleri "
 "olarak içe aktarmak isteyebilirsiniz."
 
+#: cores/nasa-theme-footers.php:866
+msgid "Toggle fullscreen"
+msgstr "Tam ekrana geç"
+
 #: cores/nasa-theme-options.php:119
 msgid "Toggle Icon"
 msgstr "Simgeyi Değiştir"
@@ -5677,19 +5790,19 @@ msgstr "Simgeyi Değiştir"
 msgid "Toggle Sidebar"
 msgstr "Kenar Çubuğunu Değiştir"
 
-#: admin/settings/nasa_03_1_header_heading.php:543
+#: admin/settings/nasa_03_1_header_heading.php:547
 msgid "Toggle Top Bar"
 msgstr "Üst Çubuğu Değiştir"
 
-#: admin/settings/nasa_03_1_header_heading.php:553
+#: admin/settings/nasa_03_1_header_heading.php:557
 msgid "Toggle Top Bar - Initialize"
 msgstr "Üst Çubuğu Değiştir - Başlat"
 
-#: admin/settings/nasa_01_general_heading.php:148
+#: admin/settings/nasa_01_general_heading.php:235
 msgid "Toggle Widget Content"
 msgstr "Widget İçeriğini Değiştir"
 
-#: admin/settings/nasa_01_general_heading.php:155
+#: admin/settings/nasa_01_general_heading.php:242
 msgid "Toggle Widget Content - Always Close"
 msgstr "Widget İçeriğini Değiştir - Her Zaman Kapat"
 
@@ -5697,12 +5810,12 @@ msgstr "Widget İçeriğini Değiştir - Her Zaman Kapat"
 msgid "Top"
 msgstr "Tepe"
 
-#: admin/settings/nasa_03_1_header_heading.php:533
+#: admin/settings/nasa_03_1_header_heading.php:537
 #: admin/settings/nasa_07_2_product_page_heading.php:30
 msgid "Top Bar"
 msgstr "Üst Çubuk"
 
-#: admin/settings/nasa_03_1_header_heading.php:586
+#: admin/settings/nasa_03_1_header_heading.php:590
 msgid "Top Bar Content"
 msgstr "Üst Çubuk İçeriği"
 
@@ -5710,14 +5823,18 @@ msgstr "Üst Çubuk İçeriği"
 msgid "Top Bar Limit widgets to Show More"
 msgstr "En İyi Çubuk Widget'ları Daha Fazla Göstermek İçin Sınırlandırın"
 
-#: admin/settings/nasa_03_1_header_heading.php:526
-#: admin/settings/nasa_03_1_header_heading.php:527
+#: admin/settings/nasa_03_1_header_heading.php:530
+#: admin/settings/nasa_03_1_header_heading.php:531
 msgid "Top Bar Options"
 msgstr "Üst Çubuk Seçenekleri"
 
-#: admin/settings/nasa_03_1_header_heading.php:626
+#: admin/settings/nasa_03_1_header_heading.php:630
 msgid "Top Bar Promotion News"
 msgstr "En Popüler Bar Tanıtım Haberleri"
+
+#: admin/settings/nasa_03_1_header_heading.php:692
+msgid "Top Bar Promotion News Auto Scroll"
+msgstr "Üst Çubuk Promosyon Haberleri Otomatik Kaydırma"
 
 #: admin/settings/nasa_07_2_product_page_heading.php:31
 msgid "Top Bar Type 2"
@@ -5731,7 +5848,7 @@ msgstr "Üst Çubuk Tip 3"
 msgid "Top Filter Categories"
 msgstr "En İyi Filtre Kategorileri"
 
-#: functions.php:102
+#: functions.php:103
 msgid "Top Menu - Only show level 1"
 msgstr "Üst Menü - Yalnızca seviye 1'i göster"
 
@@ -5739,15 +5856,15 @@ msgstr "Üst Menü - Yalnızca seviye 1'i göster"
 msgid "Top To Bottom"
 msgstr "Yukarıdan Aşağıya"
 
-#: admin/settings/nasa_03_1_header_heading.php:598
+#: admin/settings/nasa_03_1_header_heading.php:602
 msgid "Topbar Background"
 msgstr "Topbar Arka Planı"
 
-#: admin/settings/nasa_03_1_header_heading.php:605
+#: admin/settings/nasa_03_1_header_heading.php:609
 msgid "Topbar Text color"
 msgstr "Topbar Metin rengi"
 
-#: admin/settings/nasa_03_1_header_heading.php:612
+#: admin/settings/nasa_03_1_header_heading.php:616
 msgid "Topbar Text color hover"
 msgstr "Topbar Metin rengi vurgulu"
 
@@ -5770,7 +5887,7 @@ msgstr ""
 msgid "Transfer Theme Options Data"
 msgstr "Tema Seçenekleri Verilerini Aktar"
 
-#: admin/settings/nasa_01_general_heading.php:91
+#: admin/settings/nasa_01_general_heading.php:160
 msgid "Transition Loading"
 msgstr "Geçiş Yüklemesi"
 
@@ -5791,11 +5908,11 @@ msgstr "Tip"
 msgid "Type Font"
 msgstr "Yazı Tipi"
 
-#: admin/theme-admin.php:311
+#: admin/theme-admin.php:333
 msgid "Type of Template"
 msgstr "Şablon Türü"
 
-#: admin/settings/nasa_03_1_header_heading.php:633
+#: admin/settings/nasa_03_1_header_heading.php:637
 msgid "Type Show"
 msgstr "Tip Gösterisi"
 
@@ -5825,7 +5942,7 @@ msgstr ""
 "Menşe banka/tüccar işleminizi reddettiği için maalesef siparişiniz "
 "işlenemiyor. Lütfen satın alma işleminizi tekrar deneyin."
 
-#: admin/theme-admin.php:351
+#: admin/theme-admin.php:373
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
@@ -5853,7 +5970,7 @@ msgstr[1] "Güncelleme Mevcut (%s)"
 
 #: includes/nasa-after-add-to-cart.php:161
 #: includes/nasa-after-add-to-cart.php:162 woocommerce/cart/cart.php:181
-#: woocommerce/cart/cart.php:182 woocommerce/cart/mini-cart.php:27
+#: woocommerce/cart/cart.php:182 woocommerce/cart/mini-cart.php:30
 msgid "Update Cart"
 msgstr "Sepeti Güncelle"
 
@@ -5864,6 +5981,10 @@ msgstr "Tavsiye edilen güncelleme"
 #: admin/classes/class-tgm-plugin-activation.php:590
 msgid "Update Required"
 msgstr "Güncelleştirme gerekli"
+
+#: woocommerce/checkout/payment.php:45
+msgid "Update totals"
+msgstr "Toplamları güncelle"
 
 #. 1: plugin name, 2: action number 3: total number of actions.
 #: admin/classes/class-tgm-plugin-activation.php:3564
@@ -5899,6 +6020,16 @@ msgstr "Özel Yazı Tipi Yükle"
 msgid "Upload new custom font success!"
 msgstr "Yeni özel yazı tipi yükleme başarısı!"
 
+#: cores/nasa-woo-functions.php:2239
+msgid "Upload photos"
+msgstr "Fotoğraf yükle"
+
+#: cores/nasa-woo-functions.php:2285
+msgid "Upload video"
+msgid_plural "Upload videos"
+msgstr[0] "Video yükle"
+msgstr[1] "Video yükle"
+
 #: includes/nasa-checkout-modern-billing-detail.php:33
 msgid "Use a different billing address"
 msgstr "Farklı bir fatura adresi kullan"
@@ -5912,7 +6043,7 @@ msgid "Username is required."
 msgstr "Kullanıcı adı gereklidir."
 
 #: includes/nasa-login-register-form.php:62
-#: woocommerce/global/form-login.php:25
+#: woocommerce/global/form-login.php:26
 msgid "Username or email"
 msgstr "Kullanıcı adı ya da email"
 
@@ -5924,7 +6055,7 @@ msgstr "Varyantlar Rozet Rengi"
 msgid "Verdana, Geneva"
 msgstr "Verdana, Cenevre"
 
-#: cores/nasa-theme-footers.php:675 admin/classes/class.options_machine.php:856
+#: cores/nasa-theme-footers.php:712 admin/classes/class.options_machine.php:856
 #: admin/classes/class.options_machine.php:901
 msgid "Verified"
 msgstr "Doğrulandı"
@@ -5934,11 +6065,11 @@ msgid "Version"
 msgstr "Sürüm"
 
 #: cores/nasa-theme-options.php:74
-#: admin/settings/nasa_07_3_product_detail_heading.php:107
+#: admin/settings/nasa_07_3_product_detail_heading.php:108
 msgid "Vertical"
 msgstr "Dikey"
 
-#: functions.php:101 admin/settings/nasa_03_1_header_heading.php:129
+#: functions.php:102 admin/settings/nasa_03_1_header_heading.php:129
 msgid "Vertical Menu"
 msgstr "Dikey Menü"
 
@@ -5970,7 +6101,7 @@ msgstr "Dikey Kök Seviyesi - Limit"
 msgid "Vertical Root Level - Parent - 0"
 msgstr "Dikey Kök Seviyesi - Üst - 0"
 
-#: woocommerce/single-product-reviews.php:131
+#: woocommerce/single-product-reviews.php:150
 msgid "Very poor"
 msgstr "Çok fakir"
 
@@ -5986,7 +6117,7 @@ msgstr "Videolar"
 msgid "Vietnamese"
 msgstr "Vietnam"
 
-#: cores/nasa-woo-actions.php:1852 cores/nasa-woo-actions.php:1853
+#: cores/nasa-woo-actions.php:1864 cores/nasa-woo-actions.php:1865
 #: woocommerce/content-widget-product.php:77
 msgid "View"
 msgstr "Görüş"
@@ -6013,7 +6144,7 @@ msgstr "Daha fazla göster"
 msgid "View Product Information"
 msgstr "Ürün Bilgilerini Görüntüle"
 
-#: cores/nasa-woo-actions.php:1902
+#: cores/nasa-woo-actions.php:1915
 msgid "View the promotion gifts"
 msgstr "Promosyon hediyelerini görüntüle"
 
@@ -6039,7 +6170,7 @@ msgstr "Web Mobil"
 msgid "Weekly Store Timing"
 msgstr "Haftalık Mağaza Zamanlaması"
 
-#: cores/nasa-woo-functions.php:1642
+#: cores/nasa-woo-functions.php:1798
 msgid "Welcome"
 msgstr "Hoş geldin"
 
@@ -6057,12 +6188,16 @@ msgstr ""
 "Intent Content) bölümünde seçtiğiniz bilgilerin yer aldığı bir açılır "
 "pencere karşınıza çıkacaktır."
 
+#: cores/nasa-theme-footers.php:218
+msgid "Where You Are"
+msgstr "Neredesin"
+
 #: admin/settings/nasa_01_general_heading.php:38
 msgid "Wide"
 msgstr "Geniş"
 
-#: admin/settings/nasa_01_general_heading.php:142
-#: admin/settings/nasa_01_general_heading.php:143
+#: admin/settings/nasa_01_general_heading.php:229
+#: admin/settings/nasa_01_general_heading.php:230
 msgid "Widget Options"
 msgstr "Widget Seçenekleri"
 
@@ -6082,12 +6217,12 @@ msgstr "Genişlik - Yapışkan Logo"
 msgid "Width full side"
 msgstr "Genişlik tam taraf"
 
-#: cores/nasa-theme-footers.php:486 cores/nasa-wishlist.php:177
-#: cores/nasa-wishlist.php:224 cores/nasa-woo-functions.php:537
-#: cores/nasa-woo-functions.php:537 cores/nasa-woo-functions.php:578
-#: cores/nasa-woo-functions.php:583 cores/nasa-woo-functions.php:602
-#: cores/nasa-woo-functions.php:607 cores/nasa-woo-functions.php:1158
-#: cores/nasa-woo-functions.php:1158 includes/nasa-mobile-bottom-bar-app.php:84
+#: cores/nasa-theme-footers.php:519 cores/nasa-wishlist.php:174
+#: cores/nasa-wishlist.php:224 cores/nasa-woo-functions.php:685
+#: cores/nasa-woo-functions.php:685 cores/nasa-woo-functions.php:726
+#: cores/nasa-woo-functions.php:731 cores/nasa-woo-functions.php:750
+#: cores/nasa-woo-functions.php:755 cores/nasa-woo-functions.php:1310
+#: cores/nasa-woo-functions.php:1310 includes/nasa-mobile-bottom-bar-app.php:84
 #: includes/nasa-mobile-bottom-bar-app.php:86
 #: includes/nasa-mobile-bottom-bar.php:84
 #: includes/nasa-mobile-bottom-bar.php:86
@@ -6099,7 +6234,7 @@ msgstr "Dilek listesi"
 msgid "Wishlist Options"
 msgstr "İstek Listesi Seçenekleri"
 
-#: includes/nasa-sidebar-wishlist_content.php:199
+#: includes/nasa-sidebar-wishlist_content.php:202
 msgid "Wishlist Page"
 msgstr "İstek Listesi Sayfası"
 
@@ -6123,18 +6258,18 @@ msgstr "Arka Plan Olmadan - Varsayılan olarak Arka Plan Rengini kullanın"
 msgid "Without Border Wrapper"
 msgstr "Kenar Sarıcı Olmadan"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:278
 #: admin/settings/nasa_07_3_product_detail_heading.php:279
+#: admin/settings/nasa_07_3_product_detail_heading.php:280
 msgid "WooCommerce Tabs - Options"
 msgstr "WooCommerce Sekmeleri - Seçenekler"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:328
+#: admin/settings/nasa_07_3_product_detail_heading.php:329
 msgid "WooCommerce Tabs - Read more / Show less (Mobile App - Simulator)"
 msgstr ""
 "WooCommerce Sekmeleri - Daha fazla oku / Daha az göster (Mobil Uygulama - "
 "Simülatör)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:321
+#: admin/settings/nasa_07_3_product_detail_heading.php:322
 msgid ""
 "WooCommerce Tabs Off - Canvas in Mobile (Not use Mobile App - Simulator)"
 msgstr ""
@@ -6158,11 +6293,11 @@ msgstr "Çalışma..."
 msgid "WPBakery - Homepage List"
 msgstr "WPBakery - Ana Sayfa Listesi"
 
-#: admin/settings/nasa_01_general_heading.php:162
+#: admin/settings/nasa_01_general_heading.php:249
 msgid "Wrapper Widget - Sidebar Classic"
 msgstr "Sarıcı Widget - Kenar Çubuğu Klasik"
 
-#: cores/nasa-theme-footers.php:821
+#: cores/nasa-theme-footers.php:859 woocommerce/single-product-reviews.php:164
 msgid "Write a review"
 msgstr "Bir değerlendirme yazı"
 
@@ -6180,18 +6315,18 @@ msgstr "Yıllık Arşivler: %s"
 #: admin/settings/nasa_03_1_header_heading.php:274
 #: admin/settings/nasa_07_1_product_global_heading.php:383
 #: admin/settings/nasa_07_1_product_global_heading.php:517
-#: admin/settings/nasa_07_2_product_page_heading.php:292
+#: admin/settings/nasa_07_2_product_page_heading.php:300
 msgid "Yes"
 msgstr "Evet"
 
 #: cores/nasa-theme-options.php:24 cores/nasa-theme-options.php:134
 #: cores/nasa-theme-options.php:143 cores/nasa-theme-options.php:199
 #: cores/nasa-theme-options.php:211
-#: admin/settings/nasa_01_general_heading.php:120
-#: admin/settings/nasa_01_general_heading.php:128
+#: admin/settings/nasa_01_general_heading.php:189
+#: admin/settings/nasa_01_general_heading.php:197
 #: admin/settings/nasa_03_3_mobile_heading.php:116
 #: admin/settings/nasa_07_1_product_global_heading.php:366
-#: admin/settings/nasa_07_3_product_detail_heading.php:343
+#: admin/settings/nasa_07_3_product_detail_heading.php:344
 #: admin/settings/nasa_09_promo_popup_heading.php:36
 msgid "Yes, Please!"
 msgstr "Evet lütfen!"
@@ -6229,7 +6364,7 @@ msgid "You may be interested in&hellip;"
 msgstr "İlginizi çekebilir&hellip;"
 
 #. %s opening and closing link tags respectively
-#: woocommerce/single-product-reviews.php:112
+#: woocommerce/single-product-reviews.php:130
 #, php-format
 msgid "You must be %1$slogged in%2$s to post a review."
 msgstr "Bir inceleme göndermek için %2$s'de %1$sloge edilmiş olmalısınız."
@@ -6248,12 +6383,12 @@ msgstr "Ödeme yapmak için giriş yapmış olmalısınız."
 msgid "Your access is restricted because of your age."
 msgstr "Yaşınız nedeniyle erişiminiz kısıtlanmıştır."
 
-#: cores/nasa-woo-actions.php:683 cores/nasa-woo-actions.php:694
-#: cores/nasa-woo-actions.php:699
+#: cores/nasa-woo-actions.php:686 cores/nasa-woo-actions.php:697
+#: cores/nasa-woo-actions.php:702
 msgid "Your cart is currently empty."
 msgstr "Sepetiniz şu anda boş."
 
-#: cores/nasa-woo-functions.php:48
+#: cores/nasa-woo-functions.php:30
 #| msgid ""
 #| "<span class=\"nasa-extra-empty\">Before proceed to checkout you must add "
 #| "some products to shopping cart.<br />You will find a lot of interesting "
@@ -6267,7 +6402,7 @@ msgstr ""
 "geçmeden önce alışveriş sepetine bazı ürünler eklemelisiniz.<br />"
 "\"Alışveriş\" sayfamızda çok sayıda ilgi çekici ürün bulacaksınız. </span>"
 
-#: cores/nasa-custom-wc-ajax.php:861
+#: cores/nasa-custom-wc-ajax.php:902
 msgid "Your checkout time has expired."
 msgstr "Ödeme süreniz doldu."
 
@@ -6280,17 +6415,25 @@ msgstr "Yorumunuz onay bekliyor."
 msgid "Your Order"
 msgstr "Siparişiniz"
 
-#: cores/nasa-custom-wc-ajax.php:1369
+#: cores/nasa-custom-wc-ajax.php:1410
 msgid "Your order notes saved."
 msgstr "Sipariş notlarınız kaydedildi."
 
-#: woocommerce/single-product-reviews.php:125
+#: woocommerce/single-product-reviews.php:143
 msgid "Your rating"
 msgstr "Sizin dereceniz"
 
-#: woocommerce/single-product-reviews.php:135
+#: woocommerce/single-product-reviews.php:154
 msgid "Your review"
 msgstr "Yorumun"
+
+#: woocommerce/single-product-reviews.php:154
+msgid "Your review *"
+msgstr "Yorumunuz *"
+
+#: cores/nasa-woo-functions.php:2654 woocommerce/single-product-reviews.php:96
+msgid "Your review has been submitted"
+msgstr "İncelemeniz gönderildi"
 
 #: admin/importer/tpl-import-demo-data.php:161
 #: admin/importer/tpl-import-demo-data.php:183
@@ -6308,3 +6451,7 @@ msgstr "Sıfır boyutlu dosya indirildi"
 #: admin/settings/nasa_07_1_product_global_heading.php:52
 msgid "Zoom"
 msgstr "Yakınlaştır"
+
+#: cores/nasa-theme-footers.php:866
+msgid "Zoom in/out"
+msgstr "Yakınlaştır/Uzaklaştır"

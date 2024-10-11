@@ -138,7 +138,7 @@ if (!function_exists('elessi_add_action_woo')) :
         /**
          * Mini Cart considered a Cart page if the incoming call is AJAX
          */
-        add_action('woocommerce_before_mini_cart', 'elessi_mini_cart_as_cart_page');
+        // add_action('woocommerce_before_mini_cart', 'elessi_mini_cart_as_cart_page');
         
         /**
          * Results count in shop page
@@ -632,7 +632,7 @@ endif;
  */
 if (!function_exists('elessi_woosb_before_wrap_content')) :
     function elessi_woosb_before_wrap_content() {
-        $svg = '<svg xmlns="http://www.w3.org/2000/svg " width="18" height="19" fill="none" viewBox="0 0 18 19"><path fill="currentColor" d="M17.4375 7.49219C17.8125 8.00781 18 8.59375 18 9.25s-.1875 1.2539-.5625 1.793c-.375.5156-.8555.8789-1.4414 1.0898.2578.5625.3281 1.1719.2109 1.8281-.0937.6329-.375 1.1836-.8437 1.6524-.4688.4687-1.0195.75-1.6524.8437-.6328.1172-1.2421.0469-1.8281-.2109-.1406.3984-.3516.7383-.6328 1.0195-.2812.3047-.6211.5391-1.0195.7032-.37503.1874-.78519.2812-1.2305.2812-.65625 0-1.25391-.1875-1.79297-.5625-.51562-.375-.87891-.8555-1.08984-1.4414-.58594.2578-1.19531.3281-1.82813.2109-.63281-.0937-1.18359-.375-1.65234-.8437-.46875-.4688-.76172-1.0195-.87891-1.6524-.09375-.6562-.01172-1.2656.2461-1.8281C1.41797 11.9219.9375 11.5586.5625 11.043.1875 10.5039 0 9.90625 0 9.25s.1875-1.24219.5625-1.75781c.375-.53906.85547-.91407 1.44141-1.125-.25782-.5625-.33985-1.16016-.2461-1.79297.11719-.65625.41016-1.21875.87891-1.6875.46875-.46875 1.01953-.75 1.65234-.84375.65625-.11719 1.26563-.04688 1.82813.21094.21093-.58594.57422-1.06641 1.08984-1.44141C7.74609.4375 8.34375.25 9 .25s1.2422.1875 1.7578.5625c.5391.375.9141.85547 1.125 1.44141.5625-.25782 1.1602-.32813 1.793-.21094.6562.09375 1.2187.375 1.6875.84375.4687.46875.75 1.03125.8437 1.6875.1172.63281.0469 1.23047-.2109 1.79297.5859.21093 1.0664.58594 1.4414 1.125zM7.52344 6.22656C7.3125 5.99219 7.05469 5.875 6.75 5.875s-.57422.11719-.80859.35156C5.73047 6.4375 5.625 6.69531 5.625 7s.10547.57422.31641.80859c.23437.21094.5039.31641.80859.31641s.5625-.10547.77344-.31641C7.75781 7.57422 7.875 7.30469 7.875 7s-.11719-.5625-.35156-.77344zm-.35156 6.04684l4.85152-4.85152c.2578-.25782.2578-.51563 0-.77344l-.4218-.42188c-.2578-.25781-.5157-.25781-.7735 0L5.97656 11.0781c-.25781.2578-.25781.5157 0 .7735l.42188.4218c.25781.2578.51562.2578.77344 0zm3.26952.0352c.2344.2109.5039.3164.8086.3164.3047 0 .5625-.1055.7734-.3164.2344-.2344.3516-.5039.3516-.8086 0-.3047-.1172-.5625-.3516-.7734-.2109-.2344-.4687-.3516-.7734-.3516-.3047 0-.5742.1172-.8086.3516-.2109.2109-.3164.4687-.3164.7734 0 .3047.1055.5742.3164.8086z"></path></svg>';
+        $svg = '<svg width="18" height="19" fill="none" viewBox="0 0 18 19"><path fill="currentColor" d="M17.4375 7.49219C17.8125 8.00781 18 8.59375 18 9.25s-.1875 1.2539-.5625 1.793c-.375.5156-.8555.8789-1.4414 1.0898.2578.5625.3281 1.1719.2109 1.8281-.0937.6329-.375 1.1836-.8437 1.6524-.4688.4687-1.0195.75-1.6524.8437-.6328.1172-1.2421.0469-1.8281-.2109-.1406.3984-.3516.7383-.6328 1.0195-.2812.3047-.6211.5391-1.0195.7032-.37503.1874-.78519.2812-1.2305.2812-.65625 0-1.25391-.1875-1.79297-.5625-.51562-.375-.87891-.8555-1.08984-1.4414-.58594.2578-1.19531.3281-1.82813.2109-.63281-.0937-1.18359-.375-1.65234-.8437-.46875-.4688-.76172-1.0195-.87891-1.6524-.09375-.6562-.01172-1.2656.2461-1.8281C1.41797 11.9219.9375 11.5586.5625 11.043.1875 10.5039 0 9.90625 0 9.25s.1875-1.24219.5625-1.75781c.375-.53906.85547-.91407 1.44141-1.125-.25782-.5625-.33985-1.16016-.2461-1.79297.11719-.65625.41016-1.21875.87891-1.6875.46875-.46875 1.01953-.75 1.65234-.84375.65625-.11719 1.26563-.04688 1.82813.21094.21093-.58594.57422-1.06641 1.08984-1.44141C7.74609.4375 8.34375.25 9 .25s1.2422.1875 1.7578.5625c.5391.375.9141.85547 1.125 1.44141.5625-.25782 1.1602-.32813 1.793-.21094.6562.09375 1.2187.375 1.6875.84375.4687.46875.75 1.03125.8437 1.6875.1172.63281.0469 1.23047-.2109 1.79297.5859.21093 1.0664.58594 1.4414 1.125zM7.52344 6.22656C7.3125 5.99219 7.05469 5.875 6.75 5.875s-.57422.11719-.80859.35156C5.73047 6.4375 5.625 6.69531 5.625 7s.10547.57422.31641.80859c.23437.21094.5039.31641.80859.31641s.5625-.10547.77344-.31641C7.75781 7.57422 7.875 7.30469 7.875 7s-.11719-.5625-.35156-.77344zm-.35156 6.04684l4.85152-4.85152c.2578-.25782.2578-.51563 0-.77344l-.4218-.42188c-.2578-.25781-.5157-.25781-.7735 0L5.97656 11.0781c-.25781.2578-.25781.5157 0 .7735l.42188.4218c.25781.2578.51562.2578.77344 0zm3.26952.0352c.2344.2109.5039.3164.8086.3164.3047 0 .5625-.1055.7734-.3164.2344-.2344.3516-.5039.3516-.8086 0-.3047-.1172-.5625-.3516-.7734-.2109-.2344-.4687-.3516-.7734-.3516-.3047 0-.5742.1172-.8086.3516-.2109.2109-.3164.4687-.3164.7734 0 .3047.1055.5742.3164.8086z" /></svg>';
 
         $html = '<div class="woosb-text nasa-bold primary-color nasa-before-woosb-tbl nasa-flex hidden-tag">' . $svg . esc_html__('Buy this bundle and get off to ${saved}', 'elessi-theme') . '</div>';
         
@@ -645,21 +645,24 @@ endif;
  */
 if (!function_exists('elessi_add_widget_shopping_cart_content')) :
     function elessi_add_widget_shopping_cart_content($fragments) {
-        if (!isset($fragments['div.widget_shopping_cart_content'])) {
-            global $nasa_opt;
-            
-            if (isset($nasa_opt['disable-cart']) && $nasa_opt['disable-cart']) {
-                return $fragments;
-            }
-            
-            // Hook fix Missing fragments[div.widget_shopping_cart_content]
-            if (apply_filters('ns_fix_missing_wscc', true)) {
-                ob_start();
-                woocommerce_mini_cart();
-                $mini_cart = ob_get_clean();
+        global $nasa_opt;
+        
+        if (isset($nasa_opt['disable-cart']) && $nasa_opt['disable-cart']) {
+            return $fragments;
+        }
+        
+        // Hook fix Missing fragments[div.widget_shopping_cart_content]
+        if (!isset($fragments['div.widget_shopping_cart_content']) && apply_filters('ns_fix_missing_wscc', true)) {
+            ob_start();
+            woocommerce_mini_cart();
+            $mini_cart = ob_get_clean();
 
-                $fragments['div.widget_shopping_cart_content'] = '<div class="widget_shopping_cart_content">' . $mini_cart . '</div>';
-            }
+            $fragments['div.widget_shopping_cart_content'] = '<div class="widget_shopping_cart_content">' . $mini_cart . '</div>';
+        }
+        
+        // Hook fix Missing fragments[.cart-inner]
+        if (!isset($fragments['.cart-inner']) && apply_filters('ns_fix_missing_cart_inner', true)) {
+            $fragments['.cart-inner'] = elessi_mini_cart(true);
         }
         
         return $fragments;
@@ -1008,6 +1011,10 @@ if (!function_exists('elessi_loop_countdown')) :
     function elessi_loop_countdown() {
         global $product, $nasa_time_sale;
         
+        if (!$product) {
+            return;
+        }
+        
         $product_id = $product->get_id();
         
         /**
@@ -1165,7 +1172,7 @@ if (!function_exists('elessi_deal_time_single')) :
     function elessi_deal_time_single() {
         global $product;
         
-        if ($product->get_stock_status() == 'outofstock') {
+        if (!$product || $product->get_stock_status() == 'outofstock') {
             return;
         }
         
@@ -1183,7 +1190,7 @@ if (!function_exists('elessi_deal_time_single')) :
             return;
         }
         
-        if ($product_type != 'simple') {
+        if ($product_type != 'simple' || !$product->is_on_sale()) {
             return;
         }
         
@@ -1195,6 +1202,7 @@ if (!function_exists('elessi_deal_time_single')) :
         if (!$time_sale) {
             return;
         }
+        
         echo '<div class="countdown-label nasa-crazy-inline">' .
             '<svg width="20" height="20" viewBox="0 0 32 32" fill="currentColor"><path d="M15.992 5.872c-6.479 0-11.729 5.251-11.729 11.729 0 2.939 1.084 5.625 2.872 7.683l-2.744 3.363 0.826 0.674 2.659-3.258c2.107 2.021 4.965 3.265 8.116 3.265 3.158 0 6.023-1.251 8.132-3.281l2.657 3.278 0.829-0.672-2.746-3.387c1.778-2.056 2.857-4.735 2.857-7.666 0-6.478-5.252-11.729-11.729-11.729zM15.992 28.262c-5.88 0-10.662-4.782-10.662-10.661 0-5.88 4.783-10.662 10.662-10.662s10.663 4.783 10.663 10.662c0 5.879-4.783 10.661-10.662 10.661z"/><path d="M11.171 2.672h-3.168c-2.945 0-5.331 2.387-5.331 5.331v3.208h1.516l6.983-7.022v-1.517zM10.104 3.75l-6.366 6.395v-2.142c0-2.351 1.913-4.265 4.265-4.265h2.101v0.011z"/><path d="M23.997 2.672h-3.17v1.517l6.984 7.022h1.517v-3.208c-0-2.945-2.388-5.331-5.331-5.331zM28.262 10.145h-0.007l-6.361-6.395v-0.011h2.103c2.352 0 4.265 1.914 4.265 4.265v2.142z"/><path d="M15.467 17.599h-5.878v1.066h6.944v-9.596h-1.066z"/></svg>&nbsp;&nbsp;' .
             esc_html__('Hurry up! Sale end in:', 'elessi-theme') .
@@ -1213,7 +1221,7 @@ if (!function_exists('elessi_deal_time_quickview')) :
     function elessi_deal_time_quickview() {
         global $product;
         
-        if ($product->get_stock_status() == 'outofstock') {
+        if (!$product || $product->get_stock_status() == 'outofstock') {
             return;
         }
         
@@ -1492,7 +1500,7 @@ if (!function_exists('elessi_step_billing')) :
         
         echo '<div id="nasa-step_billing">';
         echo '<div class="nasa-checkout-step">';
-        echo '<a href="' . esc_url(wc_get_cart_url()) . '" class="nasa-back-to-cart nasa-back-step" title="' . esc_attr__('Return to Cart', 'elessi-theme') . '"><svg width="30" height="30" viewBox="0 0 32 32" fill="currentColor"><path d="M12.792 15.233l-0.754 0.754 6.035 6.035 0.754-0.754-5.281-5.281 5.256-5.256-0.754-0.754-3.013 3.013z"></path></svg>' . esc_html__('RETURN TO CART', 'elessi-theme') . '</a>';
+        echo '<a href="' . esc_url(wc_get_cart_url()) . '" class="nasa-back-to-cart nasa-back-step" title="' . esc_attr__('Return to Cart', 'elessi-theme') . '"><svg width="30" height="30" viewBox="0 0 32 32" fill="currentColor"><path d="M12.792 15.233l-0.754 0.754 6.035 6.035 0.754-0.754-5.281-5.281 5.256-5.256-0.754-0.754-3.013 3.013z" /></svg>' . esc_html__('RETURN TO CART', 'elessi-theme') . '</a>';
         
         echo $need_shipping ? 
             '<a href="javascript:void(0);" rel="nofollow" class="button nasa-shipping-step nasa-switch-step">' . esc_html__('Continue To Shipping', 'elessi-theme') . '</a>' :
@@ -1568,7 +1576,7 @@ if (!function_exists('elessi_checkout_shipping')) :
          */
         echo '<div id="nasa-step_payment">';
         echo '<div class="nasa-checkout-step">';
-        echo '<a href="javascript:void(0);" rel="nofollow" class="nasa-billing-step nasa-back-step"><svg width="30" height="30" viewBox="0 0 32 32" fill="currentColor"><path d="M12.792 15.233l-0.754 0.754 6.035 6.035 0.754-0.754-5.281-5.281 5.256-5.256-0.754-0.754-3.013 3.013z"></path></svg>' . esc_html__('RETURN TO INFORMATION', 'elessi-theme') . '</a>';
+        echo '<a href="javascript:void(0);" rel="nofollow" class="nasa-billing-step nasa-back-step"><svg width="30" height="30" viewBox="0 0 32 32" fill="currentColor"><path d="M12.792 15.233l-0.754 0.754 6.035 6.035 0.754-0.754-5.281-5.281 5.256-5.256-0.754-0.754-3.013 3.013z" /></svg>' . esc_html__('RETURN TO INFORMATION', 'elessi-theme') . '</a>';
         echo '<a href="javascript:void(0);" rel="nofollow" class="button nasa-payment-step nasa-switch-step">' . esc_html__('Continue To Payment', 'elessi-theme') . '</a>';
         echo '</div>';
         echo '</div>';
@@ -1837,6 +1845,10 @@ if (!function_exists('elessi_quickview_in_list')) :
     function elessi_quickview_in_list() {
         global $product;
         
+        if (!$product) {
+            return;
+        }
+        
         $type = $product->get_type();
         
         $svg_look='<svg  class="nasa-icon" width="20" height="36" viewBox="0 0 32 32" fill="currentColor"><path d="M16 6.404c-5.847 0-10.404 3.66-15.994 9.593 4.816 5.073 8.857 9.6 15.994 9.6s12.382-5.73 15.994-9.492c-3.697-4.407-8.943-9.7-15.994-9.7zM16 24.53c-6.336 0-10.16-3.929-14.524-8.532 5.192-5.414 9.32-8.527 14.524-8.527 6.161 0 10.975 4.443 14.558 8.591-3.523 3.674-8.293 8.469-14.558 8.469z" /><path d="M16 9.603c-3.528 0-6.398 2.87-6.398 6.397s2.87 6.397 6.398 6.397 6.398-2.87 6.398-6.397-2.87-6.397-6.398-6.397zM16 21.331c-2.939 0-5.331-2.391-5.331-5.331s2.392-5.331 5.331-5.331 5.331 2.391 5.331 5.331c0 2.939-2.392 5.331-5.331 5.331z" /><path d="M16 12.268c-2.058 0-3.732 1.674-3.732 3.732s1.674 3.732 3.732 3.732c2.058 0 3.732-1.674 3.732-3.732s-1.674-3.732-3.732-3.732zM16 18.666c-1.47 0-2.666-1.196-2.666-2.666s1.196-2.666 2.666-2.666 2.666 1.196 2.666 2.666c0 1.47-1.196 2.666-2.666 2.666z" /></svg>';
@@ -1867,7 +1879,8 @@ endif;
 if (!function_exists('elessi_bundle_in_list')) :
     function elessi_bundle_in_list() {
         global $product;
-        if (!defined('YITH_WCPB') || $product->get_type() != NASA_COMBO_TYPE) {
+        
+        if (!defined('YITH_WCPB') || !$product || $product->get_type() != NASA_COMBO_TYPE) {
             return;
         }
         ?>
@@ -2082,6 +2095,10 @@ if (!function_exists('elessi_loop_product_cats')) :
         
         global $product;
         
+        if (!$product) {
+            return;
+        }
+        
         $categories = wc_get_product_category_list($product->get_id(), ', ');
         
         if ($categories) {
@@ -2106,6 +2123,10 @@ if (!function_exists('elessi_loop_product_sku')) :
         }
         
         global $product;
+        
+        if (!$product) {
+            return;
+        }
         
         $sku = $product->get_sku();
         
@@ -2389,19 +2410,6 @@ if (!function_exists('elessi_end_wrap')) :
 endif;
 
 /**
- * Mini Cart considered a Cart page if the incoming call is AJAX
- * 
- * Since 5.3.9
- */
-if (!function_exists('elessi_mini_cart_as_cart_page')) :
-    function elessi_mini_cart_as_cart_page() {
-        if (defined('DOING_AJAX') && DOING_AJAX) :
-            wc_maybe_define_constant('WOOCOMMERCE_CART', true);
-        endif;
-    }
-endif;
-
-/**
  * shopping cart subtotal
  */
 if (!function_exists('elessi_widget_shopping_cart_subtotal')) :
@@ -2588,7 +2596,7 @@ endif;
 if (!function_exists('elessi_wc_form_field_args')) :
     function elessi_wc_form_field_args($args) {
         if (isset($args['label']) && (!isset($args['placeholder']) || $args['placeholder'] == '')) {
-            $args['placeholder'] = $args['label'];
+            $args['placeholder'] = strip_tags($args['label']);
         }
     
         return $args;

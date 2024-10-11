@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Elessi Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-14 14:04+0000\n"
-"PO-Revision-Date: 2024-04-24 07:29+0000\n"
+"PO-Revision-Date: 2024-09-13 14:33+0000\n"
 "Last-Translator: NasaTheme\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -13,19 +13,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
 "X-Domain: elessi-theme"
 
-#: includes/nasa-sidebar-wishlist_content.php:163
+#: includes/nasa-sidebar-wishlist_content.php:166
 msgid " &mdash; In Stock"
 msgstr "&mdash; În stoc"
 
-#: includes/nasa-sidebar-wishlist_content.php:161
+#: includes/nasa-sidebar-wishlist_content.php:164
 msgid " - Out of Stock"
 msgstr "- Epuizat"
 
 #. 1: reviews count 2: product name
-#: woocommerce/single-product-reviews.php:152
+#: woocommerce/single-product-reviews.php:178
 #, php-format
 msgid "%1$s review for %2$s"
 msgid_plural "%1$s reviews for %2$s"
@@ -50,7 +50,7 @@ msgstr "%s-a instalat și activat cu succes."
 msgid "%s installed successfully."
 msgstr "%s instalat cu succes."
 
-#: cores/nasa-custom-wc-ajax.php:592
+#: cores/nasa-custom-wc-ajax.php:593
 #, php-format
 msgid "%s is a required field"
 msgid_plural "%s are required fields"
@@ -83,6 +83,11 @@ msgstr "%s rezultat"
 msgid "%s results"
 msgstr "%s rezultatele"
 
+#: woocommerce/single-product-reviews.php:60
+#, php-format
+msgid "%s reviews"
+msgstr "%s recenzii"
+
 #: includes/nasa-mini-cart-add-coupon.php:22
 #: includes/nasa-mini-cart-add-coupon.php:26
 #, php-format
@@ -94,8 +99,8 @@ msgstr "%s&nbsp;Discount"
 msgid "%s&nbsp;Product Discount"
 msgstr "%s&nbsp;Produs Discount"
 
-#: woocommerce/loop/sale-flash.php:56
-#: woocommerce/single-product/sale-flash.php:57
+#: woocommerce/loop/sale-flash.php:65
+#: woocommerce/single-product/sale-flash.php:66
 #, php-format
 msgid "&#45;%s&#37;"
 msgstr "&#45;%s&#37;"
@@ -112,7 +117,7 @@ msgstr "&larr; Comentarii Mai Vechi"
 msgid "&larr; Previous"
 msgstr "&larr; Precedent"
 
-#: woocommerce/archive-product.php:197 woocommerce/archive-product.php:310
+#: woocommerce/archive-product.php:188 woocommerce/archive-product.php:300
 msgid "&nbsp;Filters"
 msgstr " &nbsp;Filtre"
 
@@ -126,7 +131,7 @@ msgstr "(estimat pentru %s)"
 msgid "+"
 msgstr "+"
 
-#: cores/nasa-widget-functions.php:341 cores/nasa-woo-actions.php:1451
+#: cores/nasa-widget-functions.php:343 cores/nasa-woo-actions.php:1459
 #: widgets/wg-nasa-product-brands.php:260
 #: widgets/wg-nasa-product-categories.php:468
 #: widgets/wg-nasa-product-categories.php:489 widgets/wg-nasa-tag-cloud.php:74
@@ -134,7 +139,7 @@ msgid "+ Show more"
 msgstr "+ Arată mai mult"
 
 #: includes/nasa-blog-grid.php:93 includes/nasa-blog-list.php:91
-#: includes/nasa-blog-masonry-isotope.php:99 includes/nasa-blog-standard.php:85
+#: includes/nasa-blog-masonry-isotope.php:98 includes/nasa-blog-standard.php:85
 msgid ", "
 msgstr ","
 
@@ -142,26 +147,26 @@ msgstr ","
 msgid "- Select -"
 msgstr "- Selectați -"
 
-#: cores/nasa-widget-functions.php:340 cores/nasa-woo-actions.php:1451
+#: cores/nasa-widget-functions.php:342 cores/nasa-woo-actions.php:1459
 #: widgets/wg-nasa-product-brands.php:260
 #: widgets/wg-nasa-product-categories.php:468
 #: widgets/wg-nasa-product-categories.php:489 widgets/wg-nasa-tag-cloud.php:73
 msgid "- Show less"
-msgstr "- Arată mai puțin"
+msgstr "- Arată mai puțin ="
 
 #: woocommerce/loop/orderby.php:25
 msgid "..."
 msgstr "..."
 
 #: widgets/wg-nasa-product-filter-variations.php:186
-#: admin/settings/nasa_07_3_product_detail_heading.php:80
-#: admin/settings/nasa_07_3_product_detail_heading.php:130
+#: admin/settings/nasa_07_3_product_detail_heading.php:81
+#: admin/settings/nasa_07_3_product_detail_heading.php:131
 msgid "1 Column"
 msgstr "1 Coloana"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:602
-#: admin/settings/nasa_07_2_product_page_heading.php:218
-#: admin/settings/nasa_07_3_product_detail_heading.php:490
+#: admin/settings/nasa_07_2_product_page_heading.php:226
+#: admin/settings/nasa_07_3_product_detail_heading.php:522
 #: admin/settings/nasa_08_blog_heading.php:101
 #: admin/settings/nasa_08_blog_heading.php:112
 #: admin/settings/nasa_08_blog_heading.php:252
@@ -173,7 +178,7 @@ msgstr "1 coloana"
 msgid "1 Level"
 msgstr "1 Nivel"
 
-#: cores/nasa-woo-actions.php:1276 cores/nasa-woo-actions.php:1285
+#: cores/nasa-woo-actions.php:1284 cores/nasa-woo-actions.php:1293
 msgid "1 result"
 msgid_plural "%d results"
 msgstr[0] "1 rezultat"
@@ -181,7 +186,7 @@ msgstr[1] "%d rezultate"
 msgstr[2] "%d rezultate"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:601
-#: admin/settings/nasa_07_3_product_detail_heading.php:489
+#: admin/settings/nasa_07_3_product_detail_heading.php:521
 msgid "1.5 column"
 msgstr "1.5 coloana"
 
@@ -191,26 +196,26 @@ msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr "%1$s la %2$s"
 
-#: includes/nasa-change-view.php:231
+#: includes/nasa-change-view.php:236
 msgid "2"
 msgstr "2"
 
-#: includes/nasa-change-view.php:228
+#: includes/nasa-change-view.php:233
 #: widgets/wg-nasa-product-filter-variations.php:185
-#: admin/settings/nasa_07_2_product_page_heading.php:179
-#: admin/settings/nasa_07_3_product_detail_heading.php:79
-#: admin/settings/nasa_07_3_product_detail_heading.php:131
+#: admin/settings/nasa_07_2_product_page_heading.php:187
+#: admin/settings/nasa_07_3_product_detail_heading.php:80
+#: admin/settings/nasa_07_3_product_detail_heading.php:132
 msgid "2 Columns"
 msgstr "2 Coloane"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:590
 #: admin/settings/nasa_07_1_product_global_heading.php:600
-#: admin/settings/nasa_07_2_product_page_heading.php:204
-#: admin/settings/nasa_07_2_product_page_heading.php:219
-#: admin/settings/nasa_07_2_product_page_heading.php:229
-#: admin/settings/nasa_07_3_product_detail_heading.php:466
-#: admin/settings/nasa_07_3_product_detail_heading.php:478
-#: admin/settings/nasa_07_3_product_detail_heading.php:488
+#: admin/settings/nasa_07_2_product_page_heading.php:212
+#: admin/settings/nasa_07_2_product_page_heading.php:227
+#: admin/settings/nasa_07_2_product_page_heading.php:237
+#: admin/settings/nasa_07_3_product_detail_heading.php:498
+#: admin/settings/nasa_07_3_product_detail_heading.php:510
+#: admin/settings/nasa_07_3_product_detail_heading.php:520
 #: admin/settings/nasa_08_blog_heading.php:88
 #: admin/settings/nasa_08_blog_heading.php:102
 #: admin/settings/nasa_08_blog_heading.php:113
@@ -224,21 +229,21 @@ msgstr "2 coloane"
 msgid "2 Levels"
 msgstr "2 Niveluri"
 
-#: includes/nasa-change-view.php:246
+#: includes/nasa-change-view.php:251
 msgid "3"
 msgstr "3"
 
-#: includes/nasa-change-view.php:243
-#: admin/settings/nasa_07_2_product_page_heading.php:180
+#: includes/nasa-change-view.php:248
+#: admin/settings/nasa_07_2_product_page_heading.php:188
 msgid "3 Columns"
 msgstr "3 coloane"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:578
 #: admin/settings/nasa_07_1_product_global_heading.php:589
-#: admin/settings/nasa_07_2_product_page_heading.php:205
-#: admin/settings/nasa_07_2_product_page_heading.php:230
-#: admin/settings/nasa_07_3_product_detail_heading.php:465
-#: admin/settings/nasa_07_3_product_detail_heading.php:477
+#: admin/settings/nasa_07_2_product_page_heading.php:213
+#: admin/settings/nasa_07_2_product_page_heading.php:238
+#: admin/settings/nasa_07_3_product_detail_heading.php:497
+#: admin/settings/nasa_07_3_product_detail_heading.php:509
 #: admin/settings/nasa_08_blog_heading.php:89
 #: admin/settings/nasa_08_blog_heading.php:114
 #: admin/settings/nasa_08_blog_heading.php:240
@@ -255,21 +260,21 @@ msgstr "3 Nivele"
 msgid "360&#176; Badge Color"
 msgstr "Culoare insignă 360&#176;"
 
-#: includes/nasa-change-view.php:262
+#: includes/nasa-change-view.php:267
 msgid "4"
 msgstr "4"
 
-#: includes/nasa-change-view.php:259
-#: admin/settings/nasa_07_2_product_page_heading.php:181
+#: includes/nasa-change-view.php:264
+#: admin/settings/nasa_07_2_product_page_heading.php:189
 msgid "4 Columns"
 msgstr "4 coloane"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:577
 #: admin/settings/nasa_07_1_product_global_heading.php:588
-#: admin/settings/nasa_07_2_product_page_heading.php:206
-#: admin/settings/nasa_07_2_product_page_heading.php:231
-#: admin/settings/nasa_07_3_product_detail_heading.php:464
-#: admin/settings/nasa_07_3_product_detail_heading.php:476
+#: admin/settings/nasa_07_2_product_page_heading.php:214
+#: admin/settings/nasa_07_2_product_page_heading.php:239
+#: admin/settings/nasa_07_3_product_detail_heading.php:496
+#: admin/settings/nasa_07_3_product_detail_heading.php:508
 #: admin/settings/nasa_08_blog_heading.php:90
 #: admin/settings/nasa_08_blog_heading.php:241
 #: admin/settings/nasa_10_portfolio_heading.php:88
@@ -280,18 +285,18 @@ msgstr "4 coloane"
 msgid "404"
 msgstr "404"
 
-#: includes/nasa-change-view.php:277
+#: includes/nasa-change-view.php:282
 msgid "5"
 msgstr "5"
 
-#: includes/nasa-change-view.php:274
-#: admin/settings/nasa_07_2_product_page_heading.php:182
+#: includes/nasa-change-view.php:279
+#: admin/settings/nasa_07_2_product_page_heading.php:190
 msgid "5 Columns"
 msgstr "5 coloane"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:576
-#: admin/settings/nasa_07_2_product_page_heading.php:207
-#: admin/settings/nasa_07_3_product_detail_heading.php:463
+#: admin/settings/nasa_07_2_product_page_heading.php:215
+#: admin/settings/nasa_07_3_product_detail_heading.php:495
 #: admin/settings/nasa_08_blog_heading.php:91
 #: admin/settings/nasa_08_blog_heading.php:242
 #: admin/settings/nasa_10_portfolio_heading.php:87
@@ -302,17 +307,17 @@ msgstr "5 coloane"
 msgid "50%"
 msgstr "50%"
 
-#: includes/nasa-change-view.php:293
+#: includes/nasa-change-view.php:298
 msgid "6"
 msgstr "6"
 
-#: includes/nasa-change-view.php:290
-#: admin/settings/nasa_07_2_product_page_heading.php:183
+#: includes/nasa-change-view.php:295
+#: admin/settings/nasa_07_2_product_page_heading.php:191
 msgid "6 Columns"
 msgstr "6 coloane"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:208
-#: admin/settings/nasa_07_3_product_detail_heading.php:462
+#: admin/settings/nasa_07_2_product_page_heading.php:216
+#: admin/settings/nasa_07_3_product_detail_heading.php:494
 msgid "6 columns"
 msgstr "6 coloane"
 
@@ -379,7 +384,7 @@ msgstr ""
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Anterior"
 
-#: cores/nasa-woo-functions.php:1193
+#: cores/nasa-woo-functions.php:1349
 msgid "<span>Availability:</span> "
 msgstr "<span>Disponibilitate:</span>"
 
@@ -454,6 +459,10 @@ msgstr "Contul De Pe Ecranul Principal - Aspect Mobil"
 msgid "Account Options"
 msgstr "Opțiunile De Cont"
 
+#: includes/nasa-acc-nav.php:15
+msgid "Account pages"
+msgstr "Pagini de cont"
+
 #: admin/classes/class-tgm-plugin-activation.php:2778
 msgid "Activate"
 msgstr "Activa"
@@ -474,9 +483,10 @@ msgid "Add"
 msgstr "Adauga"
 
 #. %s is product title
-#: woocommerce/single-product-reviews.php:89
-msgid "Add a review"
-msgstr "Adauga un comentariu"
+#: woocommerce/single-product-reviews.php:105
+#, php-format
+msgid "Add a review &ldquo;%s&rdquo;"
+msgstr "Adăugați o recenzie &ldquo;%s&rdquo;"
 
 #: cores/nasa-theme-options.php:164
 msgid "Add Icon Image (Using for Section of Tabs)"
@@ -502,10 +512,6 @@ msgstr "Adăugare Diapozitiv Nou"
 msgid "Add note"
 msgstr "Adăugați o notă"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "Add photos"
-msgstr "Adăugați fotografii"
-
 #: cores/nasa-yith-wcwl-ext.php:318
 msgid "Add to cart"
 msgstr "Adaugă în coș"
@@ -514,7 +520,7 @@ msgstr "Adaugă în coș"
 msgid "Add To Cart in Grid"
 msgstr "Adaugă în Coș în Grilă"
 
-#: cores/nasa-woo-actions.php:1987
+#: cores/nasa-woo-actions.php:2000
 msgid "Add to Compare"
 msgstr "Adaugă pentru a Compara"
 
@@ -522,7 +528,7 @@ msgstr "Adaugă pentru a Compara"
 msgid "Add to Wishlist"
 msgstr "Adaugă la lista de Dorințe"
 
-#: cores/nasa-wishlist.php:187 cores/nasa-woo-functions.php:1163
+#: cores/nasa-wishlist.php:184 cores/nasa-woo-functions.php:1315
 msgid "Add to wishlist"
 msgstr "Adaugă la lista de dorințe"
 
@@ -534,7 +540,7 @@ msgstr ""
 "Adaugă Favicon personalizat imagine. 16x16 - 32x32 *.ico sau *.png este "
 "necesar. (Recomandat 16x16 *.ico)"
 
-#: cores/nasa-woo-actions.php:1943 cores/nasa-woo-actions.php:1988
+#: cores/nasa-woo-actions.php:1956 cores/nasa-woo-actions.php:2001
 msgid "Added to Compare"
 msgstr "Adaugă pentru a Compara"
 
@@ -542,33 +548,33 @@ msgstr "Adaugă pentru a Compara"
 msgid "Added to Wishlist"
 msgstr "Adăugat la lista de Dorințe"
 
-#: cores/nasa-wishlist.php:188
+#: cores/nasa-wishlist.php:185
 msgid "Added to wishlist"
 msgstr "Adăugat la lista de dorințe"
 
-#: cores/nasa-theme-footers.php:310
+#: cores/nasa-theme-footers.php:341
 msgid "Adding"
 msgstr "Adăugarea"
 
-#: cores/nasa-theme-footers.php:358
+#: cores/nasa-theme-footers.php:391
 msgid "Adding cart"
 msgstr "Adăugarea în coș"
 
-#: admin/importer/nasa-importer.php:1479
+#: admin/importer/nasa-importer.php:1492
 msgid "Addition Homepage Success!"
 msgstr "Plus Pagina De Start Succes!"
 
-#: admin/settings/nasa_03_1_header_heading.php:313
-#: admin/settings/nasa_03_1_header_heading.php:314
+#: admin/settings/nasa_03_1_header_heading.php:315
+#: admin/settings/nasa_03_1_header_heading.php:316
 #: admin/settings/nasa_07_1_product_global_heading.php:288
 #: admin/settings/nasa_07_1_product_global_heading.php:289
-#: admin/settings/nasa_07_3_product_detail_heading.php:362
 #: admin/settings/nasa_07_3_product_detail_heading.php:363
+#: admin/settings/nasa_07_3_product_detail_heading.php:364
 msgid "Addon Options"
 msgstr "Addon Opțiuni"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:299
-#: admin/settings/nasa_07_2_product_page_heading.php:300
+#: admin/settings/nasa_07_2_product_page_heading.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:308
 msgid "Advance Content Options"
 msgstr "Avans Opțiuni De Conținut"
 
@@ -577,7 +583,7 @@ msgstr "Avans Opțiuni De Conținut"
 msgid "Advanced options"
 msgstr "Opțiuni avansate"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:327
+#: admin/settings/nasa_07_2_product_page_heading.php:335
 msgid "After Breadcrumb - Only for Shop Page"
 msgstr "După Breadcrumb - Numai pentru Pagina de Magazin"
 
@@ -585,19 +591,19 @@ msgstr "După Breadcrumb - Numai pentru Pagina de Magazin"
 msgid "After Tabs Title (Using for Section of Tabs)"
 msgstr "După Titlu File (Folosind pentru Secțiunea de File)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:402
+#: admin/settings/nasa_07_3_product_detail_heading.php:403
 msgid "After WooCommerce Tabs"
 msgstr "După WooCommerce File"
 
-#: admin/settings/nasa_01_general_heading.php:135
+#: admin/settings/nasa_01_general_heading.php:204
 msgid "Age Verification"
 msgstr "Verificarea Vârstei"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:270
+#: admin/settings/nasa_07_3_product_detail_heading.php:271
 msgid "AJAX add to cart button on Single And Quickview"
 msgstr "AJAX adaugă în coș buton de pe Single Și Quickview"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:429
+#: admin/settings/nasa_07_3_product_detail_heading.php:461
 msgid "Ajax Load"
 msgstr "Ajax De Încărcare"
 
@@ -630,13 +636,17 @@ msgstr "Toate plugin-urile instalate și activate cu succes. %1$s"
 msgid "ALL PRODUCTS LOADED !"
 msgstr "TOATE PRODUSELE ÎNCĂRCATE !"
 
-#: cores/nasa-woo-actions.php:1599
+#: cores/nasa-woo-actions.php:1607
 msgid "All transactions are secure and encrypted."
 msgstr "Toate tranzacțiile sunt securizate și criptate."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:408
+#: admin/settings/nasa_07_3_product_detail_heading.php:411
 msgid "Allow Comments Images upload"
 msgstr "Permite Comentarii Imagini de încărcare"
+
+#: admin/settings/nasa_07_3_product_detail_heading.php:436
+msgid "Allow Comments Video upload"
+msgstr "Permiteți comentarii încărcare video"
 
 #: includes/nasa-login-register-form.php:177
 msgid "Already got an account? "
@@ -652,7 +662,7 @@ msgstr "A apărut o eroare la instalarea %1$s: <strong>%2$s</strong>."
 msgid "AND"
 msgstr "ȘI"
 
-#: admin/settings/nasa_01_general_heading.php:96
+#: admin/settings/nasa_01_general_heading.php:165
 msgid "Animation Effect"
 msgstr "Efect De Animație"
 
@@ -695,7 +705,7 @@ msgstr "Arhiva Pagina De Produse"
 msgid "Are you over 18?"
 msgstr "Ai peste 18 ani?"
 
-#: cores/nasa-theme-footers.php:841
+#: cores/nasa-theme-footers.php:886
 msgid "Are you sure you want to remove it?"
 msgstr "Sunteți sigur că doriți să-l eliminați?"
 
@@ -707,7 +717,7 @@ msgstr "Arial"
 msgid "Arrow"
 msgstr "Săgeată"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:171
+#: admin/settings/nasa_07_3_product_detail_heading.php:172
 msgid "Arrows for Main Slide"
 msgstr "Săgețile pentru Diapozitiv Principal"
 
@@ -732,7 +742,7 @@ msgstr "Atribui Autori"
 msgid "assign posts to an existing user:"
 msgstr "atribuirea de posturi pentru un utilizator existent:"
 
-#: admin/settings/nasa_01_general_heading.php:213
+#: admin/settings/nasa_01_general_heading.php:300
 msgid "Async"
 msgstr "Asincron"
 
@@ -754,11 +764,11 @@ msgid "Author info"
 msgstr "Autor info"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:607
-#: admin/settings/nasa_07_3_product_detail_heading.php:140
+#: admin/settings/nasa_07_3_product_detail_heading.php:141
 msgid "Auto Slide"
 msgstr "Slide Auto"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:495
+#: admin/settings/nasa_07_3_product_detail_heading.php:527
 msgid "Auto Slide - Related | You may also like&hellip;"
 msgstr "Auto Slide - Legate | Ați putea dori, de asemenea&hellip;"
 
@@ -778,15 +788,15 @@ msgstr "Disponibil pe stoc"
 msgid "Available version:"
 msgstr "Versiune:"
 
-#: woocommerce/single-product-reviews.php:129
+#: woocommerce/single-product-reviews.php:148
 msgid "Average"
 msgstr "Medie"
 
-#: cores/nasa-woo-functions.php:1724
+#: cores/nasa-woo-functions.php:1880
 msgid "Average rating"
 msgstr "Rating mediu"
 
-#: woocommerce/single-product/product-image.php:170
+#: woocommerce/single-product/product-image.php:174
 msgid "Awaiting product image"
 msgstr "În așteptarea imaginea produsului"
 
@@ -811,22 +821,22 @@ msgstr "Înapoi la tabloul de Bord"
 msgid "BACK TO STEP 1"
 msgstr "ÎNAPOI LA PASUL 1"
 
-#: cores/nasa-theme-footers.php:189
+#: cores/nasa-theme-footers.php:199
 #: admin/settings/nasa_01_general_heading.php:84
 msgid "Back to Top"
 msgstr "Back to Top"
 
-#: admin/settings/nasa_03_1_header_heading.php:702
+#: admin/settings/nasa_03_1_header_heading.php:715
 #: admin/settings/nasa_06_breadcrumb_heading.php:79
-#: admin/settings/nasa_07_3_product_detail_heading.php:64
+#: admin/settings/nasa_07_3_product_detail_heading.php:65
 msgid "Background Color"
 msgstr "Culoarea De Fundal"
 
-#: admin/settings/nasa_03_1_header_heading.php:376
+#: admin/settings/nasa_03_1_header_heading.php:378
 msgid "Background Color Header"
 msgstr "Culoarea De Fundal Antet"
 
-#: admin/settings/nasa_03_1_header_heading.php:386
+#: admin/settings/nasa_03_1_header_heading.php:388
 msgid "Background Color Header - Sticky"
 msgstr "Culoarea De Fundal Antet Lipicios"
 
@@ -834,7 +844,7 @@ msgstr "Culoarea De Fundal Antet Lipicios"
 msgid "Background Color Of Product Items In The Shop"
 msgstr "Culoarea de fundal a articolelor de produs din magazin"
 
-#: admin/settings/nasa_03_1_header_heading.php:709
+#: admin/settings/nasa_03_1_header_heading.php:722
 #: admin/settings/nasa_06_breadcrumb_heading.php:58
 msgid "Background Image"
 msgstr "Imagine De Fundal"
@@ -855,8 +865,8 @@ msgstr "Fundal Parallax"
 msgid "Backorder Allowed Badge"
 msgstr "Comanda Întârziată A Permis Insigna"
 
-#: woocommerce/loop/sale-flash.php:82
-#: woocommerce/single-product/sale-flash.php:83
+#: woocommerce/loop/sale-flash.php:91
+#: woocommerce/single-product/sale-flash.php:92
 msgid "Backorders"
 msgstr "Pe lista de așteptare"
 
@@ -885,17 +895,13 @@ msgstr "Insigna - Opțiuni"
 msgid "Banner font"
 msgstr "Banner font"
 
-#: woocommerce/single-product-reviews.php:43
-#, php-format
-msgid "Based on %s reviews"
-msgstr "Bazat pe %s recenzii"
-
-#: woocommerce/single-product-reviews.php:89
+#: woocommerce/single-product-reviews.php:105
+#: woocommerce/single-product-reviews.php:164
 #, php-format
 msgid "Be the first to review &ldquo;%s&rdquo;"
 msgstr "Fii primul pentru a revizui \"%s\""
 
-#: admin/theme-admin.php:343
+#: admin/theme-admin.php:365
 msgid "Before Footer"
 msgstr "Înainte De Subsol"
 
@@ -937,7 +943,7 @@ msgstr "Blog"
 msgid "Blog Options"
 msgstr "Opțiuni De Blog"
 
-#: options/nasa-options.php:1251
+#: options/nasa-options.php:1286
 msgid "Blog Sidebar"
 msgstr "Blog Sidebar"
 
@@ -985,7 +991,7 @@ msgstr "Cutie"
 msgid "Breadcrumb"
 msgstr "Breadcrumb"
 
-#: cores/nasa-woo-functions.php:776
+#: cores/nasa-woo-functions.php:924
 msgid "BROWSE"
 msgstr "NAVIGA"
 
@@ -1071,16 +1077,16 @@ msgstr "Butoane De Text De Culoare"
 msgid "Buttons Text Color Hover"
 msgstr "Butoane De Text De Culoare Hover"
 
-#: cores/nasa-woo-actions.php:1125
-#: admin/settings/nasa_07_3_product_detail_heading.php:210
+#: cores/nasa-woo-actions.php:1132
+#: admin/settings/nasa_07_3_product_detail_heading.php:211
 msgid "Buy Now"
 msgstr "Cumpara Acum"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:217
+#: admin/settings/nasa_07_3_product_detail_heading.php:218
 msgid "Buy Now Background Color"
 msgstr "Cumpara Acum Culoarea De Fundal"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:226
+#: admin/settings/nasa_07_3_product_detail_heading.php:227
 msgid "Buy Now Background Color Hover"
 msgstr "Cumpara Acum Culoarea De Fundal Hover"
 
@@ -1101,15 +1107,15 @@ msgstr "De"
 msgid "Cancel"
 msgstr "Anula"
 
-#: includes/nasa-tmpl-captcha-field-register.php:14
+#: includes/nasa-tmpl-captcha-field-register.php:16
 msgid "Captcha Code"
 msgstr "Codul Captcha"
 
-#: cores/nasa-theme-options.php:516
+#: cores/nasa-theme-options.php:537
 msgid "Captcha Error!"
 msgstr "Captcha Eroare!"
 
-#: admin/settings/nasa_03_1_header_heading.php:306
+#: admin/settings/nasa_03_1_header_heading.php:307
 msgid "Captcha For Register Form"
 msgstr "Captcha Pentru A Înregistra Forma"
 
@@ -1117,7 +1123,7 @@ msgstr "Captcha Pentru A Înregistra Forma"
 msgid "CART"
 msgstr "COS"
 
-#: cores/nasa-woo-functions.php:236 cores/nasa-woo-functions.php:242
+#: cores/nasa-woo-functions.php:218 cores/nasa-woo-functions.php:224
 #: includes/nasa-mobile-bottom-bar-app.php:102
 #: includes/nasa-mobile-bottom-bar-app.php:104
 #: includes/nasa-mobile-bottom-bar.php:102
@@ -1133,11 +1139,11 @@ msgstr "Cărucior Aspectul Bara Laterală"
 msgid "Catalog Mode - Disable Add To Cart Feature"
 msgstr "Modul De Catalog - Dezactivați Adaugă În Coș Caracteristică"
 
-#: cores/nasa-woo-functions.php:761
+#: cores/nasa-woo-functions.php:909
 msgid "CATEGORIES"
 msgstr "CATEGORII"
 
-#: cores/nasa-theme-footers.php:743 cores/nasa-theme-headers.php:392
+#: cores/nasa-theme-footers.php:780 cores/nasa-theme-headers.php:392
 #: includes/nasa-mobile-bottom-bar-app.php:59
 #: includes/nasa-mobile-bottom-bar-app.php:61
 #: includes/nasa-mobile-bottom-bar.php:59
@@ -1158,12 +1164,16 @@ msgstr ""
 msgid "Categories info"
 msgstr "Categorii de informatii"
 
+#: cores/nasa-custom-wc-ajax.php:873
+msgid "Categories Map"
+msgstr "Harta categoriilor"
+
 #: archive.php:65
 #, php-format
 msgid "Category Archives: %s"
 msgstr "Category Archives: %s"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:317
+#: admin/settings/nasa_07_2_product_page_heading.php:325
 msgid "Category bottom content"
 msgstr "Categorie jos conținutul"
 
@@ -1172,21 +1182,21 @@ msgstr "Categorie jos conținutul"
 msgid "Category Order"
 msgstr "Pentru Categoria"
 
-#: admin/settings/nasa_03_1_header_heading.php:656
+#: admin/settings/nasa_03_1_header_heading.php:660
 msgid "Category Post"
 msgstr "Categoria De Post"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:315
 msgid "Category top content"
 msgstr "Categoria de top conținut"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:98
-#: admin/settings/nasa_07_3_product_detail_heading.php:311
+#: admin/settings/nasa_07_3_product_detail_heading.php:312
 msgid "Center"
 msgstr "Centru"
 
-#: cores/nasa-woo-actions.php:1527 cores/nasa-woo-actions.php:1537
-#: cores/nasa-woo-actions.php:1546 admin/classes/class.options_machine.php:802
+#: cores/nasa-woo-actions.php:1535 cores/nasa-woo-actions.php:1545
+#: cores/nasa-woo-actions.php:1554 admin/classes/class.options_machine.php:802
 msgid "Change"
 msgstr "Schimba"
 
@@ -1209,9 +1219,12 @@ msgstr "Schimbați modul de aspect al magazinului"
 msgid "Change View Mode (Only Desktop Mode)"
 msgstr "Schimba Modul De Vizualizare (Numai Modul Desktop)"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:192
-msgid "Change View Mode (Only Mobile Layout Mode)"
-msgstr "Schimba Modul De Vizualizare (Numai Mobil Modul Layout)"
+#: admin/settings/nasa_07_2_product_page_heading.php:200
+#| msgid "Change View Mode (Only Mobile Layout Mode)"
+msgid "Change View Mode Mobile (Only Mobile App Layout Mode)"
+msgstr ""
+"Schimbați modul de vizualizare mobil (numai modul de aspect al aplicației "
+"mobile)"
 
 #: admin/settings/nasa_05_type_heading.php:191
 msgid "Character Sub-sets"
@@ -1242,7 +1255,7 @@ msgstr ""
 "Alege un WXR (.xml) fișiere pentru a încărca, apoi faceți clic pe Încărcați "
 "fișier și de import."
 
-#: admin/settings/nasa_03_1_header_heading.php:516
+#: admin/settings/nasa_03_1_header_heading.php:502
 msgid "Classic"
 msgstr "Clasic"
 
@@ -1280,19 +1293,19 @@ msgstr "Click aici pentru a Aplica acest cupon."
 
 #: admin/settings/nasa_03_1_header_heading.php:72
 #: admin/settings/nasa_03_1_header_heading.php:93
-#: admin/settings/nasa_03_1_header_heading.php:336
-#: admin/settings/nasa_03_1_header_heading.php:348
-#: admin/settings/nasa_03_1_header_heading.php:360
-#: admin/settings/nasa_03_1_header_heading.php:592
+#: admin/settings/nasa_03_1_header_heading.php:338
+#: admin/settings/nasa_03_1_header_heading.php:350
+#: admin/settings/nasa_03_1_header_heading.php:362
+#: admin/settings/nasa_03_1_header_heading.php:596
 #: admin/settings/nasa_03_2_footer_heading.php:120
 #: admin/settings/nasa_03_2_footer_heading.php:137
 #: admin/settings/nasa_03_2_footer_heading.php:163
 #: admin/settings/nasa_03_2_footer_heading.php:180
 #: admin/settings/nasa_03_3_mobile_heading.php:82
-#: admin/settings/nasa_07_2_product_page_heading.php:313
-#: admin/settings/nasa_07_2_product_page_heading.php:323
-#: admin/settings/nasa_07_2_product_page_heading.php:333
-#: admin/settings/nasa_07_3_product_detail_heading.php:358
+#: admin/settings/nasa_07_2_product_page_heading.php:321
+#: admin/settings/nasa_07_2_product_page_heading.php:331
+#: admin/settings/nasa_07_2_product_page_heading.php:341
+#: admin/settings/nasa_07_3_product_detail_heading.php:359
 #: admin/settings/nasa_09_promo_popup_heading.php:88
 #: admin/settings/nasa_09_promo_popup_heading.php:164
 msgid "Click here to Edit"
@@ -1302,7 +1315,7 @@ msgstr "Click aici pentru a Edita"
 msgid "Click here to enter your code"
 msgstr "Faceți clic aici pentru a introduce codul dvs."
 
-#: woocommerce/checkout/form-login.php:18
+#: woocommerce/checkout/form-login.php:19
 msgid "Click here to login"
 msgstr "apasa aici pentru a te loga"
 
@@ -1317,33 +1330,33 @@ msgstr "Faceți clic pe pictograma de selectare pentru"
 
 #: archive.php:132 index.php:77 page-left-sidebar.php:34
 #: page-right-sidebar.php:34 search.php:76 single.php:64
-#: cores/nasa-theme-footers.php:306 cores/nasa-theme-footers.php:481
-#: cores/nasa-theme-footers.php:516 cores/nasa-theme-footers.php:531
-#: cores/nasa-theme-footers.php:605 cores/nasa-theme-footers.php:717
-#: cores/nasa-theme-footers.php:748 headers/header-structure-1.php:48
+#: cores/nasa-theme-footers.php:337 cores/nasa-theme-footers.php:514
+#: cores/nasa-theme-footers.php:569 cores/nasa-theme-footers.php:642
+#: cores/nasa-theme-footers.php:785 headers/header-structure-1.php:48
 #: headers/header-structure-2.php:73 headers/header-structure-3.php:63
 #: headers/header-structure-5.php:48 headers/header-structure-7.php:43
-#: headers/header-structure-7.php:53 includes/nasa-blog-promotion.php:16
+#: headers/header-structure-7.php:53 includes/nasa-blog-promotion.php:18
 #: includes/nasa-checkout-coupon-modern.php:22
 #: includes/nasa-sidebar-shop-side.php:64 includes/nasa-sidebar-shop-top.php:55
-#: includes/nasa-single-product-classic.php:83
-#: includes/nasa-single-product-full.php:71
-#: includes/nasa-single-product-modern-1.php:58
-#: includes/nasa-single-product-modern-2.php:59
-#: includes/nasa-single-product-modern-3.php:59
+#: includes/nasa-single-product-classic.php:84
+#: includes/nasa-single-product-full.php:73
+#: includes/nasa-single-product-modern-1.php:60
+#: includes/nasa-single-product-modern-2.php:61
+#: includes/nasa-single-product-modern-3.php:61
+#: includes/nasa-single-product-modern-4.php:76
 #: includes/nasa-single-product-new-2.php:42
 #: includes/nasa-single-product-new.php:71
 msgid "Close"
 msgstr "Aproape"
 
-#: cores/nasa-theme-footers.php:346 cores/nasa-theme-footers.php:352
-#: cores/nasa-theme-footers.php:353 cores/nasa-theme-footers.php:832
-#: cores/nasa-theme-footers.php:1037 includes/nasa-after-add-to-cart.php:20
-#: includes/nasa-promo-popup.php:41
+#: cores/nasa-theme-footers.php:380 cores/nasa-theme-footers.php:385
+#: cores/nasa-theme-footers.php:386 cores/nasa-theme-footers.php:866
+#: cores/nasa-theme-footers.php:877 cores/nasa-theme-footers.php:1089
+#: includes/nasa-after-add-to-cart.php:20 includes/nasa-promo-popup.php:42
 msgid "Close (Esc)"
 msgstr "Aproape (Esc)"
 
-#: searchform.php:115 searchform.php:194
+#: searchform.php:116 searchform.php:195
 msgid "Close search"
 msgstr "Aproape căutare"
 
@@ -1362,7 +1375,7 @@ msgid "Colors Options"
 msgstr "Culori Opțiuni"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:571
-#: admin/settings/nasa_07_2_product_page_heading.php:199
+#: admin/settings/nasa_07_2_product_page_heading.php:207
 msgid "Columns"
 msgstr "Coloane"
 
@@ -1394,15 +1407,15 @@ msgstr "Coloane Legate în mobile"
 msgid "Columns Related in Tablet"
 msgstr "Coloane Legate în Tabletă"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:457
+#: admin/settings/nasa_07_3_product_detail_heading.php:489
 msgid "Columns Related | You may also like&hellip;"
 msgstr "Coloane legate | Ați putea dori, de asemenea&hellip;"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:483
+#: admin/settings/nasa_07_3_product_detail_heading.php:515
 msgid "Columns Related | You may also like&hellip; for Mobile"
 msgstr "Coloane legate | S-ar putea să vă placă și&hellip; pentru mobil"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:471
+#: admin/settings/nasa_07_3_product_detail_heading.php:503
 msgid "Columns Related | You may also like&hellip; for Tablet"
 msgstr "Coloane legate | S-ar putea să-ți placă și&hellip; pentru tabletă"
 
@@ -1415,7 +1428,7 @@ msgid "Comment navigation"
 msgstr "Comentariu de navigare"
 
 #: comments.php:19 includes/nasa-blog-grid.php:68
-#: includes/nasa-blog-list.php:67 includes/nasa-blog-masonry-isotope.php:71
+#: includes/nasa-blog-list.php:67 includes/nasa-blog-masonry-isotope.php:70
 #: includes/nasa-blog-standard.php:60
 msgid "Comments"
 msgstr "Comentarii"
@@ -1439,9 +1452,9 @@ msgstr "Comentariile sunt închise."
 msgid "Compact Number - Cart, Wishlist, Compare (9+)"
 msgstr "Compact Număr - Cart, Dorințe, Compara (9+)"
 
-#: cores/nasa-woo-actions.php:1943 cores/nasa-woo-actions.php:1984
-#: cores/nasa-woo-actions.php:1984 cores/nasa-woo-functions.php:687
-#: cores/nasa-woo-functions.php:692
+#: cores/nasa-woo-actions.php:1956 cores/nasa-woo-actions.php:1997
+#: cores/nasa-woo-actions.php:1997 cores/nasa-woo-functions.php:835
+#: cores/nasa-woo-functions.php:840
 msgid "Compare"
 msgstr "Compara"
 
@@ -1462,7 +1475,7 @@ msgstr "Compara Produs"
 msgid "Compare Products"
 msgstr "Compara Produse"
 
-#: cores/nasa-custom-wc-ajax.php:781
+#: cores/nasa-custom-wc-ajax.php:782
 msgid "Compare products were empty !"
 msgstr "Compara produsele erau goale !"
 
@@ -1470,7 +1483,7 @@ msgstr "Compara produsele erau goale !"
 msgid "Congratulations! You've got free shipping."
 msgstr "Felicitări! Ai transport gratuit."
 
-#: cores/nasa-woo-actions.php:1525
+#: cores/nasa-woo-actions.php:1533
 msgid "Contact"
 msgstr "Contact"
 
@@ -1492,17 +1505,17 @@ msgstr "CONTINUA"
 
 #: includes/nasa-blog-grid.php:85 includes/nasa-blog-grid.php:86
 #: includes/nasa-blog-list.php:84 includes/nasa-blog-list.php:85
-#: includes/nasa-blog-masonry-isotope.php:89
-#: includes/nasa-blog-masonry-isotope.php:90 includes/nasa-blog-standard.php:77
+#: includes/nasa-blog-masonry-isotope.php:88
+#: includes/nasa-blog-masonry-isotope.php:89 includes/nasa-blog-standard.php:77
 #: includes/nasa-blog-standard.php:78
 msgid "CONTINUE READING  &#10142;"
 msgstr "CONTINUAȚI CITEREA &#10142;"
 
-#: cores/nasa-woo-actions.php:1499 cores/nasa-woo-actions.php:1572
+#: cores/nasa-woo-actions.php:1507 cores/nasa-woo-actions.php:1580
 msgid "Continue To Payment"
 msgstr "Continua Cu Plată"
 
-#: cores/nasa-woo-actions.php:1498
+#: cores/nasa-woo-actions.php:1506
 msgid "Continue To Shipping"
 msgstr "Continua Pentru Transport"
 
@@ -1510,7 +1523,7 @@ msgstr "Continua Pentru Transport"
 msgid "cookie policy"
 msgstr "politica privind cookie-urile"
 
-#: cores/nasa-woo-actions.php:2534 cores/nasa-woo-functions.php:2005
+#: cores/nasa-woo-actions.php:2542 cores/nasa-woo-functions.php:2161
 msgid "Coupon"
 msgstr "Cupon"
 
@@ -1519,7 +1532,7 @@ msgstr "Cupon"
 msgid "Coupon code"
 msgstr "Cod cupon"
 
-#: cores/nasa-custom-wc-ajax.php:1331
+#: cores/nasa-custom-wc-ajax.php:1372
 msgid "Coupon has been removed."
 msgstr "Cupon a fost eliminat."
 
@@ -1535,7 +1548,7 @@ msgstr "Creați un cont"
 msgid "Cross-Sells Products"
 msgstr "Cross-Vinde Produsele"
 
-#: admin/settings/nasa_03_1_header_heading.php:569
+#: admin/settings/nasa_03_1_header_heading.php:573
 msgid "Currencies Switcher"
 msgstr "Monede Switcher"
 
@@ -1547,12 +1560,12 @@ msgstr "Valoarea curentă:"
 msgid "Custom Badge Color"
 msgstr "Personalizat Culoare Insigna"
 
-#: admin/theme-admin.php:347
+#: admin/theme-admin.php:369
 msgid "Custom Block"
 msgstr "Bloc Personalizat"
 
-#: admin/settings/nasa_03_1_header_heading.php:638
-#: admin/settings/nasa_03_1_header_heading.php:645
+#: admin/settings/nasa_03_1_header_heading.php:642
+#: admin/settings/nasa_03_1_header_heading.php:649
 msgid "Custom Content"
 msgstr "Conținut Personalizat"
 
@@ -1603,17 +1616,17 @@ msgstr "Datetime info"
 msgid "Deal Badge Color"
 msgstr "Afacere Insigna De Culoare"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:368
+#: admin/settings/nasa_07_3_product_detail_heading.php:369
 msgid "Deal Time in Single or Quickview"
 msgstr "Ocupe Timpul într-un Singur sau Quickview"
 
 #: admin/settings/nasa_05_type_heading.php:247
 #: admin/settings/nasa_07_1_product_global_heading.php:477
-#: admin/settings/nasa_07_3_product_detail_heading.php:403
+#: admin/settings/nasa_07_3_product_detail_heading.php:404
 msgid "Default"
 msgstr "Default"
 
-#: admin/settings/nasa_03_1_header_heading.php:579
+#: admin/settings/nasa_03_1_header_heading.php:583
 msgid ""
 "Default (%symbol%) %code%. You can custom for this. Ex (%name% (%symbol%) - "
 "%code%)"
@@ -1633,7 +1646,7 @@ msgstr "Default - Yith WooCommerce Compara"
 msgid "Default font"
 msgstr "Fontul implicit"
 
-#: cores/nasa-woo-functions.php:1722
+#: cores/nasa-woo-functions.php:1878
 msgid "Default sorting"
 msgstr "Sortare implicită"
 
@@ -1645,7 +1658,7 @@ msgstr "Default folosi culori primare"
 msgid "Default View"
 msgstr "Vedere standard"
 
-#: admin/settings/nasa_01_general_heading.php:104
+#: admin/settings/nasa_01_general_heading.php:173
 msgid "Delay Overlay (ms)"
 msgstr "Întârziere de Suprapunere (ms)"
 
@@ -1685,7 +1698,7 @@ msgstr ""
 msgid "Disable - Progress Bar loading ajax"
 msgstr "Disable - Bara de Progres de încărcare ajax"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:289
+#: admin/settings/nasa_07_2_product_page_heading.php:297
 msgid "Disable Ajax Shop"
 msgstr "Dezactivați Ajax Shop"
 
@@ -1697,7 +1710,7 @@ msgstr "Dezactiva Logare/Inregistrare"
 msgid "Disable Quick View"
 msgstr "Dezactivați Quick View"
 
-#: admin/settings/nasa_01_general_heading.php:119
+#: admin/settings/nasa_01_general_heading.php:188
 msgid "Disable Refill - Contact Form 7"
 msgstr "Dezactivați Refill - Formular De Contact 7"
 
@@ -1712,6 +1725,10 @@ msgstr ""
 #: admin/classes/class-tgm-plugin-activation.php:384
 msgid "Dismiss this notice"
 msgstr "Respingerea acestui anunț"
+
+#: widgets/wg-nasa-product-filter-alphabet.php:25
+msgid "Display a list of alphabet to filter products."
+msgstr "Afișează o listă de alfabet pentru a filtra produsele."
 
 #: widgets/wg-nasa-product-filter-multi-categories.php:31
 msgid "Display a list of categories to filter products."
@@ -1753,7 +1770,7 @@ msgstr "Display yith marci de produse cu Acordeon."
 msgid "Dokan"
 msgstr "Dokan"
 
-#: includes/nasa-promo-popup.php:70
+#: includes/nasa-promo-popup.php:71
 msgid "Don't show this popup again"
 msgstr "Nu arată acest pop-up din nou"
 
@@ -1761,7 +1778,7 @@ msgstr "Nu arată acest pop-up din nou"
 msgid "Done. Please wait for continuing to import data"
 msgstr "Făcut. Vă rugăm să așteptați pentru a continua pentru a importa date"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:161
+#: admin/settings/nasa_07_3_product_detail_heading.php:162
 msgid "Dots for Main Slide"
 msgstr "Puncte pentru Diapozitiv Principal"
 
@@ -1787,7 +1804,7 @@ msgstr "Descărcați și de import fișiere atașate"
 msgid "Edit"
 msgstr "Edit"
 
-#: admin/settings/nasa_01_general_heading.php:112
+#: admin/settings/nasa_01_general_heading.php:181
 msgid "Effect Before Load Site"
 msgstr "Efectul Înainte De A Încărca Site-Ul"
 
@@ -1799,8 +1816,8 @@ msgstr "Efect pentru a arăta mai mult și arată mai puțin"
 msgid "Elementor - Homepage List"
 msgstr "Elementor - Pagina Lista"
 
+#: admin/functions/functions.interface.php:101
 #: admin/functions/functions.interface.php:102
-#: admin/functions/functions.interface.php:103
 msgid "Elementor Header & Footer Builder"
 msgstr "Elementor Antet Și Subsol Constructor"
 
@@ -1808,16 +1825,21 @@ msgstr "Elementor Antet Și Subsol Constructor"
 msgid "Elessi Theme"
 msgstr "Elessi Tema"
 
-#: woocommerce/single-product-reviews.php:98
+#: woocommerce/single-product-reviews.php:115
+#: woocommerce/single-product-reviews.php:116
 msgid "Email"
 msgstr "E-mail"
+
+#: woocommerce/single-product-reviews.php:116
+msgid "Email *"
+msgstr "Email *"
 
 #: includes/nasa-checkout-modern.php:116
 #: includes/nasa-login-register-form.php:136
 msgid "Email address"
 msgstr "Adresa de e-mail"
 
-#: cores/nasa-woo-actions.php:1503
+#: cores/nasa-woo-actions.php:1511
 msgid "Email incorrect format."
 msgstr "E-mail în format incorect."
 
@@ -1852,8 +1874,8 @@ msgstr ""
 msgid "Error"
 msgstr "Eroare"
 
-#: cores/nasa-custom-wc-ajax.php:669 cores/nasa-custom-wc-ajax.php:721
-#: cores/nasa-custom-wc-ajax.php:765 admin/front-end/options.php:15
+#: cores/nasa-custom-wc-ajax.php:670 cores/nasa-custom-wc-ajax.php:722
+#: cores/nasa-custom-wc-ajax.php:766 admin/front-end/options.php:15
 msgid "Error!"
 msgstr "Eroare!"
 
@@ -1861,8 +1883,13 @@ msgstr "Eroare!"
 msgid "Error."
 msgstr "Eroare."
 
-#: cores/nasa-custom-wc-ajax.php:1156 cores/nasa-custom-wc-ajax.php:1215
-#: cores/nasa-woo-actions.php:2519
+#: cores/nasa-woo-functions.php:2329 cores/nasa-woo-functions.php:2355
+#: cores/nasa-woo-functions.php:2384 cores/nasa-woo-functions.php:2410
+msgid "Error: "
+msgstr "Eroare:"
+
+#: cores/nasa-custom-wc-ajax.php:1197 cores/nasa-custom-wc-ajax.php:1256
+#: cores/nasa-woo-actions.php:2527
 msgid "Estimate shipping rates"
 msgstr "Estima ratele de transport maritim"
 
@@ -1870,17 +1897,7 @@ msgstr "Estima ratele de transport maritim"
 msgid "Event After Add to Cart"
 msgstr "Eveniment Dupa Adaugă în Coș"
 
-#: admin/classes/class.options_machine.php:870
-#: admin/classes/class.options_machine.php:904
-msgid "Ex: 3 days ago, 5 hours ago, ..."
-msgstr "Ex: 3 zile, 5 ore, ..."
-
-#: admin/classes/class.options_machine.php:869
-#: admin/classes/class.options_machine.php:893
-msgid "Ex: Jonh in US purchased a"
-msgstr "Ex: Jonh în NOI achiziționat un"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:252
+#: admin/settings/nasa_07_3_product_detail_heading.php:253
 msgid "Extends Desktop"
 msgstr "Se Extinde Desktop"
 
@@ -1902,15 +1919,15 @@ msgstr "În plus numele clasei"
 msgid "Fade"
 msgstr "Se estompeze"
 
-#: admin/settings/nasa_03_1_header_heading.php:452
+#: admin/settings/nasa_03_1_header_heading.php:454
 msgid "Fade In"
 msgstr "Fade In"
 
-#: admin/settings/nasa_03_1_header_heading.php:449
+#: admin/settings/nasa_03_1_header_heading.php:451
 msgid "Fade In Down"
 msgstr "Se Estompeze În Jos"
 
-#: admin/settings/nasa_03_1_header_heading.php:450
+#: admin/settings/nasa_03_1_header_heading.php:452
 msgid "Fade In Up"
 msgstr "Fade In Sus"
 
@@ -1976,8 +1993,8 @@ msgstr "Favicon Opțiuni"
 #: widgets/wg-nasa-product-filter-status.php:44
 #: widgets/wg-nasa-product-filter-status.php:276
 #: widgets/wg-nasa-product-filter-status.php:276
-#: woocommerce/loop/sale-flash.php:22
-#: woocommerce/single-product/sale-flash.php:22
+#: woocommerce/loop/sale-flash.php:26
+#: woocommerce/single-product/sale-flash.php:26
 msgid "Featured"
 msgstr "Recomandate"
 
@@ -2001,9 +2018,9 @@ msgstr "Filtru"
 msgid "Filter by"
 msgstr "Filtru de"
 
-#: widgets/wg-nasa-product-filter-multi-categories.php:37
-msgid "Filter by Multi Category"
-msgstr "Filtrați după mai multe categorii"
+#: widgets/wg-nasa-product-filter-alphabet.php:31
+msgid "Filter by Alphabet"
+msgstr "Filtrați după alfabet"
 
 #: widgets/wg-nasa-product-filter-price-list.php:25
 #: widgets/wg-nasa-product-filter-price.php:35
@@ -2018,7 +2035,7 @@ msgstr "Filtru de statutul"
 msgid "Filter by Tags"
 msgstr "Filtru de Tag-uri"
 
-#: woocommerce/archive-product.php:189
+#: woocommerce/archive-product.php:180
 msgid "Filter by:"
 msgstr "Filtru de:"
 
@@ -2027,12 +2044,12 @@ msgstr "Filtru de:"
 #: includes/nasa-mobile-bottom-bar.php:51
 #: includes/nasa-mobile-bottom-bar.php:53
 #: includes/nasa-sidebar-shop-side.php:61 includes/nasa-sidebar-shop-top.php:52
-#: woocommerce/archive-product.php:267 woocommerce/archive-product.php:354
-#: woocommerce/archive-product.php:398
+#: woocommerce/archive-product.php:257 woocommerce/archive-product.php:343
+#: woocommerce/archive-product.php:389
 msgid "Filters"
 msgstr "Filtre"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:269
+#: admin/settings/nasa_07_2_product_page_heading.php:277
 msgid "Fit Rows"
 msgstr "Se Potrivesc Rânduri"
 
@@ -2044,11 +2061,11 @@ msgstr "Flexibil - Meniu Redimensionarea (Desktop și Tabletă)"
 msgid "Flip Horizontal"
 msgstr "Flip Orizontal"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:196
+#: admin/settings/nasa_07_3_product_detail_heading.php:197
 msgid "Focus Main Image"
 msgstr "Focus Principal De Imagine"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:198
+#: admin/settings/nasa_07_3_product_detail_heading.php:199
 msgid "Focus main image after active variation product"
 msgstr "Focus principal de imagine după active variație produs"
 
@@ -2095,7 +2112,7 @@ msgstr "Greutate Font"
 msgid "Fontawesome icons"
 msgstr "Fontawesome icoane"
 
-#: admin/theme-admin.php:339
+#: admin/theme-admin.php:361
 msgid "Footer"
 msgstr "Subsol"
 
@@ -2103,11 +2120,11 @@ msgstr "Subsol"
 msgid "Footer Built-In Support (Widgets Builder)"
 msgstr "Subsol Built-In De Sprijin (Widget-Uri Constructor)"
 
-#: options/nasa-options.php:1423
+#: options/nasa-options.php:1458
 msgid "Footer Dark ( No.1 )"
 msgstr "Subsol Întunecat ( Nr. 1 )"
 
-#: options/nasa-options.php:1432
+#: options/nasa-options.php:1467
 msgid "Footer Dark ( No.2 )"
 msgstr "Subsol Întunecat ( No. 2 )"
 
@@ -2121,67 +2138,67 @@ msgstr "Subsol Global"
 msgid "Footer Layout"
 msgstr "Aspect Subsol"
 
-#: options/nasa-options.php:1285
+#: options/nasa-options.php:1320
 msgid "Footer Light 1 ( No.1 )"
 msgstr "Subsol Lumina 1 ( Nr. 1 )"
 
-#: options/nasa-options.php:1294
+#: options/nasa-options.php:1329
 msgid "Footer Light 1 ( No.2 )"
 msgstr "Subsol Lumina 1 ( No. 2 )"
 
-#: options/nasa-options.php:1303
+#: options/nasa-options.php:1338
 msgid "Footer Light 1 ( No.3 )"
 msgstr "Subsol Lumina 1 ( No. 3 )"
 
-#: options/nasa-options.php:1312
+#: options/nasa-options.php:1347
 msgid "Footer Light 1 ( No.4 )"
 msgstr "Subsol Lumina 1 ( No. 4 )"
 
-#: options/nasa-options.php:1321
+#: options/nasa-options.php:1356
 msgid "Footer Light 1 ( No.5 )"
 msgstr "Subsol Lumina 1 ( Nr. 5 )"
 
-#: options/nasa-options.php:1330
+#: options/nasa-options.php:1365
 msgid "Footer Light 1 ( No.6 )"
 msgstr "Subsol Lumina 1 ( Nr. 6 )"
 
-#: options/nasa-options.php:1340
+#: options/nasa-options.php:1375
 msgid "Footer Light 2 ( No.1 )"
 msgstr "Subsol Lumina 2 ( Nr. 1 )"
 
-#: options/nasa-options.php:1349
+#: options/nasa-options.php:1384
 msgid "Footer Light 2 ( No.2 )"
 msgstr "Subsol Lumina 2 ( Nr. 2 )"
 
-#: options/nasa-options.php:1358
+#: options/nasa-options.php:1393
 msgid "Footer Light 2 ( No.3 )"
 msgstr "Subsol Lumina 2 ( No 3 )"
 
-#: options/nasa-options.php:1367
+#: options/nasa-options.php:1402
 msgid "Footer Light 2 ( No.4 )"
 msgstr "Subsol Lumina 2 ( No. 4 )"
 
-#: options/nasa-options.php:1376
+#: options/nasa-options.php:1411
 msgid "Footer Light 2 ( No.5 )"
 msgstr "Subsol Lumina 2 ( Nr. 5 )"
 
-#: options/nasa-options.php:1385
+#: options/nasa-options.php:1420
 msgid "Footer Light 2 ( No.6 )"
 msgstr "Subsol Lumina 2 ( Nr. 6 )"
 
-#: options/nasa-options.php:1394
+#: options/nasa-options.php:1429
 msgid "Footer Light 2 ( No.7 )"
 msgstr "Subsol Lumina 2 ( Nr. 7 )"
 
-#: options/nasa-options.php:1404
+#: options/nasa-options.php:1439
 msgid "Footer Light 3 ( No.1 )"
 msgstr "Subsol 3 ( Nr. 1 )"
 
-#: options/nasa-options.php:1413
+#: options/nasa-options.php:1448
 msgid "Footer Light 3 ( No.2 )"
 msgstr "Subsol 3 ( No. 2 )"
 
-#: options/nasa-options.php:1442
+#: options/nasa-options.php:1477
 msgid "Footer Mobile"
 msgstr "Subsol Mobil"
 
@@ -2196,12 +2213,12 @@ msgstr "Subsol Aspect Mobil"
 msgid "Footer Options"
 msgstr "Opțiunile De Subsol"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:204
 #: admin/settings/nasa_07_3_product_detail_heading.php:205
+#: admin/settings/nasa_07_3_product_detail_heading.php:206
 msgid "Form Options"
 msgstr "Formularul De Opțiuni"
 
-#: admin/settings/nasa_03_1_header_heading.php:578
+#: admin/settings/nasa_03_1_header_heading.php:582
 msgid "Format Currency - Only Apply for WPML"
 msgstr "Format Valută - se Aplică Numai pentru WPML"
 
@@ -2209,11 +2226,11 @@ msgstr "Format Valută - se Aplică Numai pentru WPML"
 msgid "Free Shipping Bar - WooCommerce Advanced Free Shipping"
 msgstr "Transport Gratuit-Bar - WooCommerce Avansat Transport Gratuit"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:282
+#: admin/settings/nasa_07_2_product_page_heading.php:290
 msgid "Full"
 msgstr "Plin"
 
-#: admin/settings/nasa_03_1_header_heading.php:688
+#: admin/settings/nasa_03_1_header_heading.php:701
 #: admin/settings/nasa_09_promo_popup_heading.php:100
 msgid "Full Width"
 msgstr "Lățime Completă"
@@ -2238,20 +2255,20 @@ msgstr "Fullwidth Meniul Principal"
 msgid "Gallery - Carousel"
 msgstr "Galerie - Carusel"
 
-#: admin/settings/nasa_01_general_heading.php:186
+#: admin/settings/nasa_01_general_heading.php:273
 msgid "GDPR Notice"
 msgstr "RGPD Observa"
 
-#: admin/settings/nasa_01_general_heading.php:180
-#: admin/settings/nasa_01_general_heading.php:181
+#: admin/settings/nasa_01_general_heading.php:267
+#: admin/settings/nasa_01_general_heading.php:268
 msgid "GDPR Options"
 msgstr "RGPD Opțiuni"
 
-#: admin/settings/nasa_01_general_heading.php:193
+#: admin/settings/nasa_01_general_heading.php:280
 msgid "GDPR Policies Link"
 msgstr "RGPD Politici Link"
 
-#: cores/nasa-theme-footers.php:817
+#: cores/nasa-theme-footers.php:855
 #: admin/settings/nasa_01_general_heading.php:12
 msgid "General"
 msgstr "General"
@@ -2288,7 +2305,7 @@ msgstr "DU-TE LA ACASĂ"
 msgid "Go to Theme Options"
 msgstr "Du-te la Opțiuni de Temă"
 
-#: woocommerce/single-product-reviews.php:128
+#: woocommerce/single-product-reviews.php:147
 msgid "Good"
 msgstr "Buna"
 
@@ -2296,7 +2313,7 @@ msgstr "Buna"
 msgid "Google font"
 msgstr "Google font"
 
-#: admin/settings/nasa_01_general_heading.php:97
+#: admin/settings/nasa_01_general_heading.php:166
 msgid "Gray Effect"
 msgstr "Gri Efect"
 
@@ -2330,7 +2347,7 @@ msgstr "Grila"
 msgid "Grid Products - Options"
 msgstr "Grila De Produse - Opțiuni"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:256
+#: admin/settings/nasa_07_2_product_page_heading.php:264
 msgid "Grid Rows"
 msgstr "Grila Rânduri"
 
@@ -2343,7 +2360,7 @@ msgstr "Aveți un cod promoțional?"
 msgid "Have a coupon?"
 msgstr "Am un cupon de reducere?"
 
-#: admin/theme-admin.php:335
+#: admin/theme-admin.php:357
 msgid "Header"
 msgstr "Antet"
 
@@ -2360,11 +2377,11 @@ msgid "Header Global"
 msgstr "Antet Global"
 
 #: cores/nasa-theme-options.php:220
-#: admin/settings/nasa_03_1_header_heading.php:396
+#: admin/settings/nasa_03_1_header_heading.php:398
 msgid "Header Icons"
 msgstr "Antet Icoane"
 
-#: admin/settings/nasa_03_1_header_heading.php:406
+#: admin/settings/nasa_03_1_header_heading.php:408
 msgid "Header Icons - Sticky"
 msgstr "Antet Icoane - Lipicios"
 
@@ -2372,11 +2389,11 @@ msgstr "Antet Icoane - Lipicios"
 msgid "Header icons Cart | Wishlist | Compare"
 msgstr "Pictograme antet Coș | Lista de dorințe | Comparaţie"
 
-#: admin/settings/nasa_03_1_header_heading.php:416
+#: admin/settings/nasa_03_1_header_heading.php:418
 msgid "Header Icons Hover"
 msgstr "Antet Plutesc"
 
-#: admin/settings/nasa_03_1_header_heading.php:426
+#: admin/settings/nasa_03_1_header_heading.php:428
 msgid "Header Icons Hover - Sticky"
 msgstr "Antet Icoane Hover - Lipicios"
 
@@ -2433,7 +2450,7 @@ msgstr "Înălțime - Lipicios Logo-Ul"
 msgid "Height For Mobile"
 msgstr "Înălțime Pentru Mobil"
 
-#: cores/nasa-woo-functions.php:141
+#: cores/nasa-woo-functions.php:123
 #, php-format
 msgid "Hello, %s!"
 msgstr "Buna ziua, %s!"
@@ -2446,7 +2463,7 @@ msgstr "Helvetica"
 msgid "Hide \"View Cart\" Button in Mini Cart"
 msgstr "Ascunde \"Vezi Coș produsul\" Buton în Mini Coș"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:342
+#: admin/settings/nasa_07_3_product_detail_heading.php:343
 msgid "Hide Additional Information Tab"
 msgstr "Ascunde Informații Suplimentare Tab"
 
@@ -2487,7 +2504,7 @@ msgstr ""
 msgid "Home"
 msgstr "Acasă"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:108
+#: admin/settings/nasa_07_3_product_detail_heading.php:109
 msgid "Horizontal"
 msgstr "Orizontală"
 
@@ -2495,7 +2512,7 @@ msgstr "Orizontală"
 msgid "Hover - Product Card Styles - Effect"
 msgstr "Hover - Produsul Card De Stiluri - Efect"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:181
+#: admin/settings/nasa_07_3_product_detail_heading.php:182
 msgid "Hover Zoom Image"
 msgstr "Hover Zoom Imagine"
 
@@ -2517,7 +2534,7 @@ msgstr "https://elessi.nasatheme.com"
 msgid "https://nasatheme.com"
 msgstr "https://nasatheme.com"
 
-#: cores/nasa-woo-actions.php:1178 cores/nasa-woo-actions.php:1200
+#: cores/nasa-woo-actions.php:1185 cores/nasa-woo-actions.php:1208
 msgid "Hurry up! Sale end in:"
 msgstr "Grăbește-te! Vanzare end în:"
 
@@ -2529,7 +2546,7 @@ msgstr "Am 18 ani sau mai în vârstă"
 msgid "I am under 18"
 msgstr "Am sub 18 ani"
 
-#: searchform.php:40 searchform.php:131
+#: searchform.php:41 searchform.php:132
 msgid "I'm shopping for ..."
 msgstr "Eu sunt de cumpărături pentru ..."
 
@@ -2552,7 +2569,7 @@ msgstr ""
 "aleatoriu și rolul noului utilizator va fi setat ca %s. Va fi necesară "
 "modificarea manuală a detaliilor noului utilizator."
 
-#: admin/settings/nasa_03_1_header_heading.php:467
+#: admin/settings/nasa_03_1_header_heading.php:469
 msgid "If Turn on, the live search Ajax feature will be lost"
 msgstr "Dacă activați, live search Ajax caracteristică va fi pierdut"
 
@@ -2560,13 +2577,23 @@ msgstr "Dacă activați, live search Ajax caracteristică va fi pierdut"
 msgid "If you have a coupon code, please apply it below."
 msgstr "Dacă aveți un cod promoțional, vă rugăm să-l aplice de mai jos."
 
-#: woocommerce/checkout/form-login.php:24
+#: woocommerce/checkout/form-login.php:25
 msgid ""
 "If you have shopped with us before, please enter your details below. If you "
 "are a new customer, please proceed to the Billing section."
 msgstr ""
 "Daca ai cumparat cu noi, vă rugăm să introduceți detaliile de mai jos. Dacă "
 "sunteți un client nou, vă rugăm să treceți la secțiunea de Facturare."
+
+#: admin/settings/nasa_01_general_heading.php:221
+msgid ""
+"If you skip this field notification will be default \"😁😁 Come back! | "
+"❤️‍🔥❤️‍🔥 Don't forget this ...\". If you want to add more notifications, you "
+"just need to add \"|\" between notifications."
+msgstr ""
+"Dacă sări peste acest câmp, notificarea va fi implicită \"😁😁 Come back! | "
+"❤️‍🔥❤️‍🔥 Don't forget this ...\". Dacă doriți să adăugați mai multe "
+"notificări, trebuie doar să adăugați „|” între notificări."
 
 #: cores/nasa-theme-options.php:279 cores/nasa-theme-options.php:299
 msgid ""
@@ -2593,11 +2620,11 @@ msgstr "URL-ul imaginii"
 msgid "Images"
 msgstr "Imagini"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:74
+#: admin/settings/nasa_07_3_product_detail_heading.php:75
 msgid "Images Columns"
 msgstr "Imagini Coloane"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:88
+#: admin/settings/nasa_07_3_product_detail_heading.php:89
 msgid "Images Style"
 msgstr "Imagini Stil"
 
@@ -2668,25 +2695,29 @@ msgstr "În stoc"
 msgid "In Topbar - Header"
 msgstr "În Topbar - Antet"
 
-#: admin/settings/nasa_05_type_heading.php:341
-msgid "Include FontAwesome 5 (Note: You only can use Free icons)"
-msgstr "Include FontAwesome 5 (Notă: numai pot utiliza Gratuit icoane)"
+#: admin/settings/nasa_01_general_heading.php:211
+msgid "Inactive Tab"
+msgstr "Fila inactivă"
 
-#: admin/settings/nasa_01_general_heading.php:243
+#: admin/settings/nasa_01_general_heading.php:219
+msgid "Inactive Tab Notification Content"
+msgstr "Conținut de notificare din fila inactivă"
+
+#: admin/settings/nasa_01_general_heading.php:330
 msgid "Include Theme Version when call css files"
 msgstr "Include Versiunea Temă atunci când apel în fișiere css"
 
-#: admin/settings/nasa_01_general_heading.php:250
+#: admin/settings/nasa_01_general_heading.php:337
 msgid "Include Theme Version when call js files"
 msgstr "Include Versiunea Temă atunci când apel js fișiere"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:283
+#: admin/settings/nasa_07_2_product_page_heading.php:291
 msgid "Infinite - Only using for Ajax"
 msgstr "Infinit - folosind Doar pentru Ajax"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:614
-#: admin/settings/nasa_07_3_product_detail_heading.php:150
-#: admin/settings/nasa_07_3_product_detail_heading.php:502
+#: admin/settings/nasa_07_3_product_detail_heading.php:151
+#: admin/settings/nasa_07_3_product_detail_heading.php:534
 msgid "Infinite Slide"
 msgstr "Infinit Slide"
 
@@ -2694,7 +2725,7 @@ msgstr "Infinit Slide"
 msgid "Infinite Slide In Quickview"
 msgstr "Infinit Glisați În Quickview"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:125
+#: admin/settings/nasa_07_3_product_detail_heading.php:126
 msgid "Infomations Columns"
 msgstr "Infomations Coloane"
 
@@ -2770,7 +2801,7 @@ msgstr "Instalarea Plugin-ului: %s"
 msgid "Invalid file type"
 msgstr "Invalid tip de fișier"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:263
+#: admin/settings/nasa_07_2_product_page_heading.php:271
 msgid "Isotope Layout Mode"
 msgstr "Izotop Modul Layout"
 
@@ -2793,7 +2824,7 @@ msgstr "Elemente"
 msgid "items"
 msgstr "elemente"
 
-#: admin/settings/nasa_03_1_header_heading.php:561
+#: admin/settings/nasa_03_1_header_heading.php:565
 msgid "Languages Switcher"
 msgstr "Limbi Switcher"
 
@@ -2809,7 +2840,7 @@ msgstr "Mare Distanța"
 msgid "Last Backup : "
 msgstr "Ultima copie de rezervă:"
 
-#: cores/nasa-woo-functions.php:1725
+#: cores/nasa-woo-functions.php:1881
 msgid "Latest"
 msgstr "Cele mai recente"
 
@@ -2839,18 +2870,18 @@ msgstr "Opțiuni De Aspect"
 msgid "Layout Single or Double rows."
 msgstr "Layout simplu sau Dublu rânduri."
 
-#: admin/settings/nasa_07_2_product_page_heading.php:251
+#: admin/settings/nasa_07_2_product_page_heading.php:259
 msgid "Layout Style"
 msgstr "Stil De Aspect"
 
 #. %s is product title
-#: woocommerce/single-product-reviews.php:91
+#: woocommerce/single-product-reviews.php:107
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Lasă un Răspuns pentru %s"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:99
-#: admin/settings/nasa_07_3_product_detail_heading.php:312
+#: admin/settings/nasa_07_3_product_detail_heading.php:313
 msgid "Left"
 msgstr "Stânga"
 
@@ -2869,12 +2900,12 @@ msgstr "Bara Laterală Stânga - Clasic"
 msgid "Left Sidebar - Off-canvas"
 msgstr "Bara Laterală stânga - Off-panza"
 
-#: admin/settings/nasa_03_1_header_heading.php:451
+#: admin/settings/nasa_03_1_header_heading.php:453
 #: admin/settings/nasa_07_1_product_global_heading.php:57
 msgid "Left To Right"
 msgstr "De La Stânga La Dreapta"
 
-#: woocommerce/archive-product.php:191
+#: woocommerce/archive-product.php:182
 msgid "Less -"
 msgstr "Mai puțin -"
 
@@ -2906,15 +2937,15 @@ msgstr "Lumina"
 msgid "Light Mode"
 msgstr "Modul De Lumină"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:189
+#: admin/settings/nasa_07_3_product_detail_heading.php:190
 msgid "Lightbox Image"
 msgstr "Imagine Lightbox"
 
-#: admin/settings/nasa_03_1_header_heading.php:668
+#: admin/settings/nasa_03_1_header_heading.php:672
 msgid "Limit Posts"
 msgstr "Limita De Posturi"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:236
+#: admin/settings/nasa_07_2_product_page_heading.php:244
 msgid "Limit Products Per Page"
 msgstr "Limita De Produse Pe Pagina"
 
@@ -2924,8 +2955,8 @@ msgstr ""
 "Limita de widget-uri pentru a arăta mai mult. (Input \"Toate\" va fi show-"
 "toate widget-uri)"
 
-#: woocommerce/loop/sale-flash.php:68
-#: woocommerce/single-product/sale-flash.php:69
+#: woocommerce/loop/sale-flash.php:77
+#: woocommerce/single-product/sale-flash.php:78
 msgid "Limited"
 msgstr "Limitat"
 
@@ -2937,9 +2968,9 @@ msgstr "Link-ul URL-ul (opțional)"
 msgid "Links"
 msgstr "Link-uri"
 
-#: includes/nasa-change-view.php:317 includes/nasa-change-view.php:320
+#: includes/nasa-change-view.php:322 includes/nasa-change-view.php:325
 #: admin/settings/nasa_07_2_product_page_heading.php:118
-#: admin/settings/nasa_07_2_product_page_heading.php:184
+#: admin/settings/nasa_07_2_product_page_heading.php:192
 #: admin/settings/nasa_08_blog_heading.php:54
 msgid "List"
 msgstr "Lista"
@@ -2948,32 +2979,32 @@ msgstr "Lista"
 msgid "List - 2 Columns"
 msgstr "Lista - 2 coloane"
 
-#: includes/nasa-change-view.php:305
+#: includes/nasa-change-view.php:310
 msgid "List 2"
 msgstr "Lista 2"
 
-#: includes/nasa-change-view.php:302
-#: admin/settings/nasa_07_2_product_page_heading.php:185
+#: includes/nasa-change-view.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:193
 msgid "List 2 Columns"
 msgstr "Lista 2 coloane"
 
-#: admin/settings/nasa_01_general_heading.php:233
+#: admin/settings/nasa_01_general_heading.php:320
 msgid "List Files JS Delay - Delay JavaScript Execution"
 msgstr "Lista de Fișiere, JS delay - Întârziere de Execuție JavaScript"
 
-#: admin/settings/nasa_03_1_header_heading.php:472
+#: admin/settings/nasa_03_1_header_heading.php:474
 msgid "Live Search Ajax Products"
 msgstr "Live Search Ajax Produse"
 
-#: admin/settings/nasa_03_1_header_heading.php:511
+#: admin/settings/nasa_03_1_header_heading.php:497
 msgid "Live Search Layout - (Header type 1, 2, 5, 7)"
 msgstr "Live Search Layout - (Antet de tip 1, 2, 5, 7)"
 
-#: admin/settings/nasa_01_general_heading.php:208
+#: admin/settings/nasa_01_general_heading.php:295
 msgid "Load Css Canvas"
 msgstr "Sarcina Css Panza"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:284
+#: admin/settings/nasa_07_2_product_page_heading.php:292
 msgid "Load More - Only using for Ajax"
 msgstr "Încărcați Mai multe - Doar folosind pentru Ajax"
 
@@ -2981,12 +3012,12 @@ msgstr "Încărcați Mai multe - Doar folosind pentru Ajax"
 msgid "LOAD MORE ..."
 msgstr "ÎNCĂRCAȚI MAI MULTE ..."
 
-#: woocommerce/global/form-login.php:50
+#: woocommerce/global/form-login.php:52
 msgid "Login"
 msgstr "Login"
 
 #: cores/nasa-theme-headers.php:334 cores/nasa-theme-headers.php:477
-#: cores/nasa-woo-functions.php:103 cores/nasa-woo-functions.php:103
+#: cores/nasa-woo-functions.php:85 cores/nasa-woo-functions.php:85
 msgid "Login / Register"
 msgstr "Login / Register"
 
@@ -3011,7 +3042,7 @@ msgstr "Logo-ul și Favicon"
 msgid "Logo Options"
 msgstr "Logo-Ul Opțiuni"
 
-#: woocommerce/global/form-login.php:43
+#: woocommerce/global/form-login.php:45
 msgid "Lost your password?"
 msgstr "Pierdut parola?"
 
@@ -3023,7 +3054,7 @@ msgstr "Pierdut?"
 msgid "Main Image"
 msgstr "Imagine Principal"
 
-#: functions.php:100
+#: functions.php:101
 msgid "Main Menu"
 msgstr "Meniul Principal"
 
@@ -3056,11 +3087,11 @@ msgstr "Navigarea principală"
 msgid "Manage Your Items List"
 msgstr "Gestionați Lista De Articole"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:268
+#: admin/settings/nasa_07_2_product_page_heading.php:276
 msgid "Masonry"
 msgstr "Zidărie"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:257
+#: admin/settings/nasa_07_2_product_page_heading.php:265
 #: admin/settings/nasa_08_blog_heading.php:56
 msgid "Masonry Isotope"
 msgstr "Zidărie Izotop"
@@ -3074,13 +3105,13 @@ msgstr "Zidărie Izotop - Grid - stil de Blog"
 msgid "Max Depth Level - Top Filter Categories"
 msgstr "Adâncime Maximă De Nivel De Top Filtrul Categorii"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:415
+#: admin/settings/nasa_07_3_product_detail_heading.php:418
 msgid "Max files Comments Images upload"
 msgstr "Max fișiere Comentarii Imagini de încărcare"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "max files:"
-msgstr "max fișiere:"
+#: admin/settings/nasa_07_3_product_detail_heading.php:443
+msgid "Max files Comments Video upload"
+msgstr "Max fișiere Comentarii Încărcare video"
 
 #: admin/settings/nasa_02_logo_icon_heading.php:56
 msgid "Max Height - Logo"
@@ -3094,6 +3125,12 @@ msgstr "Inaltime Max - Lipicios Logo-Ul"
 msgid "Max Height Logo - Mobile"
 msgstr "Inaltime Max Logo - Mobile"
 
+#: cores/nasa-woo-functions.php:2355
+#, php-format
+#| msgid "Max size allowed: %s kB"
+msgid "Max image size allowed: %s kB"
+msgstr "Dimensiunea maximă permisă: %s kB"
+
 #: woocommerce/content-widget-price-filter.php:28
 msgid "Max price"
 msgstr "Max preț"
@@ -3106,23 +3143,42 @@ msgstr "Max gamele de preț"
 msgid "Max products compare"
 msgstr "Max produse compara"
 
-#: cores/nasa-woo-functions.php:2141
-#, php-format
-msgid "Max size allowed: %s kB"
-msgstr "Dimensiunea maximă permisă: %s kB"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:422
+#: admin/settings/nasa_07_3_product_detail_heading.php:427
 msgid "Max Size Comments Images upload (kb)"
 msgstr "Dimensiune Max Comentarii Imagini de încărcare (kb)"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "max size:"
-msgstr "dimensiune max:"
+#: admin/settings/nasa_07_3_product_detail_heading.php:452
+msgid "Max Size Comments Video upload (kb)"
+msgstr "Dimensiune maximă Comentarii Încărcare video (kb)"
 
-#: cores/nasa-woo-functions.php:2115
+#: cores/nasa-woo-functions.php:2410
 #, php-format
-msgid "Maximum number of files allowed is: %s file(s)"
+msgid "Max video size allowed: %s kB"
+msgstr "Dimensiunea maximă a videoclipului permisă: %s kB"
+
+#: cores/nasa-woo-functions.php:2283
+#, php-format
+msgid "Maximum file size is %s kB, max %s file"
+msgid_plural "Maximum file size is %s kB, max %s files"
+msgstr[0] "Dimensiunea maximă a fișierului este %s kB, maxim %s fișier"
+msgstr[1] "Dimensiunea maximă a fișierului este %s kB, maxim %s fișier"
+msgstr[2] "Dimensiunea maximă a fișierului este %s kB, maxim %s fișier"
+
+#: cores/nasa-woo-functions.php:2237
+#, php-format
+msgid "Maximum file size is %s kB, max %s files"
+msgstr "Dimensiunea maximă a fișierului este %s kB, maxim %s fișiere"
+
+#: cores/nasa-woo-functions.php:2329
+#, php-format
+#| msgid "Maximum number of files allowed is: %s file(s)"
+msgid "Maximum number of image files allowed is: %s file(s)"
 msgstr "Numărul maxim de fișiere permise este: %s fișierul(e)"
+
+#: cores/nasa-woo-functions.php:2384
+#, php-format
+msgid "Maximum number of video files allowed is: %s file(s)"
+msgstr "Numărul maxim de fișiere video permise este: %s fișier(e)"
 
 #: cores/nasa-theme-options.php:55
 msgid "Medium"
@@ -3145,6 +3201,10 @@ msgstr "Element de meniu sarit din cauza invalid menu slug: %s"
 msgid "Menu item skipped due to missing menu slug"
 msgstr "Element de meniu sarit din cauza lipsei de meniu slug"
 
+#: cores/nasa-custom-wc-ajax.php:868
+msgid "Menu Map"
+msgstr "Harta meniului"
+
 #: admin/settings/nasa_03_1_header_heading.php:100
 #: admin/settings/nasa_03_1_header_heading.php:101
 msgid "Menu Options"
@@ -3155,15 +3215,15 @@ msgstr "Opțiuni De Meniu"
 msgid "Meta Info - Blog Style"
 msgstr "Meta Info - Blog De Stil"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:390
+#: admin/settings/nasa_07_3_product_detail_heading.php:391
 msgid "Meta Infomations (SKU, Categories, Tags, etc...)"
 msgstr "Meta Infomations (SKU, Categorii, Tag-uri, etc...)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:397
+#: admin/settings/nasa_07_3_product_detail_heading.php:398
 msgid "Meta Infomations Position"
 msgstr "Meta Infomations Poziția"
 
-#: cores/nasa-woo-actions.php:1544
+#: cores/nasa-woo-actions.php:1552
 msgid "Method"
 msgstr "Metoda"
 
@@ -3222,7 +3282,7 @@ msgid "Mobile Bottom Bar Options"
 msgstr "Mobile De Jos Bara De Opțiuni"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:595
-#: admin/settings/nasa_07_2_product_page_heading.php:213
+#: admin/settings/nasa_07_2_product_page_heading.php:221
 msgid "Mobile Columns"
 msgstr "Coloane Mobile"
 
@@ -3261,7 +3321,7 @@ msgstr "Mobile Singur Produs Opțiuni"
 msgid "Mode"
 msgstr "Modul"
 
-#: admin/settings/nasa_03_1_header_heading.php:517
+#: admin/settings/nasa_03_1_header_heading.php:503
 msgid "Modern"
 msgstr "Modern"
 
@@ -3278,11 +3338,11 @@ msgstr "Moderne - Nici Antet, Nici Subsol"
 msgid "Monthly Archives: %s"
 msgstr "Arhive lunare: %s"
 
-#: woocommerce/archive-product.php:190
+#: woocommerce/archive-product.php:181
 msgid "More +"
 msgstr "Mai mult +"
 
-#: options/nasa-options.php:758
+#: options/nasa-options.php:779
 msgid "More Results"
 msgstr "Mai Multe Rezultate"
 
@@ -3291,24 +3351,29 @@ msgid "Move To Top"
 msgstr "Trece La Partea De Sus"
 
 #: cores/nasa-theme-headers.php:334 cores/nasa-theme-headers.php:477
-#: cores/nasa-woo-functions.php:115 cores/nasa-woo-functions.php:115
+#: cores/nasa-woo-functions.php:97 cores/nasa-woo-functions.php:97
 #: woocommerce/checkout/thankyou.php:35
 msgid "My Account"
 msgstr "Contul Meu"
 
-#: cores/nasa-theme-footers.php:311
+#: cores/nasa-theme-footers.php:342
 msgid "My Cart"
 msgstr "Cosul Meu"
 
-#: cores/nasa-custom-wc-ajax.php:1056 woocommerce/single-product/meta.php:25
+#: cores/nasa-custom-wc-ajax.php:1097 woocommerce/single-product/meta.php:25
 msgid "N/A"
 msgstr "N/A"
 
 #: widgets/wg-nasa-product-categories.php:72
-#: woocommerce/single-product-reviews.php:96
+#: woocommerce/single-product-reviews.php:112
+#: woocommerce/single-product-reviews.php:113
 #: admin/settings/nasa_07_1_product_global_heading.php:352
 msgid "Name"
 msgstr "Numele"
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Name *"
+msgstr "Nume *"
 
 #: widgets/wg-nasa-product-filter-price.php:31
 msgid "Nasa - Filter Product by Price (slide)"
@@ -3334,8 +3399,8 @@ msgstr "NasaTheme Listei De Caracteristici"
 msgid "Never expire"
 msgstr "Nu expiră niciodată"
 
-#: woocommerce/loop/sale-flash.php:33
-#: woocommerce/single-product/sale-flash.php:33
+#: woocommerce/loop/sale-flash.php:42
+#: woocommerce/single-product/sale-flash.php:42
 msgid "New"
 msgstr "Noi"
 
@@ -3373,7 +3438,11 @@ msgstr "URMĂTOAREA"
 msgid "Next &rarr;"
 msgstr "Următoarea →"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:376
+#: cores/nasa-theme-footers.php:866
+msgid "Next (arrow right)"
+msgstr "Următorul (săgeată la dreapta)"
+
+#: admin/settings/nasa_07_3_product_detail_heading.php:377
 msgid "Next - Previous Product"
 msgstr "Next - Produsul Anterior"
 
@@ -3390,7 +3459,7 @@ msgstr "Următorul <span class=\"meta-nav\">&rarr;</span>"
 #: admin/settings/nasa_03_1_header_heading.php:275
 #: admin/settings/nasa_07_1_product_global_heading.php:384
 #: admin/settings/nasa_07_1_product_global_heading.php:518
-#: admin/settings/nasa_07_2_product_page_heading.php:293
+#: admin/settings/nasa_07_2_product_page_heading.php:301
 msgid "No"
 msgstr "Nu"
 
@@ -3404,7 +3473,7 @@ msgstr "Nu măsurile luate. Plugin-ul %1$s a fost deja activ."
 msgid "No backups yet."
 msgstr "Nici copii de rezervă încă."
 
-#: admin/settings/nasa_03_1_header_heading.php:453
+#: admin/settings/nasa_03_1_header_heading.php:455
 #: admin/settings/nasa_07_1_product_global_heading.php:60
 msgid "No Effect"
 msgstr "Nici Un Efect"
@@ -3444,22 +3513,22 @@ msgstr ""
 msgid "No product added to compare !"
 msgstr "Nici un produs nu a adăugat pentru a compara !"
 
-#: cores/nasa-woo-functions.php:1399 widgets/wg-nasa-product-brands.php:251
+#: cores/nasa-woo-functions.php:1555 widgets/wg-nasa-product-brands.php:251
 #: widgets/wg-nasa-product-categories.php:451
 msgid "No product categories exist."
 msgstr "Nu există categorii de produse exista."
 
-#: woocommerce/cart/mini-cart.php:205
+#: woocommerce/cart/mini-cart.php:211
 msgid "No products in the cart."
 msgstr "Nu sunt produse in cos."
 
-#: includes/nasa-sidebar-wishlist_content.php:89
-#: includes/nasa-sidebar-wishlist_content.php:210
-#: includes/nasa-sidebar-wishlist_html.php:94
+#: includes/nasa-sidebar-wishlist_content.php:92
+#: includes/nasa-sidebar-wishlist_content.php:213
+#: includes/nasa-sidebar-wishlist_html.php:96
 msgid "No products in the wishlist."
 msgstr "Nici produsele în wishlist."
 
-#: woocommerce/loop/no-products-found.php:21
+#: woocommerce/loop/no-products-found.php:19
 msgid "No products were found matching your selection."
 msgstr "Produsele nu au fost găsite de potrivire dumneavoastră de selecție."
 
@@ -3501,7 +3570,7 @@ msgid "No vendor found!"
 msgstr "Nu furnizor de găsit!"
 
 #: cores/nasa-theme-options.php:36 admin/classes/class.options_machine.php:434
-#: admin/settings/nasa_01_general_heading.php:98
+#: admin/settings/nasa_01_general_heading.php:167
 msgid "None"
 msgstr "Nici unul"
 
@@ -3514,7 +3583,6 @@ msgid "Not a member? "
 msgstr "Nu e un membru?"
 
 #: woocommerce/loop/no-products-found.php:17
-#: woocommerce/loop/no-products-found.php:19
 msgid "Not Found Products"
 msgstr "Nu A Fost Găsit De Produse"
 
@@ -3535,23 +3603,23 @@ msgstr ""
 msgid "Not Set"
 msgstr "Nu Set"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:251
+#: admin/settings/nasa_07_3_product_detail_heading.php:252
 msgid "Not Show"
 msgstr "Nu Arată"
 
-#: woocommerce/single-product-reviews.php:130
+#: woocommerce/single-product-reviews.php:149
 msgid "Not that bad"
 msgstr "Nu așa de rău"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:265
+#: admin/settings/nasa_07_3_product_detail_heading.php:266
 msgid "Not use Mobile App - Simulator"
 msgstr "Nu utilizați Mobile App - Simulator"
 
-#: cores/nasa-woo-actions.php:2486 includes/nasa-mini-cart-note.php:20
+#: cores/nasa-woo-actions.php:2494 includes/nasa-mini-cart-note.php:20
 msgid "Note"
 msgstr "Notă"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:274
+#: admin/settings/nasa_07_3_product_detail_heading.php:275
 msgid ""
 "Note: Consider disabling this feature if you are using a third-party plugin "
 "developed for the Add to Cart feature in the Single Product Page!"
@@ -3560,7 +3628,7 @@ msgstr ""
 "utilizați un plug-in terț dezvoltat pentru a Adăuga la Coș caracteristică în "
 "Pagina Singur Produs!"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:245
+#: admin/settings/nasa_07_2_product_page_heading.php:253
 msgid "Note: don't using for Sidebar Off-canvas and Toggle Sidebar Classic"
 msgstr ""
 "Notă: nu utilizați pentru bara Laterală Off-panza și de a Comuta bara "
@@ -3593,7 +3661,7 @@ msgstr "Categorii de numere"
 msgid "Number for related blog"
 msgstr "Numărul legate de blog"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:450
+#: admin/settings/nasa_07_3_product_detail_heading.php:482
 msgid "Number for related products"
 msgstr "Numărul de produse conexe"
 
@@ -3642,7 +3710,7 @@ msgstr "Pe Lista De Așteptare"
 msgid "On Sale"
 msgstr "Pe De Vânzare"
 
-#: cores/nasa-woo-actions.php:1093
+#: cores/nasa-woo-actions.php:1100
 #, php-format
 msgid "Only %s item(s) left in stock."
 msgstr "Doar %s element(e) rămas în stoc."
@@ -3651,7 +3719,7 @@ msgstr "Doar %s element(e) rămas în stoc."
 msgid "Only Display 1 Time"
 msgstr "Afișa Doar 1 Data"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:152
+#: admin/settings/nasa_07_3_product_detail_heading.php:153
 msgid ""
 "Only effective for style 1, style 2(Images style : slide images), style 6 "
 "and style 7"
@@ -3659,18 +3727,23 @@ msgstr ""
 "Eficient doar pentru stil 1, stil 2(Imagini stil : imagini de diapozitive), "
 "stil 6 și 7 stil"
 
-#: cores/nasa-woo-functions.php:2155
-msgid "Only format accepted: JPG, JPEG, BMP, PNG or GIF"
-msgstr "Singurul format acceptat: JPG, JPEG, BMP, PNG sau GIF"
+#: cores/nasa-woo-functions.php:2369
+#| msgid "Only format accepted: JPG, JPEG, BMP, PNG or GIF"
+msgid "Only format image accepted: JPG, JPEG, BMP, PNG, GIF"
+msgstr "Singurul format acceptat: JPG, JPEG, BMP, PNG, GIF"
 
-#: woocommerce/single-product-reviews.php:142
+#: cores/nasa-woo-functions.php:2424
+msgid "Only format video accepted: MP4, AVI, MPEG, MOV"
+msgstr "Doar format video acceptat: MP4, AVI, MPEG, MOV"
+
+#: woocommerce/single-product-reviews.php:168
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
 "Doar conectat la clienții care au achiziționat acest produs poate lăsa un "
 "comentariu."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:256
+#: admin/settings/nasa_07_3_product_detail_heading.php:257
 msgid "Only Show Buttons"
 msgstr "Arată Doar Butoanele"
 
@@ -3707,10 +3780,11 @@ msgstr "Deschide"
 msgid "Open Cart Sidebar"
 msgstr "Deschide Bara Laterală"
 
-#: includes/nasa-single-product-full.php:44
-#: includes/nasa-single-product-modern-1.php:31
-#: includes/nasa-single-product-modern-2.php:31
-#: includes/nasa-single-product-modern-3.php:31
+#: includes/nasa-single-product-full.php:46
+#: includes/nasa-single-product-modern-1.php:33
+#: includes/nasa-single-product-modern-2.php:33
+#: includes/nasa-single-product-modern-3.php:33
+#: includes/nasa-single-product-modern-4.php:36
 #: includes/nasa-single-product-new-2.php:15
 #: includes/nasa-single-product-new.php:42
 msgid "Open Sidebar"
@@ -3777,11 +3851,7 @@ msgstr "Comanda Meniu Mobil"
 msgid "Out of stock"
 msgstr "Din stoc"
 
-#: woocommerce/single-product-reviews.php:49
-msgid "Overall"
-msgstr "În general"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:116
+#: admin/settings/nasa_07_3_product_detail_heading.php:117
 msgid "Overflows: + 0.5 items"
 msgstr "Se revarsă: + 0.5 elemente"
 
@@ -3793,7 +3863,7 @@ msgstr "Vezi pagina compara produse"
 msgid "Pages:"
 msgstr "Pagini:"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:276
+#: admin/settings/nasa_07_2_product_page_heading.php:284
 msgid "Pagination Layout"
 msgstr "Aspect Paginare"
 
@@ -3803,7 +3873,7 @@ msgstr "Palatino"
 
 #: includes/nasa-login-register-form.php:78
 #: includes/nasa-login-register-form.php:146
-#: woocommerce/global/form-login.php:29
+#: woocommerce/global/form-login.php:31
 msgid "Password"
 msgstr "Parola"
 
@@ -3823,7 +3893,7 @@ msgstr "PLATA"
 msgid "Payment Method"
 msgstr "Metoda De Plata"
 
-#: cores/nasa-woo-actions.php:1597
+#: cores/nasa-woo-actions.php:1605
 msgid "Payment Methods"
 msgstr "Metode De Plată"
 
@@ -3831,36 +3901,27 @@ msgstr "Metode De Plată"
 msgid "Pe7s icons"
 msgstr "Pe7s icoane"
 
-#: woocommerce/single-product-reviews.php:127
+#: woocommerce/single-product-reviews.php:146
 msgid "Perfect"
 msgstr "Perfect"
 
-#: admin/settings/nasa_01_general_heading.php:203
+#: admin/settings/nasa_01_general_heading.php:290
 msgid "Performance - Assets"
 msgstr "Performanță - Active"
 
-#: cores/nasa-woo-actions.php:1711
+#: cores/nasa-woo-actions.php:1719
 msgid "Phone"
 msgstr "Telefon"
 
-#: cores/nasa-woo-actions.php:1504
+#: cores/nasa-woo-actions.php:1512
 msgid "Phone incorrect format."
 msgstr "Telefon format incorect."
-
-#: cores/nasa-woo-functions.php:2076
-msgid "Pictures"
-msgstr "Poze"
-
-#: cores/nasa-woo-functions.php:2075
-#, php-format
-msgid "Pictures (max size: %s kB, max files: %s)"
-msgstr "Poze (max dimensiune: %s kB, max fișiere: %s)"
 
 #: cores/nasa-theme-functions.php:916
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: cores/nasa-woo-functions.php:1094
+#: cores/nasa-woo-functions.php:1246
 msgid "Play Video"
 msgstr "Play Video"
 
@@ -3884,15 +3945,15 @@ msgstr ""
 "Vă rugăm să contactați furnizorul plugin-ului și să le cereți să pachetului "
 "lor de plugin potrivit WordPress orientări."
 
-#: admin/settings/nasa_03_1_header_heading.php:336
-#: admin/settings/nasa_03_1_header_heading.php:348
-#: admin/settings/nasa_03_1_header_heading.php:360
-#: admin/settings/nasa_03_1_header_heading.php:592
+#: admin/settings/nasa_03_1_header_heading.php:338
+#: admin/settings/nasa_03_1_header_heading.php:350
+#: admin/settings/nasa_03_1_header_heading.php:362
+#: admin/settings/nasa_03_1_header_heading.php:596
 #: admin/settings/nasa_03_3_mobile_heading.php:82
-#: admin/settings/nasa_07_2_product_page_heading.php:313
-#: admin/settings/nasa_07_2_product_page_heading.php:323
-#: admin/settings/nasa_07_2_product_page_heading.php:333
-#: admin/settings/nasa_07_3_product_detail_heading.php:358
+#: admin/settings/nasa_07_2_product_page_heading.php:321
+#: admin/settings/nasa_07_2_product_page_heading.php:331
+#: admin/settings/nasa_07_2_product_page_heading.php:341
+#: admin/settings/nasa_07_3_product_detail_heading.php:359
 #: admin/settings/nasa_09_promo_popup_heading.php:164
 msgid ""
 "Please create Static Blocks (or Custom Block of Elementor Header & Footer "
@@ -3901,15 +3962,25 @@ msgstr ""
 "Vă rugăm să creați Blocuri Statice (sau Bloc de comandă al Elementor de "
 "Antet și Subsol Constructor) și selectați aici."
 
+#: woocommerce/single-product-reviews.php:38
+msgid "Please enter a valid email address."
+msgstr "Vă rugăm să introduceți o adresă de email validă."
+
 #: cores/nasa-wc-checkout-ext.php:92
 msgid "Please enter an address to continue."
 msgstr "Vă rugăm să introduceți o adresă pentru a continua."
+
+#: woocommerce/checkout/payment.php:26
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Vă rugăm să completați detaliile dvs. de mai sus pentru a vedea metodele de "
+"plată disponibile."
 
 #: admin/settings/nasa_07_4_product_compare_heading.php:61
 msgid "Please Install Yith WooCommerce Compare Plugin"
 msgstr "Vă Rugăm Să Instalați Yith WooCommerce Plugin Comparare"
 
-#: options/nasa-options.php:703
+#: options/nasa-options.php:705
 msgid ""
 "Please select some product options before adding this product to your cart."
 msgstr ""
@@ -3917,8 +3988,9 @@ msgstr ""
 "produs in cosul tau."
 
 #: includes/nasa-age-verification.php:17
-msgid "Please verifi your age to enter."
-msgstr "Vă rugăm să verifi de vârsta ta pentru a intra."
+#| msgid "Please verifi your age to enter."
+msgid "Please verify your age to enter."
+msgstr "Vă rugăm să vă verificați vârsta pentru a intra."
 
 #: admin/importer/tpl-import-demo-data.php:127
 msgid "Please waiting in a few minutes, The process is running..."
@@ -3971,15 +4043,15 @@ msgstr[2] " Toate<span class=\"count\">(%s)</span>"
 msgid "Plus"
 msgstr "Plus"
 
-#: admin/settings/nasa_03_1_header_heading.php:503
-msgid "Popular Keywords"
-msgstr "Cuvinte Cheie Populare"
+#: admin/settings/nasa_03_1_header_heading.php:518
+msgid "Popular Keywords - (Header type 1, 2, 5, 7)"
+msgstr "Cuvinte cheie populare - (Tip antet 1, 2, 5, 7)"
 
-#: searchform.php:88 searchform.php:174
+#: searchform.php:89 searchform.php:175
 msgid "Popular Searches:"
 msgstr "Populare Căutări:"
 
-#: cores/nasa-woo-functions.php:1723
+#: cores/nasa-woo-functions.php:1879
 msgid "Popularity"
 msgstr "Popularitatea"
 
@@ -4066,7 +4138,7 @@ msgstr "Poziția filtrul categorii"
 msgid "Position Filter Categories - Type 3"
 msgstr "Categorii de filtru de poziție - Tip 3"
 
-#: admin/settings/nasa_03_1_header_heading.php:639
+#: admin/settings/nasa_03_1_header_heading.php:643
 msgid "Posts"
 msgstr "Posturi"
 
@@ -4081,6 +4153,10 @@ msgstr "Preload Fonturi Icoane"
 #: cores/nasa-theme-functions.php:1364
 msgid "PREVIOUS"
 msgstr "ANTERIOR"
+
+#: cores/nasa-theme-footers.php:866
+msgid "Previous (arrow left)"
+msgstr "Anterior (săgeata stânga)"
 
 #: includes/nasa-after-add-to-cart.php:33
 #: includes/nasa-after-add-to-cart.php:99
@@ -4106,11 +4182,11 @@ msgstr "Gamă de preț dimensiunea"
 msgid "Price:"
 msgstr "Pret:"
 
-#: cores/nasa-woo-functions.php:1726
+#: cores/nasa-woo-functions.php:1882
 msgid "Price: Ascending"
 msgstr "Pret: Ascendent"
 
-#: cores/nasa-woo-functions.php:1727
+#: cores/nasa-woo-functions.php:1883
 msgid "Price: Descending"
 msgstr "Pret: Descendent"
 
@@ -4130,20 +4206,20 @@ msgstr "Trece la checkout"
 msgid "Product"
 msgstr "Produs"
 
-#: cores/nasa-custom-wc-ajax.php:416 cores/nasa-woo-functions.php:265
+#: cores/nasa-custom-wc-ajax.php:417 cores/nasa-woo-functions.php:250
 #: cores/nasa-yith-wcwl-ext.php:36
 msgid "Product added to cart successfully!"
 msgstr "Produs adăugat în coș cu succes!"
 
-#: cores/nasa-custom-wc-ajax.php:696
+#: cores/nasa-custom-wc-ajax.php:697
 msgid "Product added to compare !"
 msgstr "Produs adăugat pentru a compara !"
 
-#: cores/nasa-custom-wc-ajax.php:910
+#: cores/nasa-custom-wc-ajax.php:951
 msgid "Product added to wishlist successfully!"
 msgstr "Produs adăugat la lista de dorințe cu succes!"
 
-#: cores/nasa-custom-wc-ajax.php:698
+#: cores/nasa-custom-wc-ajax.php:699
 msgid "Product already exists in Compare list !"
 msgstr "Produsul există deja în lista de Comparare !"
 
@@ -4163,7 +4239,7 @@ msgstr "Categorii De Produse"
 msgid "Product Column Icon Style"
 msgstr "Stil pictogramă coloană produs"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:335
+#: admin/settings/nasa_07_3_product_detail_heading.php:336
 msgid "Product Description Wrapper - Apply with Tabs Classic"
 msgstr "Descriere produs Wrapper - se Aplică cu File Clasic"
 
@@ -4171,23 +4247,27 @@ msgstr "Descriere produs Wrapper - se Aplică cu File Clasic"
 msgid "Product Global Options"
 msgstr "Produsul Global Opțiuni"
 
-#: cores/nasa-custom-wc-ajax.php:742
+#: cores/nasa-custom-wc-ajax.php:743
 msgid "Product not already exists in Compare list !"
 msgstr "Produsul nu există deja în lista de Comparare !"
+
+#: woocommerce/loop/pagination.php:73 woocommerce/loop/pagination.php:86
+msgid "Product Pagination"
+msgstr "Paginarea produsului"
 
 #: woocommerce/global/quantity-input.php:60
 msgid "Product quantity"
 msgstr "Produs cantitate"
 
-#: cores/nasa-custom-wc-ajax.php:1101
+#: cores/nasa-custom-wc-ajax.php:1142
 msgid "Product quantity updated successfully!"
 msgstr "Cantitatea de produs actualizat cu succes!"
 
-#: cores/nasa-custom-wc-ajax.php:938 cores/nasa-custom-wc-ajax.php:967
+#: cores/nasa-custom-wc-ajax.php:979 cores/nasa-custom-wc-ajax.php:1008
 msgid "Product removed from wishlist successfully!"
 msgstr "Produs scos din wishlist cu succes!"
 
-#: options/nasa-options.php:1271
+#: options/nasa-options.php:1306
 msgid "Product Sidebar"
 msgstr "Produsul Bara Laterală"
 
@@ -4219,12 +4299,12 @@ msgstr "Categoria De Proiect"
 msgid "Project Name"
 msgstr "Nume Proiect"
 
-#: cores/nasa-woo-actions.php:1874 cores/nasa-woo-actions.php:1905
+#: cores/nasa-woo-actions.php:1887 cores/nasa-woo-actions.php:1918
 msgid "Promotion Gifts"
 msgstr "Cadouri De Promovare"
 
-#: admin/settings/nasa_03_1_header_heading.php:619
-#: admin/settings/nasa_03_1_header_heading.php:620
+#: admin/settings/nasa_03_1_header_heading.php:623
+#: admin/settings/nasa_03_1_header_heading.php:624
 msgid "Promotion News"
 msgstr "Știri De Promovare"
 
@@ -4263,8 +4343,8 @@ msgstr "Cantitatea De Intrare - Mini Coș"
 msgid "Query type"
 msgstr "Tip de interogare"
 
-#: cores/nasa-theme-footers.php:685 cores/nasa-woo-actions.php:1852
-#: cores/nasa-woo-actions.php:1853 cores/nasa-woo-functions.php:394
+#: cores/nasa-theme-footers.php:722 cores/nasa-woo-actions.php:1864
+#: cores/nasa-woo-actions.php:1865 cores/nasa-woo-functions.php:545
 #: woocommerce/content-widget-product.php:77
 msgid "Quick View"
 msgstr "Quick View"
@@ -4282,7 +4362,7 @@ msgstr "Quickview Opțiuni"
 msgid "Quotes"
 msgstr "Citate"
 
-#: woocommerce/single-product-reviews.php:126
+#: woocommerce/single-product-reviews.php:145
 msgid "Rate&hellip;"
 msgstr "Rata de..."
 
@@ -4328,7 +4408,7 @@ msgstr "Proiecte Recente"
 msgid "Recommend Turn Off to use Builder Mode"
 msgstr "Recomandăm să opriți pentru a utiliza Modul de Constructor"
 
-#: cores/nasa-theme-footers.php:818
+#: cores/nasa-theme-footers.php:856
 msgid "Recommendation"
 msgstr "Recomandare"
 
@@ -4341,13 +4421,13 @@ msgstr "Recomandat"
 msgid "Related"
 msgstr "Legate de"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:443
+#: admin/settings/nasa_07_3_product_detail_heading.php:475
 #: woocommerce/single-product/related.php:64
 msgid "Related Products"
 msgstr "Produse Conexe"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:437
-#: admin/settings/nasa_07_3_product_detail_heading.php:438
+#: admin/settings/nasa_07_3_product_detail_heading.php:469
+#: admin/settings/nasa_07_3_product_detail_heading.php:470
 msgid "Related | You may also like&hellip;"
 msgstr "Înrudit | Ați putea dori, de asemenea&hellip;"
 
@@ -4359,7 +4439,7 @@ msgstr "Reload"
 msgid "Remember"
 msgstr "Amintiți-vă"
 
-#: woocommerce/global/form-login.php:39
+#: woocommerce/global/form-login.php:41
 msgid "Remember me"
 msgstr "Îți amintești de mine"
 
@@ -4381,13 +4461,13 @@ msgstr "Server de la distanță nu răspunde"
 msgid "Remote server returned error response %1$d %2$s"
 msgstr "Server de la distanță a returnat eroarea de răspuns %1$d %2$s"
 
-#: cores/nasa-woo-functions.php:2019 includes/nasa-after-add-to-cart.php:63
+#: cores/nasa-woo-functions.php:2175 includes/nasa-after-add-to-cart.php:63
 #: includes/nasa-after-add-to-cart.php:66
-#: includes/nasa-sidebar-wishlist_content.php:78
-#: includes/nasa-sidebar-wishlist_content.php:186
-#: includes/nasa-sidebar-wishlist_html.php:25
-#: includes/nasa-sidebar-wishlist_html.php:80
-#: includes/nasa-sidebar-wishlist_html.php:81
+#: includes/nasa-sidebar-wishlist_content.php:81
+#: includes/nasa-sidebar-wishlist_content.php:189
+#: includes/nasa-sidebar-wishlist_html.php:27
+#: includes/nasa-sidebar-wishlist_html.php:82
+#: includes/nasa-sidebar-wishlist_html.php:83
 #: includes/nasa-view-compare.php:114
 #: admin/classes/class.options_machine.php:1040
 #: admin/classes/class.options_machine.php:1114
@@ -4395,22 +4475,22 @@ msgid "Remove"
 msgstr "Elimina"
 
 #. %s is the product name
-#: woocommerce/cart/cart.php:69 woocommerce/cart/mini-cart.php:88
+#: woocommerce/cart/cart.php:69 woocommerce/cart/mini-cart.php:94
 #, php-format
 msgid "Remove %s from cart"
 msgstr "Elimina %s din coș"
 
-#: includes/nasa-sidebar-wishlist_content.php:77
-#: includes/nasa-sidebar-wishlist_content.php:185
-#: includes/nasa-sidebar-wishlist_html.php:24
+#: includes/nasa-sidebar-wishlist_content.php:80
+#: includes/nasa-sidebar-wishlist_content.php:188
+#: includes/nasa-sidebar-wishlist_html.php:26
 msgid "Remove this product"
 msgstr "Eliminați acest produs"
 
-#: cores/nasa-custom-wc-ajax.php:779
+#: cores/nasa-custom-wc-ajax.php:780
 msgid "Removed all products from compare !"
 msgstr "Eliminate toate produsele de compara !"
 
-#: cores/nasa-custom-wc-ajax.php:740
+#: cores/nasa-custom-wc-ajax.php:741
 msgid "Removed product from compare !"
 msgstr "Eliminat produsul de compara !"
 
@@ -4431,11 +4511,11 @@ msgstr "Este necesar de Actualizare nu este Disponibil"
 msgid "Requires Update"
 msgstr "Necesită Actualizare"
 
-#: admin/settings/nasa_03_1_header_heading.php:565
+#: admin/settings/nasa_03_1_header_heading.php:569
 msgid "Requires WPML"
 msgstr "Necesită WPML"
 
-#: admin/settings/nasa_03_1_header_heading.php:573
+#: admin/settings/nasa_03_1_header_heading.php:577
 msgid ""
 "Requires WPML | FOX - Currency Switcher Professional for WooCommerce | CURCY "
 "- Multi Currency for WooCommerce"
@@ -4443,7 +4523,7 @@ msgstr ""
 "Necesită WPML | FOX - Currency Switcher Professional pentru WooCommerce | "
 "CURCY - Multi Currency pentru WooCommerce"
 
-#: widgets/wg-nasa-reset-filter.php:90
+#: widgets/wg-nasa-reset-filter.php:97
 #: woocommerce/content-widget-price-filter.php:41
 msgid "Reset"
 msgstr "Resetare"
@@ -4452,11 +4532,11 @@ msgstr "Resetare"
 msgid "Reset WordPress plugin"
 msgstr "Resetare WordPress plugin"
 
-#: admin/settings/nasa_03_1_header_heading.php:488
+#: admin/settings/nasa_03_1_header_heading.php:490
 msgid "Results Ajax Search (Limit Products)"
 msgstr "Rezultate Căutare Ajax (Limita De Produse)"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:243
+#: admin/settings/nasa_07_2_product_page_heading.php:251
 msgid "Results info in top"
 msgstr "Rezultate info in partea de sus"
 
@@ -4464,15 +4544,15 @@ msgstr "Rezultate info in partea de sus"
 msgid "Retina Logo"
 msgstr "Retina Logo-Ul"
 
-#: cores/nasa-woo-actions.php:1495
+#: cores/nasa-woo-actions.php:1503
 msgid "RETURN TO CART"
 msgstr "REVENI LA COȘ"
 
-#: cores/nasa-woo-actions.php:1495
+#: cores/nasa-woo-actions.php:1503
 msgid "Return to Cart"
 msgstr "Reveni la Coș"
 
-#: cores/nasa-woo-actions.php:1571
+#: cores/nasa-woo-actions.php:1579
 msgid "RETURN TO INFORMATION"
 msgstr "REVENI LA INFORMAȚII"
 
@@ -4484,11 +4564,11 @@ msgstr "A reveni la Pagina Anterioară"
 msgid "Return to Required Plugins Installer"
 msgstr "Reveni la Plugin-uri Necesare de Instalare"
 
-#: includes/nasa-sidebar-wishlist_content.php:89
-#: includes/nasa-sidebar-wishlist_content.php:211
-#: includes/nasa-sidebar-wishlist_html.php:96
+#: includes/nasa-sidebar-wishlist_content.php:92
+#: includes/nasa-sidebar-wishlist_content.php:214
+#: includes/nasa-sidebar-wishlist_html.php:98
 #: includes/nasa-view-compare.php:126 includes/nasa-view-compare.php:126
-#: woocommerce/cart/mini-cart.php:207
+#: woocommerce/cart/mini-cart.php:213
 msgid "RETURN TO SHOP"
 msgstr "A REVENI LA MAGAZIN"
 
@@ -4503,15 +4583,15 @@ msgstr "Întoarce-te la magazin"
 msgid "Return to the Dashboard"
 msgstr "Reveni la tabloul de Bord"
 
-#: woocommerce/checkout/form-login.php:18
+#: woocommerce/checkout/form-login.php:19
 msgid "Returning customer?"
 msgstr "Revenind client?"
 
-#: admin/theme-admin.php:257
+#: admin/theme-admin.php:252
 msgid "Review Product By Images"
 msgstr "Revizuire Produs De Imagini"
 
-#: includes/nasa-review-images.php:14
+#: includes/nasa-review-images.php:57
 msgid "Review Product by Images"
 msgstr "Revizuire Produs de Imagini"
 
@@ -4520,12 +4600,12 @@ msgstr "Revizuire Produs de Imagini"
 msgid "Review Your Order"
 msgstr "Revizuire Comanda"
 
-#: cores/nasa-theme-footers.php:819 woocommerce/single-product-reviews.php:155
+#: cores/nasa-theme-footers.php:857 woocommerce/single-product-reviews.php:181
 msgid "Reviews"
 msgstr "Recenzii"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:100
-#: admin/settings/nasa_07_3_product_detail_heading.php:313
+#: admin/settings/nasa_07_3_product_detail_heading.php:314
 msgid "Right"
 msgstr "Chiar"
 
@@ -4544,7 +4624,7 @@ msgstr "Bara Laterală Dreapta - Clasic"
 msgid "Right Sidebar - Off-canvas"
 msgstr "Bara Laterală dreapta - Off-panza"
 
-#: admin/settings/nasa_03_1_header_heading.php:448
+#: admin/settings/nasa_03_1_header_heading.php:450
 #: admin/settings/nasa_07_1_product_global_heading.php:58
 msgid "Right To Left"
 msgstr "De La Dreapta La Stânga"
@@ -4573,8 +4653,8 @@ msgstr "RTL - Selectați Font Personalizat"
 msgid "RTL - Text fonts (paragraphs, etc..)"
 msgstr "RTL - fonturi de Text (paragrafe, etc..)"
 
-#: woocommerce/loop/sale-flash.php:43
-#: woocommerce/single-product/sale-flash.php:44
+#: woocommerce/loop/sale-flash.php:52
+#: woocommerce/single-product/sale-flash.php:53
 msgid "Sale"
 msgstr "Vanzare"
 
@@ -4594,29 +4674,29 @@ msgstr "Salva"
 msgid "Save All Changes"
 msgstr "Salvați Toate Modificările"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:94
+#: admin/settings/nasa_07_3_product_detail_heading.php:95
 msgid "Scroll Images"
 msgstr "Alegeți Imagini"
 
-#: searchform.php:104 searchform.php:166 cores/nasa-theme-headers.php:438
+#: searchform.php:105 searchform.php:167 cores/nasa-theme-headers.php:438
 #: includes/nasa-mobile-bottom-bar.php:67
 #: includes/nasa-mobile-bottom-bar.php:69
 msgid "Search"
 msgstr "Căutare"
 
-#: searchform.php:189
+#: searchform.php:190
 msgid "search"
 msgstr "căutare"
 
-#: admin/settings/nasa_03_1_header_heading.php:463
+#: admin/settings/nasa_03_1_header_heading.php:465
 msgid "Search Anything After Submit"
 msgstr "Căuta Ceva, După Ce Prezintă"
 
-#: admin/settings/nasa_03_1_header_heading.php:443
+#: admin/settings/nasa_03_1_header_heading.php:445
 msgid "Search Bar Effect"
 msgstr "Bara De Căutare Efect"
 
-#: searchform.php:79
+#: searchform.php:80
 msgid "Search here"
 msgstr "Cauta aici"
 
@@ -4629,8 +4709,8 @@ msgid "Search icon"
 msgstr "Pictograma de căutare"
 
 #: admin/front-end/options.php:60
-#: admin/settings/nasa_03_1_header_heading.php:436
-#: admin/settings/nasa_03_1_header_heading.php:437
+#: admin/settings/nasa_03_1_header_heading.php:438
+#: admin/settings/nasa_03_1_header_heading.php:439
 msgid "Search Options"
 msgstr "Opțiuni De Căutare"
 
@@ -4643,7 +4723,7 @@ msgstr "Rezultatele cautarii pentru: %s"
 msgid "Search.."
 msgstr "Căutare.."
 
-#: includes/nasa-change-view.php:223
+#: includes/nasa-change-view.php:228
 msgid "See"
 msgstr "Vezi"
 
@@ -4681,7 +4761,7 @@ msgstr "Selectați Formularul De Contact"
 msgid "Select Custom Font"
 msgstr "Selectați Font Personalizat"
 
-#: cores/nasa-theme-footers.php:835
+#: cores/nasa-theme-footers.php:880
 msgid "Select Options"
 msgstr "Selectați Opțiuni"
 
@@ -4735,11 +4815,15 @@ msgstr "Configurare Opțiuni De Temă"
 msgid "SETUP YOUR ACCOUNT"
 msgstr "CONFIGURAREA CONTULUI DVS."
 
+#: cores/nasa-theme-footers.php:866
+msgid "Share"
+msgstr "Acțiune"
+
 #: admin/settings/nasa_08_blog_heading.php:212
 msgid "Share icons"
 msgstr "Cota de icoane"
 
-#: cores/nasa-woo-actions.php:1535
+#: cores/nasa-woo-actions.php:1543
 msgid "Ship to"
 msgstr "Nava a"
 
@@ -4747,7 +4831,7 @@ msgstr "Nava a"
 msgid "SHIPPING"
 msgstr "TRANSPORT"
 
-#: cores/nasa-woo-actions.php:2512 includes/nasa-mini-cart-shipping.php:26
+#: cores/nasa-woo-actions.php:2520 includes/nasa-mini-cart-shipping.php:26
 msgid "Shipping"
 msgstr "Transport"
 
@@ -4759,7 +4843,7 @@ msgstr "Adresa de livrare"
 msgid "Shipping costs are calculated during checkout."
 msgstr "Costurile de transport sunt calculate în timpul checkout."
 
-#: cores/nasa-woo-actions.php:1560
+#: cores/nasa-woo-actions.php:1568
 msgid "Shipping Methods"
 msgstr "Metode De Transport"
 
@@ -4788,7 +4872,7 @@ msgstr "Culoare de fundal magazin"
 msgid "Shop order"
 msgstr "Magazin pentru"
 
-#: options/nasa-options.php:1261
+#: options/nasa-options.php:1296
 msgid "Shop Sidebar"
 msgstr "Magazin Bara Laterală"
 
@@ -4818,7 +4902,7 @@ msgstr "Coș De Cumpărături - Opțiuni"
 msgid "Short description (Only use for Blog Grid layout)"
 msgstr "Scurtă descriere (a se utiliza Numai pentru Blog Grila)"
 
-#: includes/nasa-blog-promotion.php:38
+#: includes/nasa-blog-promotion.php:40
 msgid "Show"
 msgstr "Show"
 
@@ -4923,9 +5007,22 @@ msgstr "Înscrieți-vă aici"
 msgid "SIGN IN TO YOUR ACCOUNT"
 msgstr "FACEȚI SIGN IN LA CONTUL DVS."
 
-#: admin/settings/nasa_07_2_product_page_heading.php:281
+#: admin/settings/nasa_07_2_product_page_heading.php:289
 msgid "Simple"
 msgstr "Simplu"
+
+#. $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:43
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Deoarece browserul dvs. nu acceptă JavaScript sau este dezactivat, asigurați-"
+"vă că faceți clic pe butonul %1$sActualizați totalurile%2$s înainte de a "
+"plasa comanda. Este posibil să fiți taxat mai mult decât suma menționată mai "
+"sus dacă nu faceți acest lucru."
 
 #: admin/settings/nasa_08_blog_heading.php:179
 msgid "Single Blog page"
@@ -4975,11 +5072,11 @@ msgstr "Site-Ul Imagine De Fundal - Cutie Layout"
 msgid "Site Layout"
 msgstr "Aspectul Site-Ului"
 
-#: admin/settings/nasa_01_general_heading.php:221
+#: admin/settings/nasa_01_general_heading.php:308
 msgid "Skip Load - Files CSS - Checkin it if you don't want your site call"
 msgstr "Sări de Încărcare Fișiere CSS - Checkin dacă nu doriți ca site-ul sun"
 
-#: cores/nasa-woo-actions.php:2114 options/nasa-options.php:752
+#: cores/nasa-woo-actions.php:2135 options/nasa-options.php:773
 #: woocommerce/single-product/meta.php:25
 msgid "SKU:"
 msgstr "SKU:"
@@ -4988,11 +5085,11 @@ msgstr "SKU:"
 msgid "Slide"
 msgstr "Slide"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:93
+#: admin/settings/nasa_07_3_product_detail_heading.php:94
 msgid "Slide Images"
 msgstr "Imagini De Diapozitive"
 
-#: admin/settings/nasa_03_1_header_heading.php:678
+#: admin/settings/nasa_03_1_header_heading.php:682
 msgid "Slide Show"
 msgstr "Slide Show"
 
@@ -5012,7 +5109,7 @@ msgstr "Mici Spațiere"
 msgid "Sold By: "
 msgstr "Vandut de:"
 
-#: cores/nasa-woo-actions.php:2181 includes/nasa-content-product-gift.php:62
+#: cores/nasa-woo-actions.php:2202 includes/nasa-content-product-gift.php:62
 msgid "Sold Out"
 msgstr "Vândut"
 
@@ -5036,7 +5133,7 @@ msgstr ""
 "pentru a crește PHP max_execution_time (sau orice alt server de web timeout "
 "la cel puțin 300 secunde) și memory_limit (cel puțin 196 mn de usd) temporar."
 
-#: cores/nasa-custom-wc-ajax.php:1324
+#: cores/nasa-custom-wc-ajax.php:1365
 msgid "Sorry there was a problem removing this coupon."
 msgstr "Ne pare rău, există o problemă în acest cupon."
 
@@ -5056,11 +5153,20 @@ msgstr ""
 "Îmi pare rău, dar pagina pe care o căutați nu este găsit. Vă rugăm, "
 "asigurați-vă că ați tastat URL-ul curent."
 
-#: cores/nasa-custom-wc-ajax.php:594
+#: woocommerce/checkout/payment.php:26
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+"Ne pare rău, se pare că nu există metode de plată disponibile. Vă rugăm să "
+"ne contactați dacă aveți nevoie de asistență sau doriți să faceți "
+"aranjamente alternative."
+
+#: cores/nasa-custom-wc-ajax.php:595
 msgid "Sorry, Maybe product empty in stock."
 msgstr "Îmi pare rău, Poate produsului gol în stoc."
 
-#: options/nasa-options.php:702
+#: options/nasa-options.php:704
 msgid ""
 "Sorry, no products matched your selection. Please choose a different "
 "combination."
@@ -5068,7 +5174,7 @@ msgstr ""
 "Ne pare rau, nu produse potrivite dvs. de selecție. Vă rugăm să alegeți o "
 "combinație diferită."
 
-#: cores/nasa-custom-wc-ajax.php:446 cores/nasa-custom-wc-ajax.php:468
+#: cores/nasa-custom-wc-ajax.php:447 cores/nasa-custom-wc-ajax.php:469
 msgid "Sorry, Product is not existing."
 msgstr "Ne pare rau, Produsul nu este existent."
 
@@ -5080,14 +5186,14 @@ msgstr "Ne pare rau, Produsul nu este existent."
 msgid "Sorry, there has been an error."
 msgstr "Ne pare rau, nu a fost o eroare."
 
-#: options/nasa-options.php:704
+#: options/nasa-options.php:706
 msgid ""
 "Sorry, this product is unavailable. Please choose a different combination."
 msgstr ""
 "Ne pare rău, acest produs este indisponibil. Vă rugăm să alegeți o "
 "combinație diferită."
 
-#: options/nasa-options.php:760
+#: options/nasa-options.php:781
 msgid "Sorry. No results match your search."
 msgstr "Îmi pare rău. Rezultatele nu se potrivesc dvs. de căutare."
 
@@ -5119,7 +5225,7 @@ msgstr "Standard"
 msgid "START IMPORT SAMPLE DATA"
 msgstr "ÎNCEPE IMPORTUL DE DATE EȘANTION"
 
-#: searchform.php:28 searchform.php:124
+#: searchform.php:29 searchform.php:125
 msgid "Start typing ..."
 msgstr "Începeți să tastați ..."
 
@@ -5143,19 +5249,19 @@ msgstr "Pasul 3: Import De Conținut"
 msgid "Step Change"
 msgstr "Pasul Schimba"
 
-#: admin/settings/nasa_03_1_header_heading.php:366
+#: admin/settings/nasa_03_1_header_heading.php:368
 msgid "Sticky"
 msgstr "Sticky"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:235
+#: admin/settings/nasa_07_3_product_detail_heading.php:236
 msgid "Sticky Add To Cart"
 msgstr "Lipicios Adaugă În Coș"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:260
+#: admin/settings/nasa_07_3_product_detail_heading.php:261
 msgid "Sticky Add To Cart In Mobile"
 msgstr "Lipicios Adaugă În Coș Mobil"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:242
+#: admin/settings/nasa_07_3_product_detail_heading.php:243
 msgid "Sticky Buy Now - Desktop"
 msgstr "Lipicios Cumpara Acum - Desktop"
 
@@ -5172,7 +5278,7 @@ msgstr "Lipicios Opțiuni Logo"
 msgid "Sticky Sidebar"
 msgstr "Sticky Sidebar"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:383
+#: admin/settings/nasa_07_3_product_detail_heading.php:384
 msgid "Stock Progress Bar"
 msgstr "Stoc Bara De Progres"
 
@@ -5210,16 +5316,16 @@ msgstr "Stil"
 msgid "Style and Colors"
 msgstr "Stil și Culori"
 
-#: cores/nasa-woo-functions.php:1441
+#: cores/nasa-woo-functions.php:1597
 msgid "Subcategories: "
 msgstr "Subcategorii:"
 
-#: woocommerce/single-product-reviews.php:101
+#: woocommerce/single-product-reviews.php:118
 #: admin/importer/wordpress-importer.php:318
 msgid "Submit"
 msgstr "Trimite"
 
-#: cores/nasa-woo-actions.php:2409 woocommerce/cart/cart.php:31
+#: cores/nasa-woo-actions.php:2417 woocommerce/cart/cart.php:31
 #: woocommerce/checkout/review-order.php:20
 #: woocommerce/checkout/review-order.php:107
 msgid "Subtotal"
@@ -5237,19 +5343,19 @@ msgstr "Subtotal "
 msgid "Success Color"
 msgstr "Succesul De Culoare"
 
-#: cores/nasa-theme-footers.php:358
+#: cores/nasa-theme-footers.php:391
 msgid "Successfully added to your cart."
 msgstr "Adăugat cu succes în coșul dvs."
 
-#: admin/settings/nasa_03_1_header_heading.php:495
-msgid "Suggested Keywords"
-msgstr "Cuvinte Cheie Sugerate"
+#: admin/settings/nasa_03_1_header_heading.php:508
+msgid "Suggested Keywords - (Header type 1, 2, 5, 7)"
+msgstr "Cuvinte cheie sugerate - (Tip antet 1, 2, 5, 7)"
 
 #: admin/settings/nasa_05_type_heading.php:313
 msgid "Support Font Icons"
 msgstr "Suport pictograme font"
 
-#: admin/settings/nasa_03_1_header_heading.php:480
+#: admin/settings/nasa_03_1_header_heading.php:482
 msgid "Support Search By SKU"
 msgstr "Suport de Căutare De SKU"
 
@@ -5257,24 +5363,24 @@ msgstr "Suport de Căutare De SKU"
 msgid "Support Upload ICO medias"
 msgstr "Suport Încărca ICO medias"
 
-#: admin/settings/nasa_01_general_heading.php:127
+#: admin/settings/nasa_01_general_heading.php:196
 msgid "Support Upload SVG medias"
 msgstr "Suport Încărca SVG medias"
 
-#: admin/settings/nasa_01_general_heading.php:214
+#: admin/settings/nasa_01_general_heading.php:301
 msgid "Sync"
 msgstr "Sincronizare"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:352
+#: admin/settings/nasa_07_3_product_detail_heading.php:353
 msgid "Tab Global"
 msgstr "Tab-Ul Global"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:583
-#: admin/settings/nasa_07_2_product_page_heading.php:224
+#: admin/settings/nasa_07_2_product_page_heading.php:232
 msgid "Tablet Columns"
 msgstr "Tableta Coloane"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:306
+#: admin/settings/nasa_07_3_product_detail_heading.php:307
 msgid "Tabs Align"
 msgstr "File De A Alinia"
 
@@ -5282,7 +5388,7 @@ msgstr "File De A Alinia"
 msgid "Tabs Background color"
 msgstr "File de culoare de Fundal"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:284
+#: admin/settings/nasa_07_3_product_detail_heading.php:285
 msgid "Tabs Layouts"
 msgstr "File De Machete"
 
@@ -5296,7 +5402,7 @@ msgid "Tag Archives: %s"
 msgstr "Tag Archives: %s"
 
 #: includes/nasa-blog-grid.php:98 includes/nasa-blog-list.php:96
-#: includes/nasa-blog-masonry-isotope.php:104
+#: includes/nasa-blog-masonry-isotope.php:103
 #: includes/nasa-blog-standard.php:90
 #, php-format
 msgid "Tagged %1$s"
@@ -5331,7 +5437,7 @@ msgstr "Culoarea Textului"
 msgid "Text fonts (paragraphs, etc..)"
 msgstr "Fonturi de Text (paragrafe, etc..)"
 
-#: admin/settings/nasa_03_1_header_heading.php:695
+#: admin/settings/nasa_03_1_header_heading.php:708
 msgid "Text Promotion Color"
 msgstr "Textul De Promovare Culoare"
 
@@ -5341,19 +5447,23 @@ msgstr "Textul De Promovare Culoare"
 msgid "TGMPA v%s"
 msgstr "TGMPA v%s"
 
-#: admin/settings/nasa_03_1_header_heading.php:342
+#: woocommerce/single-product-reviews.php:95
+msgid "Thank you!"
+msgstr "Multumesc!"
+
+#: admin/settings/nasa_03_1_header_heading.php:344
 msgid "The Block beside Logo in Header Type 2"
 msgstr "Blocul de lângă Logo-ul în Antet de Tip 2"
 
-#: admin/settings/nasa_03_1_header_heading.php:354
+#: admin/settings/nasa_03_1_header_heading.php:356
 msgid "The Block beside Main menu in Header Type 4, 6"
 msgstr "Blocul de lângă meniul Principal în Antet Tip 4, 6"
 
-#: admin/settings/nasa_01_general_heading.php:172
+#: admin/settings/nasa_01_general_heading.php:259
 msgid "The block editor from managing widgets"
 msgstr "Bloc editor de gestionarea widget-uri"
 
-#: admin/settings/nasa_03_1_header_heading.php:330
+#: admin/settings/nasa_03_1_header_heading.php:332
 msgid "The Block Under Header"
 msgstr "Bloc Sub Antet"
 
@@ -5458,6 +5568,10 @@ msgstr ""
 "Mobil de navigare de sus va apare numai atunci când site-ul este în mobile "
 "app mode"
 
+#: cores/nasa-custom-wc-ajax.php:861
+msgid "The page location you are viewing is marked with"
+msgstr "Locația paginii pe care o vizualizați este marcată cu"
+
 #: admin/classes/class-tgm-plugin-activation.php:1026
 msgid ""
 "The remote plugin package consists of more than one file, but the files are "
@@ -5495,7 +5609,7 @@ msgid "Theme has not been installed or enabled Wishlist Feature."
 msgstr "Tema nu a fost instalat sau activat Listei de caracteristici."
 
 #: admin/front-end/options.php:23 admin/front-end/options.php:41
-#: admin/functions/functions.interface.php:74
+#: admin/functions/functions.interface.php:73
 msgid "Theme Options"
 msgstr "Opțiuni De Temă"
 
@@ -5503,7 +5617,7 @@ msgstr "Opțiuni De Temă"
 msgid "Theme Setup"
 msgstr "Tema De Configurare"
 
-#: woocommerce/single-product-reviews.php:181
+#: woocommerce/single-product-reviews.php:207
 msgid "There are no reviews yet."
 msgstr "Nu există comentarii încă."
 
@@ -5524,7 +5638,7 @@ msgstr ""
 "Există una sau mai multe necesară sau plugin-uri recomandate pentru a "
 "instala, actualiza sau activa."
 
-#: cores/nasa-theme-footers.php:442
+#: cores/nasa-theme-footers.php:475
 #, php-format
 msgid "There is <span class=\"primary-color\"> %s item</span> in your cart."
 msgid_plural ""
@@ -5553,7 +5667,7 @@ msgid ""
 msgstr ""
 "Acest lucru nu pare a fi un fișier WXR, lipsă/invalid WXR numărul de versiune"
 
-#: cores/nasa-woo-actions.php:1502
+#: cores/nasa-woo-actions.php:1510 woocommerce/single-product-reviews.php:37
 msgid "This field is required."
 msgstr "Acest câmp este obligatoriu."
 
@@ -5605,7 +5719,7 @@ msgstr ""
 "Acest WXR file (versiunea %s) nu poate fi susținută de această versiune de "
 "importator. Vă rugăm să ia în considerare actualizarea."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:102
+#: admin/settings/nasa_07_3_product_detail_heading.php:103
 msgid "Thumbnail Layout"
 msgstr "Miniatură Layout"
 
@@ -5623,6 +5737,7 @@ msgstr "Mici"
 
 #: widgets/wg-nasa-product-brands.php:42
 #: widgets/wg-nasa-product-categories.php:64
+#: widgets/wg-nasa-product-filter-alphabet.php:32
 #: widgets/wg-nasa-product-filter-multi-categories.php:38
 #: widgets/wg-nasa-product-filter-multi-tags.php:38
 #: widgets/wg-nasa-product-filter-price-list.php:26
@@ -5668,6 +5783,10 @@ msgstr ""
 "existent al acestui site. De exemplu, poate doriți să importați toate "
 "intrările ca intrări de <code>administrator</code>."
 
+#: cores/nasa-theme-footers.php:866
+msgid "Toggle fullscreen"
+msgstr "Comutare la ecran complet"
+
 #: cores/nasa-theme-options.php:119
 msgid "Toggle Icon"
 msgstr "Pictograma De Comutare"
@@ -5676,19 +5795,19 @@ msgstr "Pictograma De Comutare"
 msgid "Toggle Sidebar"
 msgstr "Comuta Bara Laterală"
 
-#: admin/settings/nasa_03_1_header_heading.php:543
+#: admin/settings/nasa_03_1_header_heading.php:547
 msgid "Toggle Top Bar"
 msgstr "Comutare Bara De Sus"
 
-#: admin/settings/nasa_03_1_header_heading.php:553
+#: admin/settings/nasa_03_1_header_heading.php:557
 msgid "Toggle Top Bar - Initialize"
 msgstr "Comutare Bara De Sus - Inițializa"
 
-#: admin/settings/nasa_01_general_heading.php:148
+#: admin/settings/nasa_01_general_heading.php:235
 msgid "Toggle Widget Content"
 msgstr "Toggle Widget-Ul De Conținut"
 
-#: admin/settings/nasa_01_general_heading.php:155
+#: admin/settings/nasa_01_general_heading.php:242
 msgid "Toggle Widget Content - Always Close"
 msgstr "Toggle Widget Conținut - Mereu Aproape"
 
@@ -5696,12 +5815,12 @@ msgstr "Toggle Widget Conținut - Mereu Aproape"
 msgid "Top"
 msgstr "Top"
 
-#: admin/settings/nasa_03_1_header_heading.php:533
+#: admin/settings/nasa_03_1_header_heading.php:537
 #: admin/settings/nasa_07_2_product_page_heading.php:30
 msgid "Top Bar"
 msgstr "Bara De Sus"
 
-#: admin/settings/nasa_03_1_header_heading.php:586
+#: admin/settings/nasa_03_1_header_heading.php:590
 msgid "Top Bar Content"
 msgstr "Bara De Sus A Conținutului"
 
@@ -5709,14 +5828,18 @@ msgstr "Bara De Sus A Conținutului"
 msgid "Top Bar Limit widgets to Show More"
 msgstr "Bara de sus Limita de widget-uri pentru a Arăta Mai mult"
 
-#: admin/settings/nasa_03_1_header_heading.php:526
-#: admin/settings/nasa_03_1_header_heading.php:527
+#: admin/settings/nasa_03_1_header_heading.php:530
+#: admin/settings/nasa_03_1_header_heading.php:531
 msgid "Top Bar Options"
 msgstr "Partea De Sus Bara De Opțiuni"
 
-#: admin/settings/nasa_03_1_header_heading.php:626
+#: admin/settings/nasa_03_1_header_heading.php:630
 msgid "Top Bar Promotion News"
 msgstr "Bara De Sus De Știri De Promovare"
+
+#: admin/settings/nasa_03_1_header_heading.php:692
+msgid "Top Bar Promotion News Auto Scroll"
+msgstr "Top Bar Noutăți de promovare Derulare automată"
 
 #: admin/settings/nasa_07_2_product_page_heading.php:31
 msgid "Top Bar Type 2"
@@ -5730,7 +5853,7 @@ msgstr "Bara de sus tip 3"
 msgid "Top Filter Categories"
 msgstr "Top Filtrul Categorii"
 
-#: functions.php:102
+#: functions.php:103
 msgid "Top Menu - Only show level 1"
 msgstr "Meniu de sus - arată Doar nivelul 1"
 
@@ -5738,15 +5861,15 @@ msgstr "Meniu de sus - arată Doar nivelul 1"
 msgid "Top To Bottom"
 msgstr "De Sus În Jos"
 
-#: admin/settings/nasa_03_1_header_heading.php:598
+#: admin/settings/nasa_03_1_header_heading.php:602
 msgid "Topbar Background"
 msgstr "Topbar Fundal"
 
-#: admin/settings/nasa_03_1_header_heading.php:605
+#: admin/settings/nasa_03_1_header_heading.php:609
 msgid "Topbar Text color"
 msgstr "Topbar culoarea Textului"
 
-#: admin/settings/nasa_03_1_header_heading.php:612
+#: admin/settings/nasa_03_1_header_heading.php:616
 msgid "Topbar Text color hover"
 msgstr "Topbar Text de culoare hover"
 
@@ -5769,7 +5892,7 @@ msgstr ""
 msgid "Transfer Theme Options Data"
 msgstr "Transfer Opțiuni De Temă De Date"
 
-#: admin/settings/nasa_01_general_heading.php:91
+#: admin/settings/nasa_01_general_heading.php:160
 msgid "Transition Loading"
 msgstr "Tranziția De Încărcare"
 
@@ -5790,11 +5913,11 @@ msgstr "Tip"
 msgid "Type Font"
 msgstr "Tip Font"
 
-#: admin/theme-admin.php:311
+#: admin/theme-admin.php:333
 msgid "Type of Template"
 msgstr "Tip de Șablon"
 
-#: admin/settings/nasa_03_1_header_heading.php:633
+#: admin/settings/nasa_03_1_header_heading.php:637
 msgid "Type Show"
 msgstr "Tip Show"
 
@@ -5825,7 +5948,7 @@ msgstr ""
 "Din păcate comanda dvs. nu poate fi procesată ca originare banca/comerciant "
 "a refuzat tranzacția. Vă rugăm să încercați de cumpărare din nou."
 
-#: admin/theme-admin.php:351
+#: admin/theme-admin.php:373
 msgid "Unknown"
 msgstr "Necunoscut"
 
@@ -5854,7 +5977,7 @@ msgstr[2] "Actualizare disponibilă <span class=\"count\">(%s)</span>"
 
 #: includes/nasa-after-add-to-cart.php:161
 #: includes/nasa-after-add-to-cart.php:162 woocommerce/cart/cart.php:181
-#: woocommerce/cart/cart.php:182 woocommerce/cart/mini-cart.php:27
+#: woocommerce/cart/cart.php:182 woocommerce/cart/mini-cart.php:30
 msgid "Update Cart"
 msgstr "Actualizare Coș"
 
@@ -5865,6 +5988,10 @@ msgstr "Update recomandat"
 #: admin/classes/class-tgm-plugin-activation.php:590
 msgid "Update Required"
 msgstr "Update Necesare"
+
+#: woocommerce/checkout/payment.php:45
+msgid "Update totals"
+msgstr "Actualizați totalurile"
 
 #. 1: plugin name, 2: action number 3: total number of actions.
 #: admin/classes/class-tgm-plugin-activation.php:3564
@@ -5900,6 +6027,17 @@ msgstr "Incarca Font Personalizat"
 msgid "Upload new custom font success!"
 msgstr "Incarca nou font personalizat succes!"
 
+#: cores/nasa-woo-functions.php:2239
+msgid "Upload photos"
+msgstr "Încarcă fotografii"
+
+#: cores/nasa-woo-functions.php:2285
+msgid "Upload video"
+msgid_plural "Upload videos"
+msgstr[0] "Încărcați videoclipul"
+msgstr[1] "Încărcați videoclipul"
+msgstr[2] "Încărcați videoclipul"
+
 #: includes/nasa-checkout-modern-billing-detail.php:33
 msgid "Use a different billing address"
 msgstr "Utilizați o altă adresă de facturare"
@@ -5913,7 +6051,7 @@ msgid "Username is required."
 msgstr "Numele de utilizator este necesar."
 
 #: includes/nasa-login-register-form.php:62
-#: woocommerce/global/form-login.php:25
+#: woocommerce/global/form-login.php:26
 msgid "Username or email"
 msgstr "Numele de utilizator sau e-mail"
 
@@ -5925,7 +6063,7 @@ msgstr "Variante De Culoare Insigna"
 msgid "Verdana, Geneva"
 msgstr "Verdana, Geneva"
 
-#: cores/nasa-theme-footers.php:675 admin/classes/class.options_machine.php:856
+#: cores/nasa-theme-footers.php:712 admin/classes/class.options_machine.php:856
 #: admin/classes/class.options_machine.php:901
 msgid "Verified"
 msgstr "Verificate"
@@ -5935,11 +6073,11 @@ msgid "Version"
 msgstr "Versiune"
 
 #: cores/nasa-theme-options.php:74
-#: admin/settings/nasa_07_3_product_detail_heading.php:107
+#: admin/settings/nasa_07_3_product_detail_heading.php:108
 msgid "Vertical"
 msgstr "Vertical"
 
-#: functions.php:101 admin/settings/nasa_03_1_header_heading.php:129
+#: functions.php:102 admin/settings/nasa_03_1_header_heading.php:129
 msgid "Vertical Menu"
 msgstr "Meniu Vertical"
 
@@ -5971,7 +6109,7 @@ msgstr "Vertical Rădăcină Nivel - Limită"
 msgid "Vertical Root Level - Parent - 0"
 msgstr "Verticale Nivel Radicular - Părinte - 0"
 
-#: woocommerce/single-product-reviews.php:131
+#: woocommerce/single-product-reviews.php:150
 msgid "Very poor"
 msgstr "Foarte săraci"
 
@@ -5987,7 +6125,7 @@ msgstr "Videoclipuri"
 msgid "Vietnamese"
 msgstr "Vietnameză"
 
-#: cores/nasa-woo-actions.php:1852 cores/nasa-woo-actions.php:1853
+#: cores/nasa-woo-actions.php:1864 cores/nasa-woo-actions.php:1865
 #: woocommerce/content-widget-product.php:77
 msgid "View"
 msgstr "Vedere"
@@ -6014,7 +6152,7 @@ msgstr "Vezi mai mult"
 msgid "View Product Information"
 msgstr "Vizualiza Informații Despre Produs"
 
-#: cores/nasa-woo-actions.php:1902
+#: cores/nasa-woo-actions.php:1915
 msgid "View the promotion gifts"
 msgstr "Vedere promovarea cadouri"
 
@@ -6042,7 +6180,7 @@ msgstr "Web Mobil"
 msgid "Weekly Store Timing"
 msgstr "Săptămânal Magazin Calendarul"
 
-#: cores/nasa-woo-functions.php:1642
+#: cores/nasa-woo-functions.php:1798
 msgid "Welcome"
 msgstr "Bine ati venit"
 
@@ -6061,12 +6199,16 @@ msgstr ""
 "fereastră pop-up care conține informațiile pe care le-ați selectat în "
 "secțiunea (Popup Exit Intent Content)."
 
+#: cores/nasa-theme-footers.php:218
+msgid "Where You Are"
+msgstr "Unde ești"
+
 #: admin/settings/nasa_01_general_heading.php:38
 msgid "Wide"
 msgstr "Larg"
 
-#: admin/settings/nasa_01_general_heading.php:142
-#: admin/settings/nasa_01_general_heading.php:143
+#: admin/settings/nasa_01_general_heading.php:229
+#: admin/settings/nasa_01_general_heading.php:230
 msgid "Widget Options"
 msgstr "Opțiuni Widget"
 
@@ -6086,12 +6228,12 @@ msgstr "Latime - Lipicios Logo-Ul"
 msgid "Width full side"
 msgstr "Lățime complet partea"
 
-#: cores/nasa-theme-footers.php:486 cores/nasa-wishlist.php:177
-#: cores/nasa-wishlist.php:224 cores/nasa-woo-functions.php:537
-#: cores/nasa-woo-functions.php:537 cores/nasa-woo-functions.php:578
-#: cores/nasa-woo-functions.php:583 cores/nasa-woo-functions.php:602
-#: cores/nasa-woo-functions.php:607 cores/nasa-woo-functions.php:1158
-#: cores/nasa-woo-functions.php:1158 includes/nasa-mobile-bottom-bar-app.php:84
+#: cores/nasa-theme-footers.php:519 cores/nasa-wishlist.php:174
+#: cores/nasa-wishlist.php:224 cores/nasa-woo-functions.php:685
+#: cores/nasa-woo-functions.php:685 cores/nasa-woo-functions.php:726
+#: cores/nasa-woo-functions.php:731 cores/nasa-woo-functions.php:750
+#: cores/nasa-woo-functions.php:755 cores/nasa-woo-functions.php:1310
+#: cores/nasa-woo-functions.php:1310 includes/nasa-mobile-bottom-bar-app.php:84
 #: includes/nasa-mobile-bottom-bar-app.php:86
 #: includes/nasa-mobile-bottom-bar.php:84
 #: includes/nasa-mobile-bottom-bar.php:86
@@ -6103,7 +6245,7 @@ msgstr "Wishlist"
 msgid "Wishlist Options"
 msgstr "Wishlist Opțiuni"
 
-#: includes/nasa-sidebar-wishlist_content.php:199
+#: includes/nasa-sidebar-wishlist_content.php:202
 msgid "Wishlist Page"
 msgstr "Pagina Wishlist"
 
@@ -6127,17 +6269,17 @@ msgstr "Fără Fond - Default folosi Culoarea de Fundal"
 msgid "Without Border Wrapper"
 msgstr "Fără Înveliș De Frontieră"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:278
 #: admin/settings/nasa_07_3_product_detail_heading.php:279
+#: admin/settings/nasa_07_3_product_detail_heading.php:280
 msgid "WooCommerce Tabs - Options"
 msgstr "WooCommerce File - Options"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:328
+#: admin/settings/nasa_07_3_product_detail_heading.php:329
 msgid "WooCommerce Tabs - Read more / Show less (Mobile App - Simulator)"
 msgstr ""
 "WooCommerce File - Citeste mai mult / mai puțin (Mobile App - Simulator)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:321
+#: admin/settings/nasa_07_3_product_detail_heading.php:322
 msgid ""
 "WooCommerce Tabs Off - Canvas in Mobile (Not use Mobile App - Simulator)"
 msgstr ""
@@ -6160,11 +6302,11 @@ msgstr "De lucru..."
 msgid "WPBakery - Homepage List"
 msgstr "WPBakery - Pagina Lista"
 
-#: admin/settings/nasa_01_general_heading.php:162
+#: admin/settings/nasa_01_general_heading.php:249
 msgid "Wrapper Widget - Sidebar Classic"
 msgstr "Înveliș Widget Bara Laterală Clasic"
 
-#: cores/nasa-theme-footers.php:821
+#: cores/nasa-theme-footers.php:859 woocommerce/single-product-reviews.php:164
 msgid "Write a review"
 msgstr "Scrie un comentariu"
 
@@ -6182,18 +6324,18 @@ msgstr "Anual Archives: %s"
 #: admin/settings/nasa_03_1_header_heading.php:274
 #: admin/settings/nasa_07_1_product_global_heading.php:383
 #: admin/settings/nasa_07_1_product_global_heading.php:517
-#: admin/settings/nasa_07_2_product_page_heading.php:292
+#: admin/settings/nasa_07_2_product_page_heading.php:300
 msgid "Yes"
 msgstr "Da"
 
 #: cores/nasa-theme-options.php:24 cores/nasa-theme-options.php:134
 #: cores/nasa-theme-options.php:143 cores/nasa-theme-options.php:199
 #: cores/nasa-theme-options.php:211
-#: admin/settings/nasa_01_general_heading.php:120
-#: admin/settings/nasa_01_general_heading.php:128
+#: admin/settings/nasa_01_general_heading.php:189
+#: admin/settings/nasa_01_general_heading.php:197
 #: admin/settings/nasa_03_3_mobile_heading.php:116
 #: admin/settings/nasa_07_1_product_global_heading.php:366
-#: admin/settings/nasa_07_3_product_detail_heading.php:343
+#: admin/settings/nasa_07_3_product_detail_heading.php:344
 #: admin/settings/nasa_09_promo_popup_heading.php:36
 msgid "Yes, Please!"
 msgstr "Da, Vă Rog!"
@@ -6231,7 +6373,7 @@ msgid "You may be interested in&hellip;"
 msgstr "Ați putea fi interesat în..."
 
 #. %s opening and closing link tags respectively
-#: woocommerce/single-product-reviews.php:112
+#: woocommerce/single-product-reviews.php:130
 #, php-format
 msgid "You must be %1$slogged in%2$s to post a review."
 msgstr "Trebuie să fi %1$slugărit în%2$s pentru a posta un comentariu."
@@ -6249,12 +6391,12 @@ msgstr "Trebuie sa fii logat pentru a checkout."
 msgid "Your access is restricted because of your age."
 msgstr "Accesul este restricționat din cauza vârstei."
 
-#: cores/nasa-woo-actions.php:683 cores/nasa-woo-actions.php:694
-#: cores/nasa-woo-actions.php:699
+#: cores/nasa-woo-actions.php:686 cores/nasa-woo-actions.php:697
+#: cores/nasa-woo-actions.php:702
 msgid "Your cart is currently empty."
 msgstr "Cosul tau este gol."
 
-#: cores/nasa-woo-functions.php:48
+#: cores/nasa-woo-functions.php:30
 msgid ""
 "Your cart is currently empty.<span class=\"nasa-extra-empty\">Before proceed "
 "to checkout you must add some products to shopping cart.<br />You will find "
@@ -6265,7 +6407,7 @@ msgstr ""
 "de cumpărături.<br />Veți găsi o mulțime de produse interesante pe pagina "
 "noastră „Magazin”.</span>"
 
-#: cores/nasa-custom-wc-ajax.php:861
+#: cores/nasa-custom-wc-ajax.php:902
 msgid "Your checkout time has expired."
 msgstr "Checkout dumneavoastră a expirat timpul."
 
@@ -6278,17 +6420,25 @@ msgstr "Your comment is awaiting moderation."
 msgid "Your Order"
 msgstr "Comanda"
 
-#: cores/nasa-custom-wc-ajax.php:1369
+#: cores/nasa-custom-wc-ajax.php:1410
 msgid "Your order notes saved."
 msgstr "Comanda note salvate."
 
-#: woocommerce/single-product-reviews.php:125
+#: woocommerce/single-product-reviews.php:143
 msgid "Your rating"
 msgstr "Rating"
 
-#: woocommerce/single-product-reviews.php:135
+#: woocommerce/single-product-reviews.php:154
 msgid "Your review"
 msgstr "Comentariul tau"
+
+#: woocommerce/single-product-reviews.php:154
+msgid "Your review *"
+msgstr "Comentariul dvs. *"
+
+#: cores/nasa-woo-functions.php:2654 woocommerce/single-product-reviews.php:96
+msgid "Your review has been submitted"
+msgstr "Recenzia dvs. a fost trimisă"
 
 #: admin/importer/tpl-import-demo-data.php:161
 #: admin/importer/tpl-import-demo-data.php:183
@@ -6306,3 +6456,7 @@ msgstr "Dimensiunea Zero fișierul descărcat"
 #: admin/settings/nasa_07_1_product_global_heading.php:52
 msgid "Zoom"
 msgstr "Zoom"
+
+#: cores/nasa-theme-footers.php:866
+msgid "Zoom in/out"
+msgstr "Zoom in/out"

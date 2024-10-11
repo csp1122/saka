@@ -375,6 +375,8 @@ function elessi_enqueue_style() {
     
     $in_mobile = isset($nasa_opt['nasa_in_mobile']) && $nasa_opt['nasa_in_mobile'] ? true : false;
 
+    $is_app = $in_mobile && isset($nasa_opt['mobile_layout']) && $nasa_opt['mobile_layout'] == 'app' ? true : false;
+
     $enable_change_view_mobile = isset($nasa_opt['enable_change_view_mobile']) && $nasa_opt['enable_change_view_mobile'] ? true : false;
     
     /**
@@ -525,7 +527,7 @@ function elessi_enqueue_style() {
                 wp_enqueue_style($prefix . '-style-products-list', ELESSI_THEME_URI . '/assets/css/style-products-list.css', array(), $theme_version);
             }
 
-            if ($in_mobile && $enable_change_view_mobile) {
+            if ($is_app && $enable_change_view_mobile) {
                 wp_enqueue_style($prefix . '-style-products-list-mobile', ELESSI_THEME_URI . '/assets/css/style-products-list-mobile.css', array(), $theme_version);
             }
             
@@ -689,7 +691,7 @@ function elessi_add_fonts_style() {
      * Add Font Awesome 5.15.4
      */
     if ((isset($nasa_opt['include_font_awesome_new']) && $nasa_opt['include_font_awesome_new']) || function_exists('dokan')) {
-        wp_enqueue_style($prefix . '-font-awesome-5-free', ELESSI_THEME_URI . '/assets/font-awesome-5.15.4/font-awesome.min.css');
+        wp_enqueue_style($prefix . '-font-awesome-6-free', ELESSI_THEME_URI . '/assets/font-awesome-6/css/font-awesome.min.css');
     }
 }
 
@@ -703,6 +705,25 @@ function elessi_params_variations() {
         'i18n_make_a_selection_text' => esc_attr__('Please select some product options before adding this product to your cart.', 'elessi-theme'),
         'i18n_unavailable_text' => esc_attr__('Sorry, this product is unavailable. Please choose a different combination.', 'elessi-theme')
     );
+}
+
+/**
+ * Support Lightbox WooCommerce - ignore magnific-popup
+ */
+add_action('wp_enqueue_scripts', 'elessi_enqueue_woocommerce_lightbox');
+function elessi_enqueue_woocommerce_lightbox() {
+    if (NASA_WOO_ACTIVED) {
+        // wp_enqueue_style('woo-photoswipe-style', plugins_url('woocommerce/assets/css/photoswipe/photoswipe.min.css'), array(), false);
+        // wp_enqueue_style('woo-photoswipe-default-skin-style', plugins_url('woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css'), array(), false);
+        // wp_enqueue_script('woo-photoswipe-ui-default', plugins_url('woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js'), array('jquery'), null, true);
+        // wp_enqueue_script('woo-photoswipe', plugins_url('woocommerce/assets/js/photoswipe/photoswipe.min.js'), array('jquery'), null, true);
+        
+        wp_enqueue_style('photoswipe');
+        wp_enqueue_style('photoswipe-default-skin');
+        
+        wp_enqueue_script('photoswipe-ui-default');
+        wp_enqueue_script('photoswipe');
+    }
 }
 
 /**
@@ -721,9 +742,9 @@ function elessi_enqueue_scripts() {
     wp_enqueue_script('jquery-cookie', ELESSI_THEME_URI . '/assets/js/min/jquery.cookie.min.js', array('jquery'), $theme_version, true);
     
     /**
-     * magnific popup
+     * magnific popup - support for YITH_WCPB
      */
-    if (!wp_script_is('jquery-magnific-popup')) {
+    if (!wp_script_is('jquery-magnific-popup') && defined('YITH_WCPB')) {
         wp_enqueue_script('jquery-magnific-popup', ELESSI_THEME_URI . '/assets/js/min/jquery.magnific-popup.min.js', array('jquery'), $theme_version, true);
     }
     
@@ -796,6 +817,18 @@ function elessi_enqueue_scripts() {
         
         $ajax_params = 'var nasa_ajax_params=' . json_encode($ajax_params_options) . ';';
         wp_add_inline_script($prefix . '-functions-js', $ajax_params, 'before');
+    }
+
+    /**
+     * Show A Notification On The Browser Tab When The User Leaves The Tab
+     */
+    if (isset($nasa_opt['show_notification_leave_tab']) && $nasa_opt['show_notification_leave_tab']) {
+        $notification = "😁😁 Come back! | ❤️‍🔥❤️‍🔥 Don't forget this ...";
+
+        $notification = isset($nasa_opt['notification_leave_tab']) && $nasa_opt['notification_leave_tab'] != '' ? $nasa_opt['notification_leave_tab'] :  $notification;
+        $array = array_map('trim', explode('|', $notification));
+    
+        wp_add_inline_script($prefix . '-functions-js', 'var show_notification_leave_tab =' . json_encode($array) . ';', 'before');
     }
     
     /**
@@ -871,7 +904,7 @@ function elessi_enqueue_scripts() {
          * Enqueue store ajax js
          */
         if (is_shop() || is_product_taxonomy()) {
-            wp_enqueue_script($prefix . '-store-ajax', ELESSI_THEME_URI . '/assets/js/min/store-ajax.min.js?_='.time(), array('jquery'), $theme_version, true);
+            wp_enqueue_script($prefix . '-store-ajax', ELESSI_THEME_URI . '/assets/js/min/store-ajax.min.js', array('jquery'), $theme_version, true);
         }
         
         /**
@@ -953,6 +986,7 @@ function elessi_enqueue_scripts() {
             if (isset($nasa_opt['fake_purchase_ct']) && $nasa_opt['fake_purchase_ct']) {
                 
                 $p_data = json_decode($nasa_opt['fake_purchase_ct']);
+                $time_interval = isset($nasa_opt['time_fake_purchase']) && (int) $nasa_opt['time_fake_purchase'] ? (int) $nasa_opt['time_fake_purchase'] : 8000;
 
                 if (!empty($p_data)) {
                     $array_js = array();
@@ -980,7 +1014,7 @@ function elessi_enqueue_scripts() {
                     
                     if (!empty($array_js)) {
                         wp_enqueue_script($prefix . '-fk-purchased', ELESSI_THEME_URI . '/assets/js/min/nasa-fk-purchased.min.js', array('jquery'), $theme_version, true);
-                        wp_add_inline_script($prefix . '-fk-purchased', 'var ns_fkp_count=' . count($array_js) . '; var ns_fkp=' . json_encode($array_js), 'before');
+                        wp_add_inline_script($prefix . '-fk-purchased', 'var time_interval = ' . $time_interval * 2 . '; var ns_fkp_count=' . count($array_js) . '; var ns_fkp=' . json_encode($array_js), 'before');
                     }
                 }
             }
@@ -1184,6 +1218,7 @@ function elessi_get_list_css_files_call() {
      */
     if (function_exists('sb_instagram_feed_init')) {
         $list_css['sbi_styles'] = '/plugins/instagram-feed/css/sbi-styles.min.css';
+        $list_css['callout-style'] = '/plugins/instagram-feed/admin/assets/css/callout.css';
     }
     
     return apply_filters('nasa_list_files_css_called', $list_css);

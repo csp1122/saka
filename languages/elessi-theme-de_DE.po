@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Elessi Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-10 09:06+0000\n"
-"PO-Revision-Date: 2024-04-24 07:25+0000\n"
+"PO-Revision-Date: 2024-09-13 14:48+0000\n"
 "Last-Translator: NasaTheme\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -12,19 +12,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
 "X-Domain: elessi-theme"
 
-#: includes/nasa-sidebar-wishlist_content.php:163
+#: includes/nasa-sidebar-wishlist_content.php:166
 msgid " &mdash; In Stock"
 msgstr "&mdash; Auf Lager"
 
-#: includes/nasa-sidebar-wishlist_content.php:161
+#: includes/nasa-sidebar-wishlist_content.php:164
 msgid " - Out of Stock"
 msgstr "- Ausverkauft"
 
 #. 1: reviews count 2: product name
-#: woocommerce/single-product-reviews.php:152
+#: woocommerce/single-product-reviews.php:178
 #, php-format
 msgid "%1$s review for %2$s"
 msgid_plural "%1$s reviews for %2$s"
@@ -48,7 +48,7 @@ msgstr "%s erfolgreich installiert und aktiviert."
 msgid "%s installed successfully."
 msgstr "%s erfolgreich installiert."
 
-#: cores/nasa-custom-wc-ajax.php:592
+#: cores/nasa-custom-wc-ajax.php:593
 #, php-format
 msgid "%s is a required field"
 msgid_plural "%s are required fields"
@@ -80,6 +80,11 @@ msgstr "%s ergebnis"
 msgid "%s results"
 msgstr "%s ergebnisse"
 
+#: woocommerce/single-product-reviews.php:60
+#, php-format
+msgid "%s reviews"
+msgstr "%s Bewertungen"
+
 #: includes/nasa-mini-cart-add-coupon.php:22
 #: includes/nasa-mini-cart-add-coupon.php:26
 #, php-format
@@ -91,8 +96,8 @@ msgstr "%s&nbsp;Rabatt"
 msgid "%s&nbsp;Product Discount"
 msgstr "%s&nbsp;Produktrabatt"
 
-#: woocommerce/loop/sale-flash.php:56
-#: woocommerce/single-product/sale-flash.php:57
+#: woocommerce/loop/sale-flash.php:65
+#: woocommerce/single-product/sale-flash.php:66
 #, php-format
 msgid "&#45;%s&#37;"
 msgstr "&#45;%s&#37;"
@@ -109,7 +114,7 @@ msgstr "&larr; Ältere Kommentare"
 msgid "&larr; Previous"
 msgstr "&larr; Zurück"
 
-#: woocommerce/archive-product.php:197 woocommerce/archive-product.php:310
+#: woocommerce/archive-product.php:188 woocommerce/archive-product.php:300
 msgid "&nbsp;Filters"
 msgstr "&nbsp;Filter"
 
@@ -123,7 +128,7 @@ msgstr "(geschätzt für %s)"
 msgid "+"
 msgstr "+"
 
-#: cores/nasa-widget-functions.php:341 cores/nasa-woo-actions.php:1451
+#: cores/nasa-widget-functions.php:343 cores/nasa-woo-actions.php:1459
 #: widgets/wg-nasa-product-brands.php:260
 #: widgets/wg-nasa-product-categories.php:468
 #: widgets/wg-nasa-product-categories.php:489 widgets/wg-nasa-tag-cloud.php:74
@@ -131,7 +136,7 @@ msgid "+ Show more"
 msgstr "+ Mehr anzeigen"
 
 #: includes/nasa-blog-grid.php:93 includes/nasa-blog-list.php:91
-#: includes/nasa-blog-masonry-isotope.php:99 includes/nasa-blog-standard.php:85
+#: includes/nasa-blog-masonry-isotope.php:98 includes/nasa-blog-standard.php:85
 msgid ", "
 msgstr ","
 
@@ -139,7 +144,7 @@ msgstr ","
 msgid "- Select -"
 msgstr "- Wählen -"
 
-#: cores/nasa-widget-functions.php:340 cores/nasa-woo-actions.php:1451
+#: cores/nasa-widget-functions.php:342 cores/nasa-woo-actions.php:1459
 #: widgets/wg-nasa-product-brands.php:260
 #: widgets/wg-nasa-product-categories.php:468
 #: widgets/wg-nasa-product-categories.php:489 widgets/wg-nasa-tag-cloud.php:73
@@ -151,14 +156,14 @@ msgid "..."
 msgstr "..."
 
 #: widgets/wg-nasa-product-filter-variations.php:186
-#: admin/settings/nasa_07_3_product_detail_heading.php:80
-#: admin/settings/nasa_07_3_product_detail_heading.php:130
+#: admin/settings/nasa_07_3_product_detail_heading.php:81
+#: admin/settings/nasa_07_3_product_detail_heading.php:131
 msgid "1 Column"
 msgstr "1 Spalte"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:602
-#: admin/settings/nasa_07_2_product_page_heading.php:218
-#: admin/settings/nasa_07_3_product_detail_heading.php:490
+#: admin/settings/nasa_07_2_product_page_heading.php:226
+#: admin/settings/nasa_07_3_product_detail_heading.php:522
 #: admin/settings/nasa_08_blog_heading.php:101
 #: admin/settings/nasa_08_blog_heading.php:112
 #: admin/settings/nasa_08_blog_heading.php:252
@@ -170,14 +175,14 @@ msgstr "1 spalte"
 msgid "1 Level"
 msgstr "1 Ebene"
 
-#: cores/nasa-woo-actions.php:1276 cores/nasa-woo-actions.php:1285
+#: cores/nasa-woo-actions.php:1284 cores/nasa-woo-actions.php:1293
 msgid "1 result"
 msgid_plural "%d results"
 msgstr[0] "1 ergebnis"
 msgstr[1] "%d ergebnisse"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:601
-#: admin/settings/nasa_07_3_product_detail_heading.php:489
+#: admin/settings/nasa_07_3_product_detail_heading.php:521
 msgid "1.5 column"
 msgstr "1.5 spalte"
 
@@ -187,26 +192,26 @@ msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr " %1$s bei %2$s"
 
-#: includes/nasa-change-view.php:231
+#: includes/nasa-change-view.php:236
 msgid "2"
 msgstr "2"
 
-#: includes/nasa-change-view.php:228
+#: includes/nasa-change-view.php:233
 #: widgets/wg-nasa-product-filter-variations.php:185
-#: admin/settings/nasa_07_2_product_page_heading.php:179
-#: admin/settings/nasa_07_3_product_detail_heading.php:79
-#: admin/settings/nasa_07_3_product_detail_heading.php:131
+#: admin/settings/nasa_07_2_product_page_heading.php:187
+#: admin/settings/nasa_07_3_product_detail_heading.php:80
+#: admin/settings/nasa_07_3_product_detail_heading.php:132
 msgid "2 Columns"
 msgstr "2 Spalten"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:590
 #: admin/settings/nasa_07_1_product_global_heading.php:600
-#: admin/settings/nasa_07_2_product_page_heading.php:204
-#: admin/settings/nasa_07_2_product_page_heading.php:219
-#: admin/settings/nasa_07_2_product_page_heading.php:229
-#: admin/settings/nasa_07_3_product_detail_heading.php:466
-#: admin/settings/nasa_07_3_product_detail_heading.php:478
-#: admin/settings/nasa_07_3_product_detail_heading.php:488
+#: admin/settings/nasa_07_2_product_page_heading.php:212
+#: admin/settings/nasa_07_2_product_page_heading.php:227
+#: admin/settings/nasa_07_2_product_page_heading.php:237
+#: admin/settings/nasa_07_3_product_detail_heading.php:498
+#: admin/settings/nasa_07_3_product_detail_heading.php:510
+#: admin/settings/nasa_07_3_product_detail_heading.php:520
 #: admin/settings/nasa_08_blog_heading.php:88
 #: admin/settings/nasa_08_blog_heading.php:102
 #: admin/settings/nasa_08_blog_heading.php:113
@@ -220,21 +225,21 @@ msgstr "2 spalten"
 msgid "2 Levels"
 msgstr "2 Ebenen"
 
-#: includes/nasa-change-view.php:246
+#: includes/nasa-change-view.php:251
 msgid "3"
 msgstr "3"
 
-#: includes/nasa-change-view.php:243
-#: admin/settings/nasa_07_2_product_page_heading.php:180
+#: includes/nasa-change-view.php:248
+#: admin/settings/nasa_07_2_product_page_heading.php:188
 msgid "3 Columns"
 msgstr "3 Spalten"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:578
 #: admin/settings/nasa_07_1_product_global_heading.php:589
-#: admin/settings/nasa_07_2_product_page_heading.php:205
-#: admin/settings/nasa_07_2_product_page_heading.php:230
-#: admin/settings/nasa_07_3_product_detail_heading.php:465
-#: admin/settings/nasa_07_3_product_detail_heading.php:477
+#: admin/settings/nasa_07_2_product_page_heading.php:213
+#: admin/settings/nasa_07_2_product_page_heading.php:238
+#: admin/settings/nasa_07_3_product_detail_heading.php:497
+#: admin/settings/nasa_07_3_product_detail_heading.php:509
 #: admin/settings/nasa_08_blog_heading.php:89
 #: admin/settings/nasa_08_blog_heading.php:114
 #: admin/settings/nasa_08_blog_heading.php:240
@@ -251,21 +256,21 @@ msgstr "3 Ebenen"
 msgid "360&#176; Badge Color"
 msgstr "360&#176; Abzeichenfarbe"
 
-#: includes/nasa-change-view.php:262
+#: includes/nasa-change-view.php:267
 msgid "4"
 msgstr "4"
 
-#: includes/nasa-change-view.php:259
-#: admin/settings/nasa_07_2_product_page_heading.php:181
+#: includes/nasa-change-view.php:264
+#: admin/settings/nasa_07_2_product_page_heading.php:189
 msgid "4 Columns"
 msgstr "4 Spalten"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:577
 #: admin/settings/nasa_07_1_product_global_heading.php:588
-#: admin/settings/nasa_07_2_product_page_heading.php:206
-#: admin/settings/nasa_07_2_product_page_heading.php:231
-#: admin/settings/nasa_07_3_product_detail_heading.php:464
-#: admin/settings/nasa_07_3_product_detail_heading.php:476
+#: admin/settings/nasa_07_2_product_page_heading.php:214
+#: admin/settings/nasa_07_2_product_page_heading.php:239
+#: admin/settings/nasa_07_3_product_detail_heading.php:496
+#: admin/settings/nasa_07_3_product_detail_heading.php:508
 #: admin/settings/nasa_08_blog_heading.php:90
 #: admin/settings/nasa_08_blog_heading.php:241
 #: admin/settings/nasa_10_portfolio_heading.php:88
@@ -276,18 +281,18 @@ msgstr "4 spalten"
 msgid "404"
 msgstr "404"
 
-#: includes/nasa-change-view.php:277
+#: includes/nasa-change-view.php:282
 msgid "5"
 msgstr "5"
 
-#: includes/nasa-change-view.php:274
-#: admin/settings/nasa_07_2_product_page_heading.php:182
+#: includes/nasa-change-view.php:279
+#: admin/settings/nasa_07_2_product_page_heading.php:190
 msgid "5 Columns"
 msgstr "5 Spalten"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:576
-#: admin/settings/nasa_07_2_product_page_heading.php:207
-#: admin/settings/nasa_07_3_product_detail_heading.php:463
+#: admin/settings/nasa_07_2_product_page_heading.php:215
+#: admin/settings/nasa_07_3_product_detail_heading.php:495
 #: admin/settings/nasa_08_blog_heading.php:91
 #: admin/settings/nasa_08_blog_heading.php:242
 #: admin/settings/nasa_10_portfolio_heading.php:87
@@ -298,17 +303,17 @@ msgstr "5 spalten"
 msgid "50%"
 msgstr "50%"
 
-#: includes/nasa-change-view.php:293
+#: includes/nasa-change-view.php:298
 msgid "6"
 msgstr "6"
 
-#: includes/nasa-change-view.php:290
-#: admin/settings/nasa_07_2_product_page_heading.php:183
+#: includes/nasa-change-view.php:295
+#: admin/settings/nasa_07_2_product_page_heading.php:191
 msgid "6 Columns"
 msgstr "6 Spalten"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:208
-#: admin/settings/nasa_07_3_product_detail_heading.php:462
+#: admin/settings/nasa_07_2_product_page_heading.php:216
+#: admin/settings/nasa_07_3_product_detail_heading.php:494
 msgid "6 columns"
 msgstr "6 spalten"
 
@@ -375,7 +380,7 @@ msgstr ""
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Zurück"
 
-#: cores/nasa-woo-functions.php:1193
+#: cores/nasa-woo-functions.php:1349
 msgid "<span>Availability:</span> "
 msgstr "<span>Verfügbarkeit:</span>"
 
@@ -449,6 +454,10 @@ msgstr "Konto auf dem Hauptbildschirm – mobiles Layout"
 msgid "Account Options"
 msgstr "Kontoeinstellungen"
 
+#: includes/nasa-acc-nav.php:15
+msgid "Account pages"
+msgstr "Kontoseiten"
+
 #: admin/classes/class-tgm-plugin-activation.php:2778
 msgid "Activate"
 msgstr "Aktivieren Sie"
@@ -469,9 +478,10 @@ msgid "Add"
 msgstr "Hinzufügen"
 
 #. %s is product title
-#: woocommerce/single-product-reviews.php:89
-msgid "Add a review"
-msgstr "Bewertung hinzufügen"
+#: woocommerce/single-product-reviews.php:105
+#, php-format
+msgid "Add a review &ldquo;%s&rdquo;"
+msgstr "Füge eine Bewertung hinzu &ldquo;%s&rdquo;"
 
 #: cores/nasa-theme-options.php:164
 msgid "Add Icon Image (Using for Section of Tabs)"
@@ -498,10 +508,6 @@ msgstr "Neue Folie hinzufügen"
 msgid "Add note"
 msgstr "Notiz hinzufügen"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "Add photos"
-msgstr "Fotos hinzufügen"
-
 #: cores/nasa-yith-wcwl-ext.php:318
 msgid "Add to cart"
 msgstr "In den Warenkorb legen"
@@ -511,7 +517,7 @@ msgstr "In den Warenkorb legen"
 msgid "Add To Cart in Grid"
 msgstr "Im Raster zum Warenkorb hinzufügen"
 
-#: cores/nasa-woo-actions.php:1987
+#: cores/nasa-woo-actions.php:2000
 msgid "Add to Compare"
 msgstr "Hinzufügen zum vergleichen"
 
@@ -519,7 +525,7 @@ msgstr "Hinzufügen zum vergleichen"
 msgid "Add to Wishlist"
 msgstr "Zur Wunschliste hinzufügen"
 
-#: cores/nasa-wishlist.php:187 cores/nasa-woo-functions.php:1163
+#: cores/nasa-wishlist.php:184 cores/nasa-woo-functions.php:1315
 msgid "Add to wishlist"
 msgstr "Zur Wunschliste hinzufügen"
 
@@ -531,7 +537,7 @@ msgstr ""
 "Fügen Sie Ihr benutzerdefiniertes Favicon-Bild hinzu. 16x16 - 32x32 *.ico "
 "oder *.png erforderlich. (Empfohlen 16x16 *.ico)"
 
-#: cores/nasa-woo-actions.php:1943 cores/nasa-woo-actions.php:1988
+#: cores/nasa-woo-actions.php:1956 cores/nasa-woo-actions.php:2001
 msgid "Added to Compare"
 msgstr "Zum Vergleich hinzugefügt"
 
@@ -539,33 +545,33 @@ msgstr "Zum Vergleich hinzugefügt"
 msgid "Added to Wishlist"
 msgstr "Zur Wunschliste hinzugefügt"
 
-#: cores/nasa-wishlist.php:188
+#: cores/nasa-wishlist.php:185
 msgid "Added to wishlist"
 msgstr "Zur Wunschliste hinzugefügt"
 
-#: cores/nasa-theme-footers.php:310
+#: cores/nasa-theme-footers.php:341
 msgid "Adding"
 msgstr "Hinzufügen"
 
-#: cores/nasa-theme-footers.php:358
+#: cores/nasa-theme-footers.php:391
 msgid "Adding cart"
 msgstr "Warenkorb wird hinzugefügt"
 
-#: admin/importer/nasa-importer.php:1479
+#: admin/importer/nasa-importer.php:1492
 msgid "Addition Homepage Success!"
 msgstr "Ergänzung Homepage Erfolgreich!"
 
-#: admin/settings/nasa_03_1_header_heading.php:313
-#: admin/settings/nasa_03_1_header_heading.php:314
+#: admin/settings/nasa_03_1_header_heading.php:315
+#: admin/settings/nasa_03_1_header_heading.php:316
 #: admin/settings/nasa_07_1_product_global_heading.php:288
 #: admin/settings/nasa_07_1_product_global_heading.php:289
-#: admin/settings/nasa_07_3_product_detail_heading.php:362
 #: admin/settings/nasa_07_3_product_detail_heading.php:363
+#: admin/settings/nasa_07_3_product_detail_heading.php:364
 msgid "Addon Options"
 msgstr "Add-on-Optionen"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:299
-#: admin/settings/nasa_07_2_product_page_heading.php:300
+#: admin/settings/nasa_07_2_product_page_heading.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:308
 msgid "Advance Content Options"
 msgstr "Erweiterte Inhaltsoptionen"
 
@@ -574,7 +580,7 @@ msgstr "Erweiterte Inhaltsoptionen"
 msgid "Advanced options"
 msgstr "Erweiterte Optionen"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:327
+#: admin/settings/nasa_07_2_product_page_heading.php:335
 msgid "After Breadcrumb - Only for Shop Page"
 msgstr "Nach Breadcrumb – Nur für Shop-Seite"
 
@@ -582,20 +588,20 @@ msgstr "Nach Breadcrumb – Nur für Shop-Seite"
 msgid "After Tabs Title (Using for Section of Tabs)"
 msgstr "Titel nach den Tabs (wird für den Abschnitt der Tabs verwendet)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:402
+#: admin/settings/nasa_07_3_product_detail_heading.php:403
 msgid "After WooCommerce Tabs"
 msgstr "Nach WooCommerce-Tabs"
 
-#: admin/settings/nasa_01_general_heading.php:135
+#: admin/settings/nasa_01_general_heading.php:204
 msgid "Age Verification"
 msgstr "Altersüberprüfung"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:270
+#: admin/settings/nasa_07_3_product_detail_heading.php:271
 msgid "AJAX add to cart button on Single And Quickview"
 msgstr ""
 "AJAX-Schaltfläche Zum Warenkorb hinzufügen in der Einzel- und Schnellansicht"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:429
+#: admin/settings/nasa_07_3_product_detail_heading.php:461
 msgid "Ajax Load"
 msgstr "Ajax-Laden"
 
@@ -628,13 +634,17 @@ msgstr "Alle Plugins erfolgreich installiert und aktiviert. %1$s"
 msgid "ALL PRODUCTS LOADED !"
 msgstr "ALLE PRODUKTE GELADEN!"
 
-#: cores/nasa-woo-actions.php:1599
+#: cores/nasa-woo-actions.php:1607
 msgid "All transactions are secure and encrypted."
 msgstr "Alle Transaktionen sind sicher und verschlüsselt."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:408
+#: admin/settings/nasa_07_3_product_detail_heading.php:411
 msgid "Allow Comments Images upload"
 msgstr "Erlauben Sie das Hochladen von Kommentaren und Bildern"
+
+#: admin/settings/nasa_07_3_product_detail_heading.php:436
+msgid "Allow Comments Video upload"
+msgstr "Kommentare zulassen Video-Upload"
 
 #: includes/nasa-login-register-form.php:177
 msgid "Already got an account? "
@@ -652,7 +662,7 @@ msgstr ""
 msgid "AND"
 msgstr "UND"
 
-#: admin/settings/nasa_01_general_heading.php:96
+#: admin/settings/nasa_01_general_heading.php:165
 msgid "Animation Effect"
 msgstr "Animationseffekt"
 
@@ -695,7 +705,7 @@ msgstr "Seite Produkte archivieren."
 msgid "Are you over 18?"
 msgstr "Bist du über 18?"
 
-#: cores/nasa-theme-footers.php:841
+#: cores/nasa-theme-footers.php:886
 msgid "Are you sure you want to remove it?"
 msgstr "Möchten Sie es wirklich entfernen?"
 
@@ -707,7 +717,7 @@ msgstr "Arial"
 msgid "Arrow"
 msgstr "Pfeil"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:171
+#: admin/settings/nasa_07_3_product_detail_heading.php:172
 msgid "Arrows for Main Slide"
 msgstr "Pfeile für Hauptfolie"
 
@@ -732,7 +742,7 @@ msgstr "Autoren zuweisen"
 msgid "assign posts to an existing user:"
 msgstr "Beiträge einem bestehenden Benutzer zuweisen:"
 
-#: admin/settings/nasa_01_general_heading.php:213
+#: admin/settings/nasa_01_general_heading.php:300
 msgid "Async"
 msgstr "Async"
 
@@ -754,11 +764,11 @@ msgid "Author info"
 msgstr "Autoreninfo"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:607
-#: admin/settings/nasa_07_3_product_detail_heading.php:140
+#: admin/settings/nasa_07_3_product_detail_heading.php:141
 msgid "Auto Slide"
 msgstr "Auto Schieben"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:495
+#: admin/settings/nasa_07_3_product_detail_heading.php:527
 msgid "Auto Slide - Related | You may also like&hellip;"
 msgstr "Auto Schieben - Verwandte | Sie können auch mögen&hellip;"
 
@@ -778,15 +788,15 @@ msgstr "Auf Nachbestellung verfügbar"
 msgid "Available version:"
 msgstr "Verfügbare Version:"
 
-#: woocommerce/single-product-reviews.php:129
+#: woocommerce/single-product-reviews.php:148
 msgid "Average"
 msgstr "Durchschnitt"
 
-#: cores/nasa-woo-functions.php:1724
+#: cores/nasa-woo-functions.php:1880
 msgid "Average rating"
 msgstr "Durchschnittliche Bewertung"
 
-#: woocommerce/single-product/product-image.php:170
+#: woocommerce/single-product/product-image.php:174
 msgid "Awaiting product image"
 msgstr "Warten auf Produktbild"
 
@@ -811,22 +821,22 @@ msgstr "Zurück zum Dashboard"
 msgid "BACK TO STEP 1"
 msgstr "ZURÜCK ZU SCHRITT 1"
 
-#: cores/nasa-theme-footers.php:189
+#: cores/nasa-theme-footers.php:199
 #: admin/settings/nasa_01_general_heading.php:84
 msgid "Back to Top"
 msgstr "Zurück nach oben"
 
-#: admin/settings/nasa_03_1_header_heading.php:702
+#: admin/settings/nasa_03_1_header_heading.php:715
 #: admin/settings/nasa_06_breadcrumb_heading.php:79
-#: admin/settings/nasa_07_3_product_detail_heading.php:64
+#: admin/settings/nasa_07_3_product_detail_heading.php:65
 msgid "Background Color"
 msgstr "Hintergrundfarbe"
 
-#: admin/settings/nasa_03_1_header_heading.php:376
+#: admin/settings/nasa_03_1_header_heading.php:378
 msgid "Background Color Header"
 msgstr "Hintergrundfarbe der Kopfzeile"
 
-#: admin/settings/nasa_03_1_header_heading.php:386
+#: admin/settings/nasa_03_1_header_heading.php:388
 msgid "Background Color Header - Sticky"
 msgstr "Hintergrundfarbe der Kopfzeile – Klebrig"
 
@@ -834,7 +844,7 @@ msgstr "Hintergrundfarbe der Kopfzeile – Klebrig"
 msgid "Background Color Of Product Items In The Shop"
 msgstr "Hintergrundfarbe der Produktartikel im Shop"
 
-#: admin/settings/nasa_03_1_header_heading.php:709
+#: admin/settings/nasa_03_1_header_heading.php:722
 #: admin/settings/nasa_06_breadcrumb_heading.php:58
 msgid "Background Image"
 msgstr "Hintergrundbild"
@@ -855,8 +865,8 @@ msgstr "Hintergrundparallaxe"
 msgid "Backorder Allowed Badge"
 msgstr "Abzeichen Rückstandsbestellung zulässig."
 
-#: woocommerce/loop/sale-flash.php:82
-#: woocommerce/single-product/sale-flash.php:83
+#: woocommerce/loop/sale-flash.php:91
+#: woocommerce/single-product/sale-flash.php:92
 msgid "Backorders"
 msgstr "Nachbestellungen"
 
@@ -885,17 +895,13 @@ msgstr "Abzeichen – Optionen"
 msgid "Banner font"
 msgstr "Banner-Schriftart"
 
-#: woocommerce/single-product-reviews.php:43
-#, php-format
-msgid "Based on %s reviews"
-msgstr "Basierend auf %s Bewertungen"
-
-#: woocommerce/single-product-reviews.php:89
+#: woocommerce/single-product-reviews.php:105
+#: woocommerce/single-product-reviews.php:164
 #, php-format
 msgid "Be the first to review &ldquo;%s&rdquo;"
 msgstr "Seien Sie der Erste, der &ldquo;%s&rdquo; bewertet"
 
-#: admin/theme-admin.php:343
+#: admin/theme-admin.php:365
 msgid "Before Footer"
 msgstr "Vor der Fußzeile"
 
@@ -937,7 +943,7 @@ msgstr "Blog"
 msgid "Blog Options"
 msgstr "Blog-Optionen"
 
-#: options/nasa-options.php:1251
+#: options/nasa-options.php:1286
 msgid "Blog Sidebar"
 msgstr "Blog-Seitenleiste"
 
@@ -985,7 +991,7 @@ msgstr "Verpackt"
 msgid "Breadcrumb"
 msgstr "Breadcrumb"
 
-#: cores/nasa-woo-functions.php:776
+#: cores/nasa-woo-functions.php:924
 msgid "BROWSE"
 msgstr "DURCHSUCHE"
 
@@ -1071,16 +1077,16 @@ msgstr "Schaltflächen-Textfarbe"
 msgid "Buttons Text Color Hover"
 msgstr "Schaltflächen Textfarbe schweben"
 
-#: cores/nasa-woo-actions.php:1125
-#: admin/settings/nasa_07_3_product_detail_heading.php:210
+#: cores/nasa-woo-actions.php:1132
+#: admin/settings/nasa_07_3_product_detail_heading.php:211
 msgid "Buy Now"
 msgstr "Kaufe Jetzt"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:217
+#: admin/settings/nasa_07_3_product_detail_heading.php:218
 msgid "Buy Now Background Color"
 msgstr "Jetzt kaufen Hintergrundfarbe"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:226
+#: admin/settings/nasa_07_3_product_detail_heading.php:227
 msgid "Buy Now Background Color Hover"
 msgstr "Jetzt kaufen Hintergrundfarbe Hover"
 
@@ -1101,15 +1107,15 @@ msgstr "Von"
 msgid "Cancel"
 msgstr "Stornieren"
 
-#: includes/nasa-tmpl-captcha-field-register.php:14
+#: includes/nasa-tmpl-captcha-field-register.php:16
 msgid "Captcha Code"
 msgstr "Captcha Code"
 
-#: cores/nasa-theme-options.php:516
+#: cores/nasa-theme-options.php:537
 msgid "Captcha Error!"
 msgstr "Captcha Fehler!"
 
-#: admin/settings/nasa_03_1_header_heading.php:306
+#: admin/settings/nasa_03_1_header_heading.php:307
 msgid "Captcha For Register Form"
 msgstr "Captcha für Registrierungsformular"
 
@@ -1117,7 +1123,7 @@ msgstr "Captcha für Registrierungsformular"
 msgid "CART"
 msgstr "WAGEN"
 
-#: cores/nasa-woo-functions.php:236 cores/nasa-woo-functions.php:242
+#: cores/nasa-woo-functions.php:218 cores/nasa-woo-functions.php:224
 #: includes/nasa-mobile-bottom-bar-app.php:102
 #: includes/nasa-mobile-bottom-bar-app.php:104
 #: includes/nasa-mobile-bottom-bar.php:102
@@ -1133,11 +1139,11 @@ msgstr "Layout der Warenkorb-Seitenleiste"
 msgid "Catalog Mode - Disable Add To Cart Feature"
 msgstr "Katalogmodus – Deaktivieren Sie die Funktion In den Warenkorb."
 
-#: cores/nasa-woo-functions.php:761
+#: cores/nasa-woo-functions.php:909
 msgid "CATEGORIES"
 msgstr "KATEGORIEN"
 
-#: cores/nasa-theme-footers.php:743 cores/nasa-theme-headers.php:392
+#: cores/nasa-theme-footers.php:780 cores/nasa-theme-headers.php:392
 #: includes/nasa-mobile-bottom-bar-app.php:59
 #: includes/nasa-mobile-bottom-bar-app.php:61
 #: includes/nasa-mobile-bottom-bar.php:59
@@ -1158,12 +1164,16 @@ msgstr ""
 msgid "Categories info"
 msgstr "Kategorien info"
 
+#: cores/nasa-custom-wc-ajax.php:873
+msgid "Categories Map"
+msgstr "Kategorien Karte"
+
 #: archive.php:65
 #, php-format
 msgid "Category Archives: %s"
 msgstr "Kategorie-Archive: %s"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:317
+#: admin/settings/nasa_07_2_product_page_heading.php:325
 msgid "Category bottom content"
 msgstr "Inhalt der Kategorie - unten"
 
@@ -1172,21 +1182,21 @@ msgstr "Inhalt der Kategorie - unten"
 msgid "Category Order"
 msgstr "Kategoriereihenfolge"
 
-#: admin/settings/nasa_03_1_header_heading.php:656
+#: admin/settings/nasa_03_1_header_heading.php:660
 msgid "Category Post"
 msgstr "Kategoriebeitrag"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:315
 msgid "Category top content"
 msgstr "Top-Inhalt der Kategorie"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:98
-#: admin/settings/nasa_07_3_product_detail_heading.php:311
+#: admin/settings/nasa_07_3_product_detail_heading.php:312
 msgid "Center"
 msgstr "Center"
 
-#: cores/nasa-woo-actions.php:1527 cores/nasa-woo-actions.php:1537
-#: cores/nasa-woo-actions.php:1546 admin/classes/class.options_machine.php:802
+#: cores/nasa-woo-actions.php:1535 cores/nasa-woo-actions.php:1545
+#: cores/nasa-woo-actions.php:1554 admin/classes/class.options_machine.php:802
 msgid "Change"
 msgstr "Ändern"
 
@@ -1209,9 +1219,10 @@ msgstr "Shop-Layoutmodus ändern"
 msgid "Change View Mode (Only Desktop Mode)"
 msgstr "Ansichtsmodus ändern (nur Desktop-Modus)"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:192
-msgid "Change View Mode (Only Mobile Layout Mode)"
-msgstr "Ansichtsmodus ändern (nur mobiler Layoutmodus)"
+#: admin/settings/nasa_07_2_product_page_heading.php:200
+#| msgid "Change View Mode (Only Mobile Layout Mode)"
+msgid "Change View Mode Mobile (Only Mobile App Layout Mode)"
+msgstr "Ansichtsmodus für Mobilgeräte ändern (nur Layoutmodus für mobile Apps)"
 
 #: admin/settings/nasa_05_type_heading.php:191
 msgid "Character Sub-sets"
@@ -1242,7 +1253,7 @@ msgstr ""
 "Wählen Sie eine WXR-Datei (.xml) zum Hochladen aus und klicken Sie dann auf "
 "Datei hochladen und importieren."
 
-#: admin/settings/nasa_03_1_header_heading.php:516
+#: admin/settings/nasa_03_1_header_heading.php:502
 msgid "Classic"
 msgstr "Klassisch"
 
@@ -1280,19 +1291,19 @@ msgstr "Klicken Sie hier, um diesen Gutschein einzulösen."
 
 #: admin/settings/nasa_03_1_header_heading.php:72
 #: admin/settings/nasa_03_1_header_heading.php:93
-#: admin/settings/nasa_03_1_header_heading.php:336
-#: admin/settings/nasa_03_1_header_heading.php:348
-#: admin/settings/nasa_03_1_header_heading.php:360
-#: admin/settings/nasa_03_1_header_heading.php:592
+#: admin/settings/nasa_03_1_header_heading.php:338
+#: admin/settings/nasa_03_1_header_heading.php:350
+#: admin/settings/nasa_03_1_header_heading.php:362
+#: admin/settings/nasa_03_1_header_heading.php:596
 #: admin/settings/nasa_03_2_footer_heading.php:120
 #: admin/settings/nasa_03_2_footer_heading.php:137
 #: admin/settings/nasa_03_2_footer_heading.php:163
 #: admin/settings/nasa_03_2_footer_heading.php:180
 #: admin/settings/nasa_03_3_mobile_heading.php:82
-#: admin/settings/nasa_07_2_product_page_heading.php:313
-#: admin/settings/nasa_07_2_product_page_heading.php:323
-#: admin/settings/nasa_07_2_product_page_heading.php:333
-#: admin/settings/nasa_07_3_product_detail_heading.php:358
+#: admin/settings/nasa_07_2_product_page_heading.php:321
+#: admin/settings/nasa_07_2_product_page_heading.php:331
+#: admin/settings/nasa_07_2_product_page_heading.php:341
+#: admin/settings/nasa_07_3_product_detail_heading.php:359
 #: admin/settings/nasa_09_promo_popup_heading.php:88
 #: admin/settings/nasa_09_promo_popup_heading.php:164
 msgid "Click here to Edit"
@@ -1302,7 +1313,7 @@ msgstr "Klicken Sie hier zum Bearbeiten"
 msgid "Click here to enter your code"
 msgstr "Klicken Sie hier, um Ihren Code einzugeben"
 
-#: woocommerce/checkout/form-login.php:18
+#: woocommerce/checkout/form-login.php:19
 msgid "Click here to login"
 msgstr "Klicken Sie hier, um sich einzuloggen"
 
@@ -1317,33 +1328,33 @@ msgstr "Klicken Sie auf das Symbol Auswählen für"
 
 #: archive.php:132 index.php:77 page-left-sidebar.php:34
 #: page-right-sidebar.php:34 search.php:76 single.php:64
-#: cores/nasa-theme-footers.php:306 cores/nasa-theme-footers.php:481
-#: cores/nasa-theme-footers.php:516 cores/nasa-theme-footers.php:531
-#: cores/nasa-theme-footers.php:605 cores/nasa-theme-footers.php:717
-#: cores/nasa-theme-footers.php:748 headers/header-structure-1.php:48
+#: cores/nasa-theme-footers.php:337 cores/nasa-theme-footers.php:514
+#: cores/nasa-theme-footers.php:569 cores/nasa-theme-footers.php:642
+#: cores/nasa-theme-footers.php:785 headers/header-structure-1.php:48
 #: headers/header-structure-2.php:73 headers/header-structure-3.php:63
 #: headers/header-structure-5.php:48 headers/header-structure-7.php:43
-#: headers/header-structure-7.php:53 includes/nasa-blog-promotion.php:16
+#: headers/header-structure-7.php:53 includes/nasa-blog-promotion.php:18
 #: includes/nasa-checkout-coupon-modern.php:22
 #: includes/nasa-sidebar-shop-side.php:64 includes/nasa-sidebar-shop-top.php:55
-#: includes/nasa-single-product-classic.php:83
-#: includes/nasa-single-product-full.php:71
-#: includes/nasa-single-product-modern-1.php:58
-#: includes/nasa-single-product-modern-2.php:59
-#: includes/nasa-single-product-modern-3.php:59
+#: includes/nasa-single-product-classic.php:84
+#: includes/nasa-single-product-full.php:73
+#: includes/nasa-single-product-modern-1.php:60
+#: includes/nasa-single-product-modern-2.php:61
+#: includes/nasa-single-product-modern-3.php:61
+#: includes/nasa-single-product-modern-4.php:76
 #: includes/nasa-single-product-new-2.php:42
 #: includes/nasa-single-product-new.php:71
 msgid "Close"
 msgstr "Schließen"
 
-#: cores/nasa-theme-footers.php:346 cores/nasa-theme-footers.php:352
-#: cores/nasa-theme-footers.php:353 cores/nasa-theme-footers.php:832
-#: cores/nasa-theme-footers.php:1037 includes/nasa-after-add-to-cart.php:20
-#: includes/nasa-promo-popup.php:41
+#: cores/nasa-theme-footers.php:380 cores/nasa-theme-footers.php:385
+#: cores/nasa-theme-footers.php:386 cores/nasa-theme-footers.php:866
+#: cores/nasa-theme-footers.php:877 cores/nasa-theme-footers.php:1089
+#: includes/nasa-after-add-to-cart.php:20 includes/nasa-promo-popup.php:42
 msgid "Close (Esc)"
 msgstr "Schließen (Esc)"
 
-#: searchform.php:115 searchform.php:194
+#: searchform.php:116 searchform.php:195
 msgid "Close search"
 msgstr "Suche schließen"
 
@@ -1362,7 +1373,7 @@ msgid "Colors Options"
 msgstr "Farboptionen"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:571
-#: admin/settings/nasa_07_2_product_page_heading.php:199
+#: admin/settings/nasa_07_2_product_page_heading.php:207
 msgid "Columns"
 msgstr "Säulen"
 
@@ -1394,16 +1405,16 @@ msgstr "Produkt Verknüpfen - Spalten auf Mobilgeräten"
 msgid "Columns Related in Tablet"
 msgstr "Produkt Verknüpfen - Spalten auf Tablet"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:457
+#: admin/settings/nasa_07_3_product_detail_heading.php:489
 msgid "Columns Related | You may also like&hellip;"
 msgstr "Verwandte Spalten | Sie können auch mögen&hellip;"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:483
+#: admin/settings/nasa_07_3_product_detail_heading.php:515
 msgid "Columns Related | You may also like&hellip; for Mobile"
 msgstr ""
 "Verwandte Spalten | Vielleicht gefällt Ihnen auch&hellip; für Mobilgeräte"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:471
+#: admin/settings/nasa_07_3_product_detail_heading.php:503
 msgid "Columns Related | You may also like&hellip; for Tablet"
 msgstr "Verwandte Spalten | Das könnte Ihnen auch gefallen&hellip; für Tablet"
 
@@ -1416,7 +1427,7 @@ msgid "Comment navigation"
 msgstr "Kommentarnavigation"
 
 #: comments.php:19 includes/nasa-blog-grid.php:68
-#: includes/nasa-blog-list.php:67 includes/nasa-blog-masonry-isotope.php:71
+#: includes/nasa-blog-list.php:67 includes/nasa-blog-masonry-isotope.php:70
 #: includes/nasa-blog-standard.php:60
 msgid "Comments"
 msgstr "Kommentare"
@@ -1440,9 +1451,9 @@ msgstr "Kommentarfunktion ist geschlossen."
 msgid "Compact Number - Cart, Wishlist, Compare (9+)"
 msgstr "Kompakte Nummer – Warenkorb, Wunschliste, Vergleichen (9+)"
 
-#: cores/nasa-woo-actions.php:1943 cores/nasa-woo-actions.php:1984
-#: cores/nasa-woo-actions.php:1984 cores/nasa-woo-functions.php:687
-#: cores/nasa-woo-functions.php:692
+#: cores/nasa-woo-actions.php:1956 cores/nasa-woo-actions.php:1997
+#: cores/nasa-woo-actions.php:1997 cores/nasa-woo-functions.php:835
+#: cores/nasa-woo-functions.php:840
 msgid "Compare"
 msgstr "Vergleichen"
 
@@ -1463,7 +1474,7 @@ msgstr "Produkt vergleichen"
 msgid "Compare Products"
 msgstr "Produkte vergleichen"
 
-#: cores/nasa-custom-wc-ajax.php:781
+#: cores/nasa-custom-wc-ajax.php:782
 msgid "Compare products were empty !"
 msgstr "Vergleichsprodukte waren leer!"
 
@@ -1471,7 +1482,7 @@ msgstr "Vergleichsprodukte waren leer!"
 msgid "Congratulations! You've got free shipping."
 msgstr "Glückwunsch! Sie haben kostenlosen Versand."
 
-#: cores/nasa-woo-actions.php:1525
+#: cores/nasa-woo-actions.php:1533
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -1493,17 +1504,17 @@ msgstr "WEITERMACHEN"
 
 #: includes/nasa-blog-grid.php:85 includes/nasa-blog-grid.php:86
 #: includes/nasa-blog-list.php:84 includes/nasa-blog-list.php:85
-#: includes/nasa-blog-masonry-isotope.php:89
-#: includes/nasa-blog-masonry-isotope.php:90 includes/nasa-blog-standard.php:77
+#: includes/nasa-blog-masonry-isotope.php:88
+#: includes/nasa-blog-masonry-isotope.php:89 includes/nasa-blog-standard.php:77
 #: includes/nasa-blog-standard.php:78
 msgid "CONTINUE READING  &#10142;"
 msgstr "WEITER LESEN &#10142;"
 
-#: cores/nasa-woo-actions.php:1499 cores/nasa-woo-actions.php:1572
+#: cores/nasa-woo-actions.php:1507 cores/nasa-woo-actions.php:1580
 msgid "Continue To Payment"
 msgstr "Weiter zur Zahlung"
 
-#: cores/nasa-woo-actions.php:1498
+#: cores/nasa-woo-actions.php:1506
 msgid "Continue To Shipping"
 msgstr "Weiter zum Versand"
 
@@ -1511,7 +1522,7 @@ msgstr "Weiter zum Versand"
 msgid "cookie policy"
 msgstr "Cookie-Richtlinie"
 
-#: cores/nasa-woo-actions.php:2534 cores/nasa-woo-functions.php:2005
+#: cores/nasa-woo-actions.php:2542 cores/nasa-woo-functions.php:2161
 msgid "Coupon"
 msgstr "Gutschein"
 
@@ -1520,7 +1531,7 @@ msgstr "Gutschein"
 msgid "Coupon code"
 msgstr "Gutscheincode"
 
-#: cores/nasa-custom-wc-ajax.php:1331
+#: cores/nasa-custom-wc-ajax.php:1372
 msgid "Coupon has been removed."
 msgstr "Der Gutschein wurde entfernt."
 
@@ -1536,7 +1547,7 @@ msgstr "Ein Konto erstellen"
 msgid "Cross-Sells Products"
 msgstr "Cross-Selling-Produkte"
 
-#: admin/settings/nasa_03_1_header_heading.php:569
+#: admin/settings/nasa_03_1_header_heading.php:573
 msgid "Currencies Switcher"
 msgstr "Währungsumschalter"
 
@@ -1548,12 +1559,12 @@ msgstr "Aktueller Wert:"
 msgid "Custom Badge Color"
 msgstr "Benutzerdefinierte Abzeichenfarbe"
 
-#: admin/theme-admin.php:347
+#: admin/theme-admin.php:369
 msgid "Custom Block"
 msgstr "Benutzerdefinierter Block"
 
-#: admin/settings/nasa_03_1_header_heading.php:638
-#: admin/settings/nasa_03_1_header_heading.php:645
+#: admin/settings/nasa_03_1_header_heading.php:642
+#: admin/settings/nasa_03_1_header_heading.php:649
 msgid "Custom Content"
 msgstr "Benutzerdefinierter Inhalt"
 
@@ -1604,17 +1615,17 @@ msgstr "Informationen zu Datum und Uhrzeit"
 msgid "Deal Badge Color"
 msgstr "Farbe des Deal-Abzeichens"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:368
+#: admin/settings/nasa_07_3_product_detail_heading.php:369
 msgid "Deal Time in Single or Quickview"
 msgstr "Deal-Zeit in der Einzel- oder Schnellansicht"
 
 #: admin/settings/nasa_05_type_heading.php:247
 #: admin/settings/nasa_07_1_product_global_heading.php:477
-#: admin/settings/nasa_07_3_product_detail_heading.php:403
+#: admin/settings/nasa_07_3_product_detail_heading.php:404
 msgid "Default"
 msgstr "Standard"
 
-#: admin/settings/nasa_03_1_header_heading.php:579
+#: admin/settings/nasa_03_1_header_heading.php:583
 msgid ""
 "Default (%symbol%) %code%. You can custom for this. Ex (%name% (%symbol%) - "
 "%code%)"
@@ -1634,7 +1645,7 @@ msgstr "Standard: Yith WooCommerce Compare"
 msgid "Default font"
 msgstr "Standardschriftart"
 
-#: cores/nasa-woo-functions.php:1722
+#: cores/nasa-woo-functions.php:1878
 msgid "Default sorting"
 msgstr "Standard-Sortierung"
 
@@ -1646,7 +1657,7 @@ msgstr "Standardmäßig wird die Primärfarbe verwendet"
 msgid "Default View"
 msgstr "Standardansicht"
 
-#: admin/settings/nasa_01_general_heading.php:104
+#: admin/settings/nasa_01_general_heading.php:173
 msgid "Delay Overlay (ms)"
 msgstr "Verzögerungsüberlagerung (ms)"
 
@@ -1686,7 +1697,7 @@ msgstr ""
 msgid "Disable - Progress Bar loading ajax"
 msgstr "Deaktivieren – Fortschrittsbalken beim Laden von Ajax"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:289
+#: admin/settings/nasa_07_2_product_page_heading.php:297
 msgid "Disable Ajax Shop"
 msgstr "Deaktivieren Sie den Ajax-Shop"
 
@@ -1698,7 +1709,7 @@ msgstr "Deaktivieren Sie die Anmeldung/Registrierung"
 msgid "Disable Quick View"
 msgstr "Deaktivieren Sie die Schnellansicht"
 
-#: admin/settings/nasa_01_general_heading.php:119
+#: admin/settings/nasa_01_general_heading.php:188
 msgid "Disable Refill - Contact Form 7"
 msgstr "Deaktivieren Refill – Kontaktformular 7"
 
@@ -1713,6 +1724,10 @@ msgstr ""
 #: admin/classes/class-tgm-plugin-activation.php:384
 msgid "Dismiss this notice"
 msgstr "Ignoriere die Nachricht"
+
+#: widgets/wg-nasa-product-filter-alphabet.php:25
+msgid "Display a list of alphabet to filter products."
+msgstr "Zeigen Sie eine alphabetische Liste zum Filtern von Produkten an."
 
 #: widgets/wg-nasa-product-filter-multi-categories.php:31
 msgid "Display a list of categories to filter products."
@@ -1754,7 +1769,7 @@ msgstr "Zeigen Sie Ihre Produktmarken mit Accordion an."
 msgid "Dokan"
 msgstr "Dokan"
 
-#: includes/nasa-promo-popup.php:70
+#: includes/nasa-promo-popup.php:71
 msgid "Don't show this popup again"
 msgstr "Dieses Popup nicht mehr anzeigen"
 
@@ -1762,7 +1777,7 @@ msgstr "Dieses Popup nicht mehr anzeigen"
 msgid "Done. Please wait for continuing to import data"
 msgstr "Erledigt. Bitte warten Sie, bis der Datenimport fortgesetzt wird"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:161
+#: admin/settings/nasa_07_3_product_detail_heading.php:162
 msgid "Dots for Main Slide"
 msgstr "Punkte für Hauptfolie"
 
@@ -1788,7 +1803,7 @@ msgstr "Download und Import von Dateianhängen"
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: admin/settings/nasa_01_general_heading.php:112
+#: admin/settings/nasa_01_general_heading.php:181
 msgid "Effect Before Load Site"
 msgstr "Wirkung vor dem Laden der Site"
 
@@ -1800,8 +1815,8 @@ msgstr "Effekt für mehr zeigen und weniger zeigen"
 msgid "Elementor - Homepage List"
 msgstr "Elementor – Homepage-Liste"
 
+#: admin/functions/functions.interface.php:101
 #: admin/functions/functions.interface.php:102
-#: admin/functions/functions.interface.php:103
 msgid "Elementor Header & Footer Builder"
 msgstr "Elementor-Kopf- und Fußzeilen-Builder"
 
@@ -1809,16 +1824,21 @@ msgstr "Elementor-Kopf- und Fußzeilen-Builder"
 msgid "Elessi Theme"
 msgstr "Elessi-Thema"
 
-#: woocommerce/single-product-reviews.php:98
+#: woocommerce/single-product-reviews.php:115
+#: woocommerce/single-product-reviews.php:116
 msgid "Email"
 msgstr "Email"
+
+#: woocommerce/single-product-reviews.php:116
+msgid "Email *"
+msgstr "E-Mail *"
 
 #: includes/nasa-checkout-modern.php:116
 #: includes/nasa-login-register-form.php:136
 msgid "Email address"
 msgstr "Email Addresse"
 
-#: cores/nasa-woo-actions.php:1503
+#: cores/nasa-woo-actions.php:1511
 msgid "Email incorrect format."
 msgstr "Falsches E-Mail-Format."
 
@@ -1851,8 +1871,8 @@ msgstr "Geben Sie Ihre Adresse ein, um die Versandoptionen anzuzeigen."
 msgid "Error"
 msgstr "Fehler"
 
-#: cores/nasa-custom-wc-ajax.php:669 cores/nasa-custom-wc-ajax.php:721
-#: cores/nasa-custom-wc-ajax.php:765 admin/front-end/options.php:15
+#: cores/nasa-custom-wc-ajax.php:670 cores/nasa-custom-wc-ajax.php:722
+#: cores/nasa-custom-wc-ajax.php:766 admin/front-end/options.php:15
 msgid "Error!"
 msgstr "Fehler!"
 
@@ -1860,8 +1880,13 @@ msgstr "Fehler!"
 msgid "Error."
 msgstr "Fehler."
 
-#: cores/nasa-custom-wc-ajax.php:1156 cores/nasa-custom-wc-ajax.php:1215
-#: cores/nasa-woo-actions.php:2519
+#: cores/nasa-woo-functions.php:2329 cores/nasa-woo-functions.php:2355
+#: cores/nasa-woo-functions.php:2384 cores/nasa-woo-functions.php:2410
+msgid "Error: "
+msgstr "Fehler:"
+
+#: cores/nasa-custom-wc-ajax.php:1197 cores/nasa-custom-wc-ajax.php:1256
+#: cores/nasa-woo-actions.php:2527
 msgid "Estimate shipping rates"
 msgstr "Schätzen Sie die Versandkosten"
 
@@ -1869,17 +1894,7 @@ msgstr "Schätzen Sie die Versandkosten"
 msgid "Event After Add to Cart"
 msgstr "Ereignis nach In den Warenkorb legen"
 
-#: admin/classes/class.options_machine.php:870
-#: admin/classes/class.options_machine.php:904
-msgid "Ex: 3 days ago, 5 hours ago, ..."
-msgstr "Bsp.: vor 3 Tagen, vor 5 Stunden, ..."
-
-#: admin/classes/class.options_machine.php:869
-#: admin/classes/class.options_machine.php:893
-msgid "Ex: Jonh in US purchased a"
-msgstr "Bsp.: Jonh in den USA hat a gekauft"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:252
+#: admin/settings/nasa_07_3_product_detail_heading.php:253
 msgid "Extends Desktop"
 msgstr "Erweitert den Desktop"
 
@@ -1901,15 +1916,15 @@ msgstr "Zusätzlicher Klassenname"
 msgid "Fade"
 msgstr "Verblassen"
 
-#: admin/settings/nasa_03_1_header_heading.php:452
+#: admin/settings/nasa_03_1_header_heading.php:454
 msgid "Fade In"
 msgstr "Fade In"
 
-#: admin/settings/nasa_03_1_header_heading.php:449
+#: admin/settings/nasa_03_1_header_heading.php:451
 msgid "Fade In Down"
 msgstr "Fade In Down"
 
-#: admin/settings/nasa_03_1_header_heading.php:450
+#: admin/settings/nasa_03_1_header_heading.php:452
 msgid "Fade In Up"
 msgstr "Fade In Up"
 
@@ -1976,8 +1991,8 @@ msgstr "Favicon-Optionen"
 #: widgets/wg-nasa-product-filter-status.php:44
 #: widgets/wg-nasa-product-filter-status.php:276
 #: widgets/wg-nasa-product-filter-status.php:276
-#: woocommerce/loop/sale-flash.php:22
-#: woocommerce/single-product/sale-flash.php:22
+#: woocommerce/loop/sale-flash.php:26
+#: woocommerce/single-product/sale-flash.php:26
 msgid "Featured"
 msgstr "Hervorgehoben"
 
@@ -2001,9 +2016,9 @@ msgstr "Filter"
 msgid "Filter by"
 msgstr "Filtern nach"
 
-#: widgets/wg-nasa-product-filter-multi-categories.php:37
-msgid "Filter by Multi Category"
-msgstr "Filtern Sie nach mehreren Kategorien"
+#: widgets/wg-nasa-product-filter-alphabet.php:31
+msgid "Filter by Alphabet"
+msgstr "Filtern nach Alphabet"
 
 #: widgets/wg-nasa-product-filter-price-list.php:25
 #: widgets/wg-nasa-product-filter-price.php:35
@@ -2018,7 +2033,7 @@ msgstr "Nach Status filtern"
 msgid "Filter by Tags"
 msgstr "Nach Tags filtern"
 
-#: woocommerce/archive-product.php:189
+#: woocommerce/archive-product.php:180
 msgid "Filter by:"
 msgstr "Filtern nach:"
 
@@ -2027,12 +2042,12 @@ msgstr "Filtern nach:"
 #: includes/nasa-mobile-bottom-bar.php:51
 #: includes/nasa-mobile-bottom-bar.php:53
 #: includes/nasa-sidebar-shop-side.php:61 includes/nasa-sidebar-shop-top.php:52
-#: woocommerce/archive-product.php:267 woocommerce/archive-product.php:354
-#: woocommerce/archive-product.php:398
+#: woocommerce/archive-product.php:257 woocommerce/archive-product.php:343
+#: woocommerce/archive-product.php:389
 msgid "Filters"
 msgstr "Filter"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:269
+#: admin/settings/nasa_07_2_product_page_heading.php:277
 msgid "Fit Rows"
 msgstr "Zeilen anpassen"
 
@@ -2044,11 +2059,11 @@ msgstr "Flexibel – Größenänderung des Menüs (Desktop und Tablet)"
 msgid "Flip Horizontal"
 msgstr "Horizontal spiegeln"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:196
+#: admin/settings/nasa_07_3_product_detail_heading.php:197
 msgid "Focus Main Image"
 msgstr "Fokussieren Sie das Hauptbild"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:198
+#: admin/settings/nasa_07_3_product_detail_heading.php:199
 msgid "Focus main image after active variation product"
 msgstr "Fokussieren Sie das Hauptbild nach dem aktiven Variationsprodukt"
 
@@ -2096,7 +2111,7 @@ msgstr "Schriftstärke"
 msgid "Fontawesome icons"
 msgstr "Fontawesome-Symbole"
 
-#: admin/theme-admin.php:339
+#: admin/theme-admin.php:361
 msgid "Footer"
 msgstr "Fusszeile"
 
@@ -2104,11 +2119,11 @@ msgstr "Fusszeile"
 msgid "Footer Built-In Support (Widgets Builder)"
 msgstr "Integrierte Fußzeilenunterstützung (Widgets Builder)"
 
-#: options/nasa-options.php:1423
+#: options/nasa-options.php:1458
 msgid "Footer Dark ( No.1 )"
 msgstr "Fußzeile dunkel (Nr.1)"
 
-#: options/nasa-options.php:1432
+#: options/nasa-options.php:1467
 msgid "Footer Dark ( No.2 )"
 msgstr "Fußzeile dunkel (Nr.2)"
 
@@ -2122,67 +2137,67 @@ msgstr "Fußzeile global"
 msgid "Footer Layout"
 msgstr "Fußzeilenlayout"
 
-#: options/nasa-options.php:1285
+#: options/nasa-options.php:1320
 msgid "Footer Light 1 ( No.1 )"
 msgstr "Fußzeilenlicht 1 (Nr.1)"
 
-#: options/nasa-options.php:1294
+#: options/nasa-options.php:1329
 msgid "Footer Light 1 ( No.2 )"
 msgstr "Fußzeilenlicht 1 (Nr.2)"
 
-#: options/nasa-options.php:1303
+#: options/nasa-options.php:1338
 msgid "Footer Light 1 ( No.3 )"
 msgstr "Fußzeilenlicht 1 (Nr.3)"
 
-#: options/nasa-options.php:1312
+#: options/nasa-options.php:1347
 msgid "Footer Light 1 ( No.4 )"
 msgstr "Fußzeilenlicht 1 (Nr.4)"
 
-#: options/nasa-options.php:1321
+#: options/nasa-options.php:1356
 msgid "Footer Light 1 ( No.5 )"
 msgstr "Fußzeilenlicht 1 (Nr.5)"
 
-#: options/nasa-options.php:1330
+#: options/nasa-options.php:1365
 msgid "Footer Light 1 ( No.6 )"
 msgstr "Fußzeilenlicht 1 (Nr.6)"
 
-#: options/nasa-options.php:1340
+#: options/nasa-options.php:1375
 msgid "Footer Light 2 ( No.1 )"
 msgstr "Fußzeilenlicht 2 (Nr.1)"
 
-#: options/nasa-options.php:1349
+#: options/nasa-options.php:1384
 msgid "Footer Light 2 ( No.2 )"
 msgstr "Fußzeilenlicht 2 (Nr.2)"
 
-#: options/nasa-options.php:1358
+#: options/nasa-options.php:1393
 msgid "Footer Light 2 ( No.3 )"
 msgstr "Fußzeilenlicht 2 (Nr.3)"
 
-#: options/nasa-options.php:1367
+#: options/nasa-options.php:1402
 msgid "Footer Light 2 ( No.4 )"
 msgstr "Fußzeilenlicht 2 (Nr.4)"
 
-#: options/nasa-options.php:1376
+#: options/nasa-options.php:1411
 msgid "Footer Light 2 ( No.5 )"
 msgstr "Fußzeilenlicht 2 (Nr.5)"
 
-#: options/nasa-options.php:1385
+#: options/nasa-options.php:1420
 msgid "Footer Light 2 ( No.6 )"
 msgstr "Fußzeilenlicht 2 (Nr.6)"
 
-#: options/nasa-options.php:1394
+#: options/nasa-options.php:1429
 msgid "Footer Light 2 ( No.7 )"
 msgstr "Fußzeilenlicht 2 (Nr.7)"
 
-#: options/nasa-options.php:1404
+#: options/nasa-options.php:1439
 msgid "Footer Light 3 ( No.1 )"
 msgstr "Fußzeilenlicht 3 (Nr.1)"
 
-#: options/nasa-options.php:1413
+#: options/nasa-options.php:1448
 msgid "Footer Light 3 ( No.2 )"
 msgstr "Fußzeilenlicht 3 (Nr.2)"
 
-#: options/nasa-options.php:1442
+#: options/nasa-options.php:1477
 msgid "Footer Mobile"
 msgstr "Fußzeile mobil"
 
@@ -2197,12 +2212,12 @@ msgstr "Mobiles Fußzeilenlayout"
 msgid "Footer Options"
 msgstr "Fußzeilenoptionen"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:204
 #: admin/settings/nasa_07_3_product_detail_heading.php:205
+#: admin/settings/nasa_07_3_product_detail_heading.php:206
 msgid "Form Options"
 msgstr "Formularoptionen"
 
-#: admin/settings/nasa_03_1_header_heading.php:578
+#: admin/settings/nasa_03_1_header_heading.php:582
 #| msgid "Format Currency - Only for WPML"
 msgid "Format Currency - Only Apply for WPML"
 msgstr "Währung formatieren – Nur für WPML anwenden"
@@ -2211,11 +2226,11 @@ msgstr "Währung formatieren – Nur für WPML anwenden"
 msgid "Free Shipping Bar - WooCommerce Advanced Free Shipping"
 msgstr "Kostenloser Versand Bar – WooCommerce Advanced Kostenloser Versand"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:282
+#: admin/settings/nasa_07_2_product_page_heading.php:290
 msgid "Full"
 msgstr "Voll"
 
-#: admin/settings/nasa_03_1_header_heading.php:688
+#: admin/settings/nasa_03_1_header_heading.php:701
 #: admin/settings/nasa_09_promo_popup_heading.php:100
 msgid "Full Width"
 msgstr "Gesamtbreite"
@@ -2240,20 +2255,20 @@ msgstr "Hauptmenü in voller Breite"
 msgid "Gallery - Carousel"
 msgstr "Galerie - Karussell"
 
-#: admin/settings/nasa_01_general_heading.php:186
+#: admin/settings/nasa_01_general_heading.php:273
 msgid "GDPR Notice"
 msgstr "DSGVO-Hinweis"
 
-#: admin/settings/nasa_01_general_heading.php:180
-#: admin/settings/nasa_01_general_heading.php:181
+#: admin/settings/nasa_01_general_heading.php:267
+#: admin/settings/nasa_01_general_heading.php:268
 msgid "GDPR Options"
 msgstr "DSGVO-Optionen"
 
-#: admin/settings/nasa_01_general_heading.php:193
+#: admin/settings/nasa_01_general_heading.php:280
 msgid "GDPR Policies Link"
 msgstr "Link zu den DSGVO-Richtlinien"
 
-#: cores/nasa-theme-footers.php:817
+#: cores/nasa-theme-footers.php:855
 #: admin/settings/nasa_01_general_heading.php:12
 msgid "General"
 msgstr "Allgemein"
@@ -2290,7 +2305,7 @@ msgstr "ZUR STARTSEITE"
 msgid "Go to Theme Options"
 msgstr "Gehen Sie zu den Designoptionen"
 
-#: woocommerce/single-product-reviews.php:128
+#: woocommerce/single-product-reviews.php:147
 msgid "Good"
 msgstr "Gut"
 
@@ -2298,7 +2313,7 @@ msgstr "Gut"
 msgid "Google font"
 msgstr "Google-Schriftart"
 
-#: admin/settings/nasa_01_general_heading.php:97
+#: admin/settings/nasa_01_general_heading.php:166
 msgid "Gray Effect"
 msgstr "Grauer Effekt"
 
@@ -2332,7 +2347,7 @@ msgstr "Netz"
 msgid "Grid Products - Options"
 msgstr "Grid-Produkte – Optionen"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:256
+#: admin/settings/nasa_07_2_product_page_heading.php:264
 msgid "Grid Rows"
 msgstr "Rasterzeilen"
 
@@ -2345,7 +2360,7 @@ msgstr "Haben sie einen Gutscheincode?"
 msgid "Have a coupon?"
 msgstr "Haben Sie einen Gutschein?"
 
-#: admin/theme-admin.php:335
+#: admin/theme-admin.php:357
 msgid "Header"
 msgstr "Header"
 
@@ -2362,11 +2377,11 @@ msgid "Header Global"
 msgstr "Header Global"
 
 #: cores/nasa-theme-options.php:220
-#: admin/settings/nasa_03_1_header_heading.php:396
+#: admin/settings/nasa_03_1_header_heading.php:398
 msgid "Header Icons"
 msgstr "Kopfzeilensymbole"
 
-#: admin/settings/nasa_03_1_header_heading.php:406
+#: admin/settings/nasa_03_1_header_heading.php:408
 msgid "Header Icons - Sticky"
 msgstr "Kopfzeilensymbole – klebrig"
 
@@ -2374,11 +2389,11 @@ msgstr "Kopfzeilensymbole – klebrig"
 msgid "Header icons Cart | Wishlist | Compare"
 msgstr "Kopfzeilensymbole Warenkorb | Wunschliste | Vergleichen"
 
-#: admin/settings/nasa_03_1_header_heading.php:416
+#: admin/settings/nasa_03_1_header_heading.php:418
 msgid "Header Icons Hover"
 msgstr "Kopfzeilensymbole schweben"
 
-#: admin/settings/nasa_03_1_header_heading.php:426
+#: admin/settings/nasa_03_1_header_heading.php:428
 msgid "Header Icons Hover - Sticky"
 msgstr "Kopfzeilensymbole schweben – kleben"
 
@@ -2435,7 +2450,7 @@ msgstr "Höhe - Klebelogo"
 msgid "Height For Mobile"
 msgstr "Höhe für Mobilgeräte"
 
-#: cores/nasa-woo-functions.php:141
+#: cores/nasa-woo-functions.php:123
 #, php-format
 msgid "Hello, %s!"
 msgstr "Hallo, %s!"
@@ -2448,7 +2463,7 @@ msgstr "Helvetica"
 msgid "Hide \"View Cart\" Button in Mini Cart"
 msgstr "Schaltfläche „Warenkorb anzeigen“ im Mini-Warenkorb ausblenden"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:342
+#: admin/settings/nasa_07_3_product_detail_heading.php:343
 msgid "Hide Additional Information Tab"
 msgstr "Registerkarte Zusätzliche Informationen ausblenden"
 
@@ -2490,7 +2505,7 @@ msgstr ""
 msgid "Home"
 msgstr "Heim"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:108
+#: admin/settings/nasa_07_3_product_detail_heading.php:109
 msgid "Horizontal"
 msgstr "Horizontal"
 
@@ -2498,7 +2513,7 @@ msgstr "Horizontal"
 msgid "Hover - Product Card Styles - Effect"
 msgstr "Hover – Produktkartenstile – Effekt"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:181
+#: admin/settings/nasa_07_3_product_detail_heading.php:182
 msgid "Hover Zoom Image"
 msgstr "Bewegen Sie den Mauszeiger über das Zoombild"
 
@@ -2520,7 +2535,7 @@ msgstr "https://elessi.nasatheme.com"
 msgid "https://nasatheme.com"
 msgstr "https://nasatheme.com"
 
-#: cores/nasa-woo-actions.php:1178 cores/nasa-woo-actions.php:1200
+#: cores/nasa-woo-actions.php:1185 cores/nasa-woo-actions.php:1208
 msgid "Hurry up! Sale end in:"
 msgstr "Beeil dich! Verkauf endet in:"
 
@@ -2532,7 +2547,7 @@ msgstr "Ich bin 18 oder älter"
 msgid "I am under 18"
 msgstr "Ich bin unter 18"
 
-#: searchform.php:40 searchform.php:131
+#: searchform.php:41 searchform.php:132
 msgid "I'm shopping for ..."
 msgstr "Ich kaufe ..."
 
@@ -2555,7 +2570,7 @@ msgstr ""
 "zufällig generiert und die Rolle des neuen Benutzers wird auf %s festgelegt. "
 "Eine manuelle Änderung der Daten des neuen Benutzers ist erforderlich."
 
-#: admin/settings/nasa_03_1_header_heading.php:467
+#: admin/settings/nasa_03_1_header_heading.php:469
 msgid "If Turn on, the live search Ajax feature will be lost"
 msgstr ""
 "Wenn Sie diese Option aktivieren, geht die Ajax-Funktion für die Live-Suche "
@@ -2565,7 +2580,7 @@ msgstr ""
 msgid "If you have a coupon code, please apply it below."
 msgstr "Wenn Sie einen Gutscheincode haben, wenden Sie ihn bitte unten an."
 
-#: woocommerce/checkout/form-login.php:24
+#: woocommerce/checkout/form-login.php:25
 msgid ""
 "If you have shopped with us before, please enter your details below. If you "
 "are a new customer, please proceed to the Billing section."
@@ -2573,6 +2588,17 @@ msgstr ""
 "Wenn Sie schon einmal bei uns eingekauft haben, geben Sie bitte unten Ihre "
 "Daten ein. Wenn Sie ein Neukunde sind, fahren Sie bitte mit dem Abschnitt "
 "„Abrechnung“ fort."
+
+#: admin/settings/nasa_01_general_heading.php:221
+msgid ""
+"If you skip this field notification will be default \"😁😁 Come back! | "
+"❤️‍🔥❤️‍🔥 Don't forget this ...\". If you want to add more notifications, you "
+"just need to add \"|\" between notifications."
+msgstr ""
+"Wenn Sie dieses Feld überspringen, lautet die Standardbenachrichtigung \"😁😁 "
+"Come back! | ❤️‍🔥❤️‍🔥 Don't forget this ...\". Wenn Sie weitere "
+"Benachrichtigungen hinzufügen möchten, müssen Sie nur „|“ zwischen den "
+"Benachrichtigungen einfügen."
 
 #: cores/nasa-theme-options.php:279 cores/nasa-theme-options.php:299
 msgid ""
@@ -2599,11 +2625,11 @@ msgstr "Bild URL"
 msgid "Images"
 msgstr "Bilder"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:74
+#: admin/settings/nasa_07_3_product_detail_heading.php:75
 msgid "Images Columns"
 msgstr "Bilderspalten"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:88
+#: admin/settings/nasa_07_3_product_detail_heading.php:89
 msgid "Images Style"
 msgstr "Bildstil"
 
@@ -2674,27 +2700,29 @@ msgstr "Auf lager"
 msgid "In Topbar - Header"
 msgstr "In der oberen Leiste – Kopfzeile"
 
-#: admin/settings/nasa_05_type_heading.php:341
-msgid "Include FontAwesome 5 (Note: You only can use Free icons)"
-msgstr ""
-"Fügen Sie FontAwesome 5 hinzu (Hinweis: Sie können nur kostenlose Symbole "
-"verwenden)"
+#: admin/settings/nasa_01_general_heading.php:211
+msgid "Inactive Tab"
+msgstr "Registerkarte „Inaktiv“"
 
-#: admin/settings/nasa_01_general_heading.php:243
+#: admin/settings/nasa_01_general_heading.php:219
+msgid "Inactive Tab Notification Content"
+msgstr "Benachrichtigungsinhalt für inaktive Registerkarten"
+
+#: admin/settings/nasa_01_general_heading.php:330
 msgid "Include Theme Version when call css files"
 msgstr "Beziehen Sie beim Aufruf von CSS-Dateien die Theme-Version ein"
 
-#: admin/settings/nasa_01_general_heading.php:250
+#: admin/settings/nasa_01_general_heading.php:337
 msgid "Include Theme Version when call js files"
 msgstr "Beziehen Sie beim Aufruf von js-Dateien die Theme-Version ein"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:283
+#: admin/settings/nasa_07_2_product_page_heading.php:291
 msgid "Infinite - Only using for Ajax"
 msgstr "Unendlich – Wird nur für Ajax verwendet"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:614
-#: admin/settings/nasa_07_3_product_detail_heading.php:150
-#: admin/settings/nasa_07_3_product_detail_heading.php:502
+#: admin/settings/nasa_07_3_product_detail_heading.php:151
+#: admin/settings/nasa_07_3_product_detail_heading.php:534
 msgid "Infinite Slide"
 msgstr "Unendliche Rutsche"
 
@@ -2702,7 +2730,7 @@ msgstr "Unendliche Rutsche"
 msgid "Infinite Slide In Quickview"
 msgstr "Unendliche Folie in der Schnellansicht"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:125
+#: admin/settings/nasa_07_3_product_detail_heading.php:126
 msgid "Infomations Columns"
 msgstr "Informationsspalten"
 
@@ -2778,7 +2806,7 @@ msgstr "Plugin wird installiert: %s"
 msgid "Invalid file type"
 msgstr "ungültiger Dateityp"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:263
+#: admin/settings/nasa_07_2_product_page_heading.php:271
 msgid "Isotope Layout Mode"
 msgstr "Isotopen-Layout-Modus"
 
@@ -2802,7 +2830,7 @@ msgstr "Artikel"
 msgid "items"
 msgstr "Artikel"
 
-#: admin/settings/nasa_03_1_header_heading.php:561
+#: admin/settings/nasa_03_1_header_heading.php:565
 msgid "Languages Switcher"
 msgstr "Sprachumschalter"
 
@@ -2818,7 +2846,7 @@ msgstr "Großer Abstand"
 msgid "Last Backup : "
 msgstr "Letzte Sicherung:"
 
-#: cores/nasa-woo-functions.php:1725
+#: cores/nasa-woo-functions.php:1881
 msgid "Latest"
 msgstr "Neueste"
 
@@ -2848,18 +2876,18 @@ msgstr "Layoutoptionen"
 msgid "Layout Single or Double rows."
 msgstr "Layout: Einzel- oder Doppelreihen."
 
-#: admin/settings/nasa_07_2_product_page_heading.php:251
+#: admin/settings/nasa_07_2_product_page_heading.php:259
 msgid "Layout Style"
 msgstr "Layoutstil"
 
 #. %s is product title
-#: woocommerce/single-product-reviews.php:91
+#: woocommerce/single-product-reviews.php:107
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Hinterlassen Sie eine Antwort an %s"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:99
-#: admin/settings/nasa_07_3_product_detail_heading.php:312
+#: admin/settings/nasa_07_3_product_detail_heading.php:313
 msgid "Left"
 msgstr "Links"
 
@@ -2878,12 +2906,12 @@ msgstr "Linke Seitenleiste – Klassisch"
 msgid "Left Sidebar - Off-canvas"
 msgstr "Linke Seitenleiste – Off-Canvas"
 
-#: admin/settings/nasa_03_1_header_heading.php:451
+#: admin/settings/nasa_03_1_header_heading.php:453
 #: admin/settings/nasa_07_1_product_global_heading.php:57
 msgid "Left To Right"
 msgstr "Links nach rechts"
 
-#: woocommerce/archive-product.php:191
+#: woocommerce/archive-product.php:182
 msgid "Less -"
 msgstr "Weniger -"
 
@@ -2915,15 +2943,15 @@ msgstr "Licht"
 msgid "Light Mode"
 msgstr "Lichtmodus"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:189
+#: admin/settings/nasa_07_3_product_detail_heading.php:190
 msgid "Lightbox Image"
 msgstr "Lightbox-Bild"
 
-#: admin/settings/nasa_03_1_header_heading.php:668
+#: admin/settings/nasa_03_1_header_heading.php:672
 msgid "Limit Posts"
 msgstr "Begrenzen Sie Beiträge"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:236
+#: admin/settings/nasa_07_2_product_page_heading.php:244
 msgid "Limit Products Per Page"
 msgstr "Begrenzen Sie Produkte pro Seite"
 
@@ -2933,8 +2961,8 @@ msgstr ""
 "Begrenzen Sie Widgets, um mehr anzuzeigen. (Eingabe Alle zeigt alle Widgets "
 "an)"
 
-#: woocommerce/loop/sale-flash.php:68
-#: woocommerce/single-product/sale-flash.php:69
+#: woocommerce/loop/sale-flash.php:77
+#: woocommerce/single-product/sale-flash.php:78
 msgid "Limited"
 msgstr "Begrenzt"
 
@@ -2946,9 +2974,9 @@ msgstr "Link-URL (optional)"
 msgid "Links"
 msgstr "Verknüpfung"
 
-#: includes/nasa-change-view.php:317 includes/nasa-change-view.php:320
+#: includes/nasa-change-view.php:322 includes/nasa-change-view.php:325
 #: admin/settings/nasa_07_2_product_page_heading.php:118
-#: admin/settings/nasa_07_2_product_page_heading.php:184
+#: admin/settings/nasa_07_2_product_page_heading.php:192
 #: admin/settings/nasa_08_blog_heading.php:54
 msgid "List"
 msgstr "Aufführen"
@@ -2957,32 +2985,32 @@ msgstr "Aufführen"
 msgid "List - 2 Columns"
 msgstr "Liste – 2 Spalten"
 
-#: includes/nasa-change-view.php:305
+#: includes/nasa-change-view.php:310
 msgid "List 2"
 msgstr "Liste 2"
 
-#: includes/nasa-change-view.php:302
-#: admin/settings/nasa_07_2_product_page_heading.php:185
+#: includes/nasa-change-view.php:307
+#: admin/settings/nasa_07_2_product_page_heading.php:193
 msgid "List 2 Columns"
 msgstr "Listen Sie 2 Spalten auf"
 
-#: admin/settings/nasa_01_general_heading.php:233
+#: admin/settings/nasa_01_general_heading.php:320
 msgid "List Files JS Delay - Delay JavaScript Execution"
 msgstr "Dateien auflisten JS-Verzögerung – JavaScript-Ausführung verzögern"
 
-#: admin/settings/nasa_03_1_header_heading.php:472
+#: admin/settings/nasa_03_1_header_heading.php:474
 msgid "Live Search Ajax Products"
 msgstr "Live-Suche nach Ajax-Produkten"
 
-#: admin/settings/nasa_03_1_header_heading.php:511
+#: admin/settings/nasa_03_1_header_heading.php:497
 msgid "Live Search Layout - (Header type 1, 2, 5, 7)"
 msgstr "Live-Suchlayout – (Header-Typ 1, 2, 5, 7)"
 
-#: admin/settings/nasa_01_general_heading.php:208
+#: admin/settings/nasa_01_general_heading.php:295
 msgid "Load Css Canvas"
 msgstr "CSS-Canvas laden"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:284
+#: admin/settings/nasa_07_2_product_page_heading.php:292
 msgid "Load More - Only using for Ajax"
 msgstr "Mehr laden – Nur für Ajax verwenden"
 
@@ -2990,12 +3018,12 @@ msgstr "Mehr laden – Nur für Ajax verwenden"
 msgid "LOAD MORE ..."
 msgstr "MEHR LADEN ..."
 
-#: woocommerce/global/form-login.php:50
+#: woocommerce/global/form-login.php:52
 msgid "Login"
 msgstr "Anmeldung"
 
 #: cores/nasa-theme-headers.php:334 cores/nasa-theme-headers.php:477
-#: cores/nasa-woo-functions.php:103 cores/nasa-woo-functions.php:103
+#: cores/nasa-woo-functions.php:85 cores/nasa-woo-functions.php:85
 msgid "Login / Register"
 msgstr "Anmeldung / Registrieren"
 
@@ -3020,7 +3048,7 @@ msgstr "Logo und Favicon"
 msgid "Logo Options"
 msgstr "Logo-Optionen"
 
-#: woocommerce/global/form-login.php:43
+#: woocommerce/global/form-login.php:45
 msgid "Lost your password?"
 msgstr "Passwort vergessen?"
 
@@ -3032,7 +3060,7 @@ msgstr "Verloren?"
 msgid "Main Image"
 msgstr "Hauptbild"
 
-#: functions.php:100
+#: functions.php:101
 msgid "Main Menu"
 msgstr "Hauptmenü"
 
@@ -3065,11 +3093,11 @@ msgstr "Hauptnavigation"
 msgid "Manage Your Items List"
 msgstr "Verwalten Sie Ihre Artikelliste"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:268
+#: admin/settings/nasa_07_2_product_page_heading.php:276
 msgid "Masonry"
 msgstr "Mauerwerk"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:257
+#: admin/settings/nasa_07_2_product_page_heading.php:265
 #: admin/settings/nasa_08_blog_heading.php:56
 msgid "Masonry Isotope"
 msgstr "Mauerwerk-Isotop"
@@ -3083,13 +3111,13 @@ msgstr "Mauerwerksisotope – Gitter – Blog-Stil"
 msgid "Max Depth Level - Top Filter Categories"
 msgstr "Maximale Tiefenstufe – Top-Filterkategorien"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:415
+#: admin/settings/nasa_07_3_product_detail_heading.php:418
 msgid "Max files Comments Images upload"
 msgstr "Max. Dateien, Kommentare, Bilder hochladen"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "max files:"
-msgstr "max dateien:"
+#: admin/settings/nasa_07_3_product_detail_heading.php:443
+msgid "Max files Comments Video upload"
+msgstr "Max. Dateien Kommentare Video-Upload"
 
 #: admin/settings/nasa_02_logo_icon_heading.php:56
 msgid "Max Height - Logo"
@@ -3103,6 +3131,12 @@ msgstr "Max Höhe – Klebelogo"
 msgid "Max Height Logo - Mobile"
 msgstr "Max Height-Logo – Mobil"
 
+#: cores/nasa-woo-functions.php:2355
+#, php-format
+#| msgid "Max size allowed: %s kB"
+msgid "Max image size allowed: %s kB"
+msgstr "Maximal zulässige Größe: %s kB"
+
 #: woocommerce/content-widget-price-filter.php:28
 msgid "Max price"
 msgstr "Max preis"
@@ -3115,23 +3149,41 @@ msgstr "Max preisspanne"
 msgid "Max products compare"
 msgstr "Max-Produkte vergleichen"
 
-#: cores/nasa-woo-functions.php:2141
-#, php-format
-msgid "Max size allowed: %s kB"
-msgstr "Maximal zulässige Größe: %s kB"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:422
+#: admin/settings/nasa_07_3_product_detail_heading.php:427
 msgid "Max Size Comments Images upload (kb)"
 msgstr "Maximale Größe für den Upload von Kommentaren und Bildern (kb)"
 
-#: cores/nasa-woo-functions.php:2076
-msgid "max size:"
-msgstr "max Größe:"
+#: admin/settings/nasa_07_3_product_detail_heading.php:452
+msgid "Max Size Comments Video upload (kb)"
+msgstr "Max. Größe Kommentare Video-Upload (kb)"
 
-#: cores/nasa-woo-functions.php:2115
+#: cores/nasa-woo-functions.php:2410
 #, php-format
-msgid "Maximum number of files allowed is: %s file(s)"
+msgid "Max video size allowed: %s kB"
+msgstr "Maximal zulässige Videogröße: %s kB"
+
+#: cores/nasa-woo-functions.php:2283
+#, php-format
+msgid "Maximum file size is %s kB, max %s file"
+msgid_plural "Maximum file size is %s kB, max %s files"
+msgstr[0] "Die maximale Dateigröße beträgt %s kB, max. %s Datei"
+msgstr[1] "Die maximale Dateigröße beträgt %s kB, max. %s Datei"
+
+#: cores/nasa-woo-functions.php:2237
+#, php-format
+msgid "Maximum file size is %s kB, max %s files"
+msgstr "Die maximale Dateigröße beträgt %s kB, max. %s Dateien"
+
+#: cores/nasa-woo-functions.php:2329
+#, php-format
+#| msgid "Maximum number of files allowed is: %s file(s)"
+msgid "Maximum number of image files allowed is: %s file(s)"
 msgstr "Die maximal zulässige Anzahl an Dateien beträgt: %s Datei(en)"
+
+#: cores/nasa-woo-functions.php:2384
+#, php-format
+msgid "Maximum number of video files allowed is: %s file(s)"
+msgstr "Die maximal zulässige Anzahl an Videodateien beträgt: %s Datei(en)"
 
 #: cores/nasa-theme-options.php:55
 msgid "Medium"
@@ -3155,6 +3207,10 @@ msgstr ""
 msgid "Menu item skipped due to missing menu slug"
 msgstr "Menüpunkt wurde wegen fehlendem Menüpunkt übersprungen"
 
+#: cores/nasa-custom-wc-ajax.php:868
+msgid "Menu Map"
+msgstr "Menüübersicht"
+
 #: admin/settings/nasa_03_1_header_heading.php:100
 #: admin/settings/nasa_03_1_header_heading.php:101
 msgid "Menu Options"
@@ -3165,15 +3221,15 @@ msgstr "Menüpunkte"
 msgid "Meta Info - Blog Style"
 msgstr "Meta-Info – Blog-Stil"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:390
+#: admin/settings/nasa_07_3_product_detail_heading.php:391
 msgid "Meta Infomations (SKU, Categories, Tags, etc...)"
 msgstr "Metainformationen (SKU, Kategorien, Tags usw.)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:397
+#: admin/settings/nasa_07_3_product_detail_heading.php:398
 msgid "Meta Infomations Position"
 msgstr "Position der Metainformationen"
 
-#: cores/nasa-woo-actions.php:1544
+#: cores/nasa-woo-actions.php:1552
 msgid "Method"
 msgstr "Methode"
 
@@ -3232,7 +3288,7 @@ msgid "Mobile Bottom Bar Options"
 msgstr "Optionen für die mobile untere Leiste"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:595
-#: admin/settings/nasa_07_2_product_page_heading.php:213
+#: admin/settings/nasa_07_2_product_page_heading.php:221
 msgid "Mobile Columns"
 msgstr "Mobile Säulen"
 
@@ -3271,7 +3327,7 @@ msgstr "Mobile Einzelproduktoptionen"
 msgid "Mode"
 msgstr "Modus"
 
-#: admin/settings/nasa_03_1_header_heading.php:517
+#: admin/settings/nasa_03_1_header_heading.php:503
 msgid "Modern"
 msgstr "Modern"
 
@@ -3288,11 +3344,11 @@ msgstr "Modern – keine Kopf- und Fußzeile"
 msgid "Monthly Archives: %s"
 msgstr "Monatliche Archive: %s"
 
-#: woocommerce/archive-product.php:190
+#: woocommerce/archive-product.php:181
 msgid "More +"
 msgstr "Mehr +"
 
-#: options/nasa-options.php:758
+#: options/nasa-options.php:779
 msgid "More Results"
 msgstr "Mehr Ergebnisse"
 
@@ -3301,24 +3357,29 @@ msgid "Move To Top"
 msgstr "Nach oben verschieben"
 
 #: cores/nasa-theme-headers.php:334 cores/nasa-theme-headers.php:477
-#: cores/nasa-woo-functions.php:115 cores/nasa-woo-functions.php:115
+#: cores/nasa-woo-functions.php:97 cores/nasa-woo-functions.php:97
 #: woocommerce/checkout/thankyou.php:35
 msgid "My Account"
 msgstr "Mein Konto"
 
-#: cores/nasa-theme-footers.php:311
+#: cores/nasa-theme-footers.php:342
 msgid "My Cart"
 msgstr "Mein Warenkorb"
 
-#: cores/nasa-custom-wc-ajax.php:1056 woocommerce/single-product/meta.php:25
+#: cores/nasa-custom-wc-ajax.php:1097 woocommerce/single-product/meta.php:25
 msgid "N/A"
 msgstr "N/A"
 
 #: widgets/wg-nasa-product-categories.php:72
-#: woocommerce/single-product-reviews.php:96
+#: woocommerce/single-product-reviews.php:112
+#: woocommerce/single-product-reviews.php:113
 #: admin/settings/nasa_07_1_product_global_heading.php:352
 msgid "Name"
 msgstr "Name"
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Name *"
+msgstr "Name *"
 
 #: widgets/wg-nasa-product-filter-price.php:31
 msgid "Nasa - Filter Product by Price (slide)"
@@ -3346,8 +3407,8 @@ msgstr "NasaTheme-Wunschliste-Funktion"
 msgid "Never expire"
 msgstr "Nie ablaufen"
 
-#: woocommerce/loop/sale-flash.php:33
-#: woocommerce/single-product/sale-flash.php:33
+#: woocommerce/loop/sale-flash.php:42
+#: woocommerce/single-product/sale-flash.php:42
 msgid "New"
 msgstr "Neu"
 
@@ -3388,7 +3449,11 @@ msgstr "NÄCHSTE"
 msgid "Next &rarr;"
 msgstr "Weiter &rarr;"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:376
+#: cores/nasa-theme-footers.php:866
+msgid "Next (arrow right)"
+msgstr "Weiter (Pfeil nach rechts)"
+
+#: admin/settings/nasa_07_3_product_detail_heading.php:377
 msgid "Next - Previous Product"
 msgstr "Weiter – Vorheriges Produkt"
 
@@ -3405,7 +3470,7 @@ msgstr "Weiter <span class=\"meta-nav\">&rarr;</span>"
 #: admin/settings/nasa_03_1_header_heading.php:275
 #: admin/settings/nasa_07_1_product_global_heading.php:384
 #: admin/settings/nasa_07_1_product_global_heading.php:518
-#: admin/settings/nasa_07_2_product_page_heading.php:293
+#: admin/settings/nasa_07_2_product_page_heading.php:301
 msgid "No"
 msgstr "Nein"
 
@@ -3419,7 +3484,7 @@ msgstr "Es wurden keine Maßnahmen ergriffen. Plugin %1$s war bereits aktiv."
 msgid "No backups yet."
 msgstr "Noch keine Backups."
 
-#: admin/settings/nasa_03_1_header_heading.php:453
+#: admin/settings/nasa_03_1_header_heading.php:455
 #: admin/settings/nasa_07_1_product_global_heading.php:60
 msgid "No Effect"
 msgstr "Kein Effekt"
@@ -3463,22 +3528,22 @@ msgstr ""
 msgid "No product added to compare !"
 msgstr "Kein Produkt zum Vergleich hinzugefügt!"
 
-#: cores/nasa-woo-functions.php:1399 widgets/wg-nasa-product-brands.php:251
+#: cores/nasa-woo-functions.php:1555 widgets/wg-nasa-product-brands.php:251
 #: widgets/wg-nasa-product-categories.php:451
 msgid "No product categories exist."
 msgstr "Es sind keine Produktkategorien vorhanden."
 
-#: woocommerce/cart/mini-cart.php:205
+#: woocommerce/cart/mini-cart.php:211
 msgid "No products in the cart."
 msgstr "Keine Produkte im Einkaufswagen."
 
-#: includes/nasa-sidebar-wishlist_content.php:89
-#: includes/nasa-sidebar-wishlist_content.php:210
-#: includes/nasa-sidebar-wishlist_html.php:94
+#: includes/nasa-sidebar-wishlist_content.php:92
+#: includes/nasa-sidebar-wishlist_content.php:213
+#: includes/nasa-sidebar-wishlist_html.php:96
 msgid "No products in the wishlist."
 msgstr "Keine Produkte auf der Wunschliste."
 
-#: woocommerce/loop/no-products-found.php:21
+#: woocommerce/loop/no-products-found.php:19
 msgid "No products were found matching your selection."
 msgstr "Es wurden keine Produkte gefunden, die Ihrer Auswahl entsprechen."
 
@@ -3520,7 +3585,7 @@ msgid "No vendor found!"
 msgstr "Kein Anbieter gefunden!"
 
 #: cores/nasa-theme-options.php:36 admin/classes/class.options_machine.php:434
-#: admin/settings/nasa_01_general_heading.php:98
+#: admin/settings/nasa_01_general_heading.php:167
 msgid "None"
 msgstr "Keiner"
 
@@ -3533,7 +3598,6 @@ msgid "Not a member? "
 msgstr "Kein Mitglied?"
 
 #: woocommerce/loop/no-products-found.php:17
-#: woocommerce/loop/no-products-found.php:19
 msgid "Not Found Products"
 msgstr "Nicht gefundene Produkte"
 
@@ -3554,23 +3618,23 @@ msgstr ""
 msgid "Not Set"
 msgstr "Nicht eingestellt"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:251
+#: admin/settings/nasa_07_3_product_detail_heading.php:252
 msgid "Not Show"
 msgstr "Nicht zeigen"
 
-#: woocommerce/single-product-reviews.php:130
+#: woocommerce/single-product-reviews.php:149
 msgid "Not that bad"
 msgstr "Nicht so schlecht"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:265
+#: admin/settings/nasa_07_3_product_detail_heading.php:266
 msgid "Not use Mobile App - Simulator"
 msgstr "Verwenden Sie nicht die mobile App – Simulator"
 
-#: cores/nasa-woo-actions.php:2486 includes/nasa-mini-cart-note.php:20
+#: cores/nasa-woo-actions.php:2494 includes/nasa-mini-cart-note.php:20
 msgid "Note"
 msgstr "Notiz"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:274
+#: admin/settings/nasa_07_3_product_detail_heading.php:275
 msgid ""
 "Note: Consider disabling this feature if you are using a third-party plugin "
 "developed for the Add to Cart feature in the Single Product Page!"
@@ -3579,7 +3643,7 @@ msgstr ""
 "Drittanbieter-Plugin verwenden, das für die Funktion Zum Warenkorb "
 "hinzufügen auf der Einzelproduktseite entwickelt wurde!"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:245
+#: admin/settings/nasa_07_2_product_page_heading.php:253
 msgid "Note: don't using for Sidebar Off-canvas and Toggle Sidebar Classic"
 msgstr ""
 "Hinweis: Nicht für Sidebar Off-Canvas und Toggle Sidebar Classic verwenden"
@@ -3611,7 +3675,7 @@ msgstr "Nummernkategorien"
 msgid "Number for related blog"
 msgstr "Nummer für verwandten Blog"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:450
+#: admin/settings/nasa_07_3_product_detail_heading.php:482
 msgid "Number for related products"
 msgstr "Nummer für verwandte Produkte"
 
@@ -3660,7 +3724,7 @@ msgstr "Bei Rückständen"
 msgid "On Sale"
 msgstr "Im Angebot"
 
-#: cores/nasa-woo-actions.php:1093
+#: cores/nasa-woo-actions.php:1100
 #, php-format
 msgid "Only %s item(s) left in stock."
 msgstr "Nur noch %s Artikel auf Lager."
@@ -3669,26 +3733,30 @@ msgstr "Nur noch %s Artikel auf Lager."
 msgid "Only Display 1 Time"
 msgstr "Nur 1 Mal anzeigen"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:152
+#: admin/settings/nasa_07_3_product_detail_heading.php:153
 msgid ""
 "Only effective for style 1, style 2(Images style : slide images), style 6 "
 "and style 7"
 msgstr ""
 "Nur wirksam für Stil 1, Stil 2 (Bildstil: Folienbilder), Stil 6 und Stil 7"
 
-#: cores/nasa-woo-functions.php:2155
-msgid "Only format accepted: JPG, JPEG, BMP, PNG or GIF"
-msgstr ""
-"Es werden nur folgende Formate akzeptiert: JPG, JPEG, BMP, PNG oder GIF"
+#: cores/nasa-woo-functions.php:2369
+#| msgid "Only format accepted: JPG, JPEG, BMP, PNG or GIF"
+msgid "Only format image accepted: JPG, JPEG, BMP, PNG, GIF"
+msgstr "Es werden nur folgende Formate akzeptiert: JPG, JPEG, BMP, PNG, GIF"
 
-#: woocommerce/single-product-reviews.php:142
+#: cores/nasa-woo-functions.php:2424
+msgid "Only format video accepted: MP4, AVI, MPEG, MOV"
+msgstr "Nur akzeptierte Videoformate: MP4, AVI, MPEG, MOV"
+
+#: woocommerce/single-product-reviews.php:168
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
 "Nur eingeloggte Kunden, die dieses Produkt gekauft haben, können eine "
 "Bewertung abgeben."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:256
+#: admin/settings/nasa_07_3_product_detail_heading.php:257
 msgid "Only Show Buttons"
 msgstr "Nur Schaltflächen anzeigen"
 
@@ -3726,10 +3794,11 @@ msgstr "Offen"
 msgid "Open Cart Sidebar"
 msgstr "Öffnen Sie die Seitenleiste des Warenkorbs"
 
-#: includes/nasa-single-product-full.php:44
-#: includes/nasa-single-product-modern-1.php:31
-#: includes/nasa-single-product-modern-2.php:31
-#: includes/nasa-single-product-modern-3.php:31
+#: includes/nasa-single-product-full.php:46
+#: includes/nasa-single-product-modern-1.php:33
+#: includes/nasa-single-product-modern-2.php:33
+#: includes/nasa-single-product-modern-3.php:33
+#: includes/nasa-single-product-modern-4.php:36
 #: includes/nasa-single-product-new-2.php:15
 #: includes/nasa-single-product-new.php:42
 msgid "Open Sidebar"
@@ -3796,11 +3865,7 @@ msgstr "Mobiles Menü bestellen"
 msgid "Out of stock"
 msgstr "Ausverkauft"
 
-#: woocommerce/single-product-reviews.php:49
-msgid "Overall"
-msgstr "Gesamt"
-
-#: admin/settings/nasa_07_3_product_detail_heading.php:116
+#: admin/settings/nasa_07_3_product_detail_heading.php:117
 msgid "Overflows: + 0.5 items"
 msgstr "Überläufe: + 0.5 Artikel"
 
@@ -3812,7 +3877,7 @@ msgstr "Seitenansicht, Produkte vergleichen"
 msgid "Pages:"
 msgstr "Seiten:"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:276
+#: admin/settings/nasa_07_2_product_page_heading.php:284
 msgid "Pagination Layout"
 msgstr "Paginierungslayout"
 
@@ -3822,7 +3887,7 @@ msgstr "Palatino"
 
 #: includes/nasa-login-register-form.php:78
 #: includes/nasa-login-register-form.php:146
-#: woocommerce/global/form-login.php:29
+#: woocommerce/global/form-login.php:31
 msgid "Password"
 msgstr "Passwort"
 
@@ -3842,7 +3907,7 @@ msgstr "ZAHLUNG"
 msgid "Payment Method"
 msgstr "Bezahlverfahren"
 
-#: cores/nasa-woo-actions.php:1597
+#: cores/nasa-woo-actions.php:1605
 msgid "Payment Methods"
 msgstr "Zahlungsarten"
 
@@ -3850,36 +3915,27 @@ msgstr "Zahlungsarten"
 msgid "Pe7s icons"
 msgstr "Pe7s-Symbole"
 
-#: woocommerce/single-product-reviews.php:127
+#: woocommerce/single-product-reviews.php:146
 msgid "Perfect"
 msgstr "Perfekt"
 
-#: admin/settings/nasa_01_general_heading.php:203
+#: admin/settings/nasa_01_general_heading.php:290
 msgid "Performance - Assets"
 msgstr "Leistung – Vermögenswerte"
 
-#: cores/nasa-woo-actions.php:1711
+#: cores/nasa-woo-actions.php:1719
 msgid "Phone"
 msgstr "Telefon"
 
-#: cores/nasa-woo-actions.php:1504
+#: cores/nasa-woo-actions.php:1512
 msgid "Phone incorrect format."
 msgstr "Falsches Telefonformat."
-
-#: cores/nasa-woo-functions.php:2076
-msgid "Pictures"
-msgstr "Bilder"
-
-#: cores/nasa-woo-functions.php:2075
-#, php-format
-msgid "Pictures (max size: %s kB, max files: %s)"
-msgstr "Bilder (maximale Größe: %s kB, maximale dateien: %s)"
 
 #: cores/nasa-theme-functions.php:916
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: cores/nasa-woo-functions.php:1094
+#: cores/nasa-woo-functions.php:1246
 msgid "Play Video"
 msgstr "Video abspielen"
 
@@ -3905,15 +3961,15 @@ msgstr ""
 "Bitte wenden Sie sich an den Plugin-Anbieter und bitten Sie ihn, sein Plugin "
 "gemäß den WordPress-Richtlinien zu paketieren."
 
-#: admin/settings/nasa_03_1_header_heading.php:336
-#: admin/settings/nasa_03_1_header_heading.php:348
-#: admin/settings/nasa_03_1_header_heading.php:360
-#: admin/settings/nasa_03_1_header_heading.php:592
+#: admin/settings/nasa_03_1_header_heading.php:338
+#: admin/settings/nasa_03_1_header_heading.php:350
+#: admin/settings/nasa_03_1_header_heading.php:362
+#: admin/settings/nasa_03_1_header_heading.php:596
 #: admin/settings/nasa_03_3_mobile_heading.php:82
-#: admin/settings/nasa_07_2_product_page_heading.php:313
-#: admin/settings/nasa_07_2_product_page_heading.php:323
-#: admin/settings/nasa_07_2_product_page_heading.php:333
-#: admin/settings/nasa_07_3_product_detail_heading.php:358
+#: admin/settings/nasa_07_2_product_page_heading.php:321
+#: admin/settings/nasa_07_2_product_page_heading.php:331
+#: admin/settings/nasa_07_2_product_page_heading.php:341
+#: admin/settings/nasa_07_3_product_detail_heading.php:359
 #: admin/settings/nasa_09_promo_popup_heading.php:164
 msgid ""
 "Please create Static Blocks (or Custom Block of Elementor Header & Footer "
@@ -3922,15 +3978,25 @@ msgstr ""
 "Bitte erstellen Sie statische Blöcke (oder einen benutzerdefinierten Block "
 "des Elementor Header & Footer Builder) und wählen Sie hier aus."
 
+#: woocommerce/single-product-reviews.php:38
+msgid "Please enter a valid email address."
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+
 #: cores/nasa-wc-checkout-ext.php:92
 msgid "Please enter an address to continue."
 msgstr "Bitte geben Sie eine Adresse ein, um fortzufahren."
+
+#: woocommerce/checkout/payment.php:26
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Bitte geben Sie oben Ihre Daten ein, um die verfügbaren Zahlungsmethoden "
+"anzuzeigen."
 
 #: admin/settings/nasa_07_4_product_compare_heading.php:61
 msgid "Please Install Yith WooCommerce Compare Plugin"
 msgstr "Bitte installieren Sie das Yith WooCommerce Compare Plugin"
 
-#: options/nasa-options.php:703
+#: options/nasa-options.php:705
 msgid ""
 "Please select some product options before adding this product to your cart."
 msgstr ""
@@ -3938,8 +4004,9 @@ msgstr ""
 "Ihren Warenkorb legen."
 
 #: includes/nasa-age-verification.php:17
-msgid "Please verifi your age to enter."
-msgstr "Bitte bestätigen Sie Ihr Alter, um teilnehmen zu können."
+#| msgid "Please verifi your age to enter."
+msgid "Please verify your age to enter."
+msgstr "Bitte bestätigen Sie Ihr Alter, um einzutreten."
 
 #: admin/importer/tpl-import-demo-data.php:127
 msgid "Please waiting in a few minutes, The process is running..."
@@ -3991,15 +4058,15 @@ msgstr[1] " Alle <span class=\"count\">(%s)</span>"
 msgid "Plus"
 msgstr "Plus"
 
-#: admin/settings/nasa_03_1_header_heading.php:503
-msgid "Popular Keywords"
-msgstr "Beliebte Schlüsselwörter"
+#: admin/settings/nasa_03_1_header_heading.php:518
+msgid "Popular Keywords - (Header type 1, 2, 5, 7)"
+msgstr "Beliebte Schlüsselwörter - (Headertyp 1, 2, 5, 7)"
 
-#: searchform.php:88 searchform.php:174
+#: searchform.php:89 searchform.php:175
 msgid "Popular Searches:"
 msgstr "Beliebte Suchanfragen:"
 
-#: cores/nasa-woo-functions.php:1723
+#: cores/nasa-woo-functions.php:1879
 msgid "Popularity"
 msgstr "Popularität"
 
@@ -4087,7 +4154,7 @@ msgstr "Filterkategorien positionieren"
 msgid "Position Filter Categories - Type 3"
 msgstr "Positionsfilterkategorien – Typ 3"
 
-#: admin/settings/nasa_03_1_header_heading.php:639
+#: admin/settings/nasa_03_1_header_heading.php:643
 msgid "Posts"
 msgstr "Beiträge"
 
@@ -4102,6 +4169,10 @@ msgstr "Laden Sie Schriftartensymbole vor"
 #: cores/nasa-theme-functions.php:1364
 msgid "PREVIOUS"
 msgstr "VORHERIGE"
+
+#: cores/nasa-theme-footers.php:866
+msgid "Previous (arrow left)"
+msgstr "Zurück (Pfeil links)"
 
 #: includes/nasa-after-add-to-cart.php:33
 #: includes/nasa-after-add-to-cart.php:99
@@ -4127,11 +4198,11 @@ msgstr "Größe der Preisspanne"
 msgid "Price:"
 msgstr "Preis:"
 
-#: cores/nasa-woo-functions.php:1726
+#: cores/nasa-woo-functions.php:1882
 msgid "Price: Ascending"
 msgstr "Preis: Aufsteigend"
 
-#: cores/nasa-woo-functions.php:1727
+#: cores/nasa-woo-functions.php:1883
 msgid "Price: Descending"
 msgstr "Preis: Absteigend"
 
@@ -4151,20 +4222,20 @@ msgstr "Zur Kasse"
 msgid "Product"
 msgstr "Produkt"
 
-#: cores/nasa-custom-wc-ajax.php:416 cores/nasa-woo-functions.php:265
+#: cores/nasa-custom-wc-ajax.php:417 cores/nasa-woo-functions.php:250
 #: cores/nasa-yith-wcwl-ext.php:36
 msgid "Product added to cart successfully!"
 msgstr "Produkt erfolgreich in den Warenkorb gelegt!"
 
-#: cores/nasa-custom-wc-ajax.php:696
+#: cores/nasa-custom-wc-ajax.php:697
 msgid "Product added to compare !"
 msgstr "Produkt zum Vergleich hinzugefügt!"
 
-#: cores/nasa-custom-wc-ajax.php:910
+#: cores/nasa-custom-wc-ajax.php:951
 msgid "Product added to wishlist successfully!"
 msgstr "Produkt erfolgreich zur Wunschliste hinzugefügt!"
 
-#: cores/nasa-custom-wc-ajax.php:698
+#: cores/nasa-custom-wc-ajax.php:699
 msgid "Product already exists in Compare list !"
 msgstr "Das Produkt ist bereits in der Vergleichsliste vorhanden!"
 
@@ -4184,7 +4255,7 @@ msgstr "Produktkategorien"
 msgid "Product Column Icon Style"
 msgstr "Symbolstil für Produktspalte"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:335
+#: admin/settings/nasa_07_3_product_detail_heading.php:336
 msgid "Product Description Wrapper - Apply with Tabs Classic"
 msgstr "Produktbeschreibung Wrapper – Anwendung mit Tabs Classic"
 
@@ -4192,23 +4263,27 @@ msgstr "Produktbeschreibung Wrapper – Anwendung mit Tabs Classic"
 msgid "Product Global Options"
 msgstr "Globale Produktoptionen"
 
-#: cores/nasa-custom-wc-ajax.php:742
+#: cores/nasa-custom-wc-ajax.php:743
 msgid "Product not already exists in Compare list !"
 msgstr "Das Produkt existiert noch nicht in der Vergleichsliste!"
+
+#: woocommerce/loop/pagination.php:73 woocommerce/loop/pagination.php:86
+msgid "Product Pagination"
+msgstr "Produktpaginierung"
 
 #: woocommerce/global/quantity-input.php:60
 msgid "Product quantity"
 msgstr "Produktmenge"
 
-#: cores/nasa-custom-wc-ajax.php:1101
+#: cores/nasa-custom-wc-ajax.php:1142
 msgid "Product quantity updated successfully!"
 msgstr "Produktmenge erfolgreich aktualisiert!"
 
-#: cores/nasa-custom-wc-ajax.php:938 cores/nasa-custom-wc-ajax.php:967
+#: cores/nasa-custom-wc-ajax.php:979 cores/nasa-custom-wc-ajax.php:1008
 msgid "Product removed from wishlist successfully!"
 msgstr "Produkt erfolgreich von der Wunschliste entfernt!"
 
-#: options/nasa-options.php:1271
+#: options/nasa-options.php:1306
 msgid "Product Sidebar"
 msgstr "Produktseitenleiste"
 
@@ -4240,12 +4315,12 @@ msgstr "Projektkategorie"
 msgid "Project Name"
 msgstr "Projektname"
 
-#: cores/nasa-woo-actions.php:1874 cores/nasa-woo-actions.php:1905
+#: cores/nasa-woo-actions.php:1887 cores/nasa-woo-actions.php:1918
 msgid "Promotion Gifts"
 msgstr "Werbegeschenke"
 
-#: admin/settings/nasa_03_1_header_heading.php:619
-#: admin/settings/nasa_03_1_header_heading.php:620
+#: admin/settings/nasa_03_1_header_heading.php:623
+#: admin/settings/nasa_03_1_header_heading.php:624
 msgid "Promotion News"
 msgstr "Werbenachrichten"
 
@@ -4284,8 +4359,8 @@ msgstr "Mengeneingabe – Miniwagen"
 msgid "Query type"
 msgstr "Abfragetyp"
 
-#: cores/nasa-theme-footers.php:685 cores/nasa-woo-actions.php:1852
-#: cores/nasa-woo-actions.php:1853 cores/nasa-woo-functions.php:394
+#: cores/nasa-theme-footers.php:722 cores/nasa-woo-actions.php:1864
+#: cores/nasa-woo-actions.php:1865 cores/nasa-woo-functions.php:545
 #: woocommerce/content-widget-product.php:77
 msgid "Quick View"
 msgstr "Schnellansicht"
@@ -4303,7 +4378,7 @@ msgstr "Schnellansichtsoptionen"
 msgid "Quotes"
 msgstr "Zitate"
 
-#: woocommerce/single-product-reviews.php:126
+#: woocommerce/single-product-reviews.php:145
 msgid "Rate&hellip;"
 msgstr "Rate&hellip;"
 
@@ -4352,7 +4427,7 @@ msgstr "Letzte Projekte"
 msgid "Recommend Turn Off to use Builder Mode"
 msgstr "Empfehlen Sie die Deaktivierung, um den Builder-Modus zu verwenden"
 
-#: cores/nasa-theme-footers.php:818
+#: cores/nasa-theme-footers.php:856
 msgid "Recommendation"
 msgstr "Empfehlung"
 
@@ -4365,13 +4440,13 @@ msgstr "Empfohlen"
 msgid "Related"
 msgstr "Verwandt"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:443
+#: admin/settings/nasa_07_3_product_detail_heading.php:475
 #: woocommerce/single-product/related.php:64
 msgid "Related Products"
 msgstr "Verwandte Produkte"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:437
-#: admin/settings/nasa_07_3_product_detail_heading.php:438
+#: admin/settings/nasa_07_3_product_detail_heading.php:469
+#: admin/settings/nasa_07_3_product_detail_heading.php:470
 msgid "Related | You may also like&hellip;"
 msgstr "Verwandte | Sie können auch mögen…"
 
@@ -4383,7 +4458,7 @@ msgstr "Neu laden"
 msgid "Remember"
 msgstr "Erinnern"
 
-#: woocommerce/global/form-login.php:39
+#: woocommerce/global/form-login.php:41
 msgid "Remember me"
 msgstr "Mich erinnern"
 
@@ -4405,13 +4480,13 @@ msgstr "Der Remote-Server hat nicht geantwortet"
 msgid "Remote server returned error response %1$d %2$s"
 msgstr "Der Remote-Server hat die Fehlerantwort %1$d %2$s zurückgegeben"
 
-#: cores/nasa-woo-functions.php:2019 includes/nasa-after-add-to-cart.php:63
+#: cores/nasa-woo-functions.php:2175 includes/nasa-after-add-to-cart.php:63
 #: includes/nasa-after-add-to-cart.php:66
-#: includes/nasa-sidebar-wishlist_content.php:78
-#: includes/nasa-sidebar-wishlist_content.php:186
-#: includes/nasa-sidebar-wishlist_html.php:25
-#: includes/nasa-sidebar-wishlist_html.php:80
-#: includes/nasa-sidebar-wishlist_html.php:81
+#: includes/nasa-sidebar-wishlist_content.php:81
+#: includes/nasa-sidebar-wishlist_content.php:189
+#: includes/nasa-sidebar-wishlist_html.php:27
+#: includes/nasa-sidebar-wishlist_html.php:82
+#: includes/nasa-sidebar-wishlist_html.php:83
 #: includes/nasa-view-compare.php:114
 #: admin/classes/class.options_machine.php:1040
 #: admin/classes/class.options_machine.php:1114
@@ -4419,22 +4494,22 @@ msgid "Remove"
 msgstr "Entfernen"
 
 #. %s is the product name
-#: woocommerce/cart/cart.php:69 woocommerce/cart/mini-cart.php:88
+#: woocommerce/cart/cart.php:69 woocommerce/cart/mini-cart.php:94
 #, php-format
 msgid "Remove %s from cart"
 msgstr "Entfernen Sie %s aus dem Warenkorb"
 
-#: includes/nasa-sidebar-wishlist_content.php:77
-#: includes/nasa-sidebar-wishlist_content.php:185
-#: includes/nasa-sidebar-wishlist_html.php:24
+#: includes/nasa-sidebar-wishlist_content.php:80
+#: includes/nasa-sidebar-wishlist_content.php:188
+#: includes/nasa-sidebar-wishlist_html.php:26
 msgid "Remove this product"
 msgstr "Entfernen Sie dieses Produkt"
 
-#: cores/nasa-custom-wc-ajax.php:779
+#: cores/nasa-custom-wc-ajax.php:780
 msgid "Removed all products from compare !"
 msgstr "Alle Produkte aus dem Vergleich entfernt!"
 
-#: cores/nasa-custom-wc-ajax.php:740
+#: cores/nasa-custom-wc-ajax.php:741
 msgid "Removed product from compare !"
 msgstr "Produkt aus Vergleich entfernt!"
 
@@ -4455,11 +4530,11 @@ msgstr "Erforderliches Update nicht verfügbar"
 msgid "Requires Update"
 msgstr "Erfordert ein Update"
 
-#: admin/settings/nasa_03_1_header_heading.php:565
+#: admin/settings/nasa_03_1_header_heading.php:569
 msgid "Requires WPML"
 msgstr "Erfordert WPML"
 
-#: admin/settings/nasa_03_1_header_heading.php:573
+#: admin/settings/nasa_03_1_header_heading.php:577
 #| msgid ""
 #| "Currencies Switcher - Requires WPML | FOX - Currency Switcher "
 #| "Professional for WooCommerce | CURCY - Multi Currency for WooCommerce"
@@ -4470,7 +4545,7 @@ msgstr ""
 "Erfordert WPML | FOX – Währungsumrechner Professional für WooCommerce | "
 "CURCY – Multi-Währung für WooCommerce"
 
-#: widgets/wg-nasa-reset-filter.php:90
+#: widgets/wg-nasa-reset-filter.php:97
 #: woocommerce/content-widget-price-filter.php:41
 msgid "Reset"
 msgstr "Zurücksetzen"
@@ -4479,11 +4554,11 @@ msgstr "Zurücksetzen"
 msgid "Reset WordPress plugin"
 msgstr "Setzen Sie das WordPress-Plugin zurück"
 
-#: admin/settings/nasa_03_1_header_heading.php:488
+#: admin/settings/nasa_03_1_header_heading.php:490
 msgid "Results Ajax Search (Limit Products)"
 msgstr "Ergebnisse Ajax-Suche (Produkte beschränken)"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:243
+#: admin/settings/nasa_07_2_product_page_heading.php:251
 msgid "Results info in top"
 msgstr "Ergebnisinformationen oben"
 
@@ -4491,15 +4566,15 @@ msgstr "Ergebnisinformationen oben"
 msgid "Retina Logo"
 msgstr "Retina-Logo"
 
-#: cores/nasa-woo-actions.php:1495
+#: cores/nasa-woo-actions.php:1503
 msgid "RETURN TO CART"
 msgstr "ZURÜCK ZUM WARENKORB"
 
-#: cores/nasa-woo-actions.php:1495
+#: cores/nasa-woo-actions.php:1503
 msgid "Return to Cart"
 msgstr "Zurück zum Warenkorb"
 
-#: cores/nasa-woo-actions.php:1571
+#: cores/nasa-woo-actions.php:1579
 msgid "RETURN TO INFORMATION"
 msgstr "ZURÜCK ZU INFORMATIONEN"
 
@@ -4511,11 +4586,11 @@ msgstr "Zur vorherigen Seite zurückkehren"
 msgid "Return to Required Plugins Installer"
 msgstr "Kehren Sie zum Installationsprogramm für erforderliche Plugins zurück"
 
-#: includes/nasa-sidebar-wishlist_content.php:89
-#: includes/nasa-sidebar-wishlist_content.php:211
-#: includes/nasa-sidebar-wishlist_html.php:96
+#: includes/nasa-sidebar-wishlist_content.php:92
+#: includes/nasa-sidebar-wishlist_content.php:214
+#: includes/nasa-sidebar-wishlist_html.php:98
 #: includes/nasa-view-compare.php:126 includes/nasa-view-compare.php:126
-#: woocommerce/cart/mini-cart.php:207
+#: woocommerce/cart/mini-cart.php:213
 msgid "RETURN TO SHOP"
 msgstr "ZURÜCK ZUM SHOP"
 
@@ -4530,15 +4605,15 @@ msgstr "Zurück zum Shop"
 msgid "Return to the Dashboard"
 msgstr "Zurück zum Dashboard"
 
-#: woocommerce/checkout/form-login.php:18
+#: woocommerce/checkout/form-login.php:19
 msgid "Returning customer?"
 msgstr "Wiederkehrender Kunde?"
 
-#: admin/theme-admin.php:257
+#: admin/theme-admin.php:252
 msgid "Review Product By Images"
 msgstr "Überprüfen Sie das Produkt anhand von Bildern"
 
-#: includes/nasa-review-images.php:14
+#: includes/nasa-review-images.php:57
 msgid "Review Product by Images"
 msgstr "Bewerten Sie das Produkt anhand von Bildern"
 
@@ -4547,12 +4622,12 @@ msgstr "Bewerten Sie das Produkt anhand von Bildern"
 msgid "Review Your Order"
 msgstr "Überprüfen Sie ihre Bestellung"
 
-#: cores/nasa-theme-footers.php:819 woocommerce/single-product-reviews.php:155
+#: cores/nasa-theme-footers.php:857 woocommerce/single-product-reviews.php:181
 msgid "Reviews"
 msgstr "Rezensionen"
 
 #: admin/settings/nasa_06_breadcrumb_heading.php:100
-#: admin/settings/nasa_07_3_product_detail_heading.php:313
+#: admin/settings/nasa_07_3_product_detail_heading.php:314
 msgid "Right"
 msgstr "Rechts"
 
@@ -4571,7 +4646,7 @@ msgstr "Rechte Seitenleiste – Klassisch"
 msgid "Right Sidebar - Off-canvas"
 msgstr "Rechte Seitenleiste – Off-Canvas"
 
-#: admin/settings/nasa_03_1_header_heading.php:448
+#: admin/settings/nasa_03_1_header_heading.php:450
 #: admin/settings/nasa_07_1_product_global_heading.php:58
 msgid "Right To Left"
 msgstr "Rechts nach links"
@@ -4600,8 +4675,8 @@ msgstr "RTL – Benutzerdefinierte Schriftart auswählen"
 msgid "RTL - Text fonts (paragraphs, etc..)"
 msgstr "RTL - Textschriftarten (Absätze usw.)"
 
-#: woocommerce/loop/sale-flash.php:43
-#: woocommerce/single-product/sale-flash.php:44
+#: woocommerce/loop/sale-flash.php:52
+#: woocommerce/single-product/sale-flash.php:53
 msgid "Sale"
 msgstr "Verkauf"
 
@@ -4621,29 +4696,29 @@ msgstr "Speichern"
 msgid "Save All Changes"
 msgstr "Alle Änderungen speichern"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:94
+#: admin/settings/nasa_07_3_product_detail_heading.php:95
 msgid "Scroll Images"
 msgstr "Bildlaufbilder"
 
-#: searchform.php:104 searchform.php:166 cores/nasa-theme-headers.php:438
+#: searchform.php:105 searchform.php:167 cores/nasa-theme-headers.php:438
 #: includes/nasa-mobile-bottom-bar.php:67
 #: includes/nasa-mobile-bottom-bar.php:69
 msgid "Search"
 msgstr "Suchen"
 
-#: searchform.php:189
+#: searchform.php:190
 msgid "search"
 msgstr "suchen"
 
-#: admin/settings/nasa_03_1_header_heading.php:463
+#: admin/settings/nasa_03_1_header_heading.php:465
 msgid "Search Anything After Submit"
 msgstr "Nach dem Absenden alles durchsuchen"
 
-#: admin/settings/nasa_03_1_header_heading.php:443
+#: admin/settings/nasa_03_1_header_heading.php:445
 msgid "Search Bar Effect"
 msgstr "Suchleisteneffekt"
 
-#: searchform.php:79
+#: searchform.php:80
 msgid "Search here"
 msgstr "Suche hier"
 
@@ -4656,8 +4731,8 @@ msgid "Search icon"
 msgstr "Suchsymbol"
 
 #: admin/front-end/options.php:60
-#: admin/settings/nasa_03_1_header_heading.php:436
-#: admin/settings/nasa_03_1_header_heading.php:437
+#: admin/settings/nasa_03_1_header_heading.php:438
+#: admin/settings/nasa_03_1_header_heading.php:439
 msgid "Search Options"
 msgstr "Suchoptionen"
 
@@ -4670,7 +4745,7 @@ msgstr "Suchergebnisse für: %s"
 msgid "Search.."
 msgstr "Suchen.."
 
-#: includes/nasa-change-view.php:223
+#: includes/nasa-change-view.php:228
 msgid "See"
 msgstr "Sehen"
 
@@ -4709,7 +4784,7 @@ msgstr "Wählen Sie Kontaktformular"
 msgid "Select Custom Font"
 msgstr "Wählen Sie Benutzerdefinierte Schriftart."
 
-#: cores/nasa-theme-footers.php:835
+#: cores/nasa-theme-footers.php:880
 msgid "Select Options"
 msgstr "Optionen wählen"
 
@@ -4762,11 +4837,15 @@ msgstr "Theme-Optionen einrichten"
 msgid "SETUP YOUR ACCOUNT"
 msgstr "RICHTEN SIE IHR KONTO EIN"
 
+#: cores/nasa-theme-footers.php:866
+msgid "Share"
+msgstr "Aktie"
+
 #: admin/settings/nasa_08_blog_heading.php:212
 msgid "Share icons"
 msgstr "Teilen Sie Symbole"
 
-#: cores/nasa-woo-actions.php:1535
+#: cores/nasa-woo-actions.php:1543
 msgid "Ship to"
 msgstr "Ausliefern"
 
@@ -4774,7 +4853,7 @@ msgstr "Ausliefern"
 msgid "SHIPPING"
 msgstr "VERSAND"
 
-#: cores/nasa-woo-actions.php:2512 includes/nasa-mini-cart-shipping.php:26
+#: cores/nasa-woo-actions.php:2520 includes/nasa-mini-cart-shipping.php:26
 msgid "Shipping"
 msgstr "Versand"
 
@@ -4786,7 +4865,7 @@ msgstr "Lieferanschrift"
 msgid "Shipping costs are calculated during checkout."
 msgstr "Die Versandkosten werden beim Bezahlvorgang berechnet."
 
-#: cores/nasa-woo-actions.php:1560
+#: cores/nasa-woo-actions.php:1568
 msgid "Shipping Methods"
 msgstr "Versandarten"
 
@@ -4815,7 +4894,7 @@ msgstr "Shop-Hintergrundfarbe"
 msgid "Shop order"
 msgstr "Bestellauftrag"
 
-#: options/nasa-options.php:1261
+#: options/nasa-options.php:1296
 msgid "Shop Sidebar"
 msgstr "Shop-Seitenleiste"
 
@@ -4845,7 +4924,7 @@ msgstr "Warenkorb – Optionen"
 msgid "Short description (Only use for Blog Grid layout)"
 msgstr "Kurze Beschreibung (Nur für das Blog-Raster-Layout verwenden)"
 
-#: includes/nasa-blog-promotion.php:38
+#: includes/nasa-blog-promotion.php:40
 msgid "Show"
 msgstr "Zeigen"
 
@@ -4951,9 +5030,22 @@ msgstr "Hier anmelden"
 msgid "SIGN IN TO YOUR ACCOUNT"
 msgstr "MELDEN SIE SICH BEI IHREM KONTO AN"
 
-#: admin/settings/nasa_07_2_product_page_heading.php:281
+#: admin/settings/nasa_07_2_product_page_heading.php:289
 msgid "Simple"
 msgstr "Einfach"
+
+#. $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:43
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Da Ihr Browser kein JavaScript unterstützt oder es deaktiviert ist, achten "
+"Sie bitte darauf, dass Sie vor der Bestellung auf die Schaltfläche "
+"%1$sGesamtbetrag aktualisieren%2$s klicken. Andernfalls kann es sein, dass "
+"Ihnen mehr als der oben angegebene Betrag in Rechnung gestellt wird."
 
 #: admin/settings/nasa_08_blog_heading.php:179
 msgid "Single Blog page"
@@ -5003,13 +5095,13 @@ msgstr "Website-Hintergrundbild – Box-Layout"
 msgid "Site Layout"
 msgstr "Seitenlayout"
 
-#: admin/settings/nasa_01_general_heading.php:221
+#: admin/settings/nasa_01_general_heading.php:308
 msgid "Skip Load - Files CSS - Checkin it if you don't want your site call"
 msgstr ""
 "Laden überspringen – CSS-Dateien – Aktivieren Sie diese Option, wenn Sie "
 "nicht möchten, dass Ihre Website aufgerufen wird"
 
-#: cores/nasa-woo-actions.php:2114 options/nasa-options.php:752
+#: cores/nasa-woo-actions.php:2135 options/nasa-options.php:773
 #: woocommerce/single-product/meta.php:25
 msgid "SKU:"
 msgstr "Artikelnummer:"
@@ -5018,11 +5110,11 @@ msgstr "Artikelnummer:"
 msgid "Slide"
 msgstr "Gleiten"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:93
+#: admin/settings/nasa_07_3_product_detail_heading.php:94
 msgid "Slide Images"
 msgstr "Bilder schieben"
 
-#: admin/settings/nasa_03_1_header_heading.php:678
+#: admin/settings/nasa_03_1_header_heading.php:682
 msgid "Slide Show"
 msgstr "Diashow"
 
@@ -5042,7 +5134,7 @@ msgstr "Kleiner Abstand"
 msgid "Sold By: "
 msgstr "Verkauft Durch:"
 
-#: cores/nasa-woo-actions.php:2181 includes/nasa-content-product-gift.php:62
+#: cores/nasa-woo-actions.php:2202 includes/nasa-content-product-gift.php:62
 msgid "Sold Out"
 msgstr "Ausverkauft"
 
@@ -5067,7 +5159,7 @@ msgstr ""
 "mindestens 300 sekunden) und Ihr Memory_limit (auf mindestens 196 MB) "
 "vorübergehend zu erhöhen."
 
-#: cores/nasa-custom-wc-ajax.php:1324
+#: cores/nasa-custom-wc-ajax.php:1365
 msgid "Sorry there was a problem removing this coupon."
 msgstr ""
 "Es tut uns leid, dass beim Entfernen dieses Gutscheins ein Problem "
@@ -5089,11 +5181,20 @@ msgstr ""
 "Leider wurde die von Ihnen gesuchte Seite nicht gefunden. Bitte stellen Sie "
 "sicher, dass Sie die aktuelle URL eingegeben haben."
 
-#: cores/nasa-custom-wc-ajax.php:594
+#: woocommerce/checkout/payment.php:26
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+"Leider sind anscheinend keine Zahlungsmethoden verfügbar. Bitte kontaktieren "
+"Sie uns, wenn Sie Hilfe benötigen oder alternative Vereinbarungen treffen "
+"möchten."
+
+#: cores/nasa-custom-wc-ajax.php:595
 msgid "Sorry, Maybe product empty in stock."
 msgstr "Leider ist das Produkt möglicherweise nicht mehr vorrätig."
 
-#: options/nasa-options.php:702
+#: options/nasa-options.php:704
 msgid ""
 "Sorry, no products matched your selection. Please choose a different "
 "combination."
@@ -5101,7 +5202,7 @@ msgstr ""
 "Leider stimmten keine Produkte mit Ihrer Auswahl überein. Bitte wählen Sie "
 "eine andere Kombination."
 
-#: cores/nasa-custom-wc-ajax.php:446 cores/nasa-custom-wc-ajax.php:468
+#: cores/nasa-custom-wc-ajax.php:447 cores/nasa-custom-wc-ajax.php:469
 msgid "Sorry, Product is not existing."
 msgstr "Leider ist das Produkt nicht vorhanden."
 
@@ -5113,14 +5214,14 @@ msgstr "Leider ist das Produkt nicht vorhanden."
 msgid "Sorry, there has been an error."
 msgstr "Entschuldigung, es ist ein Fehler aufgetreten."
 
-#: options/nasa-options.php:704
+#: options/nasa-options.php:706
 msgid ""
 "Sorry, this product is unavailable. Please choose a different combination."
 msgstr ""
 "Leider ist dieses Produkt nicht verfügbar. Bitte wählen Sie eine andere "
 "Kombination."
 
-#: options/nasa-options.php:760
+#: options/nasa-options.php:781
 msgid "Sorry. No results match your search."
 msgstr "Verzeihung. Keine Ergebnisse entsprechen Ihrer Suche."
 
@@ -5152,7 +5253,7 @@ msgstr "Standard"
 msgid "START IMPORT SAMPLE DATA"
 msgstr "PROBENDATEN IMPORTIEREN STARTEN"
 
-#: searchform.php:28 searchform.php:124
+#: searchform.php:29 searchform.php:125
 msgid "Start typing ..."
 msgstr "Anfangen zu tippen ..."
 
@@ -5176,19 +5277,19 @@ msgstr "Schritt 3: Inhalte importieren"
 msgid "Step Change"
 msgstr "Fortschritt"
 
-#: admin/settings/nasa_03_1_header_heading.php:366
+#: admin/settings/nasa_03_1_header_heading.php:368
 msgid "Sticky"
 msgstr "Klebrig"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:235
+#: admin/settings/nasa_07_3_product_detail_heading.php:236
 msgid "Sticky Add To Cart"
 msgstr "Klebrig In den Warenkorb legen"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:260
+#: admin/settings/nasa_07_3_product_detail_heading.php:261
 msgid "Sticky Add To Cart In Mobile"
 msgstr "Klebrig in den Warenkorb legen, mobil"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:242
+#: admin/settings/nasa_07_3_product_detail_heading.php:243
 msgid "Sticky Buy Now - Desktop"
 msgstr "Sticky Jetzt kaufen – Desktop"
 
@@ -5205,7 +5306,7 @@ msgstr "Sticky-Logo-Optionen"
 msgid "Sticky Sidebar"
 msgstr "Klebrige Seitenleiste"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:383
+#: admin/settings/nasa_07_3_product_detail_heading.php:384
 msgid "Stock Progress Bar"
 msgstr "Bestandsfortschrittsbalken"
 
@@ -5243,16 +5344,16 @@ msgstr "Stil"
 msgid "Style and Colors"
 msgstr "Stil und Farben"
 
-#: cores/nasa-woo-functions.php:1441
+#: cores/nasa-woo-functions.php:1597
 msgid "Subcategories: "
 msgstr "Unterkategorien:"
 
-#: woocommerce/single-product-reviews.php:101
+#: woocommerce/single-product-reviews.php:118
 #: admin/importer/wordpress-importer.php:318
 msgid "Submit"
 msgstr "Einreichen"
 
-#: cores/nasa-woo-actions.php:2409 woocommerce/cart/cart.php:31
+#: cores/nasa-woo-actions.php:2417 woocommerce/cart/cart.php:31
 #: woocommerce/checkout/review-order.php:20
 #: woocommerce/checkout/review-order.php:107
 msgid "Subtotal"
@@ -5270,19 +5371,19 @@ msgstr "Zwischensumme"
 msgid "Success Color"
 msgstr "Erfolgsfarbe"
 
-#: cores/nasa-theme-footers.php:358
+#: cores/nasa-theme-footers.php:391
 msgid "Successfully added to your cart."
 msgstr "Erfolgreich zu Ihrem Warenkorb hinzugefügt."
 
-#: admin/settings/nasa_03_1_header_heading.php:495
-msgid "Suggested Keywords"
-msgstr "Vorgeschlagene Schlüsselwörter"
+#: admin/settings/nasa_03_1_header_heading.php:508
+msgid "Suggested Keywords - (Header type 1, 2, 5, 7)"
+msgstr "Vorgeschlagene Schlüsselwörter - (Headertyp 1, 2, 5, 7)"
 
 #: admin/settings/nasa_05_type_heading.php:313
 msgid "Support Font Icons"
 msgstr "Unterstützt Schriftsymbole"
 
-#: admin/settings/nasa_03_1_header_heading.php:480
+#: admin/settings/nasa_03_1_header_heading.php:482
 msgid "Support Search By SKU"
 msgstr "Unterstützen Sie die Suche nach SKU"
 
@@ -5290,24 +5391,24 @@ msgstr "Unterstützen Sie die Suche nach SKU"
 msgid "Support Upload ICO medias"
 msgstr "Unterstützt das Hochladen von ICO-Medien"
 
-#: admin/settings/nasa_01_general_heading.php:127
+#: admin/settings/nasa_01_general_heading.php:196
 msgid "Support Upload SVG medias"
 msgstr "Unterstützt das Hochladen von SVG-Medien"
 
-#: admin/settings/nasa_01_general_heading.php:214
+#: admin/settings/nasa_01_general_heading.php:301
 msgid "Sync"
 msgstr "Sync"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:352
+#: admin/settings/nasa_07_3_product_detail_heading.php:353
 msgid "Tab Global"
 msgstr "Registerkarte Global"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:583
-#: admin/settings/nasa_07_2_product_page_heading.php:224
+#: admin/settings/nasa_07_2_product_page_heading.php:232
 msgid "Tablet Columns"
 msgstr "Tablet Spalten"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:306
+#: admin/settings/nasa_07_3_product_detail_heading.php:307
 msgid "Tabs Align"
 msgstr "Tabulatoren ausrichten"
 
@@ -5315,7 +5416,7 @@ msgstr "Tabulatoren ausrichten"
 msgid "Tabs Background color"
 msgstr "Tabs Hintergrundfarbe"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:284
+#: admin/settings/nasa_07_3_product_detail_heading.php:285
 msgid "Tabs Layouts"
 msgstr "Tabs Layouts"
 
@@ -5329,7 +5430,7 @@ msgid "Tag Archives: %s"
 msgstr "Tag Archive: %s"
 
 #: includes/nasa-blog-grid.php:98 includes/nasa-blog-list.php:96
-#: includes/nasa-blog-masonry-isotope.php:104
+#: includes/nasa-blog-masonry-isotope.php:103
 #: includes/nasa-blog-standard.php:90
 #, php-format
 msgid "Tagged %1$s"
@@ -5364,7 +5465,7 @@ msgstr "Textfarbe"
 msgid "Text fonts (paragraphs, etc..)"
 msgstr "Textschriftarten (Absätze usw.)"
 
-#: admin/settings/nasa_03_1_header_heading.php:695
+#: admin/settings/nasa_03_1_header_heading.php:708
 msgid "Text Promotion Color"
 msgstr "Farbe der Textwerbung"
 
@@ -5374,19 +5475,23 @@ msgstr "Farbe der Textwerbung"
 msgid "TGMPA v%s"
 msgstr "TGMPA v%s"
 
-#: admin/settings/nasa_03_1_header_heading.php:342
+#: woocommerce/single-product-reviews.php:95
+msgid "Thank you!"
+msgstr "Danke schön!"
+
+#: admin/settings/nasa_03_1_header_heading.php:344
 msgid "The Block beside Logo in Header Type 2"
 msgstr "Der Block neben dem Logo im Header-Typ 2"
 
-#: admin/settings/nasa_03_1_header_heading.php:354
+#: admin/settings/nasa_03_1_header_heading.php:356
 msgid "The Block beside Main menu in Header Type 4, 6"
 msgstr "Der Block neben dem Hauptmenü im Header Typ 4, 6"
 
-#: admin/settings/nasa_01_general_heading.php:172
+#: admin/settings/nasa_01_general_heading.php:259
 msgid "The block editor from managing widgets"
 msgstr "Der Blockeditor für die Verwaltung von Widgets"
 
-#: admin/settings/nasa_03_1_header_heading.php:330
+#: admin/settings/nasa_03_1_header_heading.php:332
 msgid "The Block Under Header"
 msgstr "Der Block unter der Kopfzeile"
 
@@ -5493,6 +5598,10 @@ msgstr ""
 "Die mobile Top-Navigation wird nur angezeigt, wenn sich die Website im "
 "mobilen App-Modus befindet"
 
+#: cores/nasa-custom-wc-ajax.php:861
+msgid "The page location you are viewing is marked with"
+msgstr "Die Seite, die Sie gerade aufrufen, ist mit gekennzeichnet"
+
 #: admin/classes/class-tgm-plugin-activation.php:1026
 msgid ""
 "The remote plugin package consists of more than one file, but the files are "
@@ -5532,7 +5641,7 @@ msgstr ""
 "aktiviert."
 
 #: admin/front-end/options.php:23 admin/front-end/options.php:41
-#: admin/functions/functions.interface.php:74
+#: admin/functions/functions.interface.php:73
 msgid "Theme Options"
 msgstr "Themenoptionen"
 
@@ -5540,7 +5649,7 @@ msgstr "Themenoptionen"
 msgid "Theme Setup"
 msgstr "Theme-Setup"
 
-#: woocommerce/single-product-reviews.php:181
+#: woocommerce/single-product-reviews.php:207
 msgid "There are no reviews yet."
 msgstr "Es liegen noch keine Bewertungen vor."
 
@@ -5561,7 +5670,7 @@ msgstr ""
 "Es müssen ein oder mehrere erforderliche oder empfohlene Plugins installiert,"
 " aktualisiert oder aktiviert werden."
 
-#: cores/nasa-theme-footers.php:442
+#: cores/nasa-theme-footers.php:475
 #, php-format
 #| msgid ""
 #| "There are <span class=\"primary-color\"> %s item</span> in your cart."
@@ -5594,7 +5703,7 @@ msgstr ""
 "Dies scheint keine WXR-Datei zu sein, da die WXR-Versionsnummer "
 "fehlt/ungültig ist"
 
-#: cores/nasa-woo-actions.php:1502
+#: cores/nasa-woo-actions.php:1510 woocommerce/single-product-reviews.php:37
 msgid "This field is required."
 msgstr "Dieses Feld ist erforderlich."
 
@@ -5647,7 +5756,7 @@ msgstr ""
 "Diese WXR-Datei (Version %s) wird von dieser Version des Importers "
 "möglicherweise nicht unterstützt. Bitte erwägen Sie eine Aktualisierung."
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:102
+#: admin/settings/nasa_07_3_product_detail_heading.php:103
 msgid "Thumbnail Layout"
 msgstr "Miniaturbild-Layout"
 
@@ -5665,6 +5774,7 @@ msgstr "Winzig"
 
 #: widgets/wg-nasa-product-brands.php:42
 #: widgets/wg-nasa-product-categories.php:64
+#: widgets/wg-nasa-product-filter-alphabet.php:32
 #: widgets/wg-nasa-product-filter-multi-categories.php:38
 #: widgets/wg-nasa-product-filter-multi-tags.php:38
 #: widgets/wg-nasa-product-filter-price-list.php:26
@@ -5709,6 +5819,10 @@ msgstr ""
 "Sie möglicherweise alle Einträge als <code>Administratoreinträge</code> "
 "importieren."
 
+#: cores/nasa-theme-footers.php:866
+msgid "Toggle fullscreen"
+msgstr "Vollbild ein-/ausblenden"
+
 #: cores/nasa-theme-options.php:119
 msgid "Toggle Icon"
 msgstr "Symbol umschalten"
@@ -5717,19 +5831,19 @@ msgstr "Symbol umschalten"
 msgid "Toggle Sidebar"
 msgstr "Seitenleiste umschalten"
 
-#: admin/settings/nasa_03_1_header_heading.php:543
+#: admin/settings/nasa_03_1_header_heading.php:547
 msgid "Toggle Top Bar"
 msgstr "Obere Leiste umschalten"
 
-#: admin/settings/nasa_03_1_header_heading.php:553
+#: admin/settings/nasa_03_1_header_heading.php:557
 msgid "Toggle Top Bar - Initialize"
 msgstr "Obere Leiste umschalten – Initialisieren"
 
-#: admin/settings/nasa_01_general_heading.php:148
+#: admin/settings/nasa_01_general_heading.php:235
 msgid "Toggle Widget Content"
 msgstr "Widget-Inhalt umschalten"
 
-#: admin/settings/nasa_01_general_heading.php:155
+#: admin/settings/nasa_01_general_heading.php:242
 msgid "Toggle Widget Content - Always Close"
 msgstr "Widget-Inhalt umschalten – Immer schließen"
 
@@ -5737,12 +5851,12 @@ msgstr "Widget-Inhalt umschalten – Immer schließen"
 msgid "Top"
 msgstr "Spitze"
 
-#: admin/settings/nasa_03_1_header_heading.php:533
+#: admin/settings/nasa_03_1_header_heading.php:537
 #: admin/settings/nasa_07_2_product_page_heading.php:30
 msgid "Top Bar"
 msgstr "Obere Bar"
 
-#: admin/settings/nasa_03_1_header_heading.php:586
+#: admin/settings/nasa_03_1_header_heading.php:590
 msgid "Top Bar Content"
 msgstr "Inhalt der oberen Leiste"
 
@@ -5751,14 +5865,18 @@ msgid "Top Bar Limit widgets to Show More"
 msgstr ""
 "Beschränken Sie die Widgets in der oberen Leiste auf die Anzeige von mehr"
 
-#: admin/settings/nasa_03_1_header_heading.php:526
-#: admin/settings/nasa_03_1_header_heading.php:527
+#: admin/settings/nasa_03_1_header_heading.php:530
+#: admin/settings/nasa_03_1_header_heading.php:531
 msgid "Top Bar Options"
 msgstr "Optionen der oberen Leiste"
 
-#: admin/settings/nasa_03_1_header_heading.php:626
+#: admin/settings/nasa_03_1_header_heading.php:630
 msgid "Top Bar Promotion News"
 msgstr "Top-News zur Bar-Werbung"
+
+#: admin/settings/nasa_03_1_header_heading.php:692
+msgid "Top Bar Promotion News Auto Scroll"
+msgstr "Top Bar Promotion Neuigkeiten Auto Scroll"
 
 #: admin/settings/nasa_07_2_product_page_heading.php:31
 msgid "Top Bar Type 2"
@@ -5772,7 +5890,7 @@ msgstr "Obere Leiste Typ 3"
 msgid "Top Filter Categories"
 msgstr "Top-Filterkategorien"
 
-#: functions.php:102
+#: functions.php:103
 msgid "Top Menu - Only show level 1"
 msgstr "Hauptmenü – Nur Ebene 1 anzeigen"
 
@@ -5780,15 +5898,15 @@ msgstr "Hauptmenü – Nur Ebene 1 anzeigen"
 msgid "Top To Bottom"
 msgstr "Oben nach unten"
 
-#: admin/settings/nasa_03_1_header_heading.php:598
+#: admin/settings/nasa_03_1_header_heading.php:602
 msgid "Topbar Background"
 msgstr "Hintergrund der oberen Leiste"
 
-#: admin/settings/nasa_03_1_header_heading.php:605
+#: admin/settings/nasa_03_1_header_heading.php:609
 msgid "Topbar Text color"
 msgstr "Textfarbe der oberen Leiste"
 
-#: admin/settings/nasa_03_1_header_heading.php:612
+#: admin/settings/nasa_03_1_header_heading.php:616
 msgid "Topbar Text color hover"
 msgstr "Schweben Sie mit der Textfarbe der oberen Leiste"
 
@@ -5811,7 +5929,7 @@ msgstr ""
 msgid "Transfer Theme Options Data"
 msgstr "Übertragen Sie Theme-Optionsdaten"
 
-#: admin/settings/nasa_01_general_heading.php:91
+#: admin/settings/nasa_01_general_heading.php:160
 msgid "Transition Loading"
 msgstr "Übergangsladung"
 
@@ -5832,11 +5950,11 @@ msgstr "Typ"
 msgid "Type Font"
 msgstr "Geben Sie Schriftart ein"
 
-#: admin/theme-admin.php:311
+#: admin/theme-admin.php:333
 msgid "Type of Template"
 msgstr "Art der Vorlage"
 
-#: admin/settings/nasa_03_1_header_heading.php:633
+#: admin/settings/nasa_03_1_header_heading.php:637
 msgid "Type Show"
 msgstr "Geben Sie Anzeigen ein"
 
@@ -5868,7 +5986,7 @@ msgstr ""
 "Bank/der ursprüngliche Händler Ihre Transaktion abgelehnt hat. Bitte "
 "versuchen Sie Ihren Kauf erneut."
 
-#: admin/theme-admin.php:351
+#: admin/theme-admin.php:373
 msgid "Unknown"
 msgstr "Unbekannt"
 
@@ -5896,7 +6014,7 @@ msgstr[1] "Update verfügbar <span class=\"count\">(%s)</span>"
 
 #: includes/nasa-after-add-to-cart.php:161
 #: includes/nasa-after-add-to-cart.php:162 woocommerce/cart/cart.php:181
-#: woocommerce/cart/cart.php:182 woocommerce/cart/mini-cart.php:27
+#: woocommerce/cart/cart.php:182 woocommerce/cart/mini-cart.php:30
 msgid "Update Cart"
 msgstr "Warenkorb aktualisieren"
 
@@ -5907,6 +6025,10 @@ msgstr "Update empfohlen"
 #: admin/classes/class-tgm-plugin-activation.php:590
 msgid "Update Required"
 msgstr "Aktualisierung erforderlich"
+
+#: woocommerce/checkout/payment.php:45
+msgid "Update totals"
+msgstr "Gesamtsummen aktualisieren"
 
 #. 1: plugin name, 2: action number 3: total number of actions.
 #: admin/classes/class-tgm-plugin-activation.php:3564
@@ -5944,6 +6066,16 @@ msgstr "Laden Sie eine benutzerdefinierte Schriftart hoch"
 msgid "Upload new custom font success!"
 msgstr "Erfolgreiches Hochladen neuer benutzerdefinierter Schriftarten!"
 
+#: cores/nasa-woo-functions.php:2239
+msgid "Upload photos"
+msgstr "Fotos hochladen"
+
+#: cores/nasa-woo-functions.php:2285
+msgid "Upload video"
+msgid_plural "Upload videos"
+msgstr[0] "Video hochladen"
+msgstr[1] "Video hochladen"
+
 #: includes/nasa-checkout-modern-billing-detail.php:33
 msgid "Use a different billing address"
 msgstr "Verwenden Sie eine andere Rechnungsadresse"
@@ -5957,7 +6089,7 @@ msgid "Username is required."
 msgstr "Benutzername wird benötigt."
 
 #: includes/nasa-login-register-form.php:62
-#: woocommerce/global/form-login.php:25
+#: woocommerce/global/form-login.php:26
 msgid "Username or email"
 msgstr "Benutzername oder E-Mail-Adresse"
 
@@ -5969,7 +6101,7 @@ msgstr "Varianten Abzeichenfarbe"
 msgid "Verdana, Geneva"
 msgstr "Verdana, Genf"
 
-#: cores/nasa-theme-footers.php:675 admin/classes/class.options_machine.php:856
+#: cores/nasa-theme-footers.php:712 admin/classes/class.options_machine.php:856
 #: admin/classes/class.options_machine.php:901
 msgid "Verified"
 msgstr "Verifiziert"
@@ -5979,11 +6111,11 @@ msgid "Version"
 msgstr "Ausführung"
 
 #: cores/nasa-theme-options.php:74
-#: admin/settings/nasa_07_3_product_detail_heading.php:107
+#: admin/settings/nasa_07_3_product_detail_heading.php:108
 msgid "Vertical"
 msgstr "Vertikal"
 
-#: functions.php:101 admin/settings/nasa_03_1_header_heading.php:129
+#: functions.php:102 admin/settings/nasa_03_1_header_heading.php:129
 msgid "Vertical Menu"
 msgstr "Vertikales Menü"
 
@@ -6015,7 +6147,7 @@ msgstr "Vertikale Wurzelebene – Grenze"
 msgid "Vertical Root Level - Parent - 0"
 msgstr "Vertikale Stammebene – Übergeordnetes Element – ​​0"
 
-#: woocommerce/single-product-reviews.php:131
+#: woocommerce/single-product-reviews.php:150
 msgid "Very poor"
 msgstr "Sehr arm"
 
@@ -6031,7 +6163,7 @@ msgstr "Videos"
 msgid "Vietnamese"
 msgstr "Vietnamesisch"
 
-#: cores/nasa-woo-actions.php:1852 cores/nasa-woo-actions.php:1853
+#: cores/nasa-woo-actions.php:1864 cores/nasa-woo-actions.php:1865
 #: woocommerce/content-widget-product.php:77
 msgid "View"
 msgstr "Sicht"
@@ -6058,7 +6190,7 @@ msgstr "Mehr sehen"
 msgid "View Product Information"
 msgstr "Produktinformationen anzeigen"
 
-#: cores/nasa-woo-actions.php:1902
+#: cores/nasa-woo-actions.php:1915
 msgid "View the promotion gifts"
 msgstr "Sehen Sie sich die Werbegeschenke an"
 
@@ -6085,7 +6217,7 @@ msgstr "Webmobile"
 msgid "Weekly Store Timing"
 msgstr "Wöchentliches Store-Timing"
 
-#: cores/nasa-woo-functions.php:1642
+#: cores/nasa-woo-functions.php:1798
 msgid "Welcome"
 msgstr "Willkommen"
 
@@ -6105,12 +6237,16 @@ msgstr ""
 "wird ein Popup-Fenster mit den Informationen angezeigt, die Sie im Abschnitt "
 "ausgewählt haben (Popup-Exit-Intent-Inhalt)."
 
+#: cores/nasa-theme-footers.php:218
+msgid "Where You Are"
+msgstr "Wo bist du"
+
 #: admin/settings/nasa_01_general_heading.php:38
 msgid "Wide"
 msgstr "Breit"
 
-#: admin/settings/nasa_01_general_heading.php:142
-#: admin/settings/nasa_01_general_heading.php:143
+#: admin/settings/nasa_01_general_heading.php:229
+#: admin/settings/nasa_01_general_heading.php:230
 msgid "Widget Options"
 msgstr "Widget-Optionen"
 
@@ -6130,12 +6266,12 @@ msgstr "Breite – Klebelogo"
 msgid "Width full side"
 msgstr "Breite ganze Seite"
 
-#: cores/nasa-theme-footers.php:486 cores/nasa-wishlist.php:177
-#: cores/nasa-wishlist.php:224 cores/nasa-woo-functions.php:537
-#: cores/nasa-woo-functions.php:537 cores/nasa-woo-functions.php:578
-#: cores/nasa-woo-functions.php:583 cores/nasa-woo-functions.php:602
-#: cores/nasa-woo-functions.php:607 cores/nasa-woo-functions.php:1158
-#: cores/nasa-woo-functions.php:1158 includes/nasa-mobile-bottom-bar-app.php:84
+#: cores/nasa-theme-footers.php:519 cores/nasa-wishlist.php:174
+#: cores/nasa-wishlist.php:224 cores/nasa-woo-functions.php:685
+#: cores/nasa-woo-functions.php:685 cores/nasa-woo-functions.php:726
+#: cores/nasa-woo-functions.php:731 cores/nasa-woo-functions.php:750
+#: cores/nasa-woo-functions.php:755 cores/nasa-woo-functions.php:1310
+#: cores/nasa-woo-functions.php:1310 includes/nasa-mobile-bottom-bar-app.php:84
 #: includes/nasa-mobile-bottom-bar-app.php:86
 #: includes/nasa-mobile-bottom-bar.php:84
 #: includes/nasa-mobile-bottom-bar.php:86
@@ -6147,7 +6283,7 @@ msgstr "Wunschzettel"
 msgid "Wishlist Options"
 msgstr "Wunschliste-Optionen"
 
-#: includes/nasa-sidebar-wishlist_content.php:199
+#: includes/nasa-sidebar-wishlist_content.php:202
 msgid "Wishlist Page"
 msgstr "Wunschliste-Seite"
 
@@ -6171,18 +6307,18 @@ msgstr "Ohne Hintergrund – Standardmäßig wird die Hintergrundfarbe verwendet
 msgid "Without Border Wrapper"
 msgstr "Ohne Randumschlag"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:278
 #: admin/settings/nasa_07_3_product_detail_heading.php:279
+#: admin/settings/nasa_07_3_product_detail_heading.php:280
 msgid "WooCommerce Tabs - Options"
 msgstr "WooCommerce-Registerkarten – Optionen"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:328
+#: admin/settings/nasa_07_3_product_detail_heading.php:329
 msgid "WooCommerce Tabs - Read more / Show less (Mobile App - Simulator)"
 msgstr ""
 "WooCommerce-Registerkarten – Mehr lesen / Weniger anzeigen (Mobile App – "
 "Simulator)"
 
-#: admin/settings/nasa_07_3_product_detail_heading.php:321
+#: admin/settings/nasa_07_3_product_detail_heading.php:322
 msgid ""
 "WooCommerce Tabs Off - Canvas in Mobile (Not use Mobile App - Simulator)"
 msgstr ""
@@ -6206,11 +6342,11 @@ msgstr "Arbeiten..."
 msgid "WPBakery - Homepage List"
 msgstr "WPBakery – Homepage-Liste"
 
-#: admin/settings/nasa_01_general_heading.php:162
+#: admin/settings/nasa_01_general_heading.php:249
 msgid "Wrapper Widget - Sidebar Classic"
 msgstr "Wrapper-Widget – Sidebar Classic"
 
-#: cores/nasa-theme-footers.php:821
+#: cores/nasa-theme-footers.php:859 woocommerce/single-product-reviews.php:164
 msgid "Write a review"
 msgstr "Eine Rezension schreiben"
 
@@ -6228,18 +6364,18 @@ msgstr "Jährliche Archive: %s"
 #: admin/settings/nasa_03_1_header_heading.php:274
 #: admin/settings/nasa_07_1_product_global_heading.php:383
 #: admin/settings/nasa_07_1_product_global_heading.php:517
-#: admin/settings/nasa_07_2_product_page_heading.php:292
+#: admin/settings/nasa_07_2_product_page_heading.php:300
 msgid "Yes"
 msgstr "Ja"
 
 #: cores/nasa-theme-options.php:24 cores/nasa-theme-options.php:134
 #: cores/nasa-theme-options.php:143 cores/nasa-theme-options.php:199
 #: cores/nasa-theme-options.php:211
-#: admin/settings/nasa_01_general_heading.php:120
-#: admin/settings/nasa_01_general_heading.php:128
+#: admin/settings/nasa_01_general_heading.php:189
+#: admin/settings/nasa_01_general_heading.php:197
 #: admin/settings/nasa_03_3_mobile_heading.php:116
 #: admin/settings/nasa_07_1_product_global_heading.php:366
-#: admin/settings/nasa_07_3_product_detail_heading.php:343
+#: admin/settings/nasa_07_3_product_detail_heading.php:344
 #: admin/settings/nasa_09_promo_popup_heading.php:36
 msgid "Yes, Please!"
 msgstr "Ja bitte!"
@@ -6278,7 +6414,7 @@ msgid "You may be interested in&hellip;"
 msgstr "Sie könnten interessiert sein an&hellip;"
 
 #. %s opening and closing link tags respectively
-#: woocommerce/single-product-reviews.php:112
+#: woocommerce/single-product-reviews.php:130
 #, php-format
 msgid "You must be %1$slogged in%2$s to post a review."
 msgstr "Sie müssen %1$sangemeldet sein%2$s, um eine Bewertung abzugeben."
@@ -6295,12 +6431,12 @@ msgstr "Zum Bezahlen müssen Sie angemeldet sein."
 msgid "Your access is restricted because of your age."
 msgstr "Ihr Zugang ist aufgrund Ihres Alters eingeschränkt."
 
-#: cores/nasa-woo-actions.php:683 cores/nasa-woo-actions.php:694
-#: cores/nasa-woo-actions.php:699
+#: cores/nasa-woo-actions.php:686 cores/nasa-woo-actions.php:697
+#: cores/nasa-woo-actions.php:702
 msgid "Your cart is currently empty."
 msgstr "Ihr Warenkorb ist derzeit leer."
 
-#: cores/nasa-woo-functions.php:48
+#: cores/nasa-woo-functions.php:30
 #| msgid ""
 #| "<span class=\"nasa-extra-empty\">Before proceed to checkout you must add "
 #| "some products to shopping cart.<br />You will find a lot of interesting "
@@ -6314,7 +6450,7 @@ msgstr ""
 "zur Kasse gehen, müssen Sie einige Produkte in den Warenkorb legen.<br />Auf "
 "unserer Seite „Shop“ finden Sie viele interessante Produkte. </span>"
 
-#: cores/nasa-custom-wc-ajax.php:861
+#: cores/nasa-custom-wc-ajax.php:902
 msgid "Your checkout time has expired."
 msgstr "Ihre Checkout-Zeit ist abgelaufen."
 
@@ -6327,17 +6463,25 @@ msgstr "Ihr Beitrag wartet auf die Moderation."
 msgid "Your Order"
 msgstr "Deine Bestellung"
 
-#: cores/nasa-custom-wc-ajax.php:1369
+#: cores/nasa-custom-wc-ajax.php:1410
 msgid "Your order notes saved."
 msgstr "Ihre Bestellnotizen gespeichert."
 
-#: woocommerce/single-product-reviews.php:125
+#: woocommerce/single-product-reviews.php:143
 msgid "Your rating"
 msgstr "Deine Bewertung"
 
-#: woocommerce/single-product-reviews.php:135
+#: woocommerce/single-product-reviews.php:154
 msgid "Your review"
 msgstr "Deine Bewertung"
+
+#: woocommerce/single-product-reviews.php:154
+msgid "Your review *"
+msgstr "Deine Rezension *"
+
+#: cores/nasa-woo-functions.php:2654 woocommerce/single-product-reviews.php:96
+msgid "Your review has been submitted"
+msgstr "Ihre Bewertung wurde übermittelt"
 
 #: admin/importer/tpl-import-demo-data.php:161
 #: admin/importer/tpl-import-demo-data.php:183
@@ -6356,3 +6500,7 @@ msgstr "Datei der Größe Null heruntergeladen"
 #: admin/settings/nasa_07_1_product_global_heading.php:52
 msgid "Zoom"
 msgstr "Zoomen"
+
+#: cores/nasa-theme-footers.php:866
+msgid "Zoom in/out"
+msgstr "Rein / rauszoomen"
